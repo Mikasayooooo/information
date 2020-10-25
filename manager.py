@@ -1,38 +1,17 @@
-from datetime import timedelta
-
 from flask import Flask,session
 from flask_sqlalchemy import SQLAlchemy
 from redis import StrictRedis
 from flask_session import Session
 from flask_wtf.csrf import CSRFProtect
 
+from config import Config
+
 app = Flask(__name__)
 
-
-class Config(object):
-
-    DEBUG = True
-    SECRET_KEY = 'FSFSVVFGFGWEYDCXZVZB'
-
-    # 配置数据库
-    SQLALCHEMY_DATABASE_URI = 'mysql://root:mysql@192.168.36.129:3306/info'
-    SQLALCHEMY_TRACK_MODIFICATIONS = False
-
-    # 配置redis
-    REDIS_HOST = '127.0.0.1'
-    REDIS_PORT = 6379
-
-    # 配置session
-    SESSION_TYPE = 'redis' # 设置session存储类型
-    SESSION_REDIS = StrictRedis(host=REDIS_HOST,port=REDIS_PORT) # 指定session存储的redis服务器
-    SESSION_USE_SIGNER = True  # 设置签名存储
-    PERMANENT_SESSION_LIFETIME = timedelta(days=31)  # 设置session过期时间
-
-
-
-
+# 设置配置类
 app.config.from_object(Config)
 
+# 创建数据库对象
 db = SQLAlchemy(app)
 
 # 创建redis对象
@@ -44,18 +23,25 @@ Session(app)
 # 开启csrf保护
 CSRFProtect(app)
 
-@app.route('/')
-def hello_world():
-    # 测试redis
-    redis_store.set('name','lhl')
-    print(redis_store.get('name'))
 
-    # 测试session
-    session['name'] = 'wzy'
-    print(session.get('name'))
-    return 'ok'
+# 开发环境配置
+class DevelopConfig(Config):
+    pass
 
 
-if __name__ == '__main__':
-    app.run()
+# 生产环境配置
+class ProductConfig(Config):
+    DEBUG = False
 
+
+# 测试环境配置
+class TestConfig(Config):
+    pass
+
+
+# 提供统一的访问路口
+config_dict = {
+    'develop': DevelopConfig,
+    'product': ProductConfig,
+    'test': TestConfig
+}

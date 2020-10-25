@@ -1,0 +1,21 @@
+from datetime import timedelta
+from redis import StrictRedis
+
+
+class Config(object):
+    DEBUG = True
+    SECRET_KEY = 'FSFSVVFGFGWEYDCXZVZB'
+
+    # 配置数据库
+    SQLALCHEMY_DATABASE_URI = 'mysql://root:mysql@192.168.36.129:3306/info'
+    SQLALCHEMY_TRACK_MODIFICATIONS = False
+
+    # 配置redis
+    REDIS_HOST = '127.0.0.1'
+    REDIS_PORT = 6379
+
+    # 配置session
+    SESSION_TYPE = 'redis'  # 设置session存储类型
+    SESSION_REDIS = StrictRedis(host=REDIS_HOST, port=REDIS_PORT)  # 指定session存储的redis服务器
+    SESSION_USE_SIGNER = True  # 设置签名存储
+    PERMANENT_SESSION_LIFETIME = timedelta(days=31)  # 设置session过期时间
