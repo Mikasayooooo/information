@@ -19,3 +19,26 @@ class Config(object):
     SESSION_REDIS = StrictRedis(host=REDIS_HOST, port=REDIS_PORT)  # 指定session存储的redis服务器
     SESSION_USE_SIGNER = True  # 设置签名存储
     PERMANENT_SESSION_LIFETIME = timedelta(days=31)  # 设置session过期时间
+
+
+# 开发环境配置
+class DevelopConfig(Config):
+    pass
+
+
+# 生产环境配置
+class ProductConfig(Config):
+    DEBUG = False
+
+
+# 测试环境配置
+class TestConfig(Config):
+    pass
+
+
+# 提供统一的访问路口
+config_dict = {
+    'develop': DevelopConfig,
+    'product': ProductConfig,
+    'test': TestConfig
+}

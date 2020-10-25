@@ -1,47 +1,20 @@
-from flask import Flask,session
-from flask_sqlalchemy import SQLAlchemy
-from redis import StrictRedis
-from flask_session import Session
-from flask_wtf.csrf import CSRFProtect
+from info import create_app
 
-from config import Config
-
-app = Flask(__name__)
-
-# 设置配置类
-app.config.from_object(Config)
-
-# 创建数据库对象
-db = SQLAlchemy(app)
-
-# 创建redis对象
-redis_store = StrictRedis(host=Config.REDIS_HOST,port=Config.REDIS_PORT,decode_responses=True) # 转成字节码
-
-# 创建session对象
-Session(app)
-
-# 开启csrf保护
-CSRFProtect(app)
+app = create_app('develop')
 
 
-# 开发环境配置
-class DevelopConfig(Config):
-    pass
+@app.route('/', methods=["GET", "POST"])
+def hello_world():
+    # 测试redis存取数据
+    # redis_store.set("name","laowang")
+    # print(redis_store.get("name"))
+    #
+    # #测试session存取
+    # session["name"] = "zhangsan"
+    # print(session.get("name"))
+
+    return "helloworld"
 
 
-# 生产环境配置
-class ProductConfig(Config):
-    DEBUG = False
-
-
-# 测试环境配置
-class TestConfig(Config):
-    pass
-
-
-# 提供统一的访问路口
-config_dict = {
-    'develop': DevelopConfig,
-    'product': ProductConfig,
-    'test': TestConfig
-}
+if __name__ == '__main__':
+    app.run()
