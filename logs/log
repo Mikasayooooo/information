@@ -1,0 +1,60 @@
+WARNING _internal.py:87  * Debugger is active!
+INFO _internal.py:87  * Debugger PIN: 177-012-029
+INFO _internal.py:87  * Running on http://127.0.0.1:1314/ (Press CTRL+C to quit)
+INFO _internal.py:87  * Restarting with stat
+WARNING _internal.py:87  * Debugger is active!
+INFO _internal.py:87  * Debugger PIN: 177-012-029
+INFO _internal.py:87 127.0.0.1 - - [26/Oct/2020 21:30:57] "GET / HTTP/1.1" 200 -
+INFO _internal.py:87 127.0.0.1 - - [26/Oct/2020 21:30:57] "GET /favicon.ico HTTP/1.1" 404 -
+INFO _internal.py:87 127.0.0.1 - - [26/Oct/2020 21:31:00] "GET / HTTP/1.1" 200 -
+INFO _internal.py:87 127.0.0.1 - - [26/Oct/2020 21:31:02] "GET / HTTP/1.1" 200 -
+INFO _internal.py:87 127.0.0.1 - - [26/Oct/2020 21:31:02] "GET / HTTP/1.1" 200 -
+INFO _internal.py:87  * Running on http://127.0.0.1:1314/ (Press CTRL+C to quit)
+INFO _internal.py:87  * Restarting with stat
+INFO _internal.py:87  * Detected change in '/home/python/tools/pyProjects/flaskStudy/information/info/modules/index/views.py', reloading
+WARNING _internal.py:87  * Debugger is active!
+INFO _internal.py:87  * Debugger PIN: 177-012-029
+WARNING _internal.py:87  * Debugger is active!
+INFO _internal.py:87  * Debugger PIN: 177-012-029
+INFO _internal.py:87  * Running on http://127.0.0.1:1314/ (Press CTRL+C to quit)
+INFO _internal.py:87  * Restarting with stat
+WARNING _internal.py:87  * Debugger is active!
+INFO _internal.py:87  * Debugger PIN: 177-012-029
+DEBUG views.py:18 输入调试信息
+INFO views.py:19 输入详细信息
+WARNING views.py:20 输入警告信息
+ERROR views.py:21 输入错误信息
+INFO _internal.py:87 127.0.0.1 - - [26/Oct/2020 21:46:25] "GET / HTTP/1.1" 200 -
+INFO _internal.py:87 127.0.0.1 - - [26/Oct/2020 21:46:25] "GET /favicon.ico HTTP/1.1" 404 -
+INFO _internal.py:87  * Detected change in '/home/python/tools/pyProjects/flaskStudy/information/info/__init__.py', reloading
+INFO _internal.py:87  * Restarting with stat
+WARNING _internal.py:87  * Debugger is active!
+WARNING views.py:20 输入警告信息
+ERROR views.py:21 输入错误信息
+INFO _internal.py:87  * Detected change in '/home/python/tools/pyProjects/flaskStudy/information/info/__init__.py', reloading
+WARNING _internal.py:87  * Debugger is active!
+INFO _internal.py:87  * Running on http://127.0.0.1:1314/ (Press CTRL+C to quit)
+INFO _internal.py:87  * Restarting with stat
+WARNING _internal.py:87  * Debugger is active!
+INFO _internal.py:87  * Debugger PIN: 177-012-029
+WARNING _internal.py:87  * Debugger is active!
+INFO _internal.py:87  * Debugger PIN: 177-012-029
+DEBUG views.py:18 输入调试信息
+INFO views.py:19 输入详细信息
+WARNING views.py:20 输入警告信息
+ERROR views.py:21 输入错误信息
+DEBUG views.py:24 输入调试信息2
+INFO views.py:25 输入详细信息2
+WARNING views.py:26 输入警告信息2
+ERROR views.py:27 输入错误信息2
+INFO _internal.py:87 127.0.0.1 - - [26/Oct/2020 21:55:29] "GET / HTTP/1.1" 200 -
+INFO _internal.py:87  * Detected change in '/home/python/tools/pyProjects/flaskStudy/information/info/__init__.py', reloading
+INFO _internal.py:87  * Running on http://127.0.0.1:1314/ (Press CTRL+C to quit)
+INFO _internal.py:87  * Restarting with stat
+WARNING _internal.py:87  * Debugger is active!
+INFO _internal.py:87  * Debugger PIN: 177-012-029
+DEBUG views.py:18 输入调试信息
+INFO views.py:19 输入详细信息
+WARNING views.py:20 输入警告信息
+ERROR views.py:21 输入错误信息
+INFO _internal.py:87 127.0.0.1 - - [26/Oct/2020 22:07:07] "GET / HTTP/1.1" 200 -
