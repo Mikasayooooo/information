@@ -6,6 +6,8 @@ from flask_wtf.csrf import CSRFProtect
 
 from config import config_dict
 
+from info.modules.index import index_blue
+
 
 # 工厂方法
 def create_app(config_name):
@@ -28,5 +30,8 @@ def create_app(config_name):
 
     # 开启csrf保护
     CSRFProtect(app)
+
+    # 将首页蓝图index_blue注册到app中
+    app.register_blueprint(index_blue)
 
     return app
