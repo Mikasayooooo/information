@@ -14,6 +14,9 @@ from logging.handlers import RotatingFileHandler
 # 定义redis_store全局变量
 redis_store = None
 
+# 定义db全局变量
+db = SQLAlchemy()
+
 # 工厂方法
 def create_app(config_name):
 
@@ -29,7 +32,7 @@ def create_app(config_name):
     app.config.from_object(config)
 
     # 创建数据库对象
-    db = SQLAlchemy(app)
+    db.init_app(app)
 
     global redis_store  # global声明全局变量
     # 创建redis对象

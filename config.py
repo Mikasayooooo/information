@@ -9,7 +9,7 @@ class Config(object):
     SECRET_KEY = 'FSFSVVFGFGWEYDCXZVZB'
 
     # 配置数据库
-    SQLALCHEMY_DATABASE_URI = 'mysql://root:mysql@192.168.36.129:3306/info'
+    SQLALCHEMY_DATABASE_URI = 'mysql://root:mysql@192.168.36.130:3306/info'
     SQLALCHEMY_TRACK_MODIFICATIONS = False
 
     # 配置redis
