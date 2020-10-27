@@ -1,4 +1,4 @@
-from flask import session
+from flask import session,render_template
 from . import index_blue
 import logging
 from flask import current_app
@@ -26,4 +26,5 @@ def hello_world():
     # current_app.logger.warning('输入警告信息2')
     # current_app.logger.error('输入错误信息2')
 
-    return "helloworld"
+    return render_template('news/index.html')
+
