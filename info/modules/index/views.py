@@ -28,3 +28,9 @@ def hello_world():
 
     return render_template('news/index.html')
 
+
+# 网站logo展示,路径 必须是/favicon.ico,自动加载的
+@index_blue.route('/favicon.ico')
+def get_web_logo():
+    return current_app.send_static_file('news/favicon.ico')
+# current_app.send_static_file  默认是在静态文件夹下自动加载的

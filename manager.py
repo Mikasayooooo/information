@@ -16,4 +16,5 @@ manager.add_command('db', MigrateCommand)
 
 
 if __name__ == '__main__':
+    print(app.url_map)  # 查看所有映射路径
     manager.run()
