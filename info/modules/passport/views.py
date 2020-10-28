@@ -8,6 +8,8 @@ from info import constants
 import json
 import re
 from info.libs.yuntongxun.sms import CCP
+from info.utils.response_code import RET
+import random
 
 from captcha.image import ImageCaptcha
 from random import randint
@@ -21,31 +23,61 @@ from random import randint
 @passport_blue.route('/sms_code', methods=['POST'])
 def sms_code():
     # 1.获取参数
-    json_data = request.data
-    dict_data = json.loads(json_data)
+    # json_data = request.data
+    # dict_data = json.loads(json_data)  # 注意这里 千万不要这样转换,错误
+    dict_data = request.json  # 所有request.json来
     mobile = dict_data.get('mobile')
     image_code = dict_data.get('image_code')
     image_code_id = dict_data.get('image_code_id')
 
-    # 2.验证参数,图片验证码
-    from info import redis_store
-    redis_image_code = redis_store.get('image_code: {}'.format(image_code_id))
-    if image_code.lower() != redis_image_code.lower():
-        redis_store.delete('image_code')
-        return jsonify(errno=10000, errmsg='图片验证码填写错误')
+    # 2.参数的为空校验
+    if not all([mobile, image_code, image_code_id]):
+        return jsonify(errno=RET.PARAMERR, errmsg='参数不全')
 
-    # 3.校验参数,手机格式
+    # 3.校验手机的格式
     if not re.match('1[3-9]\d{9}', mobile):
-        return jsonify(errno=20000, errmsg='手机号码格式不匹配')
+        return jsonify(errno=RET.DATAERR, errmsg='手机号码的格式错误')
 
-    # 4.发送短信,调用封装好的cpp
+    # 4.通过图片验证码编号获取,图片验证码
+    try:
+        from info import redis_store
+        redis_image_code = redis_store.get('image_code:{}'.format(image_code_id))
+    except Exception as e:
+        current_app.logger(e)
+        return jsonify(errno=RET.DBERR, errmsg='操作redis失败')
+
+    # 5.判断图片验证码是否过期
+    if not redis_image_code:
+        return jsonify(errno=RET.NODATA, errmsg='图片验证码已经过期')
+
+    # 6.判断图片验证码是否正确(还需忽略大小写)
+    if image_code.upper() != redis_image_code.upper():
+        return jsonify(errno=RET.DATAERR, errmsg='图片验证码填写错误')
+
+    # 7.删除redis中的图片验证码
+    try:
+        redis_store.delete('image_code')
+    except Exception as e:
+        current_app.logger(e)
+        return jsonify(errno=RET.DATAERR, errmsg='删除redis图片验证码失败')
+
+    # 8.生成一个随机的短信验证码,调用cpp发送短信,判断是否发送成功
+    sms_code = format(random.randint(0, 999999), '0>6')
     ccp = CCP()
-    result = ccp.send_template_sms('19941064060', ['666233', 5], 1)
-    if result == -1:
-        return jsonify(errno=30000, errmsg='短信发送失败')
+    result = ccp.send_template_sms(mobile, [sms_code, constants.SMS_CODE_REDIS_EXPIRES / 60], 1)
 
-    # 5.返回发送的状态
-    return jsonify(errno=0, errmsg='短信发送成功')
+    if result == -1:
+        return jsonify(errno=RET.DATAERR, errmsg='短信发送失败')
+
+    # 9.将短信保存到redis中
+    try:
+        redis_store.set('sms_code:{}'.format(mobile), sms_code, constants.SMS_CODE_REDIS_EXPIRES)
+    except Exception as e:
+        current_app.logger(e)
+        return jsonify(errno=RET.DBERR, errmsg='图片验证码保存到redis失败')
+
+    # 10.返回响应
+    return jsonify(errno=RET.OK, errmsg='短信发送成功')
 
 
 
@@ -83,13 +115,13 @@ def image_code():
 
     # 将图片验证码的值保存在redis中
     # 参数1: key,参数2: value,参数3: 有效期
-    redis_store.set('image_code: {}'.format(cur_id), text, constants.IMAGE_CODE_REDIS_EXPIRES)
+    redis_store.set('image_code:{}'.format(cur_id), text, constants.IMAGE_CODE_REDIS_EXPIRES)
 
     # 判断是否有上一次的图片验证码
     try:
         # 判断是否有上一次的图片验证码
         if pre_id:
-            redis_store.delete('image_code: {}'.format(pre_id))
+            redis_store.delete('image_code:{}'.format(pre_id))
     except Exception as e:
         current_app.logger.error(e)
         return '图片验证码操作失败'
