@@ -268,7 +268,7 @@ function sendSMSCode() {
     }
 
     //发送获取短信请求
-    /*
+
     $.ajax({
         url:'/passport/sms_code',//请求地址
         type:'post',
@@ -309,7 +309,7 @@ function sendSMSCode() {
             }
         }
     })
-    */
+
 }
 
 // 调用该函数模拟点击左侧按钮

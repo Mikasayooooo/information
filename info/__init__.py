@@ -43,7 +43,7 @@ def create_app(config_name):
     Session(app)
 
     # 开启csrf保护
-    CSRFProtect(app)
+    # CSRFProtect(app)
 
     # 将首页蓝图index_blue,注册到app中
     app.register_blueprint(index_blue)
