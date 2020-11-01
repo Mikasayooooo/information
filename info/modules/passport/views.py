@@ -1,3 +1,5 @@
+from datetime import datetime
+
 from . import passport_blue
 from info.utils.captcha.captcha import captcha
 # 注意导包路径
@@ -12,6 +14,7 @@ from info.utils.response_code import RET
 import random
 
 from info.models import User
+
 
 from captcha.image import ImageCaptcha
 from random import randint
@@ -80,6 +83,13 @@ def login():
 
     # 6. 将用户的登陆信息保存在session中
     session['user_id'] = user.id
+
+    # 6.1 记录用户最后一次登录的时间
+    user.last_login = datetime.now()
+    try:
+        db.session.commit()  # 修改数据库的内容就要进行提交操作
+    except Exception as e:
+        current_app.logger(e)
 
     # 7. 返回响应
     return jsonify(errno=RET.OK, errmsg='登录成功')
