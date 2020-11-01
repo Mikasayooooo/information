@@ -11,6 +11,7 @@ class Config(object):
     # 配置数据库
     SQLALCHEMY_DATABASE_URI = 'mysql://root:mysql@192.168.36.130:3306/info'
     SQLALCHEMY_TRACK_MODIFICATIONS = False
+    SQLALCHEMY_COMMIT_ON_TEARDOWN = True  # 每当改变数据的内容之后,在视图函数结束的时候都会自动提交
 
     # 配置redis
     REDIS_HOST = '127.0.0.1'

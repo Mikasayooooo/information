@@ -86,10 +86,10 @@ def login():
 
     # 6.1 记录用户最后一次登录的时间
     user.last_login = datetime.now()
-    try:
-        db.session.commit()  # 修改数据库的内容就要进行提交操作
-    except Exception as e:
-        current_app.logger(e)
+    # try:
+    #     db.session.commit()  # 修改数据库的内容就要进行提交操作
+    # except Exception as e:
+    #     current_app.logger(e)
 
     # 7. 返回响应
     return jsonify(errno=RET.OK, errmsg='登录成功')
