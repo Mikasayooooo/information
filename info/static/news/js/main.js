@@ -182,7 +182,7 @@ $(function () {
             "sms_code": smscode,
             "password": password
         }
-        /*
+
         $.ajax({
             url:'/passport/register',
             type:'post',
@@ -199,7 +199,7 @@ $(function () {
                 }
             }
         })
-        */
+
     })
 })
 

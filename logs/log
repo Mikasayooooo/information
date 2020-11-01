@@ -136,3 +136,1332 @@ INFO _internal.py:87 127.0.0.1 - - [27/Oct/2020 10:26:39] "GET /images/news_pic.
 INFO _internal.py:87 127.0.0.1 - - [27/Oct/2020 10:26:39] "GET /images/person.png HTTP/1.1" 404 -
 INFO _internal.py:87 127.0.0.1 - - [27/Oct/2020 10:26:39] "GET /images/pic_code.png HTTP/1.1" 404 -
 INFO _internal.py:87 127.0.0.1 - - [27/Oct/2020 10:26:39] "GET /favicon.ico HTTP/1.1" 404 -
+INFO _internal.py:87  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+INFO _internal.py:87  * Restarting with stat
+WARNING _internal.py:87  * Debugger is active!
+INFO _internal.py:87  * Debugger PIN: 177-012-029
+INFO _internal.py:87  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+INFO _internal.py:87  * Restarting with stat
+WARNING _internal.py:87  * Debugger is active!
+INFO _internal.py:87  * Debugger PIN: 177-012-029
+DEBUG views.py:18 输入调试信息
+INFO views.py:19 输入详细信息
+WARNING views.py:20 输入警告信息
+ERROR views.py:21 输入错误信息
+INFO _internal.py:87 127.0.0.1 - - [27/Oct/2020 11:17:35] "GET / HTTP/1.1" 200 -
+INFO _internal.py:87 127.0.0.1 - - [27/Oct/2020 11:17:35] "GET /images/person01.png HTTP/1.1" 404 -
+INFO _internal.py:87 127.0.0.1 - - [27/Oct/2020 11:17:35] "GET /images/news_pic.jpg HTTP/1.1" 404 -
+INFO _internal.py:87 127.0.0.1 - - [27/Oct/2020 11:17:35] "GET /images/person.png HTTP/1.1" 404 -
+INFO _internal.py:87 127.0.0.1 - - [27/Oct/2020 11:17:35] "GET /images/pic_code.png HTTP/1.1" 404 -
+INFO _internal.py:87 127.0.0.1 - - [27/Oct/2020 11:17:35] "GET /favicon.ico HTTP/1.1" 200 -
+INFO _internal.py:87  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+INFO _internal.py:87  * Restarting with stat
+WARNING _internal.py:87  * Debugger is active!
+INFO _internal.py:87  * Debugger PIN: 177-012-029
+DEBUG views.py:18 输入调试信息
+INFO views.py:19 输入详细信息
+WARNING views.py:20 输入警告信息
+ERROR views.py:21 输入错误信息
+INFO _internal.py:87 127.0.0.1 - - [27/Oct/2020 11:18:11] "GET / HTTP/1.1" 200 -
+INFO _internal.py:87 127.0.0.1 - - [27/Oct/2020 11:18:11] "GET /images/person01.png HTTP/1.1" 404 -
+INFO _internal.py:87 127.0.0.1 - - [27/Oct/2020 11:18:11] "GET /images/news_pic.jpg HTTP/1.1" 404 -
+INFO _internal.py:87 127.0.0.1 - - [27/Oct/2020 11:18:11] "GET /images/person.png HTTP/1.1" 404 -
+INFO _internal.py:87 127.0.0.1 - - [27/Oct/2020 11:18:11] "GET /images/pic_code.png HTTP/1.1" 404 -
+INFO _internal.py:87  * Detected change in '/home/python/tools/pyProjects/flaskStudy/information/info/modules/index/views.py', reloading
+INFO _internal.py:87  * Restarting with stat
+WARNING _internal.py:87  * Debugger is active!
+INFO _internal.py:87  * Debugger PIN: 177-012-029
+INFO _internal.py:87  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+INFO _internal.py:87  * Restarting with stat
+WARNING _internal.py:87  * Debugger is active!
+INFO _internal.py:87  * Debugger PIN: 177-012-029
+DEBUG views.py:18 输入调试信息
+INFO views.py:19 输入详细信息
+WARNING views.py:20 输入警告信息
+ERROR views.py:21 输入错误信息
+INFO _internal.py:87 127.0.0.1 - - [27/Oct/2020 11:18:36] "GET / HTTP/1.1" 200 -
+INFO _internal.py:87 127.0.0.1 - - [27/Oct/2020 11:18:36] "GET /images/person01.png HTTP/1.1" 404 -
+INFO _internal.py:87 127.0.0.1 - - [27/Oct/2020 11:18:36] "GET /images/news_pic.jpg HTTP/1.1" 404 -
+INFO _internal.py:87 127.0.0.1 - - [27/Oct/2020 11:18:36] "GET /images/person.png HTTP/1.1" 404 -
+INFO _internal.py:87 127.0.0.1 - - [27/Oct/2020 11:18:36] "GET /images/pic_code.png HTTP/1.1" 404 -
+INFO _internal.py:87  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+INFO _internal.py:87  * Restarting with stat
+WARNING _internal.py:87  * Debugger is active!
+INFO _internal.py:87  * Debugger PIN: 177-012-029
+DEBUG views.py:18 输入调试信息
+INFO views.py:19 输入详细信息
+WARNING views.py:20 输入警告信息
+ERROR views.py:21 输入错误信息
+INFO _internal.py:87 127.0.0.1 - - [27/Oct/2020 14:32:29] "GET / HTTP/1.1" 200 -
+INFO _internal.py:87 127.0.0.1 - - [27/Oct/2020 14:32:29] "GET /images/person01.png HTTP/1.1" 404 -
+INFO _internal.py:87 127.0.0.1 - - [27/Oct/2020 14:32:29] "GET /images/news_pic.jpg HTTP/1.1" 404 -
+INFO _internal.py:87 127.0.0.1 - - [27/Oct/2020 14:32:29] "GET /images/person.png HTTP/1.1" 404 -
+INFO _internal.py:87 127.0.0.1 - - [27/Oct/2020 14:32:29] "GET /images/pic_code.png HTTP/1.1" 404 -
+INFO _internal.py:87 127.0.0.1 - - [27/Oct/2020 14:32:30] "GET /favicon.ico HTTP/1.1" 200 -
+INFO _internal.py:87  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+INFO _internal.py:87  * Restarting with stat
+WARNING _internal.py:87  * Debugger is active!
+INFO _internal.py:87  * Debugger PIN: 177-012-029
+DEBUG views.py:18 输入调试信息
+INFO views.py:19 输入详细信息
+WARNING views.py:20 输入警告信息
+ERROR views.py:21 输入错误信息
+INFO _internal.py:87 127.0.0.1 - - [27/Oct/2020 17:24:33] "GET / HTTP/1.1" 200 -
+INFO _internal.py:87 127.0.0.1 - - [27/Oct/2020 17:24:33] "GET /images/person01.png HTTP/1.1" 404 -
+INFO _internal.py:87 127.0.0.1 - - [27/Oct/2020 17:24:33] "GET /images/news_pic.jpg HTTP/1.1" 404 -
+INFO _internal.py:87 127.0.0.1 - - [27/Oct/2020 17:24:33] "GET /images/person.png HTTP/1.1" 404 -
+INFO _internal.py:87 127.0.0.1 - - [27/Oct/2020 17:24:33] "GET /images/pic_code.png HTTP/1.1" 404 -
+INFO _internal.py:87 127.0.0.1 - - [27/Oct/2020 17:24:33] "GET /favicon.ico HTTP/1.1" 200 -
+INFO _internal.py:87 127.0.0.1 - - [27/Oct/2020 17:24:37] "GET /static/news/images/shutoff.png HTTP/1.1" 200 -
+INFO _internal.py:87  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+INFO _internal.py:87  * Restarting with stat
+WARNING _internal.py:87  * Debugger is active!
+INFO _internal.py:87  * Debugger PIN: 177-012-029
+INFO _internal.py:87  * Detected change in '/home/python/tools/pyProjects/flaskStudy/information/info/__init__.py', reloading
+INFO _internal.py:87  * Restarting with stat
+INFO _internal.py:87  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+INFO _internal.py:87  * Restarting with stat
+WARNING _internal.py:87  * Debugger is active!
+INFO _internal.py:87  * Debugger PIN: 177-012-029
+DEBUG views.py:18 输入调试信息
+INFO views.py:19 输入详细信息
+WARNING views.py:20 输入警告信息
+ERROR views.py:21 输入错误信息
+INFO _internal.py:87 127.0.0.1 - - [27/Oct/2020 18:33:42] "GET / HTTP/1.1" 200 -
+INFO _internal.py:87 127.0.0.1 - - [27/Oct/2020 18:33:42] "GET /images/person01.png HTTP/1.1" 404 -
+INFO _internal.py:87 127.0.0.1 - - [27/Oct/2020 18:33:42] "GET /images/news_pic.jpg HTTP/1.1" 404 -
+INFO _internal.py:87 127.0.0.1 - - [27/Oct/2020 18:33:42] "GET /images/person.png HTTP/1.1" 404 -
+INFO _internal.py:87 127.0.0.1 - - [27/Oct/2020 18:33:42] "GET /images/pic_code.png HTTP/1.1" 404 -
+DEBUG views.py:18 输入调试信息
+INFO views.py:19 输入详细信息
+WARNING views.py:20 输入警告信息
+ERROR views.py:21 输入错误信息
+INFO _internal.py:87 127.0.0.1 - - [27/Oct/2020 18:35:42] "GET / HTTP/1.1" 200 -
+INFO _internal.py:87 127.0.0.1 - - [27/Oct/2020 18:35:42] "GET /images/person01.png HTTP/1.1" 404 -
+INFO _internal.py:87 127.0.0.1 - - [27/Oct/2020 18:35:42] "GET /images/news_pic.jpg HTTP/1.1" 404 -
+INFO _internal.py:87 127.0.0.1 - - [27/Oct/2020 18:35:42] "GET /images/person.png HTTP/1.1" 404 -
+INFO _internal.py:87 127.0.0.1 - - [27/Oct/2020 18:35:42] "GET /images/pic_code.png HTTP/1.1" 404 -
+INFO _internal.py:87  * Detected change in '/home/python/tools/pyProjects/flaskStudy/information/info/modules/passport/views.py', reloading
+INFO _internal.py:87  * Restarting with stat
+WARNING _internal.py:87  * Debugger is active!
+INFO _internal.py:87  * Debugger PIN: 177-012-029
+INFO _internal.py:87  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+INFO _internal.py:87  * Restarting with stat
+WARNING _internal.py:87  * Debugger is active!
+INFO _internal.py:87  * Debugger PIN: 177-012-029
+DEBUG views.py:18 输入调试信息
+INFO views.py:19 输入详细信息
+WARNING views.py:20 输入警告信息
+ERROR views.py:21 输入错误信息
+INFO _internal.py:87 127.0.0.1 - - [27/Oct/2020 18:45:52] "GET / HTTP/1.1" 200 -
+INFO _internal.py:87 127.0.0.1 - - [27/Oct/2020 18:45:52] "GET /images/person01.png HTTP/1.1" 404 -
+INFO _internal.py:87 127.0.0.1 - - [27/Oct/2020 18:45:52] "GET /images/news_pic.jpg HTTP/1.1" 404 -
+INFO _internal.py:87 127.0.0.1 - - [27/Oct/2020 18:45:52] "GET /images/person.png HTTP/1.1" 404 -
+INFO _internal.py:87 127.0.0.1 - - [27/Oct/2020 18:45:52] "GET /images/pic_code.png HTTP/1.1" 404 -
+DEBUG views.py:18 输入调试信息
+INFO views.py:19 输入详细信息
+WARNING views.py:20 输入警告信息
+ERROR views.py:21 输入错误信息
+INFO _internal.py:87 127.0.0.1 - - [27/Oct/2020 18:48:29] "GET / HTTP/1.1" 500 -
+INFO _internal.py:87 127.0.0.1 - - [27/Oct/2020 18:48:29] "GET /?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1" 200 -
+INFO _internal.py:87 127.0.0.1 - - [27/Oct/2020 18:48:29] "GET /?__debugger__=yes&cmd=resource&f=jquery.js HTTP/1.1" 200 -
+INFO _internal.py:87 127.0.0.1 - - [27/Oct/2020 18:48:29] "GET /?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1" 200 -
+INFO _internal.py:87 127.0.0.1 - - [27/Oct/2020 18:48:29] "GET /?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+INFO _internal.py:87 127.0.0.1 - - [27/Oct/2020 18:48:29] "GET /?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+INFO _internal.py:87  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+INFO _internal.py:87  * Restarting with stat
+WARNING _internal.py:87  * Debugger is active!
+INFO _internal.py:87  * Debugger PIN: 177-012-029
+INFO _internal.py:87  * Detected change in '/home/python/tools/pyProjects/flaskStudy/information/info/modules/index/views.py', reloading
+INFO _internal.py:87  * Restarting with stat
+WARNING _internal.py:87  * Debugger is active!
+INFO _internal.py:87  * Debugger PIN: 177-012-029
+DEBUG views.py:18 输入调试信息
+INFO views.py:19 输入详细信息
+WARNING views.py:20 输入警告信息
+ERROR views.py:21 输入错误信息
+INFO _internal.py:87 127.0.0.1 - - [27/Oct/2020 18:53:40] "GET / HTTP/1.1" 200 -
+INFO _internal.py:87 127.0.0.1 - - [27/Oct/2020 18:53:40] "GET /css/reset.css HTTP/1.1" 404 -
+INFO _internal.py:87 127.0.0.1 - - [27/Oct/2020 18:53:40] "GET /css/main.css HTTP/1.1" 404 -
+INFO _internal.py:87 127.0.0.1 - - [27/Oct/2020 18:53:40] "GET /js/jquery-1.12.4.min.js HTTP/1.1" 404 -
+INFO _internal.py:87 127.0.0.1 - - [27/Oct/2020 18:53:40] "GET /js/main.js HTTP/1.1" 404 -
+INFO _internal.py:87 127.0.0.1 - - [27/Oct/2020 18:53:40] "GET /js/index.js HTTP/1.1" 404 -
+INFO _internal.py:87 127.0.0.1 - - [27/Oct/2020 18:53:40] "GET /images/logo.png HTTP/1.1" 404 -
+INFO _internal.py:87 127.0.0.1 - - [27/Oct/2020 18:53:40] "GET /images/person01.png HTTP/1.1" 404 -
+INFO _internal.py:87 127.0.0.1 - - [27/Oct/2020 18:53:40] "GET /images/news_pic.jpg HTTP/1.1" 404 -
+INFO _internal.py:87 127.0.0.1 - - [27/Oct/2020 18:53:40] "GET /images/person.png HTTP/1.1" 404 -
+INFO _internal.py:87 127.0.0.1 - - [27/Oct/2020 18:53:40] "GET /images/pic_code.png HTTP/1.1" 404 -
+INFO _internal.py:87  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+INFO _internal.py:87  * Restarting with stat
+WARNING _internal.py:87  * Debugger is active!
+INFO _internal.py:87  * Debugger PIN: 177-012-029
+DEBUG views.py:18 输入调试信息
+INFO views.py:19 输入详细信息
+WARNING views.py:20 输入警告信息
+ERROR views.py:21 输入错误信息
+INFO _internal.py:87 127.0.0.1 - - [27/Oct/2020 18:56:11] "GET / HTTP/1.1" 200 -
+INFO _internal.py:87 127.0.0.1 - - [27/Oct/2020 18:56:11] "GET /js/jquery.form.min.js HTTP/1.1" 404 -
+INFO _internal.py:87 127.0.0.1 - - [27/Oct/2020 18:56:11] "GET /css/main.css HTTP/1.1" 404 -
+INFO _internal.py:87 127.0.0.1 - - [27/Oct/2020 18:56:11] "GET /css/reset.css HTTP/1.1" 404 -
+INFO _internal.py:87 127.0.0.1 - - [27/Oct/2020 18:56:11] "GET /js/jquery-1.12.4.min.js HTTP/1.1" 404 -
+INFO _internal.py:87 127.0.0.1 - - [27/Oct/2020 18:56:11] "GET /js/main.js HTTP/1.1" 404 -
+INFO _internal.py:87 127.0.0.1 - - [27/Oct/2020 18:56:11] "GET /images/logo.png HTTP/1.1" 404 -
+INFO _internal.py:87 127.0.0.1 - - [27/Oct/2020 18:56:11] "GET /images/user_pic.png HTTP/1.1" 404 -
+INFO _internal.py:87 127.0.0.1 - - [27/Oct/2020 18:56:11] "GET /images/pic_code.png HTTP/1.1" 404 -
+INFO _internal.py:87 127.0.0.1 - - [27/Oct/2020 18:56:11] "GET /user_base_info.html HTTP/1.1" 404 -
+INFO _internal.py:87 127.0.0.1 - - [27/Oct/2020 18:56:16] "GET /user_pass_info.html HTTP/1.1" 404 -
+INFO _internal.py:87 127.0.0.1 - - [27/Oct/2020 18:56:17] "GET /user_follow.html HTTP/1.1" 404 -
+INFO _internal.py:87  * Detected change in '/home/python/tools/pyProjects/flaskStudy/information/info/modules/index/views.py', reloading
+INFO _internal.py:87  * Restarting with stat
+WARNING _internal.py:87  * Debugger is active!
+INFO _internal.py:87  * Debugger PIN: 177-012-029
+DEBUG views.py:18 输入调试信息
+INFO views.py:19 输入详细信息
+WARNING views.py:20 输入警告信息
+ERROR views.py:21 输入错误信息
+INFO _internal.py:87 127.0.0.1 - - [27/Oct/2020 18:56:28] "GET / HTTP/1.1" 200 -
+INFO _internal.py:87 127.0.0.1 - - [27/Oct/2020 18:56:28] "GET /css/reset.css HTTP/1.1" 404 -
+INFO _internal.py:87 127.0.0.1 - - [27/Oct/2020 18:56:28] "GET /css/main.css HTTP/1.1" 404 -
+INFO _internal.py:87 127.0.0.1 - - [27/Oct/2020 18:56:28] "GET /js/jquery-1.12.4.min.js HTTP/1.1" 404 -
+INFO _internal.py:87 127.0.0.1 - - [27/Oct/2020 18:56:28] "GET /js/main.js HTTP/1.1" 404 -
+INFO _internal.py:87 127.0.0.1 - - [27/Oct/2020 18:56:28] "GET /js/index.js HTTP/1.1" 404 -
+INFO _internal.py:87 127.0.0.1 - - [27/Oct/2020 18:56:28] "GET /images/logo.png HTTP/1.1" 404 -
+INFO _internal.py:87 127.0.0.1 - - [27/Oct/2020 18:56:28] "GET /images/person01.png HTTP/1.1" 404 -
+INFO _internal.py:87 127.0.0.1 - - [27/Oct/2020 18:56:28] "GET /images/news_pic.jpg HTTP/1.1" 404 -
+INFO _internal.py:87 127.0.0.1 - - [27/Oct/2020 18:56:28] "GET /images/person.png HTTP/1.1" 404 -
+INFO _internal.py:87 127.0.0.1 - - [27/Oct/2020 18:56:28] "GET /images/pic_code.png HTTP/1.1" 404 -
+DEBUG views.py:18 输入调试信息
+INFO views.py:19 输入详细信息
+WARNING views.py:20 输入警告信息
+ERROR views.py:21 输入错误信息
+INFO _internal.py:87 127.0.0.1 - - [27/Oct/2020 19:01:32] "GET / HTTP/1.1" 500 -
+INFO _internal.py:87 127.0.0.1 - - [27/Oct/2020 19:01:32] "GET /?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1" 200 -
+INFO _internal.py:87 127.0.0.1 - - [27/Oct/2020 19:01:32] "GET /?__debugger__=yes&cmd=resource&f=jquery.js HTTP/1.1" 200 -
+INFO _internal.py:87 127.0.0.1 - - [27/Oct/2020 19:01:32] "GET /?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1" 200 -
+INFO _internal.py:87 127.0.0.1 - - [27/Oct/2020 19:01:32] "GET /?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+INFO _internal.py:87 127.0.0.1 - - [27/Oct/2020 19:01:32] "GET /?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+INFO _internal.py:87  * Detected change in '/home/python/tools/pyProjects/flaskStudy/information/info/modules/index/views.py', reloading
+INFO _internal.py:87  * Restarting with stat
+WARNING _internal.py:87  * Debugger is active!
+INFO _internal.py:87  * Debugger PIN: 177-012-029
+DEBUG views.py:18 输入调试信息
+INFO views.py:19 输入详细信息
+WARNING views.py:20 输入警告信息
+ERROR views.py:21 输入错误信息
+INFO _internal.py:87 127.0.0.1 - - [27/Oct/2020 19:01:48] "GET / HTTP/1.1" 200 -
+INFO _internal.py:87 127.0.0.1 - - [27/Oct/2020 19:01:48] "GET /static/news/images/person01.png HTTP/1.1" 200 -
+INFO _internal.py:87 127.0.0.1 - - [27/Oct/2020 19:01:48] "GET /static/news/images/news_pic.jpg HTTP/1.1" 200 -
+INFO _internal.py:87 127.0.0.1 - - [27/Oct/2020 19:01:48] "GET /static/news/images/person.png HTTP/1.1" 200 -
+INFO _internal.py:87 127.0.0.1 - - [27/Oct/2020 19:01:48] "GET /static/news/images/pic_code.png HTTP/1.1" 200 -
+DEBUG views.py:18 输入调试信息
+INFO views.py:19 输入详细信息
+WARNING views.py:20 输入警告信息
+ERROR views.py:21 输入错误信息
+INFO _internal.py:87 127.0.0.1 - - [27/Oct/2020 19:02:43] "GET / HTTP/1.1" 200 -
+INFO _internal.py:87 127.0.0.1 - - [27/Oct/2020 19:02:43] "GET /static/news/css/reset.css HTTP/1.1" 200 -
+INFO _internal.py:87 127.0.0.1 - - [27/Oct/2020 19:02:43] "GET /static/news/css/main.css HTTP/1.1" 200 -
+INFO _internal.py:87 127.0.0.1 - - [27/Oct/2020 19:02:43] "GET /static/news/js/jquery-1.12.4.min.js HTTP/1.1" 200 -
+INFO _internal.py:87 127.0.0.1 - - [27/Oct/2020 19:02:43] "GET /static/news/js/main.js HTTP/1.1" 200 -
+INFO _internal.py:87 127.0.0.1 - - [27/Oct/2020 19:02:43] "GET /static/news/js/index.js HTTP/1.1" 200 -
+INFO _internal.py:87 127.0.0.1 - - [27/Oct/2020 19:02:43] "GET /static/news/images/news_pic.jpg HTTP/1.1" 304 -
+INFO _internal.py:87 127.0.0.1 - - [27/Oct/2020 19:02:43] "GET /static/news/images/person.png HTTP/1.1" 304 -
+INFO _internal.py:87 127.0.0.1 - - [27/Oct/2020 19:02:43] "GET /static/news/images/logo.png HTTP/1.1" 200 -
+INFO _internal.py:87 127.0.0.1 - - [27/Oct/2020 19:02:43] "GET /static/news/images/person01.png HTTP/1.1" 304 -
+INFO _internal.py:87 127.0.0.1 - - [27/Oct/2020 19:02:43] "GET /static/news/images/pic_code.png HTTP/1.1" 304 -
+INFO _internal.py:87 127.0.0.1 - - [27/Oct/2020 19:02:43] "GET /static/news/images/clock.png HTTP/1.1" 200 -
+INFO _internal.py:87 127.0.0.1 - - [27/Oct/2020 19:02:43] "GET /static/news/images/hit_icon.png HTTP/1.1" 200 -
+INFO _internal.py:87 127.0.0.1 - - [27/Oct/2020 19:02:43] "GET /favicon.ico HTTP/1.1" 200 -
+INFO _internal.py:87  * Detected change in '/home/python/tools/pyProjects/flaskStudy/information/info/__init__.py', reloading
+INFO _internal.py:87  * Restarting with stat
+WARNING _internal.py:87  * Debugger is active!
+INFO _internal.py:87  * Debugger PIN: 177-012-029
+INFO _internal.py:87  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+INFO _internal.py:87  * Restarting with stat
+WARNING _internal.py:87  * Debugger is active!
+INFO _internal.py:87  * Debugger PIN: 177-012-029
+DEBUG views.py:18 输入调试信息
+INFO views.py:19 输入详细信息
+WARNING views.py:20 输入警告信息
+ERROR views.py:21 输入错误信息
+INFO _internal.py:87 127.0.0.1 - - [27/Oct/2020 19:22:23] "GET / HTTP/1.1" 200 -
+INFO _internal.py:87  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+INFO _internal.py:87  * Restarting with stat
+WARNING _internal.py:87  * Debugger is active!
+INFO _internal.py:87  * Debugger PIN: 177-012-029
+DEBUG views.py:18 输入调试信息
+INFO views.py:19 输入详细信息
+WARNING views.py:20 输入警告信息
+ERROR views.py:21 输入错误信息
+INFO _internal.py:87 127.0.0.1 - - [27/Oct/2020 19:37:05] "GET / HTTP/1.1" 200 -
+DEBUG views.py:18 输入调试信息
+INFO views.py:19 输入详细信息
+WARNING views.py:20 输入警告信息
+ERROR views.py:21 输入错误信息
+INFO _internal.py:87 127.0.0.1 - - [27/Oct/2020 19:37:44] "GET / HTTP/1.1" 200 -
+INFO _internal.py:87  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+INFO _internal.py:87  * Restarting with stat
+WARNING _internal.py:87  * Debugger is active!
+INFO _internal.py:87  * Debugger PIN: 177-012-029
+DEBUG views.py:18 输入调试信息
+INFO views.py:19 输入详细信息
+WARNING views.py:20 输入警告信息
+ERROR views.py:21 输入错误信息
+INFO _internal.py:87 127.0.0.1 - - [27/Oct/2020 19:37:55] "GET / HTTP/1.1" 200 -
+DEBUG views.py:18 输入调试信息
+INFO views.py:19 输入详细信息
+WARNING views.py:20 输入警告信息
+ERROR views.py:21 输入错误信息
+INFO _internal.py:87 127.0.0.1 - - [27/Oct/2020 19:39:03] "GET / HTTP/1.1" 200 -
+DEBUG views.py:18 输入调试信息
+INFO views.py:19 输入详细信息
+WARNING views.py:20 输入警告信息
+ERROR views.py:21 输入错误信息
+INFO _internal.py:87 127.0.0.1 - - [27/Oct/2020 19:39:36] "GET / HTTP/1.1" 200 -
+INFO _internal.py:87 127.0.0.1 - - [27/Oct/2020 19:39:36] "GET /static/news/css/reset.css HTTP/1.1" 304 -
+INFO _internal.py:87 127.0.0.1 - - [27/Oct/2020 19:39:36] "GET /static/news/css/main.css HTTP/1.1" 304 -
+INFO _internal.py:87 127.0.0.1 - - [27/Oct/2020 19:39:36] "GET /static/news/js/jquery-1.12.4.min.js HTTP/1.1" 304 -
+INFO _internal.py:87 127.0.0.1 - - [27/Oct/2020 19:39:36] "GET /static/news/js/main.js HTTP/1.1" 200 -
+INFO _internal.py:87 127.0.0.1 - - [27/Oct/2020 19:39:36] "GET /static/news/js/index.js HTTP/1.1" 304 -
+INFO _internal.py:87 127.0.0.1 - - [27/Oct/2020 19:39:36] "GET /static/news/images/logo.png HTTP/1.1" 304 -
+INFO _internal.py:87 127.0.0.1 - - [27/Oct/2020 19:39:36] "GET /static/news/images/person01.png HTTP/1.1" 304 -
+INFO _internal.py:87 127.0.0.1 - - [27/Oct/2020 19:39:36] "GET /static/news/images/news_pic.jpg HTTP/1.1" 304 -
+INFO _internal.py:87 127.0.0.1 - - [27/Oct/2020 19:39:36] "GET /static/news/images/person.png HTTP/1.1" 304 -
+INFO _internal.py:87 127.0.0.1 - - [27/Oct/2020 19:39:36] "GET /static/news/images/pic_code.png HTTP/1.1" 304 -
+INFO _internal.py:87 127.0.0.1 - - [27/Oct/2020 19:39:36] "GET /static/news/images/clock.png HTTP/1.1" 304 -
+INFO _internal.py:87 127.0.0.1 - - [27/Oct/2020 19:39:36] "GET /static/news/images/hit_icon.png HTTP/1.1" 304 -
+INFO _internal.py:87 127.0.0.1 - - [27/Oct/2020 19:39:36] "GET /favicon.ico HTTP/1.1" 200 -
+DEBUG views.py:18 输入调试信息
+INFO views.py:19 输入详细信息
+WARNING views.py:20 输入警告信息
+ERROR views.py:21 输入错误信息
+INFO _internal.py:87 127.0.0.1 - - [27/Oct/2020 19:39:37] "GET / HTTP/1.1" 200 -
+INFO _internal.py:87 127.0.0.1 - - [27/Oct/2020 19:39:37] "GET /static/news/css/reset.css HTTP/1.1" 304 -
+INFO _internal.py:87 127.0.0.1 - - [27/Oct/2020 19:39:37] "GET /static/news/css/main.css HTTP/1.1" 304 -
+INFO _internal.py:87 127.0.0.1 - - [27/Oct/2020 19:39:37] "GET /static/news/js/jquery-1.12.4.min.js HTTP/1.1" 304 -
+INFO _internal.py:87 127.0.0.1 - - [27/Oct/2020 19:39:37] "GET /static/news/js/main.js HTTP/1.1" 304 -
+INFO _internal.py:87 127.0.0.1 - - [27/Oct/2020 19:39:37] "GET /static/news/js/index.js HTTP/1.1" 304 -
+INFO _internal.py:87 127.0.0.1 - - [27/Oct/2020 19:39:37] "GET /static/news/images/person01.png HTTP/1.1" 304 -
+INFO _internal.py:87 127.0.0.1 - - [27/Oct/2020 19:39:37] "GET /static/news/images/logo.png HTTP/1.1" 304 -
+INFO _internal.py:87 127.0.0.1 - - [27/Oct/2020 19:39:37] "GET /static/news/images/news_pic.jpg HTTP/1.1" 304 -
+INFO _internal.py:87 127.0.0.1 - - [27/Oct/2020 19:39:37] "GET /static/news/images/person.png HTTP/1.1" 304 -
+INFO _internal.py:87 127.0.0.1 - - [27/Oct/2020 19:39:37] "GET /static/news/images/pic_code.png HTTP/1.1" 304 -
+INFO _internal.py:87 127.0.0.1 - - [27/Oct/2020 19:39:37] "GET /favicon.ico HTTP/1.1" 200 -
+DEBUG views.py:18 输入调试信息
+INFO views.py:19 输入详细信息
+WARNING views.py:20 输入警告信息
+ERROR views.py:21 输入错误信息
+INFO _internal.py:87 127.0.0.1 - - [27/Oct/2020 19:39:37] "GET / HTTP/1.1" 200 -
+INFO _internal.py:87 127.0.0.1 - - [27/Oct/2020 19:39:37] "GET /static/news/css/reset.css HTTP/1.1" 304 -
+INFO _internal.py:87 127.0.0.1 - - [27/Oct/2020 19:39:37] "GET /static/news/css/main.css HTTP/1.1" 304 -
+INFO _internal.py:87 127.0.0.1 - - [27/Oct/2020 19:39:37] "GET /static/news/js/jquery-1.12.4.min.js HTTP/1.1" 304 -
+INFO _internal.py:87 127.0.0.1 - - [27/Oct/2020 19:39:37] "GET /static/news/js/main.js HTTP/1.1" 304 -
+INFO _internal.py:87 127.0.0.1 - - [27/Oct/2020 19:39:37] "GET /static/news/js/index.js HTTP/1.1" 304 -
+INFO _internal.py:87 127.0.0.1 - - [27/Oct/2020 19:39:37] "GET /static/news/images/person01.png HTTP/1.1" 304 -
+INFO _internal.py:87 127.0.0.1 - - [27/Oct/2020 19:39:37] "GET /static/news/images/logo.png HTTP/1.1" 304 -
+INFO _internal.py:87 127.0.0.1 - - [27/Oct/2020 19:39:37] "GET /static/news/images/news_pic.jpg HTTP/1.1" 304 -
+INFO _internal.py:87 127.0.0.1 - - [27/Oct/2020 19:39:37] "GET /static/news/images/person.png HTTP/1.1" 304 -
+INFO _internal.py:87 127.0.0.1 - - [27/Oct/2020 19:39:37] "GET /static/news/images/pic_code.png HTTP/1.1" 304 -
+INFO _internal.py:87 127.0.0.1 - - [27/Oct/2020 19:39:37] "GET /favicon.ico HTTP/1.1" 200 -
+INFO _internal.py:87 127.0.0.1 - - [27/Oct/2020 19:39:38] "GET /passport/image_code?cur_id=14043695-203f-46ba-9c57-ba65e916747e&pre_id= HTTP/1.1" 500 -
+INFO _internal.py:87 127.0.0.1 - - [27/Oct/2020 19:39:39] "GET /passport/image_code?cur_id=a598b11e-f875-4dfb-82ce-e6c37b4f436d&pre_id=14043695-203f-46ba-9c57-ba65e916747e HTTP/1.1" 500 -
+INFO _internal.py:87 127.0.0.1 - - [27/Oct/2020 19:39:42] "GET /passport/image_code?cur_id=0cfdd2b4-5a57-46af-9db0-de14a5a98474&pre_id=a598b11e-f875-4dfb-82ce-e6c37b4f436d HTTP/1.1" 500 -
+INFO _internal.py:87 127.0.0.1 - - [27/Oct/2020 19:39:43] "GET /passport/image_code?cur_id=ffd1da7e-7370-4a05-9bf8-4d4afeaffe68&pre_id=0cfdd2b4-5a57-46af-9db0-de14a5a98474 HTTP/1.1" 500 -
+INFO _internal.py:87 127.0.0.1 - - [27/Oct/2020 19:39:43] "GET /passport/image_code?cur_id=bf11405c-f7da-4e3e-a3e5-1b945aaf1192&pre_id=ffd1da7e-7370-4a05-9bf8-4d4afeaffe68 HTTP/1.1" 500 -
+INFO _internal.py:87 127.0.0.1 - - [27/Oct/2020 19:39:44] "GET /passport/image_code?cur_id=4cb0dd74-907f-45cb-b693-50b4df2bba2d&pre_id=bf11405c-f7da-4e3e-a3e5-1b945aaf1192 HTTP/1.1" 500 -
+INFO _internal.py:87 127.0.0.1 - - [27/Oct/2020 19:39:44] "GET /passport/image_code?cur_id=2c1c0149-c082-4802-8b7d-cda4a2bab984&pre_id=4cb0dd74-907f-45cb-b693-50b4df2bba2d HTTP/1.1" 500 -
+INFO _internal.py:87 127.0.0.1 - - [27/Oct/2020 19:39:48] "GET /passport/image_code?cur_id=64c75ae5-a28c-40cb-bbb4-1fa855aa72e6&pre_id=2c1c0149-c082-4802-8b7d-cda4a2bab984 HTTP/1.1" 500 -
+INFO _internal.py:87 127.0.0.1 - - [27/Oct/2020 19:39:51] "GET /passport/image_code?cur_id=b52ff925-5c49-4172-a215-9b0abb562656&pre_id=64c75ae5-a28c-40cb-bbb4-1fa855aa72e6 HTTP/1.1" 500 -
+INFO _internal.py:87 127.0.0.1 - - [27/Oct/2020 19:39:51] "GET /passport/image_code?cur_id=f0c46e54-7af1-4605-bdbb-85a9d294ec4f&pre_id=b52ff925-5c49-4172-a215-9b0abb562656 HTTP/1.1" 500 -
+INFO _internal.py:87 127.0.0.1 - - [27/Oct/2020 19:39:52] "GET /passport/image_code?cur_id=e8660bb5-1bea-46d0-a24a-b7baa7bb0888&pre_id=f0c46e54-7af1-4605-bdbb-85a9d294ec4f HTTP/1.1" 500 -
+INFO _internal.py:87 127.0.0.1 - - [27/Oct/2020 19:39:52] "GET /passport/image_code?cur_id=e1fa2d1c-11e1-437d-af71-7a132f125626&pre_id=e8660bb5-1bea-46d0-a24a-b7baa7bb0888 HTTP/1.1" 500 -
+INFO _internal.py:87 127.0.0.1 - - [27/Oct/2020 19:39:52] "GET /passport/image_code?cur_id=cb82cd3e-397a-4c0e-a93e-c11c8c87e408&pre_id=e1fa2d1c-11e1-437d-af71-7a132f125626 HTTP/1.1" 500 -
+INFO _internal.py:87 127.0.0.1 - - [27/Oct/2020 19:39:52] "GET /passport/image_code?cur_id=37a64083-813a-45c7-aa23-67d8a4894abc&pre_id=cb82cd3e-397a-4c0e-a93e-c11c8c87e408 HTTP/1.1" 500 -
+INFO _internal.py:87 127.0.0.1 - - [27/Oct/2020 19:39:52] "GET /passport/image_code?cur_id=bef2b546-e060-470e-95f1-21b26274e2b3&pre_id=37a64083-813a-45c7-aa23-67d8a4894abc HTTP/1.1" 500 -
+INFO _internal.py:87 127.0.0.1 - - [27/Oct/2020 19:39:53] "GET /passport/image_code?cur_id=e9eaa9d5-01dd-46f1-acd3-7578733da2b4&pre_id=bef2b546-e060-470e-95f1-21b26274e2b3 HTTP/1.1" 500 -
+INFO _internal.py:87  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+INFO _internal.py:87  * Restarting with stat
+WARNING _internal.py:87  * Debugger is active!
+INFO _internal.py:87  * Debugger PIN: 177-012-029
+DEBUG views.py:18 输入调试信息
+INFO views.py:19 输入详细信息
+WARNING views.py:20 输入警告信息
+ERROR views.py:21 输入错误信息
+INFO _internal.py:87 127.0.0.1 - - [27/Oct/2020 19:42:21] "GET / HTTP/1.1" 200 -
+INFO _internal.py:87 127.0.0.1 - - [27/Oct/2020 19:42:21] "GET /passport/image_code HTTP/1.1" 500 -
+INFO _internal.py:87 127.0.0.1 - - [27/Oct/2020 19:42:24] "GET /passport/image_code?cur_id=e14cc032-8522-47a5-b8fc-7231a66cfe28&pre_id= HTTP/1.1" 500 -
+INFO _internal.py:87 127.0.0.1 - - [27/Oct/2020 19:42:25] "GET /passport/image_code?cur_id=880c6c2f-640d-4810-bab4-239abeddc542&pre_id=e14cc032-8522-47a5-b8fc-7231a66cfe28 HTTP/1.1" 500 -
+INFO _internal.py:87 127.0.0.1 - - [27/Oct/2020 19:42:25] "GET /passport/image_code?cur_id=987de0ba-ceec-444f-8698-44ea81453bfc&pre_id=880c6c2f-640d-4810-bab4-239abeddc542 HTTP/1.1" 500 -
+INFO _internal.py:87 127.0.0.1 - - [27/Oct/2020 19:42:25] "GET /passport/image_code?cur_id=fb840c03-ca5d-4733-bfe8-ceda07e53f97&pre_id=987de0ba-ceec-444f-8698-44ea81453bfc HTTP/1.1" 500 -
+DEBUG views.py:18 输入调试信息
+INFO views.py:19 输入详细信息
+WARNING views.py:20 输入警告信息
+ERROR views.py:21 输入错误信息
+INFO _internal.py:87 127.0.0.1 - - [27/Oct/2020 19:43:26] "GET / HTTP/1.1" 200 -
+INFO _internal.py:87 127.0.0.1 - - [27/Oct/2020 19:43:26] "GET /passport/image_code HTTP/1.1" 500 -
+INFO _internal.py:87  * Detected change in '/home/python/tools/pyProjects/flaskStudy/information/info/modules/passport/views.py', reloading
+INFO _internal.py:87  * Restarting with stat
+WARNING _internal.py:87  * Debugger is active!
+INFO _internal.py:87  * Debugger PIN: 177-012-029
+INFO _internal.py:87 127.0.0.1 - - [27/Oct/2020 19:43:29] "GET /passport/image_code?cur_id=6acb42dc-53c1-44f9-ad1b-3077711f80e5&pre_id= HTTP/1.1" 500 -
+INFO _internal.py:87 127.0.0.1 - - [27/Oct/2020 19:43:36] "GET /passport/image_code?cur_id=15ce80d5-70ee-4da7-ba59-f88026f54f82&pre_id=6acb42dc-53c1-44f9-ad1b-3077711f80e5 HTTP/1.1" 500 -
+INFO _internal.py:87 127.0.0.1 - - [27/Oct/2020 19:43:43] "GET /passport/image_code?cur_id=43dd96d8-e59d-41b9-b48a-a4e0780f8aa4&pre_id=15ce80d5-70ee-4da7-ba59-f88026f54f82 HTTP/1.1" 500 -
+INFO _internal.py:87 127.0.0.1 - - [27/Oct/2020 19:43:43] "GET /passport/image_code?cur_id=5961d459-f282-4c32-9c0f-9f04d3945432&pre_id=43dd96d8-e59d-41b9-b48a-a4e0780f8aa4 HTTP/1.1" 500 -
+INFO _internal.py:87 127.0.0.1 - - [27/Oct/2020 19:43:44] "GET /passport/image_code?cur_id=0dc86bfb-5173-4268-adca-87fae28b8ef0&pre_id=5961d459-f282-4c32-9c0f-9f04d3945432 HTTP/1.1" 500 -
+INFO _internal.py:87 127.0.0.1 - - [27/Oct/2020 19:43:44] "GET /passport/image_code?cur_id=cd5104da-68fd-4ab6-865d-5f3fadd00055&pre_id=0dc86bfb-5173-4268-adca-87fae28b8ef0 HTTP/1.1" 500 -
+INFO _internal.py:87 127.0.0.1 - - [27/Oct/2020 19:43:44] "GET /passport/image_code?cur_id=5b8edd20-9b4a-4ad5-8e46-38d4f4d4744f&pre_id=cd5104da-68fd-4ab6-865d-5f3fadd00055 HTTP/1.1" 500 -
+INFO _internal.py:87 127.0.0.1 - - [27/Oct/2020 19:43:52] "GET /passport/image_code?cur_id=c5ae01e5-369a-4e6c-9955-d4c3fd1e1179&pre_id=5b8edd20-9b4a-4ad5-8e46-38d4f4d4744f HTTP/1.1" 500 -
+INFO _internal.py:87 127.0.0.1 - - [27/Oct/2020 19:43:54] "GET /passport/image_code?cur_id=c273b347-a38b-427b-a7ff-850d6bf6f1c7&pre_id=c5ae01e5-369a-4e6c-9955-d4c3fd1e1179 HTTP/1.1" 500 -
+INFO _internal.py:87  * Detected change in '/home/python/tools/pyProjects/flaskStudy/information/info/modules/passport/views.py', reloading
+INFO _internal.py:87  * Restarting with stat
+WARNING _internal.py:87  * Debugger is active!
+INFO _internal.py:87  * Debugger PIN: 177-012-029
+INFO _internal.py:87  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+INFO _internal.py:87  * Restarting with stat
+WARNING _internal.py:87  * Debugger is active!
+INFO _internal.py:87  * Debugger PIN: 177-012-029
+DEBUG views.py:18 输入调试信息
+INFO views.py:19 输入详细信息
+WARNING views.py:20 输入警告信息
+ERROR views.py:21 输入错误信息
+INFO _internal.py:87 127.0.0.1 - - [27/Oct/2020 19:51:24] "GET / HTTP/1.1" 200 -
+INFO _internal.py:87 127.0.0.1 - - [27/Oct/2020 19:51:24] "GET /passport/image_code HTTP/1.1" 200 -
+INFO _internal.py:87 127.0.0.1 - - [27/Oct/2020 19:51:27] "GET /passport/image_code?cur_id=f36bd7bf-303e-4682-87d7-f208a2485e8e&pre_id= HTTP/1.1" 200 -
+INFO _internal.py:87 127.0.0.1 - - [27/Oct/2020 19:51:28] "GET /passport/image_code?cur_id=33477e85-87e5-44e4-8392-dc46eb66116b&pre_id=f36bd7bf-303e-4682-87d7-f208a2485e8e HTTP/1.1" 200 -
+INFO _internal.py:87 127.0.0.1 - - [27/Oct/2020 19:51:29] "GET /passport/image_code?cur_id=9f0413c5-666a-4212-9ae4-d147f25c7426&pre_id=33477e85-87e5-44e4-8392-dc46eb66116b HTTP/1.1" 200 -
+INFO _internal.py:87 127.0.0.1 - - [27/Oct/2020 19:51:30] "GET /passport/image_code?cur_id=de8bcf30-d1e3-4aec-bc95-1242c14d1ff5&pre_id=9f0413c5-666a-4212-9ae4-d147f25c7426 HTTP/1.1" 200 -
+INFO _internal.py:87 127.0.0.1 - - [27/Oct/2020 19:51:30] "GET /passport/image_code?cur_id=35734f11-2e5c-4652-b788-ef2574cbb7c9&pre_id=de8bcf30-d1e3-4aec-bc95-1242c14d1ff5 HTTP/1.1" 200 -
+INFO _internal.py:87 127.0.0.1 - - [27/Oct/2020 19:51:30] "GET /passport/image_code?cur_id=6d8c4363-941e-48c4-81bb-379c622a128e&pre_id=35734f11-2e5c-4652-b788-ef2574cbb7c9 HTTP/1.1" 200 -
+INFO _internal.py:87 127.0.0.1 - - [27/Oct/2020 19:51:30] "GET /passport/image_code?cur_id=ca12d149-d593-488c-9216-5971d06ec4a3&pre_id=6d8c4363-941e-48c4-81bb-379c622a128e HTTP/1.1" 200 -
+INFO _internal.py:87 127.0.0.1 - - [27/Oct/2020 19:51:31] "GET /passport/image_code?cur_id=f2903d3b-2c7a-4706-b7a6-d3b9a16221ba&pre_id=ca12d149-d593-488c-9216-5971d06ec4a3 HTTP/1.1" 200 -
+INFO _internal.py:87  * Detected change in '/home/python/tools/pyProjects/flaskStudy/information/info/modules/passport/views.py', reloading
+INFO _internal.py:87  * Restarting with stat
+WARNING _internal.py:87  * Debugger is active!
+INFO _internal.py:87  * Debugger PIN: 177-012-029
+INFO _internal.py:87 127.0.0.1 - - [27/Oct/2020 19:56:28] "GET /passport/image_code?cur_id=e4ba1fe9-ea4c-458d-a696-d529c03920da&pre_id=f2903d3b-2c7a-4706-b7a6-d3b9a16221ba HTTP/1.1" 200 -
+INFO _internal.py:87 127.0.0.1 - - [27/Oct/2020 19:56:29] "GET /passport/image_code?cur_id=fa4015ba-c200-4d6f-8fb5-bb1bb50a7e41&pre_id=e4ba1fe9-ea4c-458d-a696-d529c03920da HTTP/1.1" 200 -
+INFO _internal.py:87 127.0.0.1 - - [27/Oct/2020 19:56:29] "GET /passport/image_code?cur_id=239ed9cd-2191-4ed5-8186-be9da581b09d&pre_id=fa4015ba-c200-4d6f-8fb5-bb1bb50a7e41 HTTP/1.1" 200 -
+INFO _internal.py:87  * Detected change in '/home/python/tools/pyProjects/flaskStudy/information/info/modules/passport/views.py', reloading
+INFO _internal.py:87  * Restarting with stat
+WARNING _internal.py:87  * Debugger is active!
+INFO _internal.py:87  * Debugger PIN: 177-012-029
+INFO _internal.py:87  * Detected change in '/home/python/tools/pyProjects/flaskStudy/information/info/modules/passport/views.py', reloading
+INFO _internal.py:87  * Restarting with stat
+INFO _internal.py:87  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+INFO _internal.py:87  * Restarting with stat
+WARNING _internal.py:87  * Debugger is active!
+INFO _internal.py:87  * Debugger PIN: 177-012-029
+DEBUG views.py:18 输入调试信息
+INFO views.py:19 输入详细信息
+WARNING views.py:20 输入警告信息
+ERROR views.py:21 输入错误信息
+INFO _internal.py:87 127.0.0.1 - - [27/Oct/2020 20:26:35] "GET / HTTP/1.1" 200 -
+INFO _internal.py:87 127.0.0.1 - - [27/Oct/2020 20:26:35] "GET /passport/image_code HTTP/1.1" 200 -
+INFO _internal.py:87  * Detected change in '/home/python/tools/pyProjects/flaskStudy/information/info/modules/passport/views.py', reloading
+INFO _internal.py:87  * Restarting with stat
+WARNING _internal.py:87  * Debugger is active!
+INFO _internal.py:87  * Debugger PIN: 177-012-029
+INFO _internal.py:87 127.0.0.1 - - [27/Oct/2020 20:26:39] "GET /passport/image_code?cur_id=3adfab3a-6d0b-4831-8b29-743d61033d8f&pre_id= HTTP/1.1" 200 -
+INFO _internal.py:87 127.0.0.1 - - [27/Oct/2020 20:26:40] "GET /passport/image_code?cur_id=f3df6b8d-4fd6-413d-81f3-666faaea7b50&pre_id=3adfab3a-6d0b-4831-8b29-743d61033d8f HTTP/1.1" 200 -
+INFO _internal.py:87 127.0.0.1 - - [27/Oct/2020 20:26:41] "GET /passport/image_code?cur_id=bb280f82-f099-4aae-bf30-ec89d1144fb8&pre_id=f3df6b8d-4fd6-413d-81f3-666faaea7b50 HTTP/1.1" 200 -
+INFO _internal.py:87  * Detected change in '/home/python/tools/pyProjects/flaskStudy/information/info/modules/passport/views.py', reloading
+INFO _internal.py:87  * Restarting with stat
+WARNING _internal.py:87  * Debugger is active!
+INFO _internal.py:87  * Debugger PIN: 177-012-029
+INFO _internal.py:87 127.0.0.1 - - [27/Oct/2020 22:42:56] "GET /passport/image_code?cur_id=f719380e-adcd-4d30-a71a-a00ae2426820&pre_id=bb280f82-f099-4aae-bf30-ec89d1144fb8 HTTP/1.1" 200 -
+INFO _internal.py:87 127.0.0.1 - - [27/Oct/2020 22:42:57] "GET /passport/image_code?cur_id=ab14271e-5c60-41f2-8d98-e02e3ec63fcc&pre_id=f719380e-adcd-4d30-a71a-a00ae2426820 HTTP/1.1" 200 -
+INFO _internal.py:87 127.0.0.1 - - [27/Oct/2020 22:43:16] "GET /passport/image_code HTTP/1.1" 200 -
+INFO _internal.py:87 127.0.0.1 - - [27/Oct/2020 22:43:24] "GET /passport/image_code HTTP/1.1" 200 -
+INFO _internal.py:87  * Detected change in '/home/python/tools/pyProjects/flaskStudy/information/info/modules/passport/views.py', reloading
+INFO _internal.py:87  * Restarting with stat
+WARNING _internal.py:87  * Debugger is active!
+INFO _internal.py:87  * Debugger PIN: 177-012-029
+INFO _internal.py:87 127.0.0.1 - - [27/Oct/2020 22:45:30] "GET /passport/image_code HTTP/1.1" 200 -
+INFO _internal.py:87  * Detected change in '/home/python/tools/pyProjects/flaskStudy/information/info/modules/passport/views.py', reloading
+INFO _internal.py:87  * Restarting with stat
+WARNING _internal.py:87  * Debugger is active!
+INFO _internal.py:87  * Debugger PIN: 177-012-029
+INFO _internal.py:87  * Detected change in '/home/python/tools/pyProjects/flaskStudy/information/info/modules/passport/views.py', reloading
+INFO _internal.py:87  * Restarting with stat
+WARNING _internal.py:87  * Debugger is active!
+INFO _internal.py:87  * Debugger PIN: 177-012-029
+INFO _internal.py:87 127.0.0.1 - - [27/Oct/2020 22:46:10] "GET /passport/image_code HTTP/1.1" 200 -
+INFO _internal.py:87  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+INFO _internal.py:87  * Restarting with stat
+WARNING _internal.py:87  * Debugger is active!
+INFO _internal.py:87  * Debugger PIN: 177-012-029
+INFO _internal.py:87 127.0.0.1 - - [27/Oct/2020 23:09:21] "GET /passport/image_code HTTP/1.1" 200 -
+INFO _internal.py:87 127.0.0.1 - - [27/Oct/2020 23:09:22] "GET /passport/image_code HTTP/1.1" 200 -
+INFO _internal.py:87 127.0.0.1 - - [27/Oct/2020 23:09:22] "GET /passport/image_code HTTP/1.1" 200 -
+INFO _internal.py:87 127.0.0.1 - - [27/Oct/2020 23:09:25] "GET /passport/image_code?cur_id=b1557897-f61c-4ed4-901f-a63abc8d7108&pre_id=ab14271e-5c60-41f2-8d98-e02e3ec63fcc HTTP/1.1" 200 -
+INFO _internal.py:87 127.0.0.1 - - [27/Oct/2020 23:09:26] "GET /passport/image_code?cur_id=85396a22-a46b-4c23-b408-b300268103e2&pre_id=b1557897-f61c-4ed4-901f-a63abc8d7108 HTTP/1.1" 200 -
+INFO _internal.py:87 127.0.0.1 - - [27/Oct/2020 23:09:26] "GET /passport/image_code?cur_id=c87a46f3-425a-4b84-905b-38e66aca12c7&pre_id=85396a22-a46b-4c23-b408-b300268103e2 HTTP/1.1" 200 -
+INFO _internal.py:87 127.0.0.1 - - [27/Oct/2020 23:09:31] "GET /passport/image_code?cur_id=1f6cc254-e81b-4107-8e7a-b7688badde07&pre_id=c87a46f3-425a-4b84-905b-38e66aca12c7 HTTP/1.1" 200 -
+DEBUG views.py:18 输入调试信息
+INFO views.py:19 输入详细信息
+WARNING views.py:20 输入警告信息
+ERROR views.py:21 输入错误信息
+INFO _internal.py:87 127.0.0.1 - - [27/Oct/2020 23:09:38] "GET / HTTP/1.1" 200 -
+INFO _internal.py:87 127.0.0.1 - - [27/Oct/2020 23:09:38] "GET /passport/image_code HTTP/1.1" 200 -
+INFO _internal.py:87 127.0.0.1 - - [27/Oct/2020 23:09:42] "GET /passport/image_code?cur_id=4ff8395b-5fb4-421d-a981-1eb43857fbd6&pre_id= HTTP/1.1" 200 -
+INFO _internal.py:87  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+INFO _internal.py:87  * Restarting with stat
+WARNING _internal.py:87  * Debugger is active!
+INFO _internal.py:87  * Debugger PIN: 177-012-029
+INFO _internal.py:87  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+INFO _internal.py:87  * Restarting with stat
+WARNING _internal.py:87  * Debugger is active!
+INFO _internal.py:87  * Debugger PIN: 177-012-029
+DEBUG views.py:18 输入调试信息
+INFO views.py:19 输入详细信息
+WARNING views.py:20 输入警告信息
+ERROR views.py:21 输入错误信息
+INFO _internal.py:87 127.0.0.1 - - [28/Oct/2020 14:53:29] "GET / HTTP/1.1" 200 -
+INFO _internal.py:87 127.0.0.1 - - [28/Oct/2020 14:53:29] "GET /static/news/css/reset.css HTTP/1.1" 304 -
+INFO _internal.py:87 127.0.0.1 - - [28/Oct/2020 14:53:29] "GET /static/news/css/main.css HTTP/1.1" 304 -
+INFO _internal.py:87 127.0.0.1 - - [28/Oct/2020 14:53:29] "GET /static/news/js/jquery-1.12.4.min.js HTTP/1.1" 304 -
+INFO _internal.py:87 127.0.0.1 - - [28/Oct/2020 14:53:29] "GET /static/news/js/main.js HTTP/1.1" 304 -
+INFO _internal.py:87 127.0.0.1 - - [28/Oct/2020 14:53:29] "GET /static/news/js/index.js HTTP/1.1" 304 -
+INFO _internal.py:87 127.0.0.1 - - [28/Oct/2020 14:53:29] "GET /static/news/images/logo.png HTTP/1.1" 304 -
+INFO _internal.py:87 127.0.0.1 - - [28/Oct/2020 14:53:29] "GET /static/news/images/person01.png HTTP/1.1" 304 -
+INFO _internal.py:87 127.0.0.1 - - [28/Oct/2020 14:53:29] "GET /static/news/images/news_pic.jpg HTTP/1.1" 304 -
+INFO _internal.py:87 127.0.0.1 - - [28/Oct/2020 14:53:29] "GET /static/news/images/person.png HTTP/1.1" 304 -
+INFO _internal.py:87 127.0.0.1 - - [28/Oct/2020 14:53:29] "GET /passport/image_code HTTP/1.1" 200 -
+INFO _internal.py:87 127.0.0.1 - - [28/Oct/2020 14:53:29] "GET /static/news/images/clock.png HTTP/1.1" 304 -
+INFO _internal.py:87 127.0.0.1 - - [28/Oct/2020 14:53:29] "GET /static/news/images/hit_icon.png HTTP/1.1" 304 -
+INFO _internal.py:87  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+INFO _internal.py:87  * Restarting with stat
+WARNING _internal.py:87  * Debugger is active!
+INFO _internal.py:87  * Debugger PIN: 177-012-029
+DEBUG views.py:18 输入调试信息
+INFO views.py:19 输入详细信息
+WARNING views.py:20 输入警告信息
+ERROR views.py:21 输入错误信息
+INFO _internal.py:87 127.0.0.1 - - [28/Oct/2020 17:27:38] "GET / HTTP/1.1" 200 -
+INFO _internal.py:87 127.0.0.1 - - [28/Oct/2020 17:27:38] "GET /passport/image_code HTTP/1.1" 200 -
+INFO _internal.py:87  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+INFO _internal.py:87  * Restarting with stat
+WARNING _internal.py:87  * Debugger is active!
+INFO _internal.py:87  * Debugger PIN: 177-012-029
+DEBUG views.py:18 输入调试信息
+INFO views.py:19 输入详细信息
+WARNING views.py:20 输入警告信息
+ERROR views.py:21 输入错误信息
+INFO _internal.py:87 127.0.0.1 - - [28/Oct/2020 18:57:05] "GET / HTTP/1.1" 200 -
+INFO _internal.py:87 127.0.0.1 - - [28/Oct/2020 18:57:05] "GET /passport/image_code HTTP/1.1" 200 -
+INFO _internal.py:87 127.0.0.1 - - [28/Oct/2020 18:57:05] "GET /favicon.ico HTTP/1.1" 304 -
+DEBUG views.py:18 输入调试信息
+INFO views.py:19 输入详细信息
+WARNING views.py:20 输入警告信息
+ERROR views.py:21 输入错误信息
+INFO _internal.py:87 127.0.0.1 - - [28/Oct/2020 18:57:06] "GET / HTTP/1.1" 200 -
+INFO _internal.py:87 127.0.0.1 - - [28/Oct/2020 18:57:06] "GET /static/news/css/reset.css HTTP/1.1" 304 -
+INFO _internal.py:87 127.0.0.1 - - [28/Oct/2020 18:57:06] "GET /static/news/css/main.css HTTP/1.1" 304 -
+INFO _internal.py:87 127.0.0.1 - - [28/Oct/2020 18:57:06] "GET /static/news/js/jquery-1.12.4.min.js HTTP/1.1" 304 -
+INFO _internal.py:87 127.0.0.1 - - [28/Oct/2020 18:57:06] "GET /static/news/js/main.js HTTP/1.1" 304 -
+INFO _internal.py:87 127.0.0.1 - - [28/Oct/2020 18:57:06] "GET /static/news/js/index.js HTTP/1.1" 304 -
+INFO _internal.py:87 127.0.0.1 - - [28/Oct/2020 18:57:06] "GET /static/news/images/logo.png HTTP/1.1" 304 -
+INFO _internal.py:87 127.0.0.1 - - [28/Oct/2020 18:57:06] "GET /static/news/images/person01.png HTTP/1.1" 304 -
+INFO _internal.py:87 127.0.0.1 - - [28/Oct/2020 18:57:06] "GET /static/news/images/news_pic.jpg HTTP/1.1" 304 -
+INFO _internal.py:87 127.0.0.1 - - [28/Oct/2020 18:57:06] "GET /static/news/images/person.png HTTP/1.1" 304 -
+INFO _internal.py:87 127.0.0.1 - - [28/Oct/2020 18:57:06] "GET /passport/image_code HTTP/1.1" 200 -
+INFO _internal.py:87 127.0.0.1 - - [28/Oct/2020 18:57:06] "GET /static/news/images/clock.png HTTP/1.1" 304 -
+INFO _internal.py:87 127.0.0.1 - - [28/Oct/2020 18:57:06] "GET /static/news/images/hit_icon.png HTTP/1.1" 304 -
+INFO _internal.py:87  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+INFO _internal.py:87  * Restarting with stat
+WARNING _internal.py:87  * Debugger is active!
+INFO _internal.py:87  * Debugger PIN: 177-012-029
+INFO _internal.py:87  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+INFO _internal.py:87  * Restarting with stat
+WARNING _internal.py:87  * Debugger is active!
+INFO _internal.py:87  * Debugger PIN: 177-012-029
+DEBUG views.py:18 输入调试信息
+INFO views.py:19 输入详细信息
+WARNING views.py:20 输入警告信息
+ERROR views.py:21 输入错误信息
+INFO _internal.py:87 127.0.0.1 - - [28/Oct/2020 22:33:29] "GET / HTTP/1.1" 200 -
+INFO _internal.py:87 127.0.0.1 - - [28/Oct/2020 22:33:29] "GET /passport/image_code HTTP/1.1" 200 -
+INFO _internal.py:87 127.0.0.1 - - [28/Oct/2020 22:33:29] "GET /favicon.ico HTTP/1.1" 200 -
+INFO _internal.py:87 127.0.0.1 - - [28/Oct/2020 22:33:33] "GET /passport/image_code?cur_id=81d2d653-f4ab-49c9-b366-3efb22435414&pre_id= HTTP/1.1" 200 -
+INFO _internal.py:87 127.0.0.1 - - [28/Oct/2020 22:33:33] "GET /static/news/images/shutoff.png HTTP/1.1" 304 -
+INFO _internal.py:87 127.0.0.1 - - [28/Oct/2020 22:33:38] "GET /passport/image_code?cur_id=f6fbd709-14d6-45e3-b73b-4ce373841d2a&pre_id=81d2d653-f4ab-49c9-b366-3efb22435414 HTTP/1.1" 200 -
+INFO _internal.py:87 127.0.0.1 - - [28/Oct/2020 22:33:51] "GET /passport/image_code?cur_id=f5231ab4-6373-44e3-a617-e063b540f91a&pre_id=f6fbd709-14d6-45e3-b73b-4ce373841d2a HTTP/1.1" 200 -
+INFO _internal.py:87  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+INFO _internal.py:87  * Restarting with stat
+WARNING _internal.py:87  * Debugger is active!
+INFO _internal.py:87  * Debugger PIN: 177-012-029
+DEBUG views.py:18 输入调试信息
+INFO views.py:19 输入详细信息
+WARNING views.py:20 输入警告信息
+ERROR views.py:21 输入错误信息
+INFO _internal.py:87 127.0.0.1 - - [28/Oct/2020 23:19:53] "GET / HTTP/1.1" 200 -
+INFO _internal.py:87 127.0.0.1 - - [28/Oct/2020 23:19:53] "GET /passport/image_code HTTP/1.1" 200 -
+INFO _internal.py:87 127.0.0.1 - - [28/Oct/2020 23:19:57] "GET /passport/image_code?cur_id=d1e85251-b704-42e8-a1eb-a589f2fe4d6f&pre_id= HTTP/1.1" 200 -
+INFO _internal.py:87 127.0.0.1 - - [28/Oct/2020 23:19:59] "GET /passport/image_code?cur_id=4c54dfa8-1c28-495a-86a6-e9e803cf32ef&pre_id=d1e85251-b704-42e8-a1eb-a589f2fe4d6f HTTP/1.1" 200 -
+INFO _internal.py:87 127.0.0.1 - - [28/Oct/2020 23:20:07] "GET /passport/image_code?cur_id=9876425a-da83-4c79-803b-e6bac13c7bfd&pre_id=4c54dfa8-1c28-495a-86a6-e9e803cf32ef HTTP/1.1" 200 -
+INFO _internal.py:87  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+INFO _internal.py:87  * Restarting with stat
+WARNING _internal.py:87  * Debugger is active!
+INFO _internal.py:87  * Debugger PIN: 177-012-029
+DEBUG views.py:18 输入调试信息
+INFO views.py:19 输入详细信息
+WARNING views.py:20 输入警告信息
+ERROR views.py:21 输入错误信息
+INFO _internal.py:87 127.0.0.1 - - [28/Oct/2020 23:23:19] "GET / HTTP/1.1" 200 -
+INFO _internal.py:87 127.0.0.1 - - [28/Oct/2020 23:23:19] "GET /passport/image_code HTTP/1.1" 200 -
+INFO _internal.py:87 127.0.0.1 - - [28/Oct/2020 23:23:22] "GET /passport/image_code?cur_id=44314ce5-0786-4b26-9a0f-bad58b4a2158&pre_id= HTTP/1.1" 200 -
+DEBUG views.py:18 输入调试信息
+INFO views.py:19 输入详细信息
+WARNING views.py:20 输入警告信息
+ERROR views.py:21 输入错误信息
+INFO _internal.py:87 127.0.0.1 - - [28/Oct/2020 23:25:51] "GET / HTTP/1.1" 200 -
+INFO _internal.py:87 127.0.0.1 - - [28/Oct/2020 23:25:51] "GET /static/news/css/reset.css HTTP/1.1" 304 -
+INFO _internal.py:87 127.0.0.1 - - [28/Oct/2020 23:25:51] "GET /static/news/css/main.css HTTP/1.1" 304 -
+INFO _internal.py:87 127.0.0.1 - - [28/Oct/2020 23:25:51] "GET /static/news/js/jquery-1.12.4.min.js HTTP/1.1" 304 -
+INFO _internal.py:87 127.0.0.1 - - [28/Oct/2020 23:25:51] "GET /static/news/js/main.js HTTP/1.1" 200 -
+INFO _internal.py:87 127.0.0.1 - - [28/Oct/2020 23:25:51] "GET /static/news/js/index.js HTTP/1.1" 304 -
+INFO _internal.py:87 127.0.0.1 - - [28/Oct/2020 23:25:51] "GET /static/news/images/logo.png HTTP/1.1" 304 -
+INFO _internal.py:87 127.0.0.1 - - [28/Oct/2020 23:25:51] "GET /static/news/images/person01.png HTTP/1.1" 304 -
+INFO _internal.py:87 127.0.0.1 - - [28/Oct/2020 23:25:51] "GET /static/news/images/news_pic.jpg HTTP/1.1" 304 -
+INFO _internal.py:87 127.0.0.1 - - [28/Oct/2020 23:25:51] "GET /static/news/images/person.png HTTP/1.1" 304 -
+INFO _internal.py:87 127.0.0.1 - - [28/Oct/2020 23:25:51] "GET /passport/image_code HTTP/1.1" 200 -
+INFO _internal.py:87 127.0.0.1 - - [28/Oct/2020 23:25:51] "GET /static/news/images/clock.png HTTP/1.1" 304 -
+INFO _internal.py:87 127.0.0.1 - - [28/Oct/2020 23:25:51] "GET /static/news/images/hit_icon.png HTTP/1.1" 304 -
+DEBUG views.py:18 输入调试信息
+INFO views.py:19 输入详细信息
+WARNING views.py:20 输入警告信息
+ERROR views.py:21 输入错误信息
+INFO _internal.py:87 127.0.0.1 - - [28/Oct/2020 23:25:52] "GET / HTTP/1.1" 200 -
+INFO _internal.py:87 127.0.0.1 - - [28/Oct/2020 23:25:52] "GET /static/news/css/reset.css HTTP/1.1" 304 -
+INFO _internal.py:87 127.0.0.1 - - [28/Oct/2020 23:25:52] "GET /static/news/css/main.css HTTP/1.1" 304 -
+INFO _internal.py:87 127.0.0.1 - - [28/Oct/2020 23:25:52] "GET /static/news/js/jquery-1.12.4.min.js HTTP/1.1" 304 -
+INFO _internal.py:87 127.0.0.1 - - [28/Oct/2020 23:25:52] "GET /static/news/js/main.js HTTP/1.1" 304 -
+INFO _internal.py:87 127.0.0.1 - - [28/Oct/2020 23:25:52] "GET /static/news/js/index.js HTTP/1.1" 304 -
+INFO _internal.py:87 127.0.0.1 - - [28/Oct/2020 23:25:52] "GET /static/news/images/logo.png HTTP/1.1" 304 -
+INFO _internal.py:87 127.0.0.1 - - [28/Oct/2020 23:25:52] "GET /static/news/images/news_pic.jpg HTTP/1.1" 304 -
+INFO _internal.py:87 127.0.0.1 - - [28/Oct/2020 23:25:52] "GET /static/news/images/person.png HTTP/1.1" 304 -
+INFO _internal.py:87 127.0.0.1 - - [28/Oct/2020 23:25:52] "GET /static/news/images/person01.png HTTP/1.1" 304 -
+INFO _internal.py:87 127.0.0.1 - - [28/Oct/2020 23:25:52] "GET /passport/image_code HTTP/1.1" 200 -
+DEBUG views.py:18 输入调试信息
+INFO views.py:19 输入详细信息
+WARNING views.py:20 输入警告信息
+ERROR views.py:21 输入错误信息
+INFO _internal.py:87 127.0.0.1 - - [28/Oct/2020 23:25:52] "GET / HTTP/1.1" 200 -
+INFO _internal.py:87 127.0.0.1 - - [28/Oct/2020 23:25:52] "GET /static/news/css/reset.css HTTP/1.1" 304 -
+INFO _internal.py:87 127.0.0.1 - - [28/Oct/2020 23:25:52] "GET /static/news/css/main.css HTTP/1.1" 304 -
+INFO _internal.py:87 127.0.0.1 - - [28/Oct/2020 23:25:52] "GET /static/news/js/jquery-1.12.4.min.js HTTP/1.1" 304 -
+INFO _internal.py:87 127.0.0.1 - - [28/Oct/2020 23:25:52] "GET /static/news/js/main.js HTTP/1.1" 304 -
+INFO _internal.py:87 127.0.0.1 - - [28/Oct/2020 23:25:52] "GET /static/news/js/index.js HTTP/1.1" 304 -
+INFO _internal.py:87 127.0.0.1 - - [28/Oct/2020 23:25:52] "GET /static/news/images/logo.png HTTP/1.1" 304 -
+INFO _internal.py:87 127.0.0.1 - - [28/Oct/2020 23:25:52] "GET /static/news/images/news_pic.jpg HTTP/1.1" 304 -
+INFO _internal.py:87 127.0.0.1 - - [28/Oct/2020 23:25:52] "GET /static/news/images/person.png HTTP/1.1" 304 -
+INFO _internal.py:87 127.0.0.1 - - [28/Oct/2020 23:25:52] "GET /static/news/images/person01.png HTTP/1.1" 304 -
+INFO _internal.py:87 127.0.0.1 - - [28/Oct/2020 23:25:52] "GET /passport/image_code HTTP/1.1" 200 -
+INFO _internal.py:87 127.0.0.1 - - [28/Oct/2020 23:25:57] "GET /passport/image_code?cur_id=0afd86c7-ccd4-4bd8-bdef-527100d9fe42&pre_id= HTTP/1.1" 200 -
+DEBUG views.py:18 输入调试信息
+INFO views.py:19 输入详细信息
+WARNING views.py:20 输入警告信息
+ERROR views.py:21 输入错误信息
+INFO _internal.py:87 127.0.0.1 - - [28/Oct/2020 23:27:44] "GET / HTTP/1.1" 200 -
+INFO _internal.py:87 127.0.0.1 - - [28/Oct/2020 23:27:44] "GET /static/news/css/reset.css HTTP/1.1" 304 -
+INFO _internal.py:87 127.0.0.1 - - [28/Oct/2020 23:27:44] "GET /static/news/css/main.css HTTP/1.1" 304 -
+INFO _internal.py:87 127.0.0.1 - - [28/Oct/2020 23:27:44] "GET /static/news/js/jquery-1.12.4.min.js HTTP/1.1" 304 -
+INFO _internal.py:87 127.0.0.1 - - [28/Oct/2020 23:27:44] "GET /static/news/js/main.js HTTP/1.1" 304 -
+INFO _internal.py:87 127.0.0.1 - - [28/Oct/2020 23:27:44] "GET /static/news/js/index.js HTTP/1.1" 304 -
+INFO _internal.py:87 127.0.0.1 - - [28/Oct/2020 23:27:44] "GET /static/news/images/logo.png HTTP/1.1" 304 -
+INFO _internal.py:87 127.0.0.1 - - [28/Oct/2020 23:27:44] "GET /static/news/images/news_pic.jpg HTTP/1.1" 304 -
+INFO _internal.py:87 127.0.0.1 - - [28/Oct/2020 23:27:44] "GET /static/news/images/person.png HTTP/1.1" 304 -
+INFO _internal.py:87 127.0.0.1 - - [28/Oct/2020 23:27:44] "GET /static/news/images/person01.png HTTP/1.1" 304 -
+INFO _internal.py:87 127.0.0.1 - - [28/Oct/2020 23:27:44] "GET /passport/image_code HTTP/1.1" 200 -
+INFO _internal.py:87 127.0.0.1 - - [28/Oct/2020 23:27:48] "GET /passport/image_code?cur_id=eb78de72-73a6-4f0f-9c16-1a691bd71168&pre_id= HTTP/1.1" 200 -
+INFO _internal.py:87 127.0.0.1 - - [28/Oct/2020 23:27:56] "GET /passport/image_code?cur_id=277d66f7-0669-4759-b998-c88e77653664&pre_id=eb78de72-73a6-4f0f-9c16-1a691bd71168 HTTP/1.1" 200 -
+INFO _internal.py:87 127.0.0.1 - - [28/Oct/2020 23:27:57] "GET /passport/image_code?cur_id=7425e8aa-7be9-4b70-8ae9-d6da03b6679b&pre_id=277d66f7-0669-4759-b998-c88e77653664 HTTP/1.1" 200 -
+INFO csrf.py:258 The CSRF token is missing.
+INFO _internal.py:87 127.0.0.1 - - [28/Oct/2020 23:28:03] "POST /passport/sms_code HTTP/1.1" 400 -
+INFO _internal.py:87  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+INFO _internal.py:87  * Restarting with stat
+WARNING _internal.py:87  * Debugger is active!
+INFO _internal.py:87  * Debugger PIN: 177-012-029
+DEBUG views.py:18 输入调试信息
+INFO views.py:19 输入详细信息
+WARNING views.py:20 输入警告信息
+ERROR views.py:21 输入错误信息
+INFO _internal.py:87 127.0.0.1 - - [28/Oct/2020 23:30:07] "GET / HTTP/1.1" 200 -
+INFO _internal.py:87 127.0.0.1 - - [28/Oct/2020 23:30:07] "GET /passport/image_code HTTP/1.1" 200 -
+INFO _internal.py:87 127.0.0.1 - - [28/Oct/2020 23:30:09] "GET /passport/image_code?cur_id=a1543c4b-1148-422f-a0cd-5330a0bcc3a3&pre_id= HTTP/1.1" 200 -
+INFO _internal.py:87 127.0.0.1 - - [28/Oct/2020 23:30:30] "POST /passport/sms_code HTTP/1.1" 500 -
+INFO _internal.py:87  * Detected change in '/home/python/tools/pyProjects/flaskStudy/information/info/modules/passport/views.py', reloading
+INFO _internal.py:87  * Restarting with stat
+WARNING _internal.py:87  * Debugger is active!
+INFO _internal.py:87  * Debugger PIN: 177-012-029
+DEBUG views.py:18 输入调试信息
+INFO views.py:19 输入详细信息
+WARNING views.py:20 输入警告信息
+ERROR views.py:21 输入错误信息
+INFO _internal.py:87 127.0.0.1 - - [28/Oct/2020 23:33:32] "GET / HTTP/1.1" 200 -
+INFO _internal.py:87 127.0.0.1 - - [28/Oct/2020 23:33:32] "GET /static/news/css/reset.css HTTP/1.1" 304 -
+INFO _internal.py:87 127.0.0.1 - - [28/Oct/2020 23:33:32] "GET /static/news/css/main.css HTTP/1.1" 304 -
+INFO _internal.py:87 127.0.0.1 - - [28/Oct/2020 23:33:32] "GET /static/news/js/jquery-1.12.4.min.js HTTP/1.1" 304 -
+INFO _internal.py:87 127.0.0.1 - - [28/Oct/2020 23:33:32] "GET /static/news/js/main.js HTTP/1.1" 304 -
+INFO _internal.py:87 127.0.0.1 - - [28/Oct/2020 23:33:32] "GET /static/news/js/index.js HTTP/1.1" 304 -
+INFO _internal.py:87 127.0.0.1 - - [28/Oct/2020 23:33:32] "GET /static/news/images/logo.png HTTP/1.1" 304 -
+INFO _internal.py:87 127.0.0.1 - - [28/Oct/2020 23:33:32] "GET /static/news/images/person01.png HTTP/1.1" 304 -
+INFO _internal.py:87 127.0.0.1 - - [28/Oct/2020 23:33:32] "GET /static/news/images/news_pic.jpg HTTP/1.1" 304 -
+INFO _internal.py:87 127.0.0.1 - - [28/Oct/2020 23:33:32] "GET /static/news/images/person.png HTTP/1.1" 304 -
+INFO _internal.py:87 127.0.0.1 - - [28/Oct/2020 23:33:32] "GET /passport/image_code HTTP/1.1" 200 -
+INFO _internal.py:87 127.0.0.1 - - [28/Oct/2020 23:33:32] "GET /favicon.ico HTTP/1.1" 200 -
+DEBUG views.py:18 输入调试信息
+INFO views.py:19 输入详细信息
+WARNING views.py:20 输入警告信息
+ERROR views.py:21 输入错误信息
+INFO _internal.py:87 127.0.0.1 - - [28/Oct/2020 23:33:32] "GET / HTTP/1.1" 200 -
+INFO _internal.py:87 127.0.0.1 - - [28/Oct/2020 23:33:32] "GET /static/news/css/reset.css HTTP/1.1" 304 -
+INFO _internal.py:87 127.0.0.1 - - [28/Oct/2020 23:33:32] "GET /static/news/css/main.css HTTP/1.1" 304 -
+INFO _internal.py:87 127.0.0.1 - - [28/Oct/2020 23:33:32] "GET /static/news/js/jquery-1.12.4.min.js HTTP/1.1" 304 -
+INFO _internal.py:87 127.0.0.1 - - [28/Oct/2020 23:33:32] "GET /static/news/js/main.js HTTP/1.1" 304 -
+INFO _internal.py:87 127.0.0.1 - - [28/Oct/2020 23:33:32] "GET /static/news/js/index.js HTTP/1.1" 304 -
+INFO _internal.py:87 127.0.0.1 - - [28/Oct/2020 23:33:32] "GET /static/news/images/logo.png HTTP/1.1" 304 -
+INFO _internal.py:87 127.0.0.1 - - [28/Oct/2020 23:33:32] "GET /static/news/images/person01.png HTTP/1.1" 304 -
+INFO _internal.py:87 127.0.0.1 - - [28/Oct/2020 23:33:32] "GET /static/news/images/news_pic.jpg HTTP/1.1" 304 -
+INFO _internal.py:87 127.0.0.1 - - [28/Oct/2020 23:33:32] "GET /static/news/images/person.png HTTP/1.1" 304 -
+INFO _internal.py:87 127.0.0.1 - - [28/Oct/2020 23:33:32] "GET /passport/image_code HTTP/1.1" 200 -
+INFO _internal.py:87 127.0.0.1 - - [28/Oct/2020 23:33:32] "GET /favicon.ico HTTP/1.1" 200 -
+INFO _internal.py:87 127.0.0.1 - - [28/Oct/2020 23:33:34] "GET /passport/image_code?cur_id=5d606d75-4fd7-4434-9cc4-93ca45476635&pre_id= HTTP/1.1" 200 -
+INFO _internal.py:87 127.0.0.1 - - [28/Oct/2020 23:33:43] "POST /passport/sms_code HTTP/1.1" 500 -
+INFO _internal.py:87  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+INFO _internal.py:87  * Restarting with stat
+WARNING _internal.py:87  * Debugger is active!
+INFO _internal.py:87  * Debugger PIN: 177-012-029
+INFO _internal.py:87  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+INFO _internal.py:87  * Restarting with stat
+WARNING _internal.py:87  * Debugger is active!
+INFO _internal.py:87  * Debugger PIN: 177-012-029
+DEBUG views.py:18 输入调试信息
+INFO views.py:19 输入详细信息
+WARNING views.py:20 输入警告信息
+ERROR views.py:21 输入错误信息
+INFO _internal.py:87 127.0.0.1 - - [29/Oct/2020 00:35:29] "GET / HTTP/1.1" 200 -
+INFO _internal.py:87 127.0.0.1 - - [29/Oct/2020 00:35:29] "GET /passport/image_code HTTP/1.1" 200 -
+INFO _internal.py:87 127.0.0.1 - - [29/Oct/2020 00:37:34] "GET /passport/image_code?cur_id=9a1b6ac8-6e38-4589-8483-02bd1d384023&pre_id= HTTP/1.1" 200 -
+INFO _internal.py:87 127.0.0.1 - - [29/Oct/2020 00:37:41] "GET /passport/image_code?cur_id=24a074e5-2534-41d7-aea9-c28c3d1c088f&pre_id=9a1b6ac8-6e38-4589-8483-02bd1d384023 HTTP/1.1" 200 -
+INFO _internal.py:87 127.0.0.1 - - [29/Oct/2020 00:37:42] "GET /passport/image_code?cur_id=3a0b0667-639e-4686-9ad1-605fdeae3e66&pre_id=24a074e5-2534-41d7-aea9-c28c3d1c088f HTTP/1.1" 200 -
+INFO _internal.py:87 127.0.0.1 - - [29/Oct/2020 00:37:50] "POST /passport/sms_code HTTP/1.1" 500 -
+DEBUG views.py:18 输入调试信息
+INFO views.py:19 输入详细信息
+WARNING views.py:20 输入警告信息
+ERROR views.py:21 输入错误信息
+INFO _internal.py:87 127.0.0.1 - - [29/Oct/2020 00:39:46] "GET / HTTP/1.1" 200 -
+INFO _internal.py:87 127.0.0.1 - - [29/Oct/2020 00:39:46] "GET /static/news/css/reset.css HTTP/1.1" 304 -
+INFO _internal.py:87 127.0.0.1 - - [29/Oct/2020 00:39:46] "GET /static/news/css/main.css HTTP/1.1" 304 -
+INFO _internal.py:87 127.0.0.1 - - [29/Oct/2020 00:39:47] "GET /static/news/js/jquery-1.12.4.min.js HTTP/1.1" 304 -
+INFO _internal.py:87 127.0.0.1 - - [29/Oct/2020 00:39:47] "GET /static/news/js/main.js HTTP/1.1" 304 -
+INFO _internal.py:87 127.0.0.1 - - [29/Oct/2020 00:39:47] "GET /static/news/js/index.js HTTP/1.1" 304 -
+INFO _internal.py:87 127.0.0.1 - - [29/Oct/2020 00:39:47] "GET /static/news/images/logo.png HTTP/1.1" 304 -
+INFO _internal.py:87 127.0.0.1 - - [29/Oct/2020 00:39:47] "GET /static/news/images/person01.png HTTP/1.1" 304 -
+INFO _internal.py:87 127.0.0.1 - - [29/Oct/2020 00:39:47] "GET /static/news/images/news_pic.jpg HTTP/1.1" 304 -
+INFO _internal.py:87 127.0.0.1 - - [29/Oct/2020 00:39:47] "GET /static/news/images/person.png HTTP/1.1" 304 -
+INFO _internal.py:87 127.0.0.1 - - [29/Oct/2020 00:39:47] "GET /passport/image_code HTTP/1.1" 200 -
+INFO _internal.py:87 127.0.0.1 - - [29/Oct/2020 00:39:47] "GET /favicon.ico HTTP/1.1" 200 -
+DEBUG views.py:18 输入调试信息
+INFO views.py:19 输入详细信息
+WARNING views.py:20 输入警告信息
+ERROR views.py:21 输入错误信息
+INFO _internal.py:87 127.0.0.1 - - [29/Oct/2020 00:39:47] "GET / HTTP/1.1" 200 -
+INFO _internal.py:87 127.0.0.1 - - [29/Oct/2020 00:39:47] "GET /static/news/css/reset.css HTTP/1.1" 304 -
+INFO _internal.py:87 127.0.0.1 - - [29/Oct/2020 00:39:47] "GET /static/news/css/main.css HTTP/1.1" 304 -
+INFO _internal.py:87 127.0.0.1 - - [29/Oct/2020 00:39:47] "GET /static/news/js/jquery-1.12.4.min.js HTTP/1.1" 304 -
+INFO _internal.py:87 127.0.0.1 - - [29/Oct/2020 00:39:47] "GET /static/news/js/main.js HTTP/1.1" 304 -
+INFO _internal.py:87 127.0.0.1 - - [29/Oct/2020 00:39:47] "GET /static/news/js/index.js HTTP/1.1" 304 -
+INFO _internal.py:87 127.0.0.1 - - [29/Oct/2020 00:39:47] "GET /static/news/images/logo.png HTTP/1.1" 304 -
+INFO _internal.py:87 127.0.0.1 - - [29/Oct/2020 00:39:47] "GET /static/news/images/person01.png HTTP/1.1" 304 -
+INFO _internal.py:87 127.0.0.1 - - [29/Oct/2020 00:39:47] "GET /static/news/images/news_pic.jpg HTTP/1.1" 304 -
+INFO _internal.py:87 127.0.0.1 - - [29/Oct/2020 00:39:47] "GET /static/news/images/person.png HTTP/1.1" 304 -
+INFO _internal.py:87 127.0.0.1 - - [29/Oct/2020 00:39:47] "GET /passport/image_code HTTP/1.1" 200 -
+INFO _internal.py:87 127.0.0.1 - - [29/Oct/2020 00:39:47] "GET /favicon.ico HTTP/1.1" 200 -
+INFO _internal.py:87 127.0.0.1 - - [29/Oct/2020 00:39:51] "GET /passport/image_code?cur_id=09ec6460-255a-4de9-875e-a4b32cc92c6e&pre_id= HTTP/1.1" 200 -
+INFO _internal.py:87 127.0.0.1 - - [29/Oct/2020 00:40:23] "GET /passport/image_code?cur_id=77b16c1f-f20f-4e3f-a75f-33de5cafd14f&pre_id=09ec6460-255a-4de9-875e-a4b32cc92c6e HTTP/1.1" 200 -
+INFO _internal.py:87 127.0.0.1 - - [29/Oct/2020 00:40:27] "GET /passport/image_code?cur_id=d44dc661-2874-4ca2-a4a3-2b8b6830d4b9&pre_id=77b16c1f-f20f-4e3f-a75f-33de5cafd14f HTTP/1.1" 200 -
+INFO _internal.py:87 127.0.0.1 - - [29/Oct/2020 00:40:28] "GET /passport/image_code?cur_id=96834deb-6a60-4385-8c4a-1b786323345c&pre_id=d44dc661-2874-4ca2-a4a3-2b8b6830d4b9 HTTP/1.1" 200 -
+INFO _internal.py:87 127.0.0.1 - - [29/Oct/2020 00:40:36] "GET /passport/image_code?cur_id=1b160a59-3156-48ae-b2c7-ec4946bbc76d&pre_id=96834deb-6a60-4385-8c4a-1b786323345c HTTP/1.1" 200 -
+INFO _internal.py:87 127.0.0.1 - - [29/Oct/2020 00:40:43] "POST /passport/sms_code HTTP/1.1" 500 -
+INFO _internal.py:87 127.0.0.1 - - [29/Oct/2020 00:40:43] "GET /passport/sms_code HTTP/1.1" 405 -
+INFO _internal.py:87 127.0.0.1 - - [29/Oct/2020 00:41:02] "GET /passport/sms_code HTTP/1.1" 405 -
+INFO _internal.py:87 127.0.0.1 - - [29/Oct/2020 00:42:52] "GET /passport/image_code?cur_id=aa30a628-1d9f-4f80-a71f-32f448d68eda&pre_id= HTTP/1.1" 200 -
+INFO _internal.py:87 127.0.0.1 - - [29/Oct/2020 00:42:53] "GET /passport/sms_code HTTP/1.1" 405 -
+DEBUG views.py:18 输入调试信息
+INFO views.py:19 输入详细信息
+WARNING views.py:20 输入警告信息
+ERROR views.py:21 输入错误信息
+INFO _internal.py:87 127.0.0.1 - - [29/Oct/2020 00:42:57] "GET / HTTP/1.1" 200 -
+INFO _internal.py:87 127.0.0.1 - - [29/Oct/2020 00:42:57] "GET /static/news/css/reset.css HTTP/1.1" 304 -
+INFO _internal.py:87 127.0.0.1 - - [29/Oct/2020 00:42:57] "GET /static/news/css/main.css HTTP/1.1" 304 -
+INFO _internal.py:87 127.0.0.1 - - [29/Oct/2020 00:42:57] "GET /static/news/js/jquery-1.12.4.min.js HTTP/1.1" 304 -
+INFO _internal.py:87 127.0.0.1 - - [29/Oct/2020 00:42:57] "GET /static/news/js/main.js HTTP/1.1" 304 -
+INFO _internal.py:87 127.0.0.1 - - [29/Oct/2020 00:42:57] "GET /static/news/js/index.js HTTP/1.1" 304 -
+INFO _internal.py:87 127.0.0.1 - - [29/Oct/2020 00:42:57] "GET /static/news/images/logo.png HTTP/1.1" 304 -
+INFO _internal.py:87 127.0.0.1 - - [29/Oct/2020 00:42:57] "GET /static/news/images/person01.png HTTP/1.1" 304 -
+INFO _internal.py:87 127.0.0.1 - - [29/Oct/2020 00:42:57] "GET /static/news/images/news_pic.jpg HTTP/1.1" 304 -
+INFO _internal.py:87 127.0.0.1 - - [29/Oct/2020 00:42:57] "GET /static/news/images/person.png HTTP/1.1" 304 -
+INFO _internal.py:87 127.0.0.1 - - [29/Oct/2020 00:42:57] "GET /passport/image_code HTTP/1.1" 200 -
+INFO _internal.py:87 127.0.0.1 - - [29/Oct/2020 00:42:57] "GET /favicon.ico HTTP/1.1" 200 -
+INFO _internal.py:87 127.0.0.1 - - [29/Oct/2020 00:42:57] "GET /passport/image_code?cur_id=4e731f13-c07b-4555-8461-5a71b3fa3d9b&pre_id= HTTP/1.1" 200 -
+INFO _internal.py:87 127.0.0.1 - - [29/Oct/2020 00:43:22] "POST /passport/sms_code HTTP/1.1" 500 -
+DEBUG views.py:18 输入调试信息
+INFO views.py:19 输入详细信息
+WARNING views.py:20 输入警告信息
+ERROR views.py:21 输入错误信息
+INFO _internal.py:87 127.0.0.1 - - [29/Oct/2020 00:45:31] "GET / HTTP/1.1" 200 -
+INFO _internal.py:87 127.0.0.1 - - [29/Oct/2020 00:45:31] "GET /static/news/css/reset.css HTTP/1.1" 304 -
+INFO _internal.py:87 127.0.0.1 - - [29/Oct/2020 00:45:31] "GET /static/news/css/main.css HTTP/1.1" 304 -
+INFO _internal.py:87 127.0.0.1 - - [29/Oct/2020 00:45:31] "GET /static/news/js/jquery-1.12.4.min.js HTTP/1.1" 304 -
+INFO _internal.py:87 127.0.0.1 - - [29/Oct/2020 00:45:31] "GET /static/news/js/main.js HTTP/1.1" 200 -
+INFO _internal.py:87 127.0.0.1 - - [29/Oct/2020 00:45:31] "GET /static/news/js/index.js HTTP/1.1" 304 -
+INFO _internal.py:87 127.0.0.1 - - [29/Oct/2020 00:45:31] "GET /static/news/images/logo.png HTTP/1.1" 304 -
+INFO _internal.py:87 127.0.0.1 - - [29/Oct/2020 00:45:31] "GET /static/news/images/person01.png HTTP/1.1" 304 -
+INFO _internal.py:87 127.0.0.1 - - [29/Oct/2020 00:45:31] "GET /static/news/images/news_pic.jpg HTTP/1.1" 304 -
+INFO _internal.py:87 127.0.0.1 - - [29/Oct/2020 00:45:31] "GET /static/news/images/person.png HTTP/1.1" 304 -
+INFO _internal.py:87 127.0.0.1 - - [29/Oct/2020 00:45:31] "GET /passport/image_code HTTP/1.1" 200 -
+INFO _internal.py:87 127.0.0.1 - - [29/Oct/2020 00:45:31] "GET /favicon.ico HTTP/1.1" 200 -
+DEBUG views.py:18 输入调试信息
+INFO views.py:19 输入详细信息
+WARNING views.py:20 输入警告信息
+ERROR views.py:21 输入错误信息
+INFO _internal.py:87 127.0.0.1 - - [29/Oct/2020 00:45:31] "GET / HTTP/1.1" 200 -
+INFO _internal.py:87 127.0.0.1 - - [29/Oct/2020 00:45:31] "GET /static/news/css/reset.css HTTP/1.1" 304 -
+INFO _internal.py:87 127.0.0.1 - - [29/Oct/2020 00:45:31] "GET /static/news/css/main.css HTTP/1.1" 304 -
+INFO _internal.py:87 127.0.0.1 - - [29/Oct/2020 00:45:31] "GET /static/news/js/jquery-1.12.4.min.js HTTP/1.1" 304 -
+INFO _internal.py:87 127.0.0.1 - - [29/Oct/2020 00:45:31] "GET /static/news/js/main.js HTTP/1.1" 304 -
+INFO _internal.py:87 127.0.0.1 - - [29/Oct/2020 00:45:31] "GET /static/news/js/index.js HTTP/1.1" 304 -
+INFO _internal.py:87 127.0.0.1 - - [29/Oct/2020 00:45:31] "GET /static/news/images/logo.png HTTP/1.1" 304 -
+INFO _internal.py:87 127.0.0.1 - - [29/Oct/2020 00:45:31] "GET /static/news/images/person01.png HTTP/1.1" 304 -
+INFO _internal.py:87 127.0.0.1 - - [29/Oct/2020 00:45:31] "GET /static/news/images/news_pic.jpg HTTP/1.1" 304 -
+INFO _internal.py:87 127.0.0.1 - - [29/Oct/2020 00:45:31] "GET /static/news/images/person.png HTTP/1.1" 304 -
+INFO _internal.py:87 127.0.0.1 - - [29/Oct/2020 00:45:31] "GET /passport/image_code HTTP/1.1" 200 -
+INFO _internal.py:87 127.0.0.1 - - [29/Oct/2020 00:45:31] "GET /favicon.ico HTTP/1.1" 200 -
+DEBUG views.py:18 输入调试信息
+INFO views.py:19 输入详细信息
+WARNING views.py:20 输入警告信息
+ERROR views.py:21 输入错误信息
+INFO _internal.py:87 127.0.0.1 - - [29/Oct/2020 00:45:31] "GET / HTTP/1.1" 200 -
+INFO _internal.py:87 127.0.0.1 - - [29/Oct/2020 00:45:32] "GET /static/news/css/reset.css HTTP/1.1" 304 -
+INFO _internal.py:87 127.0.0.1 - - [29/Oct/2020 00:45:32] "GET /static/news/css/main.css HTTP/1.1" 304 -
+INFO _internal.py:87 127.0.0.1 - - [29/Oct/2020 00:45:32] "GET /static/news/js/jquery-1.12.4.min.js HTTP/1.1" 304 -
+INFO _internal.py:87 127.0.0.1 - - [29/Oct/2020 00:45:32] "GET /static/news/js/main.js HTTP/1.1" 304 -
+INFO _internal.py:87 127.0.0.1 - - [29/Oct/2020 00:45:32] "GET /static/news/js/index.js HTTP/1.1" 304 -
+INFO _internal.py:87 127.0.0.1 - - [29/Oct/2020 00:45:32] "GET /static/news/images/logo.png HTTP/1.1" 304 -
+INFO _internal.py:87 127.0.0.1 - - [29/Oct/2020 00:45:32] "GET /static/news/images/person01.png HTTP/1.1" 304 -
+INFO _internal.py:87 127.0.0.1 - - [29/Oct/2020 00:45:32] "GET /static/news/images/news_pic.jpg HTTP/1.1" 304 -
+INFO _internal.py:87 127.0.0.1 - - [29/Oct/2020 00:45:32] "GET /static/news/images/person.png HTTP/1.1" 304 -
+INFO _internal.py:87 127.0.0.1 - - [29/Oct/2020 00:45:32] "GET /passport/image_code HTTP/1.1" 200 -
+INFO _internal.py:87 127.0.0.1 - - [29/Oct/2020 00:45:32] "GET /favicon.ico HTTP/1.1" 200 -
+INFO _internal.py:87 127.0.0.1 - - [29/Oct/2020 00:45:35] "GET /passport/image_code?cur_id=40556c44-248b-4613-9fc5-907dc0ae597f&pre_id= HTTP/1.1" 200 -
+INFO _internal.py:87 127.0.0.1 - - [29/Oct/2020 00:45:42] "POST /passport/sms_code HTTP/1.1" 500 -
+INFO _internal.py:87 127.0.0.1 - - [29/Oct/2020 00:45:56] "GET /passport/image_code?cur_id=bf671eb3-ffb5-4b3c-870a-c99b5f7b6487&pre_id=40556c44-248b-4613-9fc5-907dc0ae597f HTTP/1.1" 200 -
+INFO _internal.py:87 127.0.0.1 - - [29/Oct/2020 00:46:33] "GET /passport/image_code?cur_id=ed3855ca-da09-46c8-a768-78380aa4da20&pre_id=bf671eb3-ffb5-4b3c-870a-c99b5f7b6487 HTTP/1.1" 200 -
+INFO _internal.py:87 127.0.0.1 - - [29/Oct/2020 00:46:36] "GET /passport/image_code?cur_id=8cf3b3cf-8ebf-47ce-bb2b-02d6fe333980&pre_id=ed3855ca-da09-46c8-a768-78380aa4da20 HTTP/1.1" 200 -
+INFO _internal.py:87  * Detected change in '/home/python/tools/pyProjects/flaskStudy/information/info/modules/passport/views.py', reloading
+INFO _internal.py:87  * Restarting with stat
+WARNING _internal.py:87  * Debugger is active!
+INFO _internal.py:87  * Debugger PIN: 177-012-029
+INFO _internal.py:87 127.0.0.1 - - [29/Oct/2020 00:52:58] "GET /passport/image_code?cur_id=164dd6d0-c434-4b67-a27f-3f5cd666dbfb&pre_id=8cf3b3cf-8ebf-47ce-bb2b-02d6fe333980 HTTP/1.1" 200 -
+DEBUG views.py:18 输入调试信息
+INFO views.py:19 输入详细信息
+WARNING views.py:20 输入警告信息
+ERROR views.py:21 输入错误信息
+INFO _internal.py:87 127.0.0.1 - - [29/Oct/2020 00:54:11] "GET / HTTP/1.1" 200 -
+INFO _internal.py:87 127.0.0.1 - - [29/Oct/2020 00:54:11] "GET /static/news/css/reset.css HTTP/1.1" 304 -
+INFO _internal.py:87 127.0.0.1 - - [29/Oct/2020 00:54:11] "GET /static/news/css/main.css HTTP/1.1" 304 -
+INFO _internal.py:87 127.0.0.1 - - [29/Oct/2020 00:54:11] "GET /static/news/js/jquery-1.12.4.min.js HTTP/1.1" 304 -
+INFO _internal.py:87 127.0.0.1 - - [29/Oct/2020 00:54:11] "GET /static/news/js/main.js HTTP/1.1" 200 -
+INFO _internal.py:87 127.0.0.1 - - [29/Oct/2020 00:54:11] "GET /static/news/js/index.js HTTP/1.1" 304 -
+INFO _internal.py:87 127.0.0.1 - - [29/Oct/2020 00:54:11] "GET /static/news/images/logo.png HTTP/1.1" 304 -
+INFO _internal.py:87 127.0.0.1 - - [29/Oct/2020 00:54:11] "GET /static/news/images/person01.png HTTP/1.1" 304 -
+INFO _internal.py:87 127.0.0.1 - - [29/Oct/2020 00:54:11] "GET /static/news/images/news_pic.jpg HTTP/1.1" 304 -
+INFO _internal.py:87 127.0.0.1 - - [29/Oct/2020 00:54:11] "GET /static/news/images/person.png HTTP/1.1" 304 -
+INFO _internal.py:87 127.0.0.1 - - [29/Oct/2020 00:54:11] "GET /passport/image_code HTTP/1.1" 200 -
+INFO _internal.py:87 127.0.0.1 - - [29/Oct/2020 00:54:12] "GET /favicon.ico HTTP/1.1" 200 -
+DEBUG views.py:18 输入调试信息
+INFO views.py:19 输入详细信息
+WARNING views.py:20 输入警告信息
+ERROR views.py:21 输入错误信息
+INFO _internal.py:87 127.0.0.1 - - [29/Oct/2020 00:54:12] "GET / HTTP/1.1" 200 -
+INFO _internal.py:87 127.0.0.1 - - [29/Oct/2020 00:54:12] "GET /static/news/css/reset.css HTTP/1.1" 304 -
+INFO _internal.py:87 127.0.0.1 - - [29/Oct/2020 00:54:12] "GET /static/news/css/main.css HTTP/1.1" 304 -
+INFO _internal.py:87 127.0.0.1 - - [29/Oct/2020 00:54:12] "GET /static/news/js/jquery-1.12.4.min.js HTTP/1.1" 304 -
+INFO _internal.py:87 127.0.0.1 - - [29/Oct/2020 00:54:12] "GET /static/news/js/main.js HTTP/1.1" 304 -
+INFO _internal.py:87 127.0.0.1 - - [29/Oct/2020 00:54:12] "GET /static/news/js/index.js HTTP/1.1" 304 -
+INFO _internal.py:87 127.0.0.1 - - [29/Oct/2020 00:54:12] "GET /static/news/images/logo.png HTTP/1.1" 304 -
+INFO _internal.py:87 127.0.0.1 - - [29/Oct/2020 00:54:12] "GET /static/news/images/person01.png HTTP/1.1" 304 -
+INFO _internal.py:87 127.0.0.1 - - [29/Oct/2020 00:54:12] "GET /static/news/images/news_pic.jpg HTTP/1.1" 304 -
+INFO _internal.py:87 127.0.0.1 - - [29/Oct/2020 00:54:12] "GET /static/news/images/person.png HTTP/1.1" 304 -
+INFO _internal.py:87 127.0.0.1 - - [29/Oct/2020 00:54:12] "GET /passport/image_code HTTP/1.1" 200 -
+INFO _internal.py:87 127.0.0.1 - - [29/Oct/2020 00:54:12] "GET /favicon.ico HTTP/1.1" 200 -
+DEBUG views.py:18 输入调试信息
+INFO views.py:19 输入详细信息
+WARNING views.py:20 输入警告信息
+ERROR views.py:21 输入错误信息
+INFO _internal.py:87 127.0.0.1 - - [29/Oct/2020 00:54:13] "GET / HTTP/1.1" 200 -
+INFO _internal.py:87 127.0.0.1 - - [29/Oct/2020 00:54:13] "GET /static/news/css/reset.css HTTP/1.1" 304 -
+INFO _internal.py:87 127.0.0.1 - - [29/Oct/2020 00:54:13] "GET /static/news/css/main.css HTTP/1.1" 304 -
+INFO _internal.py:87 127.0.0.1 - - [29/Oct/2020 00:54:13] "GET /static/news/js/jquery-1.12.4.min.js HTTP/1.1" 304 -
+INFO _internal.py:87 127.0.0.1 - - [29/Oct/2020 00:54:13] "GET /static/news/js/main.js HTTP/1.1" 304 -
+INFO _internal.py:87 127.0.0.1 - - [29/Oct/2020 00:54:13] "GET /static/news/js/index.js HTTP/1.1" 304 -
+INFO _internal.py:87 127.0.0.1 - - [29/Oct/2020 00:54:13] "GET /static/news/images/logo.png HTTP/1.1" 304 -
+INFO _internal.py:87 127.0.0.1 - - [29/Oct/2020 00:54:13] "GET /static/news/images/person01.png HTTP/1.1" 304 -
+INFO _internal.py:87 127.0.0.1 - - [29/Oct/2020 00:54:13] "GET /static/news/images/news_pic.jpg HTTP/1.1" 304 -
+INFO _internal.py:87 127.0.0.1 - - [29/Oct/2020 00:54:13] "GET /static/news/images/person.png HTTP/1.1" 304 -
+INFO _internal.py:87 127.0.0.1 - - [29/Oct/2020 00:54:13] "GET /passport/image_code HTTP/1.1" 200 -
+INFO _internal.py:87 127.0.0.1 - - [29/Oct/2020 00:54:13] "GET /favicon.ico HTTP/1.1" 200 -
+DEBUG views.py:18 输入调试信息
+INFO views.py:19 输入详细信息
+WARNING views.py:20 输入警告信息
+ERROR views.py:21 输入错误信息
+INFO _internal.py:87 127.0.0.1 - - [29/Oct/2020 00:54:13] "GET / HTTP/1.1" 200 -
+INFO _internal.py:87 127.0.0.1 - - [29/Oct/2020 00:54:13] "GET /static/news/css/reset.css HTTP/1.1" 304 -
+INFO _internal.py:87 127.0.0.1 - - [29/Oct/2020 00:54:13] "GET /static/news/css/main.css HTTP/1.1" 304 -
+INFO _internal.py:87 127.0.0.1 - - [29/Oct/2020 00:54:13] "GET /static/news/js/jquery-1.12.4.min.js HTTP/1.1" 304 -
+INFO _internal.py:87 127.0.0.1 - - [29/Oct/2020 00:54:13] "GET /static/news/js/main.js HTTP/1.1" 304 -
+INFO _internal.py:87 127.0.0.1 - - [29/Oct/2020 00:54:13] "GET /static/news/js/index.js HTTP/1.1" 304 -
+INFO _internal.py:87 127.0.0.1 - - [29/Oct/2020 00:54:13] "GET /static/news/images/logo.png HTTP/1.1" 304 -
+INFO _internal.py:87 127.0.0.1 - - [29/Oct/2020 00:54:13] "GET /static/news/images/person01.png HTTP/1.1" 304 -
+INFO _internal.py:87 127.0.0.1 - - [29/Oct/2020 00:54:13] "GET /static/news/images/news_pic.jpg HTTP/1.1" 304 -
+INFO _internal.py:87 127.0.0.1 - - [29/Oct/2020 00:54:13] "GET /static/news/images/person.png HTTP/1.1" 304 -
+INFO _internal.py:87 127.0.0.1 - - [29/Oct/2020 00:54:13] "GET /passport/image_code HTTP/1.1" 200 -
+INFO _internal.py:87 127.0.0.1 - - [29/Oct/2020 00:54:13] "GET /favicon.ico HTTP/1.1" 200 -
+INFO _internal.py:87 127.0.0.1 - - [29/Oct/2020 00:54:20] "GET /passport/image_code?cur_id=f8e2bb0d-98fb-499f-aa89-ecce0a52e0c0&pre_id= HTTP/1.1" 200 -
+INFO _internal.py:87 127.0.0.1 - - [29/Oct/2020 00:54:23] "GET /passport/image_code?cur_id=8ae1956b-9488-49e3-aa43-b60f4aeddf29&pre_id=f8e2bb0d-98fb-499f-aa89-ecce0a52e0c0 HTTP/1.1" 200 -
+INFO _internal.py:87 127.0.0.1 - - [29/Oct/2020 00:54:25] "GET /passport/image_code?cur_id=187e0e8c-1fe3-4957-8adf-7653f8feafff&pre_id=8ae1956b-9488-49e3-aa43-b60f4aeddf29 HTTP/1.1" 200 -
+INFO _internal.py:87 127.0.0.1 - - [29/Oct/2020 00:54:28] "POST /passport/sms_code HTTP/1.1" 200 -
+INFO _internal.py:87 127.0.0.1 - - [29/Oct/2020 00:54:33] "GET /passport/image_code?cur_id=a79236d1-30e1-4dd5-91b8-872f7e51131a&pre_id=187e0e8c-1fe3-4957-8adf-7653f8feafff HTTP/1.1" 200 -
+INFO _internal.py:87 127.0.0.1 - - [29/Oct/2020 00:54:34] "GET /passport/image_code?cur_id=f28ae118-5c1f-4e97-afdd-82be587e4e1e&pre_id=a79236d1-30e1-4dd5-91b8-872f7e51131a HTTP/1.1" 200 -
+INFO _internal.py:87 127.0.0.1 - - [29/Oct/2020 00:54:49] "POST /passport/sms_code HTTP/1.1" 200 -
+INFO _internal.py:87  * Detected change in '/home/python/tools/pyProjects/flaskStudy/information/info/modules/passport/views.py', reloading
+INFO _internal.py:87  * Restarting with stat
+WARNING _internal.py:87  * Debugger is active!
+INFO _internal.py:87  * Debugger PIN: 177-012-029
+DEBUG views.py:18 输入调试信息
+INFO views.py:19 输入详细信息
+WARNING views.py:20 输入警告信息
+ERROR views.py:21 输入错误信息
+INFO _internal.py:87 127.0.0.1 - - [29/Oct/2020 00:56:01] "GET / HTTP/1.1" 200 -
+INFO _internal.py:87 127.0.0.1 - - [29/Oct/2020 00:56:01] "GET /static/news/css/reset.css HTTP/1.1" 304 -
+INFO _internal.py:87 127.0.0.1 - - [29/Oct/2020 00:56:01] "GET /static/news/css/main.css HTTP/1.1" 304 -
+INFO _internal.py:87 127.0.0.1 - - [29/Oct/2020 00:56:01] "GET /static/news/js/jquery-1.12.4.min.js HTTP/1.1" 304 -
+INFO _internal.py:87 127.0.0.1 - - [29/Oct/2020 00:56:01] "GET /static/news/js/main.js HTTP/1.1" 304 -
+INFO _internal.py:87 127.0.0.1 - - [29/Oct/2020 00:56:01] "GET /static/news/js/index.js HTTP/1.1" 304 -
+INFO _internal.py:87 127.0.0.1 - - [29/Oct/2020 00:56:01] "GET /static/news/images/logo.png HTTP/1.1" 304 -
+INFO _internal.py:87 127.0.0.1 - - [29/Oct/2020 00:56:01] "GET /static/news/images/person01.png HTTP/1.1" 304 -
+INFO _internal.py:87 127.0.0.1 - - [29/Oct/2020 00:56:01] "GET /static/news/images/news_pic.jpg HTTP/1.1" 304 -
+INFO _internal.py:87 127.0.0.1 - - [29/Oct/2020 00:56:01] "GET /static/news/images/person.png HTTP/1.1" 304 -
+INFO _internal.py:87 127.0.0.1 - - [29/Oct/2020 00:56:01] "GET /passport/image_code HTTP/1.1" 200 -
+INFO _internal.py:87 127.0.0.1 - - [29/Oct/2020 00:56:01] "GET /favicon.ico HTTP/1.1" 200 -
+DEBUG views.py:18 输入调试信息
+INFO views.py:19 输入详细信息
+WARNING views.py:20 输入警告信息
+ERROR views.py:21 输入错误信息
+INFO _internal.py:87 127.0.0.1 - - [29/Oct/2020 00:56:01] "GET / HTTP/1.1" 200 -
+INFO _internal.py:87 127.0.0.1 - - [29/Oct/2020 00:56:01] "GET /static/news/css/reset.css HTTP/1.1" 304 -
+INFO _internal.py:87 127.0.0.1 - - [29/Oct/2020 00:56:01] "GET /static/news/css/main.css HTTP/1.1" 304 -
+INFO _internal.py:87 127.0.0.1 - - [29/Oct/2020 00:56:01] "GET /static/news/js/jquery-1.12.4.min.js HTTP/1.1" 304 -
+INFO _internal.py:87 127.0.0.1 - - [29/Oct/2020 00:56:01] "GET /static/news/js/main.js HTTP/1.1" 304 -
+INFO _internal.py:87 127.0.0.1 - - [29/Oct/2020 00:56:01] "GET /static/news/js/index.js HTTP/1.1" 304 -
+INFO _internal.py:87 127.0.0.1 - - [29/Oct/2020 00:56:01] "GET /static/news/images/logo.png HTTP/1.1" 304 -
+INFO _internal.py:87 127.0.0.1 - - [29/Oct/2020 00:56:01] "GET /static/news/images/person01.png HTTP/1.1" 304 -
+INFO _internal.py:87 127.0.0.1 - - [29/Oct/2020 00:56:01] "GET /static/news/images/news_pic.jpg HTTP/1.1" 304 -
+INFO _internal.py:87 127.0.0.1 - - [29/Oct/2020 00:56:01] "GET /static/news/images/person.png HTTP/1.1" 304 -
+INFO _internal.py:87 127.0.0.1 - - [29/Oct/2020 00:56:01] "GET /passport/image_code HTTP/1.1" 200 -
+INFO _internal.py:87 127.0.0.1 - - [29/Oct/2020 00:56:01] "GET /favicon.ico HTTP/1.1" 200 -
+DEBUG views.py:18 输入调试信息
+INFO views.py:19 输入详细信息
+WARNING views.py:20 输入警告信息
+ERROR views.py:21 输入错误信息
+INFO _internal.py:87 127.0.0.1 - - [29/Oct/2020 00:56:02] "GET / HTTP/1.1" 200 -
+INFO _internal.py:87 127.0.0.1 - - [29/Oct/2020 00:56:02] "GET /static/news/css/reset.css HTTP/1.1" 304 -
+INFO _internal.py:87 127.0.0.1 - - [29/Oct/2020 00:56:02] "GET /static/news/css/main.css HTTP/1.1" 304 -
+INFO _internal.py:87 127.0.0.1 - - [29/Oct/2020 00:56:02] "GET /static/news/js/jquery-1.12.4.min.js HTTP/1.1" 304 -
+INFO _internal.py:87 127.0.0.1 - - [29/Oct/2020 00:56:02] "GET /static/news/js/main.js HTTP/1.1" 304 -
+INFO _internal.py:87 127.0.0.1 - - [29/Oct/2020 00:56:02] "GET /static/news/js/index.js HTTP/1.1" 304 -
+INFO _internal.py:87 127.0.0.1 - - [29/Oct/2020 00:56:02] "GET /static/news/images/logo.png HTTP/1.1" 304 -
+INFO _internal.py:87 127.0.0.1 - - [29/Oct/2020 00:56:02] "GET /static/news/images/person01.png HTTP/1.1" 304 -
+INFO _internal.py:87 127.0.0.1 - - [29/Oct/2020 00:56:02] "GET /static/news/images/news_pic.jpg HTTP/1.1" 304 -
+INFO _internal.py:87 127.0.0.1 - - [29/Oct/2020 00:56:02] "GET /static/news/images/person.png HTTP/1.1" 304 -
+INFO _internal.py:87 127.0.0.1 - - [29/Oct/2020 00:56:02] "GET /passport/image_code HTTP/1.1" 200 -
+INFO _internal.py:87 127.0.0.1 - - [29/Oct/2020 00:56:02] "GET /favicon.ico HTTP/1.1" 200 -
+INFO _internal.py:87 127.0.0.1 - - [29/Oct/2020 00:56:04] "GET /passport/image_code?cur_id=ab66a555-0d70-4239-a38a-61f81ad72bde&pre_id= HTTP/1.1" 200 -
+INFO _internal.py:87 127.0.0.1 - - [29/Oct/2020 00:56:09] "POST /passport/sms_code HTTP/1.1" 500 -
+INFO _internal.py:87  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+INFO _internal.py:87  * Restarting with stat
+WARNING _internal.py:87  * Debugger is active!
+INFO _internal.py:87  * Debugger PIN: 177-012-029
+INFO _internal.py:87  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+INFO _internal.py:87  * Restarting with stat
+WARNING _internal.py:87  * Debugger is active!
+INFO _internal.py:87  * Debugger PIN: 177-012-029
+DEBUG views.py:18 输入调试信息
+INFO views.py:19 输入详细信息
+WARNING views.py:20 输入警告信息
+ERROR views.py:21 输入错误信息
+INFO _internal.py:87 127.0.0.1 - - [30/Oct/2020 15:45:21] "GET / HTTP/1.1" 200 -
+INFO _internal.py:87 127.0.0.1 - - [30/Oct/2020 15:45:21] "GET /static/news/css/reset.css HTTP/1.1" 304 -
+INFO _internal.py:87 127.0.0.1 - - [30/Oct/2020 15:45:21] "GET /static/news/css/main.css HTTP/1.1" 304 -
+INFO _internal.py:87 127.0.0.1 - - [30/Oct/2020 15:45:21] "GET /static/news/js/jquery-1.12.4.min.js HTTP/1.1" 304 -
+INFO _internal.py:87 127.0.0.1 - - [30/Oct/2020 15:45:21] "GET /static/news/js/main.js HTTP/1.1" 200 -
+INFO _internal.py:87 127.0.0.1 - - [30/Oct/2020 15:45:21] "GET /static/news/js/index.js HTTP/1.1" 304 -
+INFO _internal.py:87 127.0.0.1 - - [30/Oct/2020 15:45:21] "GET /static/news/images/logo.png HTTP/1.1" 304 -
+INFO _internal.py:87 127.0.0.1 - - [30/Oct/2020 15:45:21] "GET /static/news/images/person01.png HTTP/1.1" 304 -
+INFO _internal.py:87 127.0.0.1 - - [30/Oct/2020 15:45:21] "GET /static/news/images/news_pic.jpg HTTP/1.1" 304 -
+INFO _internal.py:87 127.0.0.1 - - [30/Oct/2020 15:45:21] "GET /static/news/images/person.png HTTP/1.1" 304 -
+INFO _internal.py:87 127.0.0.1 - - [30/Oct/2020 15:45:21] "GET /passport/image_code HTTP/1.1" 200 -
+INFO _internal.py:87 127.0.0.1 - - [30/Oct/2020 15:45:21] "GET /static/news/images/clock.png HTTP/1.1" 304 -
+INFO _internal.py:87 127.0.0.1 - - [30/Oct/2020 15:45:21] "GET /static/news/images/hit_icon.png HTTP/1.1" 304 -
+INFO _internal.py:87 127.0.0.1 - - [30/Oct/2020 15:45:23] "GET /passport/image_code?cur_id=a0c346cf-58d3-4da2-8ed9-7dde9a2c2134&pre_id= HTTP/1.1" 200 -
+INFO _internal.py:87 127.0.0.1 - - [30/Oct/2020 15:45:23] "GET /static/news/images/shutoff.png HTTP/1.1" 304 -
+INFO _internal.py:87 127.0.0.1 - - [30/Oct/2020 15:45:26] "GET /passport/image_code?cur_id=9d477c83-39f0-4ae5-8931-7344a9654ca4&pre_id=a0c346cf-58d3-4da2-8ed9-7dde9a2c2134 HTTP/1.1" 200 -
+DEBUG views.py:18 输入调试信息
+INFO views.py:19 输入详细信息
+WARNING views.py:20 输入警告信息
+ERROR views.py:21 输入错误信息
+INFO _internal.py:87 127.0.0.1 - - [30/Oct/2020 15:45:35] "GET / HTTP/1.1" 200 -
+INFO _internal.py:87 127.0.0.1 - - [30/Oct/2020 15:45:35] "GET /passport/image_code HTTP/1.1" 200 -
+DEBUG views.py:18 输入调试信息
+INFO views.py:19 输入详细信息
+WARNING views.py:20 输入警告信息
+ERROR views.py:21 输入错误信息
+INFO _internal.py:87 127.0.0.1 - - [30/Oct/2020 15:46:33] "GET / HTTP/1.1" 200 -
+INFO _internal.py:87 127.0.0.1 - - [30/Oct/2020 15:46:33] "GET /passport/image_code HTTP/1.1" 200 -
+INFO _internal.py:87 127.0.0.1 - - [30/Oct/2020 15:46:34] "GET /passport/image_code?cur_id=0c78a6bf-08b2-4879-9027-e275dad0a9f5&pre_id= HTTP/1.1" 200 -
+INFO _internal.py:87 127.0.0.1 - - [30/Oct/2020 15:46:43] "GET /passport/image_code?cur_id=462450b7-5c1a-4474-afb9-47ecfb5357d9&pre_id=0c78a6bf-08b2-4879-9027-e275dad0a9f5 HTTP/1.1" 200 -
+INFO _internal.py:87 127.0.0.1 - - [30/Oct/2020 15:46:52] "POST /passport/sms_code HTTP/1.1" 200 -
+INFO _internal.py:87 127.0.0.1 - - [30/Oct/2020 15:46:56] "GET /passport/image_code?cur_id=02ea79a5-e410-4222-90d4-d257a397bcd7&pre_id=462450b7-5c1a-4474-afb9-47ecfb5357d9 HTTP/1.1" 200 -
+INFO _internal.py:87 127.0.0.1 - - [30/Oct/2020 15:46:58] "POST /passport/sms_code HTTP/1.1" 200 -
+INFO _internal.py:87 127.0.0.1 - - [30/Oct/2020 15:46:59] "GET /passport/image_code?cur_id=fa0916af-6c2f-434d-ac0f-764edf6f0b62&pre_id=02ea79a5-e410-4222-90d4-d257a397bcd7 HTTP/1.1" 200 -
+INFO _internal.py:87 127.0.0.1 - - [30/Oct/2020 15:47:03] "POST /passport/sms_code HTTP/1.1" 200 -
+INFO _internal.py:87 127.0.0.1 - - [30/Oct/2020 15:47:05] "GET /passport/image_code?cur_id=5b697379-6238-4b61-b2df-92f457b826be&pre_id=fa0916af-6c2f-434d-ac0f-764edf6f0b62 HTTP/1.1" 200 -
+INFO _internal.py:87 127.0.0.1 - - [30/Oct/2020 15:47:11] "POST /passport/sms_code HTTP/1.1" 200 -
+INFO _internal.py:87  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+INFO _internal.py:87  * Restarting with stat
+WARNING _internal.py:87  * Debugger is active!
+INFO _internal.py:87  * Debugger PIN: 177-012-029
+DEBUG views.py:18 输入调试信息
+INFO views.py:19 输入详细信息
+WARNING views.py:20 输入警告信息
+ERROR views.py:21 输入错误信息
+INFO _internal.py:87 127.0.0.1 - - [30/Oct/2020 15:50:13] "GET / HTTP/1.1" 200 -
+INFO _internal.py:87 127.0.0.1 - - [30/Oct/2020 15:50:13] "GET /passport/image_code HTTP/1.1" 200 -
+INFO _internal.py:87 127.0.0.1 - - [30/Oct/2020 15:50:18] "GET /passport/image_code?cur_id=3e413985-19f8-4316-af07-618e67d77a4a&pre_id= HTTP/1.1" 200 -
+INFO _internal.py:87 127.0.0.1 - - [30/Oct/2020 15:50:30] "POST /passport/sms_code HTTP/1.1" 200 -
+INFO _internal.py:87 127.0.0.1 - - [30/Oct/2020 15:50:31] "GET /passport/image_code?cur_id=9382d3d9-965c-4dd6-9539-8588a582710c&pre_id=3e413985-19f8-4316-af07-618e67d77a4a HTTP/1.1" 200 -
+INFO _internal.py:87 127.0.0.1 - - [30/Oct/2020 15:51:09] "POST /passport/sms_code HTTP/1.1" 200 -
+INFO _internal.py:87  * Detected change in '/home/python/tools/pyProjects/flaskStudy/information/info/modules/passport/views.py', reloading
+INFO _internal.py:87  * Restarting with stat
+INFO _internal.py:87  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+INFO _internal.py:87  * Restarting with stat
+WARNING _internal.py:87  * Debugger is active!
+INFO _internal.py:87  * Debugger PIN: 177-012-029
+INFO _internal.py:87  * Detected change in '/home/python/tools/pyProjects/flaskStudy/information/info/modules/passport/views.py', reloading
+INFO _internal.py:87  * Restarting with stat
+INFO _internal.py:87  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+INFO _internal.py:87  * Restarting with stat
+WARNING _internal.py:87  * Debugger is active!
+INFO _internal.py:87  * Debugger PIN: 177-012-029
+INFO _internal.py:87  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+INFO _internal.py:87  * Restarting with stat
+WARNING _internal.py:87  * Debugger is active!
+INFO _internal.py:87  * Debugger PIN: 177-012-029
+INFO _internal.py:87  * Detected change in '/home/python/tools/pyProjects/flaskStudy/information/info/modules/passport/views.py', reloading
+INFO _internal.py:87  * Restarting with stat
+WARNING _internal.py:87  * Debugger is active!
+INFO _internal.py:87  * Debugger PIN: 177-012-029
+INFO _internal.py:87  * Detected change in '/home/python/tools/pyProjects/flaskStudy/information/info/modules/passport/views.py', reloading
+INFO _internal.py:87  * Restarting with stat
+INFO _internal.py:87  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+INFO _internal.py:87  * Restarting with stat
+WARNING _internal.py:87  * Debugger is active!
+INFO _internal.py:87  * Debugger PIN: 177-012-029
+INFO _internal.py:87  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+INFO _internal.py:87  * Restarting with stat
+WARNING _internal.py:87  * Debugger is active!
+INFO _internal.py:87  * Debugger PIN: 177-012-029
+DEBUG views.py:18 输入调试信息
+INFO views.py:19 输入详细信息
+WARNING views.py:20 输入警告信息
+ERROR views.py:21 输入错误信息
+INFO _internal.py:87 127.0.0.1 - - [30/Oct/2020 16:10:25] "GET / HTTP/1.1" 200 -
+INFO _internal.py:87 127.0.0.1 - - [30/Oct/2020 16:10:25] "GET /passport/image_code HTTP/1.1" 200 -
+INFO _internal.py:87 127.0.0.1 - - [30/Oct/2020 16:10:26] "GET /passport/image_code?cur_id=ec8357bb-fbac-4cfc-b009-8e3f7cec095a&pre_id= HTTP/1.1" 200 -
+INFO _internal.py:87  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+INFO _internal.py:87  * Restarting with stat
+WARNING _internal.py:87  * Debugger is active!
+INFO _internal.py:87  * Debugger PIN: 177-012-029
+DEBUG views.py:18 输入调试信息
+INFO views.py:19 输入详细信息
+WARNING views.py:20 输入警告信息
+ERROR views.py:21 输入错误信息
+INFO _internal.py:87 127.0.0.1 - - [30/Oct/2020 16:37:55] "GET / HTTP/1.1" 200 -
+INFO _internal.py:87 127.0.0.1 - - [30/Oct/2020 16:37:55] "GET /passport/image_code HTTP/1.1" 200 -
+DEBUG views.py:18 输入调试信息
+INFO views.py:19 输入详细信息
+WARNING views.py:20 输入警告信息
+ERROR views.py:21 输入错误信息
+INFO _internal.py:87 127.0.0.1 - - [30/Oct/2020 16:45:10] "GET / HTTP/1.1" 200 -
+INFO _internal.py:87 127.0.0.1 - - [30/Oct/2020 16:45:10] "GET /passport/image_code HTTP/1.1" 200 -
+INFO _internal.py:88  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+INFO _internal.py:88  * Restarting with stat
+WARNING _internal.py:88  * Debugger is active!
+INFO _internal.py:88  * Debugger PIN: 177-012-029
+DEBUG views.py:18 输入调试信息
+INFO views.py:19 输入详细信息
+WARNING views.py:20 输入警告信息
+ERROR views.py:21 输入错误信息
+INFO _internal.py:88 127.0.0.1 - - [01/Nov/2020 12:37:29] "GET / HTTP/1.1" 200 -
+INFO _internal.py:88 127.0.0.1 - - [01/Nov/2020 12:37:29] "GET /static/news/css/reset.css HTTP/1.1" 304 -
+INFO _internal.py:88 127.0.0.1 - - [01/Nov/2020 12:37:29] "GET /static/news/css/main.css HTTP/1.1" 304 -
+INFO _internal.py:88 127.0.0.1 - - [01/Nov/2020 12:37:29] "GET /static/news/js/jquery-1.12.4.min.js HTTP/1.1" 304 -
+INFO _internal.py:88 127.0.0.1 - - [01/Nov/2020 12:37:29] "GET /static/news/js/main.js HTTP/1.1" 304 -
+INFO _internal.py:88 127.0.0.1 - - [01/Nov/2020 12:37:29] "GET /static/news/js/index.js HTTP/1.1" 304 -
+INFO _internal.py:88 127.0.0.1 - - [01/Nov/2020 12:37:29] "GET /static/news/images/logo.png HTTP/1.1" 304 -
+INFO _internal.py:88 127.0.0.1 - - [01/Nov/2020 12:37:29] "GET /static/news/images/person01.png HTTP/1.1" 304 -
+INFO _internal.py:88 127.0.0.1 - - [01/Nov/2020 12:37:29] "GET /static/news/images/news_pic.jpg HTTP/1.1" 304 -
+INFO _internal.py:88 127.0.0.1 - - [01/Nov/2020 12:37:29] "GET /static/news/images/person.png HTTP/1.1" 304 -
+INFO _internal.py:88 127.0.0.1 - - [01/Nov/2020 12:37:29] "GET /passport/image_code HTTP/1.1" 200 -
+INFO _internal.py:88 127.0.0.1 - - [01/Nov/2020 12:37:29] "GET /static/news/images/hit_icon.png HTTP/1.1" 304 -
+INFO _internal.py:88 127.0.0.1 - - [01/Nov/2020 12:37:29] "GET /static/news/images/clock.png HTTP/1.1" 304 -
+INFO _internal.py:88 127.0.0.1 - - [01/Nov/2020 12:38:07] "GET /passport/image_code?cur_id=4cf0fdfc-d214-4c95-943f-ca32d83e244a&pre_id= HTTP/1.1" 200 -
+INFO _internal.py:88 127.0.0.1 - - [01/Nov/2020 12:38:07] "GET /static/news/images/shutoff.png HTTP/1.1" 304 -
+INFO _internal.py:88 127.0.0.1 - - [01/Nov/2020 12:38:08] "GET /passport/image_code?cur_id=dd68d14c-6673-414c-8c78-57af504258e2&pre_id=4cf0fdfc-d214-4c95-943f-ca32d83e244a HTTP/1.1" 200 -
+INFO _internal.py:88 127.0.0.1 - - [01/Nov/2020 12:56:47] "GET /passport/image_code?cur_id=31b61fe7-446b-4427-b509-36c66a5a9edb&pre_id=dd68d14c-6673-414c-8c78-57af504258e2 HTTP/1.1" 200 -
+INFO _internal.py:88 127.0.0.1 - - [01/Nov/2020 12:56:57] "POST /passport/sms_code HTTP/1.1" 200 -
+INFO _internal.py:88  * Detected change in '/home/python/tools/pyProjects/flaskStudy/information/info/modules/passport/views.py', reloading
+INFO _internal.py:88  * Restarting with stat
+WARNING _internal.py:88  * Debugger is active!
+INFO _internal.py:88  * Debugger PIN: 177-012-029
+INFO _internal.py:88  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+INFO _internal.py:88  * Restarting with stat
+WARNING _internal.py:88  * Debugger is active!
+INFO _internal.py:88  * Debugger PIN: 177-012-029
+DEBUG views.py:18 输入调试信息
+INFO views.py:19 输入详细信息
+WARNING views.py:20 输入警告信息
+ERROR views.py:21 输入错误信息
+INFO _internal.py:88 127.0.0.1 - - [01/Nov/2020 13:02:46] "GET / HTTP/1.1" 200 -
+INFO _internal.py:88 127.0.0.1 - - [01/Nov/2020 13:02:46] "GET /static/news/css/reset.css HTTP/1.1" 304 -
+INFO _internal.py:88 127.0.0.1 - - [01/Nov/2020 13:02:46] "GET /static/news/css/main.css HTTP/1.1" 304 -
+INFO _internal.py:88 127.0.0.1 - - [01/Nov/2020 13:02:46] "GET /static/news/js/jquery-1.12.4.min.js HTTP/1.1" 304 -
+INFO _internal.py:88 127.0.0.1 - - [01/Nov/2020 13:02:46] "GET /static/news/js/main.js HTTP/1.1" 304 -
+INFO _internal.py:88 127.0.0.1 - - [01/Nov/2020 13:02:46] "GET /static/news/js/index.js HTTP/1.1" 304 -
+INFO _internal.py:88 127.0.0.1 - - [01/Nov/2020 13:02:46] "GET /static/news/images/news_pic.jpg HTTP/1.1" 304 -
+INFO _internal.py:88 127.0.0.1 - - [01/Nov/2020 13:02:46] "GET /static/news/images/person.png HTTP/1.1" 304 -
+INFO _internal.py:88 127.0.0.1 - - [01/Nov/2020 13:02:46] "GET /static/news/images/logo.png HTTP/1.1" 304 -
+INFO _internal.py:88 127.0.0.1 - - [01/Nov/2020 13:02:46] "GET /static/news/images/person01.png HTTP/1.1" 304 -
+INFO _internal.py:88 127.0.0.1 - - [01/Nov/2020 13:02:46] "GET /passport/image_code HTTP/1.1" 200 -
+DEBUG views.py:18 输入调试信息
+INFO views.py:19 输入详细信息
+WARNING views.py:20 输入警告信息
+ERROR views.py:21 输入错误信息
+INFO _internal.py:88 127.0.0.1 - - [01/Nov/2020 13:02:46] "GET / HTTP/1.1" 200 -
+INFO _internal.py:88 127.0.0.1 - - [01/Nov/2020 13:02:46] "GET /static/news/css/reset.css HTTP/1.1" 304 -
+INFO _internal.py:88 127.0.0.1 - - [01/Nov/2020 13:02:46] "GET /static/news/css/main.css HTTP/1.1" 304 -
+INFO _internal.py:88 127.0.0.1 - - [01/Nov/2020 13:02:46] "GET /static/news/js/jquery-1.12.4.min.js HTTP/1.1" 304 -
+INFO _internal.py:88 127.0.0.1 - - [01/Nov/2020 13:02:46] "GET /static/news/js/main.js HTTP/1.1" 304 -
+INFO _internal.py:88 127.0.0.1 - - [01/Nov/2020 13:02:46] "GET /static/news/js/index.js HTTP/1.1" 304 -
+INFO _internal.py:88 127.0.0.1 - - [01/Nov/2020 13:02:46] "GET /static/news/images/news_pic.jpg HTTP/1.1" 304 -
+INFO _internal.py:88 127.0.0.1 - - [01/Nov/2020 13:02:46] "GET /static/news/images/person.png HTTP/1.1" 304 -
+INFO _internal.py:88 127.0.0.1 - - [01/Nov/2020 13:02:46] "GET /static/news/images/logo.png HTTP/1.1" 304 -
+INFO _internal.py:88 127.0.0.1 - - [01/Nov/2020 13:02:46] "GET /static/news/images/person01.png HTTP/1.1" 304 -
+INFO _internal.py:88 127.0.0.1 - - [01/Nov/2020 13:02:46] "GET /passport/image_code HTTP/1.1" 200 -
+INFO _internal.py:88 127.0.0.1 - - [01/Nov/2020 13:02:48] "GET /passport/image_code?cur_id=e15ab4bc-605c-4d63-825b-fdde3758ddf9&pre_id= HTTP/1.1" 200 -
+INFO _internal.py:88 127.0.0.1 - - [01/Nov/2020 13:03:56] "GET /passport/image_code?cur_id=42fdf1bc-668a-4836-bc81-d3d44d76ec3a&pre_id=e15ab4bc-605c-4d63-825b-fdde3758ddf9 HTTP/1.1" 200 -
+INFO _internal.py:88 127.0.0.1 - - [01/Nov/2020 13:03:58] "GET /passport/image_code?cur_id=9d0f1e7f-c1a3-447f-ac38-b5e3183acc06&pre_id=42fdf1bc-668a-4836-bc81-d3d44d76ec3a HTTP/1.1" 200 -
+INFO _internal.py:88 127.0.0.1 - - [01/Nov/2020 13:04:05] "POST /passport/sms_code HTTP/1.1" 200 -
+INFO _internal.py:88  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+INFO _internal.py:88  * Restarting with stat
+WARNING _internal.py:88  * Debugger is active!
+INFO _internal.py:88  * Debugger PIN: 177-012-029
+DEBUG views.py:18 输入调试信息
+INFO views.py:19 输入详细信息
+WARNING views.py:20 输入警告信息
+ERROR views.py:21 输入错误信息
+INFO _internal.py:88 127.0.0.1 - - [01/Nov/2020 13:06:18] "GET / HTTP/1.1" 200 -
+INFO _internal.py:88 127.0.0.1 - - [01/Nov/2020 13:06:18] "GET /static/news/css/reset.css HTTP/1.1" 304 -
+INFO _internal.py:88 127.0.0.1 - - [01/Nov/2020 13:06:18] "GET /static/news/css/main.css HTTP/1.1" 304 -
+INFO _internal.py:88 127.0.0.1 - - [01/Nov/2020 13:06:18] "GET /static/news/js/jquery-1.12.4.min.js HTTP/1.1" 304 -
+INFO _internal.py:88 127.0.0.1 - - [01/Nov/2020 13:06:18] "GET /static/news/js/main.js HTTP/1.1" 304 -
+INFO _internal.py:88 127.0.0.1 - - [01/Nov/2020 13:06:18] "GET /static/news/js/index.js HTTP/1.1" 304 -
+INFO _internal.py:88 127.0.0.1 - - [01/Nov/2020 13:06:18] "GET /static/news/images/news_pic.jpg HTTP/1.1" 304 -
+INFO _internal.py:88 127.0.0.1 - - [01/Nov/2020 13:06:18] "GET /static/news/images/person.png HTTP/1.1" 304 -
+INFO _internal.py:88 127.0.0.1 - - [01/Nov/2020 13:06:18] "GET /static/news/images/logo.png HTTP/1.1" 304 -
+INFO _internal.py:88 127.0.0.1 - - [01/Nov/2020 13:06:18] "GET /static/news/images/person01.png HTTP/1.1" 304 -
+INFO _internal.py:88 127.0.0.1 - - [01/Nov/2020 13:06:18] "GET /passport/image_code HTTP/1.1" 200 -
+INFO _internal.py:88 127.0.0.1 - - [01/Nov/2020 13:06:20] "GET /passport/image_code?cur_id=e494e2b7-989a-4a8c-8436-9ba0cd694e89&pre_id= HTTP/1.1" 200 -
+INFO _internal.py:88 127.0.0.1 - - [01/Nov/2020 13:06:28] "POST /passport/sms_code HTTP/1.1" 200 -
+INFO _internal.py:88  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+INFO _internal.py:88  * Restarting with stat
+WARNING _internal.py:88  * Debugger is active!
+INFO _internal.py:88  * Debugger PIN: 177-012-029
+DEBUG views.py:18 输入调试信息
+INFO views.py:19 输入详细信息
+WARNING views.py:20 输入警告信息
+ERROR views.py:21 输入错误信息
+INFO _internal.py:88 127.0.0.1 - - [01/Nov/2020 13:06:53] "GET / HTTP/1.1" 200 -
+INFO _internal.py:88 127.0.0.1 - - [01/Nov/2020 13:06:53] "GET /static/news/css/reset.css HTTP/1.1" 304 -
+INFO _internal.py:88 127.0.0.1 - - [01/Nov/2020 13:06:53] "GET /static/news/css/main.css HTTP/1.1" 304 -
+INFO _internal.py:88 127.0.0.1 - - [01/Nov/2020 13:06:53] "GET /static/news/js/jquery-1.12.4.min.js HTTP/1.1" 304 -
+INFO _internal.py:88 127.0.0.1 - - [01/Nov/2020 13:06:53] "GET /static/news/js/main.js HTTP/1.1" 304 -
+INFO _internal.py:88 127.0.0.1 - - [01/Nov/2020 13:06:53] "GET /static/news/js/index.js HTTP/1.1" 304 -
+INFO _internal.py:88 127.0.0.1 - - [01/Nov/2020 13:06:53] "GET /static/news/images/news_pic.jpg HTTP/1.1" 304 -
+INFO _internal.py:88 127.0.0.1 - - [01/Nov/2020 13:06:53] "GET /static/news/images/person.png HTTP/1.1" 304 -
+INFO _internal.py:88 127.0.0.1 - - [01/Nov/2020 13:06:53] "GET /static/news/images/logo.png HTTP/1.1" 304 -
+INFO _internal.py:88 127.0.0.1 - - [01/Nov/2020 13:06:53] "GET /static/news/images/person01.png HTTP/1.1" 304 -
+INFO _internal.py:88 127.0.0.1 - - [01/Nov/2020 13:06:53] "GET /passport/image_code HTTP/1.1" 200 -
+INFO _internal.py:88 127.0.0.1 - - [01/Nov/2020 13:06:54] "GET /passport/image_code?cur_id=1c0163f3-798a-4347-a4f0-efa555a999f9&pre_id= HTTP/1.1" 200 -
+INFO _internal.py:88 127.0.0.1 - - [01/Nov/2020 13:06:58] "GET /passport/image_code?cur_id=589a7e18-40d9-4ba2-ac67-1725be56005a&pre_id=1c0163f3-798a-4347-a4f0-efa555a999f9 HTTP/1.1" 200 -
+INFO _internal.py:88  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+INFO _internal.py:88  * Restarting with stat
+WARNING _internal.py:88  * Debugger is active!
+INFO _internal.py:88  * Debugger PIN: 177-012-029
+DEBUG views.py:18 输入调试信息
+INFO views.py:19 输入详细信息
+WARNING views.py:20 输入警告信息
+ERROR views.py:21 输入错误信息
+INFO _internal.py:88 127.0.0.1 - - [01/Nov/2020 13:08:00] "GET / HTTP/1.1" 200 -
+INFO _internal.py:88 127.0.0.1 - - [01/Nov/2020 13:08:00] "GET /passport/image_code HTTP/1.1" 200 -
+INFO _internal.py:88 127.0.0.1 - - [01/Nov/2020 13:08:06] "GET /passport/image_code?cur_id=77e1cafe-c854-4944-9f3c-89d9bcd651aa&pre_id= HTTP/1.1" 200 -
+INFO _internal.py:88 127.0.0.1 - - [01/Nov/2020 13:08:08] "GET /passport/image_code?cur_id=610b7b0f-a599-4383-9325-50b4a201e3a2&pre_id=77e1cafe-c854-4944-9f3c-89d9bcd651aa HTTP/1.1" 200 -
+INFO _internal.py:88  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+INFO _internal.py:88  * Restarting with stat
+WARNING _internal.py:88  * Debugger is active!
+INFO _internal.py:88  * Debugger PIN: 177-012-029
+DEBUG views.py:18 输入调试信息
+INFO views.py:19 输入详细信息
+WARNING views.py:20 输入警告信息
+ERROR views.py:21 输入错误信息
+INFO _internal.py:88 127.0.0.1 - - [01/Nov/2020 13:25:47] "GET / HTTP/1.1" 200 -
+INFO _internal.py:88 127.0.0.1 - - [01/Nov/2020 13:25:47] "GET /passport/image_code HTTP/1.1" 200 -
+INFO _internal.py:88 127.0.0.1 - - [01/Nov/2020 13:25:52] "GET /passport/image_code?cur_id=5c90c3e7-7708-434c-8a1a-940b17a445d3&pre_id= HTTP/1.1" 200 -
+INFO _internal.py:88 127.0.0.1 - - [01/Nov/2020 13:25:58] "GET /passport/image_code?cur_id=d7c2f9a2-3c0e-49e0-b531-f2cb5594f6ea&pre_id=5c90c3e7-7708-434c-8a1a-940b17a445d3 HTTP/1.1" 200 -
+INFO _internal.py:88 127.0.0.1 - - [01/Nov/2020 13:26:02] "GET /passport/image_code?cur_id=0ce22ff6-5909-4179-8940-08e798a9e6f4&pre_id=d7c2f9a2-3c0e-49e0-b531-f2cb5594f6ea HTTP/1.1" 200 -
+INFO _internal.py:88 127.0.0.1 - - [01/Nov/2020 13:26:09] "POST /passport/sms_code HTTP/1.1" 200 -
+DEBUG views.py:18 输入调试信息
+INFO views.py:19 输入详细信息
+WARNING views.py:20 输入警告信息
+ERROR views.py:21 输入错误信息
+INFO _internal.py:88 127.0.0.1 - - [01/Nov/2020 13:27:16] "GET / HTTP/1.1" 200 -
+INFO _internal.py:88 127.0.0.1 - - [01/Nov/2020 13:27:16] "GET /static/news/css/reset.css HTTP/1.1" 304 -
+INFO _internal.py:88 127.0.0.1 - - [01/Nov/2020 13:27:16] "GET /static/news/css/main.css HTTP/1.1" 304 -
+INFO _internal.py:88 127.0.0.1 - - [01/Nov/2020 13:27:16] "GET /static/news/js/jquery-1.12.4.min.js HTTP/1.1" 304 -
+INFO _internal.py:88 127.0.0.1 - - [01/Nov/2020 13:27:16] "GET /static/news/js/main.js HTTP/1.1" 304 -
+INFO _internal.py:88 127.0.0.1 - - [01/Nov/2020 13:27:16] "GET /static/news/js/index.js HTTP/1.1" 304 -
+INFO _internal.py:88 127.0.0.1 - - [01/Nov/2020 13:27:16] "GET /static/news/images/logo.png HTTP/1.1" 304 -
+INFO _internal.py:88 127.0.0.1 - - [01/Nov/2020 13:27:16] "GET /static/news/images/person01.png HTTP/1.1" 304 -
+INFO _internal.py:88 127.0.0.1 - - [01/Nov/2020 13:27:16] "GET /static/news/images/news_pic.jpg HTTP/1.1" 304 -
+INFO _internal.py:88 127.0.0.1 - - [01/Nov/2020 13:27:16] "GET /static/news/images/person.png HTTP/1.1" 304 -
+INFO _internal.py:88 127.0.0.1 - - [01/Nov/2020 13:27:16] "GET /passport/image_code HTTP/1.1" 200 -
+INFO _internal.py:88 127.0.0.1 - - [01/Nov/2020 13:28:13] "GET /passport/image_code?cur_id=1ed37de6-aedd-42d4-8317-0fdc38f99a1a&pre_id= HTTP/1.1" 200 -
+INFO _internal.py:88 127.0.0.1 - - [01/Nov/2020 13:28:21] "GET /passport/image_code?cur_id=118f0f4c-c7b7-4dae-a07d-bf47e6ec2be8&pre_id=1ed37de6-aedd-42d4-8317-0fdc38f99a1a HTTP/1.1" 200 -
+INFO _internal.py:88 127.0.0.1 - - [01/Nov/2020 13:28:27] "POST /passport/sms_code HTTP/1.1" 200 -
+DEBUG views.py:18 输入调试信息
+INFO views.py:19 输入详细信息
+WARNING views.py:20 输入警告信息
+ERROR views.py:21 输入错误信息
+INFO _internal.py:88 127.0.0.1 - - [01/Nov/2020 13:36:53] "GET / HTTP/1.1" 200 -
+INFO _internal.py:88 127.0.0.1 - - [01/Nov/2020 13:36:53] "GET /static/news/css/reset.css HTTP/1.1" 304 -
+INFO _internal.py:88 127.0.0.1 - - [01/Nov/2020 13:36:53] "GET /static/news/css/main.css HTTP/1.1" 304 -
+INFO _internal.py:88 127.0.0.1 - - [01/Nov/2020 13:36:53] "GET /static/news/js/jquery-1.12.4.min.js HTTP/1.1" 304 -
+INFO _internal.py:88 127.0.0.1 - - [01/Nov/2020 13:36:53] "GET /static/news/js/main.js HTTP/1.1" 200 -
+INFO _internal.py:88 127.0.0.1 - - [01/Nov/2020 13:36:53] "GET /static/news/js/index.js HTTP/1.1" 304 -
+INFO _internal.py:88 127.0.0.1 - - [01/Nov/2020 13:36:53] "GET /static/news/images/logo.png HTTP/1.1" 304 -
+INFO _internal.py:88 127.0.0.1 - - [01/Nov/2020 13:36:53] "GET /static/news/images/person01.png HTTP/1.1" 304 -
+INFO _internal.py:88 127.0.0.1 - - [01/Nov/2020 13:36:53] "GET /static/news/images/news_pic.jpg HTTP/1.1" 304 -
+INFO _internal.py:88 127.0.0.1 - - [01/Nov/2020 13:36:53] "GET /static/news/images/person.png HTTP/1.1" 304 -
+INFO _internal.py:88 127.0.0.1 - - [01/Nov/2020 13:36:53] "GET /passport/image_code HTTP/1.1" 200 -
+INFO _internal.py:88 127.0.0.1 - - [01/Nov/2020 13:37:14] "GET /passport/image_code?cur_id=fe4cca6c-de42-435e-b712-7b717439408b&pre_id= HTTP/1.1" 200 -
+INFO _internal.py:88 127.0.0.1 - - [01/Nov/2020 13:37:27] "POST /passport/sms_code HTTP/1.1" 200 -
+INFO _internal.py:88 127.0.0.1 - - [01/Nov/2020 13:37:39] "POST /passport/register HTTP/1.1" 200 -
+DEBUG views.py:18 输入调试信息
+INFO views.py:19 输入详细信息
+WARNING views.py:20 输入警告信息
+ERROR views.py:21 输入错误信息
+INFO _internal.py:88 127.0.0.1 - - [01/Nov/2020 13:37:39] "GET / HTTP/1.1" 200 -
+INFO _internal.py:88 127.0.0.1 - - [01/Nov/2020 13:37:39] "GET /static/news/css/reset.css HTTP/1.1" 304 -
+INFO _internal.py:88 127.0.0.1 - - [01/Nov/2020 13:37:39] "GET /static/news/css/main.css HTTP/1.1" 304 -
+INFO _internal.py:88 127.0.0.1 - - [01/Nov/2020 13:37:39] "GET /static/news/js/jquery-1.12.4.min.js HTTP/1.1" 304 -
+INFO _internal.py:88 127.0.0.1 - - [01/Nov/2020 13:37:39] "GET /static/news/js/main.js HTTP/1.1" 304 -
+INFO _internal.py:88 127.0.0.1 - - [01/Nov/2020 13:37:39] "GET /static/news/js/index.js HTTP/1.1" 304 -
+INFO _internal.py:88 127.0.0.1 - - [01/Nov/2020 13:37:39] "GET /static/news/images/logo.png HTTP/1.1" 304 -
+INFO _internal.py:88 127.0.0.1 - - [01/Nov/2020 13:37:39] "GET /static/news/images/person01.png HTTP/1.1" 304 -
+INFO _internal.py:88 127.0.0.1 - - [01/Nov/2020 13:37:39] "GET /static/news/images/news_pic.jpg HTTP/1.1" 304 -
+INFO _internal.py:88 127.0.0.1 - - [01/Nov/2020 13:37:39] "GET /static/news/images/person.png HTTP/1.1" 304 -
+INFO _internal.py:88 127.0.0.1 - - [01/Nov/2020 13:37:39] "GET /passport/image_code HTTP/1.1" 200 -
+INFO _internal.py:88  * Detected change in '/home/python/tools/pyProjects/flaskStudy/information/info/modules/passport/views.py', reloading
+INFO _internal.py:88  * Restarting with stat
+WARNING _internal.py:88  * Debugger is active!
+INFO _internal.py:88  * Debugger PIN: 177-012-029
+DEBUG views.py:18 输入调试信息
+INFO views.py:19 输入详细信息
+WARNING views.py:20 输入警告信息
+ERROR views.py:21 输入错误信息
+INFO _internal.py:88 127.0.0.1 - - [01/Nov/2020 13:44:28] "GET / HTTP/1.1" 200 -
+INFO _internal.py:88 127.0.0.1 - - [01/Nov/2020 13:44:28] "GET /static/news/css/reset.css HTTP/1.1" 304 -
+INFO _internal.py:88 127.0.0.1 - - [01/Nov/2020 13:44:28] "GET /static/news/css/main.css HTTP/1.1" 304 -
+INFO _internal.py:88 127.0.0.1 - - [01/Nov/2020 13:44:28] "GET /static/news/js/jquery-1.12.4.min.js HTTP/1.1" 304 -
+INFO _internal.py:88 127.0.0.1 - - [01/Nov/2020 13:44:28] "GET /static/news/js/main.js HTTP/1.1" 304 -
+INFO _internal.py:88 127.0.0.1 - - [01/Nov/2020 13:44:28] "GET /static/news/js/index.js HTTP/1.1" 304 -
+INFO _internal.py:88 127.0.0.1 - - [01/Nov/2020 13:44:28] "GET /static/news/images/logo.png HTTP/1.1" 304 -
+INFO _internal.py:88 127.0.0.1 - - [01/Nov/2020 13:44:28] "GET /static/news/images/person01.png HTTP/1.1" 304 -
+INFO _internal.py:88 127.0.0.1 - - [01/Nov/2020 13:44:28] "GET /static/news/images/news_pic.jpg HTTP/1.1" 304 -
+INFO _internal.py:88 127.0.0.1 - - [01/Nov/2020 13:44:28] "GET /static/news/images/person.png HTTP/1.1" 304 -
+INFO _internal.py:88 127.0.0.1 - - [01/Nov/2020 13:44:28] "GET /passport/image_code HTTP/1.1" 200 -
+INFO _internal.py:88 127.0.0.1 - - [01/Nov/2020 13:45:03] "GET /passport/image_code?cur_id=bfa40b44-54df-4ecb-86de-d1d4a9669f33&pre_id= HTTP/1.1" 200 -
+INFO _internal.py:88 127.0.0.1 - - [01/Nov/2020 13:45:17] "POST /passport/sms_code HTTP/1.1" 200 -
+INFO _internal.py:88 127.0.0.1 - - [01/Nov/2020 13:45:18] "GET /passport/image_code?cur_id=7a306078-c027-4331-bfa1-5061e610b01c&pre_id=bfa40b44-54df-4ecb-86de-d1d4a9669f33 HTTP/1.1" 200 -
+INFO _internal.py:88 127.0.0.1 - - [01/Nov/2020 13:45:21] "GET /passport/image_code?cur_id=fabddb6f-e6d1-4820-96dc-7da018f553de&pre_id=7a306078-c027-4331-bfa1-5061e610b01c HTTP/1.1" 200 -
+INFO _internal.py:88 127.0.0.1 - - [01/Nov/2020 13:45:22] "GET /passport/image_code?cur_id=df9830b6-557d-464a-9d99-97cb1034761c&pre_id=fabddb6f-e6d1-4820-96dc-7da018f553de HTTP/1.1" 200 -
+INFO _internal.py:88 127.0.0.1 - - [01/Nov/2020 13:45:23] "GET /passport/image_code?cur_id=253b6669-a200-4262-85e1-6b76a3e9939d&pre_id=df9830b6-557d-464a-9d99-97cb1034761c HTTP/1.1" 200 -
+INFO _internal.py:88 127.0.0.1 - - [01/Nov/2020 13:45:28] "GET /passport/image_code?cur_id=01f4226d-a5b2-4aff-9fa8-2c04a17abe4e&pre_id=253b6669-a200-4262-85e1-6b76a3e9939d HTTP/1.1" 200 -
+INFO _internal.py:88 127.0.0.1 - - [01/Nov/2020 13:45:30] "GET /passport/image_code?cur_id=aaeffd24-16e2-419e-8c2b-a439ee7f8a90&pre_id=01f4226d-a5b2-4aff-9fa8-2c04a17abe4e HTTP/1.1" 200 -
+INFO _internal.py:88 127.0.0.1 - - [01/Nov/2020 13:45:39] "POST /passport/sms_code HTTP/1.1" 200 -
+INFO _internal.py:88 127.0.0.1 - - [01/Nov/2020 13:46:08] "POST /passport/register HTTP/1.1" 500 -
+INFO _internal.py:88 127.0.0.1 - - [01/Nov/2020 13:46:22] "POST /passport/register HTTP/1.1" 200 -
+INFO _internal.py:88 127.0.0.1 - - [01/Nov/2020 13:46:25] "POST /passport/register HTTP/1.1" 200 -
+DEBUG views.py:18 输入调试信息
+INFO views.py:19 输入详细信息
+WARNING views.py:20 输入警告信息
+ERROR views.py:21 输入错误信息
+INFO _internal.py:88 127.0.0.1 - - [01/Nov/2020 13:47:17] "GET / HTTP/1.1" 200 -
+INFO _internal.py:88 127.0.0.1 - - [01/Nov/2020 13:47:17] "GET /static/news/css/reset.css HTTP/1.1" 304 -
+INFO _internal.py:88 127.0.0.1 - - [01/Nov/2020 13:47:17] "GET /static/news/css/main.css HTTP/1.1" 304 -
+INFO _internal.py:88 127.0.0.1 - - [01/Nov/2020 13:47:17] "GET /static/news/js/jquery-1.12.4.min.js HTTP/1.1" 304 -
+INFO _internal.py:88 127.0.0.1 - - [01/Nov/2020 13:47:17] "GET /static/news/js/main.js HTTP/1.1" 304 -
+INFO _internal.py:88 127.0.0.1 - - [01/Nov/2020 13:47:17] "GET /static/news/js/index.js HTTP/1.1" 304 -
+INFO _internal.py:88 127.0.0.1 - - [01/Nov/2020 13:47:17] "GET /static/news/images/logo.png HTTP/1.1" 304 -
+INFO _internal.py:88 127.0.0.1 - - [01/Nov/2020 13:47:17] "GET /static/news/images/person01.png HTTP/1.1" 304 -
+INFO _internal.py:88 127.0.0.1 - - [01/Nov/2020 13:47:17] "GET /static/news/images/news_pic.jpg HTTP/1.1" 304 -
+INFO _internal.py:88 127.0.0.1 - - [01/Nov/2020 13:47:17] "GET /static/news/images/person.png HTTP/1.1" 304 -
+INFO _internal.py:88 127.0.0.1 - - [01/Nov/2020 13:47:17] "GET /passport/image_code HTTP/1.1" 200 -
+INFO _internal.py:88 127.0.0.1 - - [01/Nov/2020 13:47:19] "GET /passport/image_code?cur_id=ed0b5ab3-4e02-4e4e-a6c7-0e43a8ff01e7&pre_id= HTTP/1.1" 200 -
+INFO _internal.py:88 127.0.0.1 - - [01/Nov/2020 13:47:30] "POST /passport/sms_code HTTP/1.1" 200 -
+INFO _internal.py:88 127.0.0.1 - - [01/Nov/2020 13:49:37] "POST /passport/register HTTP/1.1" 200 -
+INFO _internal.py:88 127.0.0.1 - - [01/Nov/2020 13:49:42] "POST /passport/sms_code HTTP/1.1" 200 -
+INFO _internal.py:88 127.0.0.1 - - [01/Nov/2020 13:49:43] "GET /passport/image_code?cur_id=7a6c8130-8770-4c66-90f9-16c593197345&pre_id=ed0b5ab3-4e02-4e4e-a6c7-0e43a8ff01e7 HTTP/1.1" 200 -
+INFO _internal.py:88 127.0.0.1 - - [01/Nov/2020 13:50:21] "POST /passport/sms_code HTTP/1.1" 200 -
+INFO _internal.py:88 127.0.0.1 - - [01/Nov/2020 13:50:22] "GET /passport/image_code?cur_id=207c6519-a33a-4d16-bc2e-db48019aa325&pre_id=7a6c8130-8770-4c66-90f9-16c593197345 HTTP/1.1" 200 -
+INFO _internal.py:88 127.0.0.1 - - [01/Nov/2020 13:50:23] "GET /passport/image_code?cur_id=16682b4f-35a5-4073-95f4-1455caf3be1a&pre_id=207c6519-a33a-4d16-bc2e-db48019aa325 HTTP/1.1" 200 -
+INFO _internal.py:88 127.0.0.1 - - [01/Nov/2020 13:50:29] "POST /passport/sms_code HTTP/1.1" 200 -
+INFO _internal.py:88 127.0.0.1 - - [01/Nov/2020 13:50:30] "GET /passport/image_code?cur_id=d3449034-2081-4ca9-864c-532b9c9d8d46&pre_id=16682b4f-35a5-4073-95f4-1455caf3be1a HTTP/1.1" 200 -
+INFO _internal.py:88 127.0.0.1 - - [01/Nov/2020 13:50:37] "GET /passport/image_code?cur_id=ab6e39c0-6064-4c19-bf34-9701a963aca9&pre_id=d3449034-2081-4ca9-864c-532b9c9d8d46 HTTP/1.1" 200 -
+INFO _internal.py:88 127.0.0.1 - - [01/Nov/2020 13:50:41] "POST /passport/sms_code HTTP/1.1" 200 -
+INFO _internal.py:88 127.0.0.1 - - [01/Nov/2020 13:50:47] "POST /passport/register HTTP/1.1" 200 -
+DEBUG views.py:18 输入调试信息
+INFO views.py:19 输入详细信息
+WARNING views.py:20 输入警告信息
+ERROR views.py:21 输入错误信息
+INFO _internal.py:88 127.0.0.1 - - [01/Nov/2020 13:50:48] "GET / HTTP/1.1" 200 -
+INFO _internal.py:88 127.0.0.1 - - [01/Nov/2020 13:50:48] "GET /static/news/css/reset.css HTTP/1.1" 304 -
+INFO _internal.py:88 127.0.0.1 - - [01/Nov/2020 13:50:48] "GET /static/news/css/main.css HTTP/1.1" 304 -
+INFO _internal.py:88 127.0.0.1 - - [01/Nov/2020 13:50:48] "GET /static/news/js/jquery-1.12.4.min.js HTTP/1.1" 304 -
+INFO _internal.py:88 127.0.0.1 - - [01/Nov/2020 13:50:48] "GET /static/news/js/main.js HTTP/1.1" 304 -
+INFO _internal.py:88 127.0.0.1 - - [01/Nov/2020 13:50:48] "GET /static/news/js/index.js HTTP/1.1" 304 -
+INFO _internal.py:88 127.0.0.1 - - [01/Nov/2020 13:50:48] "GET /static/news/images/logo.png HTTP/1.1" 304 -
+INFO _internal.py:88 127.0.0.1 - - [01/Nov/2020 13:50:48] "GET /static/news/images/person01.png HTTP/1.1" 304 -
+INFO _internal.py:88 127.0.0.1 - - [01/Nov/2020 13:50:48] "GET /static/news/images/news_pic.jpg HTTP/1.1" 304 -
+INFO _internal.py:88 127.0.0.1 - - [01/Nov/2020 13:50:48] "GET /static/news/images/person.png HTTP/1.1" 304 -
+INFO _internal.py:88 127.0.0.1 - - [01/Nov/2020 13:50:48] "GET /passport/image_code HTTP/1.1" 200 -
