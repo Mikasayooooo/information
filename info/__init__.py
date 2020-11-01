@@ -10,6 +10,8 @@ from config import config_dict
 import logging
 from logging.handlers import RotatingFileHandler
 
+from info.utils.commons import hot_news_filter
+
 # 定义redis_store全局变量
 redis_store = None
 
@@ -51,6 +53,10 @@ def create_app(config_name):
     app.register_blueprint(index_blue)
     # 将认证蓝图password_blue,注册到app中
     app.register_blueprint(passport_blue)
+
+    # 将函数添加到系统默认的过滤器中
+    # 参数1: 函数的名字 参数2: 过滤器的名字
+    app.add_template_filter(hot_news_filter, 'my_filter')
 
     # 使用请求钩子拦截所有的请求,通过在cookie中设置csrf_token
     @app.after_request

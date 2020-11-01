@@ -101,17 +101,25 @@
 
             {#    热门新闻排行    #}
             {% for news in data.news %}
-                {#    根据遍历的索引设置样式的标签        #}
-                {% if loop.index == 1 %}
-                    <li><span class="first">{{ loop.index }}</span><a href="#">{{ news.title }}</a></li>
-                {% elif loop.index == 2 %}
-                    <li><span class="second">{{ loop.index }}</span><a href="#">{{ news.title }}</a></li>
-                {% elif loop.index == 3 %}
-                    <li><span class="third">{{ loop.index }}</span><a href="#">{{ news.title }}</a></li>
-                {% else %}
-                    <li><span class="">{{ loop.index }}</span><a href="#">{{ news.title }}</a></li>
-                {% endif %}
 
+                {#    根据遍历的索引设置样式的标签        #}
+
+                {#     第一种方式           #}
+                {#                {% if loop.index == 1 %}#}
+                {#                    <li><span class="first">{{ loop.index }}</span><a href="#">{{ news.title }}</a></li>#}
+                {#                {% elif loop.index == 2 %}#}
+                {#                    <li><span class="second">{{ loop.index }}</span><a href="#">{{ news.title }}</a></li>#}
+                {#                {% elif loop.index == 3 %}#}
+                {#                    <li><span class="third">{{ loop.index }}</span><a href="#">{{ news.title }}</a></li>#}
+                {#                {% else %}#}
+                {#                    <li><span class="">{{ loop.index }}</span><a href="#">{{ news.title }}</a></li>#}
+                {#                {% endif %}#}
+
+
+
+                {#     第二种方式           #}
+                <li><span class="{{ loop.index | my_filter }}">{{ loop.index }}</span><a href="#">{{ news.title }}</a>
+                </li>
             {% endfor %}
 
 
