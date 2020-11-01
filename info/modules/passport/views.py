@@ -3,7 +3,7 @@ from info.utils.captcha.captcha import captcha
 # 注意导包路径
 
 from flask import request, current_app, make_response, jsonify, session
-from info import constants, db  # 注意这里用 alt + enter 导包
+from info import constants, db, redis_store  # 注意这里用 alt + enter 导包
 
 import json
 import re
@@ -100,7 +100,7 @@ def register():
 
     # 3. 手机号作为key取出redis中的短信验证码
     try:
-        from info import redis_store
+        # from info import redis_store
         redis_sms_code = redis_store.get('sms_code:{}'.format(mobile))
     except Exception as e:
         current_app.logger(e)
@@ -185,7 +185,7 @@ def sms_code():
 
     # 4.通过图片验证码编号获取,图片验证码
     try:
-        from info import redis_store
+        # from info import redis_store
         redis_image_code = redis_store.get('image_code:{}'.format(image_code_id))
     except Exception as e:
         current_app.logger(e)
