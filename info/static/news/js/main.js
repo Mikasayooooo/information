@@ -274,6 +274,8 @@ function sendSMSCode() {
         type:'post',
         data:JSON.stringify(params),
         contentType:'application/json',
+
+        //在请求头中设置csrf_token
         headers:{'X-CSRFToken':getCookie('csrf_token')},
         success: function (resp) {
             //判断是否请求成功

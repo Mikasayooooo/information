@@ -2,7 +2,7 @@ from flask import Flask
 from flask_sqlalchemy import SQLAlchemy
 from redis import StrictRedis
 from flask_session import Session
-from flask_wtf.csrf import CSRFProtect
+from flask_wtf.csrf import CSRFProtect, generate_csrf
 
 from config import config_dict
 
@@ -41,7 +41,7 @@ def create_app(config_name):
     Session(app)
 
     # 开启csrf保护
-    # CSRFProtect(app)
+    CSRFProtect(app)
 
     # 解决循环导入的问题
     from info.modules.index import index_blue
@@ -51,6 +51,20 @@ def create_app(config_name):
     app.register_blueprint(index_blue)
     # 将认证蓝图password_blue,注册到app中
     app.register_blueprint(passport_blue)
+
+    # 使用请求钩子拦截所有的请求,通过在cookie中设置csrf_token
+    @app.after_request
+    def after_request(resp):
+        # resp.set_cookie('name', 'lhl')
+
+        # 调用系统方法,获取csrf_token
+        csrf_token = generate_csrf()
+
+        # 将csrf_token设置到cookie中
+        resp.set_cookie('csrf_token', csrf_token)
+
+        # 返回响应
+        return resp
 
     return app
 
