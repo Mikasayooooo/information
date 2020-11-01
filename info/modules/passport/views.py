@@ -70,7 +70,7 @@ def login():
     try:
         user = User.query.filter(User.mobile == mobile).first()
     except Exception as e:
-        current_app.logger(e)
+        current_app.logger.error(e)
         return jsonify(errno=RET.DBERR, errmsg='获取用户失败')
 
     # 4. 判断用户是否存在
@@ -89,7 +89,7 @@ def login():
     # try:
     #     db.session.commit()  # 修改数据库的内容就要进行提交操作
     # except Exception as e:
-    #     current_app.logger(e)
+    #     current_app.logger.error(e)
 
     # 7. 返回响应
     return jsonify(errno=RET.OK, errmsg='登录成功')
@@ -133,7 +133,7 @@ def register():
         # from info import redis_store
         redis_sms_code = redis_store.get('sms_code:{}'.format(mobile))
     except Exception as e:
-        current_app.logger(e)
+        current_app.logger.error(e)
         return jsonify(errno=RET.DBERR, errmsg='短信验证码取出失败')
 
     # 4. 判断短信验证码是否过期
@@ -148,7 +148,7 @@ def register():
     try:
         redis_store.delete('sms_code:{}'.format(mobile))
     except Exception as e:
-        current_app.logger(e)
+        current_app.logger.error(e)
         return jsonify(errno=RET.DBERR, errmsg='短信验证码删除失败')
 
     # 7. 创建用户对象
@@ -168,7 +168,7 @@ def register():
         db.session.add(user)
         db.session.commit()
     except Exception as e:
-        current_app.logger(e)
+        current_app.logger.error(e)
         db.session.rollback()
         return jsonify(errno=RET.DBERR, errmsg='用户注册失败')
 
@@ -218,7 +218,7 @@ def sms_code():
         # from info import redis_store
         redis_image_code = redis_store.get('image_code:{}'.format(image_code_id))
     except Exception as e:
-        current_app.logger(e)
+        current_app.logger.error(e)
         return jsonify(errno=RET.DBERR, errmsg='操作redis失败')
 
     # 5.判断图片验证码是否过期
@@ -233,7 +233,7 @@ def sms_code():
     try:
         redis_store.delete('image_code:{}'.format(image_code_id))
     except Exception as e:
-        current_app.logger(e)
+        current_app.logger.error(e)
         return jsonify(errno=RET.DATAERR, errmsg='删除redis图片验证码失败')
 
     # 8.生成一个随机的短信验证码,调用cpp发送短信,判断是否发送成功
@@ -250,7 +250,7 @@ def sms_code():
     try:
         redis_store.set('sms_code:{}'.format(mobile), sms_code, constants.SMS_CODE_REDIS_EXPIRES)
     except Exception as e:
-        current_app.logger(e)
+        current_app.logger.error(e)
         return jsonify(errno=RET.DBERR, errmsg='图片验证码保存到redis失败')
 
     # 10.返回响应

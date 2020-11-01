@@ -1,13 +1,14 @@
-from flask import session,render_template
+from flask import session, render_template, jsonify
 from . import index_blue
 import logging
 from flask import current_app
 
-from info.models import User
+from info.models import User, News
+from info.utils.response_code import RET
 
 
 @index_blue.route('/', methods=["GET", "POST"])
-def hello_world():
+def show_index():
     # 测试redis存取数据
     # redis_store.set("name","laowang")
     # print(redis_store.get("name"))
@@ -38,12 +39,23 @@ def hello_world():
     try:
         user = User.query.get(user_id)
     except Exception as e:
-        current_app.logger(e)
+        current_app.logge.error(e)
 
-    # 3. 拼接用户数据,渲染页面
+    # 3. 查询热门新闻,根据点击量,查询前十条新闻
+    try:
+        news = News.query.order_by(News.clicks.desc()).limit(10).all()
+    except Exception as e:
+        current_app.logger.error(e)
+        return jsonify(errno=RET.DBERR, errmsg='获取新闻失败')
+
+    # 4. 将新闻对象列表转成 字典列表
+    news_list = [item.to_dict() for item in news]
+
+    # 5. 拼接用户数据,渲染页面
     data = {
         # 如果user有值,返回左边的内容,否则返回右边的内容
-        'user_info': user.to_dict() if user else ''
+        'user_info': user.to_dict() if user else '',
+        'news': news_list
     }
     print(data)
     # data2 = [
