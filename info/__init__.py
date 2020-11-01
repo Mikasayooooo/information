@@ -56,7 +56,7 @@ def create_app(config_name):
 
     # 将函数添加到系统默认的过滤器中
     # 参数1: 函数的名字 参数2: 过滤器的名字
-    app.add_template_filter(hot_news_filter, 'my_filter')
+    app.add_template_filter(hot_news_filter, 'hot_news_filter')
 
     # 使用请求钩子拦截所有的请求,通过在cookie中设置csrf_token
     @app.after_request

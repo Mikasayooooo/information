@@ -15,12 +15,20 @@
     <div class="header">
         <a href="#" class="logo fl"><img src="../../static/news/images/logo.png" alt="logo"></a>
         <ul class="menu fl">
-            <li class="active" data-cid="1"><a href="javascript:;">最新</a></li>
-            <li data-cid="2"><a href="javascript:;">股市</a></li>
-            <li data-cid="3"><a href="javascript:;">债市</a></li>
-            <li data-cid="4"><a href="javascript:;">商品</a></li>
-            <li data-cid="5"><a href="javascript:;">外汇</a></li>
-            <li data-cid="6"><a href="javascript:;">公司</a></li>
+
+            {#     遍历分类数据     #}
+            {% for categorie in data.categories_list %}
+                {#     if loop.index0 == 0  来进行判断是否是第一个           #}
+                <li class="{% if loop.index0 == 0 %} active {% endif %}" data-cid="{{ categorie.id }}"><a
+                        href="javascript:;">{{ categorie.name }}</a></li>
+            {% endfor %}
+
+            {#            <li class="active" data-cid="1"><a href="javascript:;">最新</a></li>#}
+            {#            <li data-cid="2"><a href="javascript:;">股市</a></li>#}
+            {#            <li data-cid="3"><a href="javascript:;">债市</a></li>#}
+            {#            <li data-cid="4"><a href="javascript:;">商品</a></li>#}
+            {#            <li data-cid="5"><a href="javascript:;">外汇</a></li>#}
+            {#            <li data-cid="6"><a href="javascript:;">公司</a></li>#}
         </ul>
 
         {#  判断用户是否登录了     #}
@@ -118,7 +126,8 @@
 
 
                 {#     第二种方式           #}
-                <li><span class="{{ loop.index | my_filter }}">{{ loop.index }}</span><a href="#">{{ news.title }}</a>
+                <li><span class="{{ loop.index | hot_news_filter }}">{{ loop.index }}</span><a
+                        href="#">{{ news.title }}</a>
                 </li>
             {% endfor %}
 

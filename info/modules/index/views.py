@@ -3,7 +3,7 @@ from . import index_blue
 import logging
 from flask import current_app
 
-from info.models import User, News
+from info.models import User, News, Category
 from info.utils.response_code import RET
 
 
@@ -51,11 +51,22 @@ def show_index():
     # 4. 将新闻对象列表转成 字典列表
     news_list = [item.to_dict() for item in news]
 
-    # 5. 拼接用户数据,渲染页面
+    # 5.查询所有的分类数据
+    try:
+        categories = Category.query.all()
+    except Exception as e:
+        current_app.logger.error(e)
+        return jsonify(errno=RET.DBERR, errmsg='获取分类失败')
+
+    # 6. 将分类对象列表转成 字典列表
+    categories_list = [categorie.to_dict() for categorie in categories]
+
+    # 7. 拼接用户数据,渲染页面
     data = {
         # 如果user有值,返回左边的内容,否则返回右边的内容
         'user_info': user.to_dict() if user else '',
-        'news': news_list
+        'news': news_list,
+        'categories_list': categories_list
     }
     print(data)
     # data2 = [
