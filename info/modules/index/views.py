@@ -28,6 +28,8 @@ def hello_world():
     # current_app.logger.warning('输入警告信息2')
     # current_app.logger.error('输入错误信息2')
 
+    # 的\右上角信息显示
+
     # 1. 获取用户的登录信息
     user_id = session.get('user_id')
     print(user_id)
