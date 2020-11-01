@@ -6,8 +6,6 @@ from flask_wtf.csrf import CSRFProtect
 
 from config import config_dict
 
-from info.modules.index import index_blue
-from info.modules.passport import passport_blue
 
 import logging
 from logging.handlers import RotatingFileHandler
@@ -44,6 +42,10 @@ def create_app(config_name):
 
     # 开启csrf保护
     # CSRFProtect(app)
+
+    # 解决循环导入的问题
+    from info.modules.index import index_blue
+    from info.modules.passport import passport_blue
 
     # 将首页蓝图index_blue,注册到app中
     app.register_blueprint(index_blue)

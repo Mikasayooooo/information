@@ -242,7 +242,7 @@ function generateImageCode() {
 // 发送短信验证码
 function sendSMSCode() {
     // 校验参数，保证输入框有数据填写
-    //移除按钮点击事件
+    //移除按钮点击事件,防止用户一直点击发送短信
     $(".get_code").removeAttr("onclick");
     var mobile = $("#register_mobile").val();
     if (!mobile) {
