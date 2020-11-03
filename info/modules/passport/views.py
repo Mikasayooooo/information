@@ -33,6 +33,7 @@ def logout():
     :return:
     """
     # 1.清除session信息
+    # 设置 默认值None
     session.pop('user_id', None)
 
     # 2.返回响应
