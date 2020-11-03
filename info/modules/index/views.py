@@ -1,4 +1,5 @@
 from flask import session, render_template, jsonify, request
+from sqlalchemy import text
 from . import index_blue
 import logging
 from flask import current_app
@@ -25,9 +26,13 @@ def newslist():
     """
 
     #     1. 获取参数
-    cid = request.args.get('cid')
+    cid = request.args.get('cid')  # 这获取到的是字符串
     page = request.args.get('page')  # 这获取到的是字符串
     per_page = request.args.get('per_page')  # 这获取到的是字符串
+    print(type(cid))
+    print(type(page))
+    print(type(per_page))
+    # <class 'str'>
 
     #     2. 参数类型转换
     try:
@@ -37,12 +42,34 @@ def newslist():
         page = 1
         per_page = 10
 
+
     #     3. 分页查询
     try:
         #  查询新闻 条件(新闻分类的id=cid),并且通过(新闻的创建时间降序排,最新的数据,时间越大,所以排在最前面),
         # 然后进行分页(self, page=None(哪一页), per_page=None(每页有多少条), error_out=True(查不到不报错), max_per_page=None)
-        paginate = News.query.fiter(Category.id == cid).order_by(News.create_time.desc()).paginate(page, per_page,
-                                                                                                   False)
+
+        # 判断新闻的分类是否为1
+        # 这里注意: cid 为字符串 !!!
+        # 第一种方式:
+        # if cid == '1':
+        #     paginate = News.query.filter().order_by(News.create_time.desc()).paginate(page, per_page,False)
+        # else:
+        #     paginate = News.query.filter(News.category_id == cid).order_by(News.create_time.desc()).paginate(page, per_page,False)
+
+        # 第二种方式:
+        # filters = ''
+        # if cid != '1':
+        #     filters = (News.category_id == cid)
+        # paginate = News.query.filter(text(filters)).order_by(News.create_time.desc()).paginate(page, per_page,False)
+
+        # 第三种方式: (推荐)
+        filters = []
+        if cid != '1':
+            # 以后可以加其他条件,灵活
+            filters.append(News.category_id == cid)
+            #     再进行拆包  *filters
+        paginate = News.query.filter(*filters).order_by(News.create_time.desc()).paginate(page, per_page, False)
+
     except Exception as e:
         current_app.logger.error(e)
         return jsonify(errno=RET.DBERR, errmsg='获取新闻失败')
@@ -82,7 +109,7 @@ def show_index():
     # current_app.logger.warning('输入警告信息2')
     # current_app.logger.error('输入错误信息2')
 
-    # 的\右上角信息显示
+    # 首页右上角信息显示
 
     # 1. 获取用户的登录信息
     user_id = session.get('user_id')
