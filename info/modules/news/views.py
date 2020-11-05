@@ -50,15 +50,24 @@ def news_detail(news_id):
     # for news in click_news_list:
     #     click_news_list.append(news.to_dict())
 
-    # 5.携带数据,渲染页面
+
+    # 5.判断用户是否收藏过该新闻
+    is_collected = False
+    # 用户需要登陆,并且该新闻在用户收藏过的新闻列表中
+    if g.user:
+        if news in g.user.collection_news:
+            is_collected = True
+
+    # 6.携带数据,渲染页面
     data = {
         # 从数据库中通过 get 获取,如果不存在,就会报错,需要进行判断
         # 第一种方式:
         # 'news_info':news.to_dict() if news else ''
         'news_info': news.to_dict() if news else '',
         'user_info': g.user.to_dict() if g.user else '',
-        'news': click_news_list
+        'news': click_news_list,
         #     user_info  和 news  必须和 base.html一一对应
+        'is_collected':is_collected
     }
 
     return render_template('news/detail.html', data=data)

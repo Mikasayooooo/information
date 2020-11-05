@@ -5146,3 +5146,106 @@ INFO _internal.py:88 127.0.0.1 - - [05/Nov/2020 13:03:18] "GET /static/news/imag
 INFO _internal.py:88 127.0.0.1 - - [05/Nov/2020 13:03:18] "GET /static/news/images/cat.jpg HTTP/1.1" 304 -
 INFO _internal.py:88 127.0.0.1 - - [05/Nov/2020 13:03:18] "GET /static/news/images/worm.jpg HTTP/1.1" 304 -
 INFO _internal.py:88 127.0.0.1 - - [05/Nov/2020 13:03:18] "GET /passport/image_code HTTP/1.1" 200 -
+INFO _internal.py:88  * Detected change in '/home/python/tools/pyProjects/flaskStudy/information/info/modules/news/views.py', reloading
+INFO _internal.py:88  * Restarting with stat
+WARNING _internal.py:88  * Debugger is active!
+INFO _internal.py:88  * Debugger PIN: 177-012-029
+INFO _internal.py:88 127.0.0.1 - - [05/Nov/2020 14:33:36] "GET / HTTP/1.1" 200 -
+INFO _internal.py:88 127.0.0.1 - - [05/Nov/2020 14:33:36] "GET /static/news/css/reset.css HTTP/1.1" 304 -
+INFO _internal.py:88 127.0.0.1 - - [05/Nov/2020 14:33:36] "GET /static/news/css/main.css HTTP/1.1" 304 -
+INFO _internal.py:88 127.0.0.1 - - [05/Nov/2020 14:33:36] "GET /static/news/js/jquery-1.12.4.min.js HTTP/1.1" 304 -
+INFO _internal.py:88 127.0.0.1 - - [05/Nov/2020 14:33:36] "GET /static/news/js/main.js HTTP/1.1" 304 -
+INFO _internal.py:88 127.0.0.1 - - [05/Nov/2020 14:33:36] "GET /static/news/js/index.js HTTP/1.1" 304 -
+INFO _internal.py:88 127.0.0.1 - - [05/Nov/2020 14:33:36] "GET /static/news/images/logo.png HTTP/1.1" 304 -
+INFO _internal.py:88 127.0.0.1 - - [05/Nov/2020 14:33:36] "GET /static/news/images/person01.png HTTP/1.1" 304 -
+INFO _internal.py:88 127.0.0.1 - - [05/Nov/2020 14:33:36] "GET /static/news/images/news_pic.jpg HTTP/1.1" 304 -
+INFO _internal.py:88 127.0.0.1 - - [05/Nov/2020 14:33:36] "GET /static/news/images/person.png HTTP/1.1" 304 -
+INFO _internal.py:88 127.0.0.1 - - [05/Nov/2020 14:33:36] "GET /passport/image_code HTTP/1.1" 200 -
+INFO _internal.py:88 127.0.0.1 - - [05/Nov/2020 14:33:36] "GET /newslist?page=1&cid=1&per_page=5 HTTP/1.1" 200 -
+INFO _internal.py:88 127.0.0.1 - - [05/Nov/2020 14:33:38] "GET /news/21 HTTP/1.1" 200 -
+INFO _internal.py:88 127.0.0.1 - - [05/Nov/2020 14:33:38] "GET /passport/image_code HTTP/1.1" 200 -
+INFO _internal.py:88 127.0.0.1 - - [05/Nov/2020 14:33:41] "GET /news/149 HTTP/1.1" 200 -
+INFO _internal.py:88 127.0.0.1 - - [05/Nov/2020 14:33:41] "GET /passport/image_code HTTP/1.1" 200 -
+INFO _internal.py:88  * Detected change in '/home/python/tools/pyProjects/flaskStudy/information/info/modules/news/views.py', reloading
+INFO _internal.py:88  * Restarting with stat
+WARNING _internal.py:88  * Debugger is active!
+INFO _internal.py:88  * Debugger PIN: 177-012-029
+INFO _internal.py:88 127.0.0.1 - - [05/Nov/2020 14:34:10] "GET /news/149 HTTP/1.1" 200 -
+INFO _internal.py:88 127.0.0.1 - - [05/Nov/2020 14:34:10] "GET /static/news/css/reset.css HTTP/1.1" 304 -
+INFO _internal.py:88 127.0.0.1 - - [05/Nov/2020 14:34:10] "GET /static/news/css/main.css HTTP/1.1" 304 -
+INFO _internal.py:88 127.0.0.1 - - [05/Nov/2020 14:34:10] "GET /static/news/js/jquery-1.12.4.min.js HTTP/1.1" 304 -
+INFO _internal.py:88 127.0.0.1 - - [05/Nov/2020 14:34:10] "GET /static/news/js/main.js HTTP/1.1" 304 -
+INFO _internal.py:88 127.0.0.1 - - [05/Nov/2020 14:34:10] "GET /static/news/js/detail.js HTTP/1.1" 304 -
+INFO _internal.py:88 127.0.0.1 - - [05/Nov/2020 14:34:10] "GET /static/news/images/logo.png HTTP/1.1" 304 -
+INFO _internal.py:88 127.0.0.1 - - [05/Nov/2020 14:34:10] "GET /static/news/images/user_pic.png HTTP/1.1" 304 -
+INFO _internal.py:88 127.0.0.1 - - [05/Nov/2020 14:34:10] "GET /static/news/images/person01.png HTTP/1.1" 304 -
+INFO _internal.py:88 127.0.0.1 - - [05/Nov/2020 14:34:10] "GET /static/news/images/cat.jpg HTTP/1.1" 304 -
+INFO _internal.py:88 127.0.0.1 - - [05/Nov/2020 14:34:10] "GET /static/news/images/worm.jpg HTTP/1.1" 304 -
+INFO _internal.py:88 127.0.0.1 - - [05/Nov/2020 14:34:10] "GET /passport/image_code HTTP/1.1" 200 -
+INFO _internal.py:88  * Detected change in '/home/python/tools/pyProjects/flaskStudy/information/info/modules/news/views.py', reloading
+INFO _internal.py:88  * Restarting with stat
+WARNING _internal.py:88  * Debugger is active!
+INFO _internal.py:88  * Debugger PIN: 177-012-029
+INFO _internal.py:88 127.0.0.1 - - [05/Nov/2020 14:34:45] "GET /news/149 HTTP/1.1" 200 -
+INFO _internal.py:88 127.0.0.1 - - [05/Nov/2020 14:34:46] "GET /static/news/css/reset.css HTTP/1.1" 304 -
+INFO _internal.py:88 127.0.0.1 - - [05/Nov/2020 14:34:46] "GET /static/news/css/main.css HTTP/1.1" 304 -
+INFO _internal.py:88 127.0.0.1 - - [05/Nov/2020 14:34:46] "GET /static/news/js/jquery-1.12.4.min.js HTTP/1.1" 304 -
+INFO _internal.py:88 127.0.0.1 - - [05/Nov/2020 14:34:46] "GET /static/news/js/main.js HTTP/1.1" 304 -
+INFO _internal.py:88 127.0.0.1 - - [05/Nov/2020 14:34:46] "GET /static/news/js/detail.js HTTP/1.1" 304 -
+INFO _internal.py:88 127.0.0.1 - - [05/Nov/2020 14:34:46] "GET /static/news/images/logo.png HTTP/1.1" 304 -
+INFO _internal.py:88 127.0.0.1 - - [05/Nov/2020 14:34:46] "GET /static/news/images/user_pic.png HTTP/1.1" 304 -
+INFO _internal.py:88 127.0.0.1 - - [05/Nov/2020 14:34:46] "GET /static/news/images/person01.png HTTP/1.1" 304 -
+INFO _internal.py:88 127.0.0.1 - - [05/Nov/2020 14:34:46] "GET /static/news/images/cat.jpg HTTP/1.1" 304 -
+INFO _internal.py:88 127.0.0.1 - - [05/Nov/2020 14:34:46] "GET /static/news/images/worm.jpg HTTP/1.1" 304 -
+INFO _internal.py:88 127.0.0.1 - - [05/Nov/2020 14:34:46] "GET /passport/image_code HTTP/1.1" 200 -
+INFO _internal.py:88 127.0.0.1 - - [05/Nov/2020 14:34:53] "GET /news/1 HTTP/1.1" 200 -
+INFO _internal.py:88 127.0.0.1 - - [05/Nov/2020 14:34:53] "GET /passport/image_code HTTP/1.1" 200 -
+INFO _internal.py:88 127.0.0.1 - - [05/Nov/2020 14:34:59] "GET /news/149 HTTP/1.1" 200 -
+INFO _internal.py:88 127.0.0.1 - - [05/Nov/2020 14:34:59] "GET /passport/image_code HTTP/1.1" 200 -
+INFO _internal.py:88  * Detected change in '/home/python/tools/pyProjects/flaskStudy/information/info/modules/news/views.py', reloading
+INFO _internal.py:88  * Restarting with stat
+WARNING _internal.py:88  * Debugger is active!
+INFO _internal.py:88  * Debugger PIN: 177-012-029
+INFO _internal.py:88 127.0.0.1 - - [05/Nov/2020 14:35:17] "GET /news/149 HTTP/1.1" 200 -
+INFO _internal.py:88 127.0.0.1 - - [05/Nov/2020 14:35:17] "GET /static/news/css/reset.css HTTP/1.1" 304 -
+INFO _internal.py:88 127.0.0.1 - - [05/Nov/2020 14:35:17] "GET /static/news/css/main.css HTTP/1.1" 304 -
+INFO _internal.py:88 127.0.0.1 - - [05/Nov/2020 14:35:17] "GET /static/news/js/jquery-1.12.4.min.js HTTP/1.1" 304 -
+INFO _internal.py:88 127.0.0.1 - - [05/Nov/2020 14:35:17] "GET /static/news/js/main.js HTTP/1.1" 304 -
+INFO _internal.py:88 127.0.0.1 - - [05/Nov/2020 14:35:17] "GET /static/news/js/detail.js HTTP/1.1" 304 -
+INFO _internal.py:88 127.0.0.1 - - [05/Nov/2020 14:35:17] "GET /static/news/images/logo.png HTTP/1.1" 304 -
+INFO _internal.py:88 127.0.0.1 - - [05/Nov/2020 14:35:17] "GET /static/news/images/user_pic.png HTTP/1.1" 304 -
+INFO _internal.py:88 127.0.0.1 - - [05/Nov/2020 14:35:17] "GET /static/news/images/person01.png HTTP/1.1" 304 -
+INFO _internal.py:88 127.0.0.1 - - [05/Nov/2020 14:35:17] "GET /static/news/images/cat.jpg HTTP/1.1" 304 -
+INFO _internal.py:88 127.0.0.1 - - [05/Nov/2020 14:35:17] "GET /static/news/images/worm.jpg HTTP/1.1" 304 -
+INFO _internal.py:88 127.0.0.1 - - [05/Nov/2020 14:35:17] "GET /passport/image_code HTTP/1.1" 200 -
+INFO _internal.py:88 127.0.0.1 - - [05/Nov/2020 14:35:19] "GET /news/149 HTTP/1.1" 200 -
+INFO _internal.py:88 127.0.0.1 - - [05/Nov/2020 14:35:19] "GET /static/news/css/reset.css HTTP/1.1" 304 -
+INFO _internal.py:88 127.0.0.1 - - [05/Nov/2020 14:35:19] "GET /static/news/css/main.css HTTP/1.1" 304 -
+INFO _internal.py:88 127.0.0.1 - - [05/Nov/2020 14:35:19] "GET /static/news/js/jquery-1.12.4.min.js HTTP/1.1" 304 -
+INFO _internal.py:88 127.0.0.1 - - [05/Nov/2020 14:35:19] "GET /static/news/js/main.js HTTP/1.1" 304 -
+INFO _internal.py:88 127.0.0.1 - - [05/Nov/2020 14:35:19] "GET /static/news/js/detail.js HTTP/1.1" 304 -
+INFO _internal.py:88 127.0.0.1 - - [05/Nov/2020 14:35:19] "GET /static/news/images/logo.png HTTP/1.1" 304 -
+INFO _internal.py:88 127.0.0.1 - - [05/Nov/2020 14:35:19] "GET /static/news/images/user_pic.png HTTP/1.1" 304 -
+INFO _internal.py:88 127.0.0.1 - - [05/Nov/2020 14:35:19] "GET /static/news/images/person01.png HTTP/1.1" 304 -
+INFO _internal.py:88 127.0.0.1 - - [05/Nov/2020 14:35:19] "GET /static/news/images/cat.jpg HTTP/1.1" 304 -
+INFO _internal.py:88 127.0.0.1 - - [05/Nov/2020 14:35:19] "GET /static/news/images/worm.jpg HTTP/1.1" 304 -
+INFO _internal.py:88 127.0.0.1 - - [05/Nov/2020 14:35:19] "GET /passport/image_code HTTP/1.1" 200 -
+INFO _internal.py:88  * Detected change in '/home/python/tools/pyProjects/flaskStudy/information/info/modules/news/views.py', reloading
+INFO _internal.py:88  * Restarting with stat
+WARNING _internal.py:88  * Debugger is active!
+INFO _internal.py:88  * Debugger PIN: 177-012-029
+INFO _internal.py:88 127.0.0.1 - - [05/Nov/2020 14:35:34] "GET /news/149 HTTP/1.1" 200 -
+INFO _internal.py:88 127.0.0.1 - - [05/Nov/2020 14:35:34] "GET /static/news/css/reset.css HTTP/1.1" 304 -
+INFO _internal.py:88 127.0.0.1 - - [05/Nov/2020 14:35:34] "GET /static/news/css/main.css HTTP/1.1" 304 -
+INFO _internal.py:88 127.0.0.1 - - [05/Nov/2020 14:35:34] "GET /static/news/js/jquery-1.12.4.min.js HTTP/1.1" 304 -
+INFO _internal.py:88 127.0.0.1 - - [05/Nov/2020 14:35:34] "GET /static/news/js/main.js HTTP/1.1" 304 -
+INFO _internal.py:88 127.0.0.1 - - [05/Nov/2020 14:35:34] "GET /static/news/js/detail.js HTTP/1.1" 304 -
+INFO _internal.py:88 127.0.0.1 - - [05/Nov/2020 14:35:34] "GET /static/news/images/logo.png HTTP/1.1" 304 -
+INFO _internal.py:88 127.0.0.1 - - [05/Nov/2020 14:35:34] "GET /static/news/images/user_pic.png HTTP/1.1" 304 -
+INFO _internal.py:88 127.0.0.1 - - [05/Nov/2020 14:35:34] "GET /static/news/images/person01.png HTTP/1.1" 304 -
+INFO _internal.py:88 127.0.0.1 - - [05/Nov/2020 14:35:34] "GET /static/news/images/cat.jpg HTTP/1.1" 304 -
+INFO _internal.py:88 127.0.0.1 - - [05/Nov/2020 14:35:34] "GET /static/news/images/worm.jpg HTTP/1.1" 304 -
+INFO _internal.py:88 127.0.0.1 - - [05/Nov/2020 14:35:34] "GET /passport/image_code HTTP/1.1" 200 -
+INFO _internal.py:88 127.0.0.1 - - [05/Nov/2020 14:35:37] "GET /newslist?page=1&cid=2&per_page=5 HTTP/1.1" 200 -
+INFO _internal.py:88 127.0.0.1 - - [05/Nov/2020 14:35:38] "GET /news/1154 HTTP/1.1" 200 -
+INFO _internal.py:88 127.0.0.1 - - [05/Nov/2020 14:35:38] "GET /passport/image_code HTTP/1.1" 200 -
