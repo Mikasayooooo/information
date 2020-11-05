@@ -32,18 +32,20 @@
         <a href="javascript:;" class="collected block-center" data-newid="" style="display: none"><span
                 class="out">已收藏</span><span class="over">取消收藏</span></a>
 
-
-        <div class="comment_form_logout">
+        {#   根据用户的登录状态显示不同的输入框   #}
+        {% if not data.user_info %}
+            <div class="comment_form_logout">
             登录发表你的评论
         </div>
-
-        <form action="" class="comment_form">
+        {% else %}
+            <form action="" class="comment_form">
             <div class="person_pic">
                 <img src="../../static/news/images/cat.jpg" alt="用户图标">
             </div>
             <textarea placeholder="请发表您的评论" class="comment_input"></textarea>
             <input type="submit" name="" value="评 论" class="comment_sub">
         </form>
+        {% endif %}
 
 
         <div class="comment_count">
