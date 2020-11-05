@@ -1,6 +1,7 @@
-from flask import current_app, jsonify, render_template, abort, session
+from flask import current_app, jsonify, render_template, abort, session, g
 
 from info.models import News, User
+from info.utils.commons import user_login_data
 from info.utils.response_code import RET
 from . import news_blue
 
@@ -10,17 +11,19 @@ from . import news_blue
 # 请求参数: news_id
 # 返回值: detail.html 页面,用户data字典数据
 @news_blue.route('/<int:news_id>')
+@user_login_data
 def news_detail(news_id):
-    # 0. 从session中取出用户的user_id
-    user_id = session.get('user_id')
+    # # 0. 从session中取出用户的user_id
+    # user_id = session.get('user_id')
+    #
+    # # 0.1 通过user_id取出用户对象
+    # user = None
+    # try:
+    #     # 通过get从数据库获取的需要判断是否为空
+    #     user = User.query.get(user_id)
+    # except Exception as e:
+    #     current_app.logger.error(e)
 
-    # 0.1 通过user_id取出用户对象
-    user = None
-    try:
-        # 通过get从数据库获取的需要判断是否为空
-        user = User.query.get(user_id)
-    except Exception as e:
-        current_app.logger.error(e)
 
     # 1.根据新闻编号,查询新闻对象
     try:
@@ -40,8 +43,12 @@ def news_detail(news_id):
     except Exception as e:
         current_app.logger.error(e)
 
-    # 4.将热门新闻的对象列表,转换为字典列表(列表生成式)
+    # 4.将热门新闻的对象列表,转换为字典列表(列表生成式),这里的news和上面的新闻对象重复,
+    # 但是,因为是通过列表生成式,所以news的作用域仅限[]
     click_news_list = [news.to_dict() for news in click_news]
+    # click_news_list = []
+    # for news in click_news_list:
+    #     click_news_list.append(news.to_dict())
 
     # 5.携带数据,渲染页面
     data = {
@@ -49,7 +56,7 @@ def news_detail(news_id):
         # 第一种方式:
         # 'news_info':news.to_dict() if news else ''
         'news_info': news.to_dict() if news else '',
-        'user_info': user.to_dict() if user else '',
+        'user_info': g.user.to_dict() if g.user else '',
         'news': click_news_list
         #     user_info  和 news  必须和 base.html一一对应
     }
