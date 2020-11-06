@@ -228,7 +228,7 @@ $(function () {
 
         // 评论回复
         if (sHandler.indexOf('reply_sub') >= 0) {
-            /*
+
             var $this = $(this)
             var news_id = $this.parent().attr('data-newsid')
             var parent_id = $this.parent().attr('data-commentid')
@@ -298,7 +298,7 @@ $(function () {
                     }
                 }
             })
-            */
+
         }
     })
 

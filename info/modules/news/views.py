@@ -1,9 +1,74 @@
 from flask import current_app, jsonify, render_template, abort, session, g,request
 
-from info.models import News, User
+from info import db
+from info.models import News, User,Comment
 from info.utils.commons import user_login_data
 from info.utils.response_code import RET
 from . import news_blue
+
+
+# 新闻评论后端
+# 请求路径: /news/news_comment
+# 请求方式: POST
+# 请求参数: news_id,comment,g.user,parent_id
+# 返回值: errno,errmsg,评论字典
+@news_blue.route('/news_comment',methods=['POST'])
+@user_login_data
+def news_comment():
+    '''
+    1.判断用户是否登陆
+    2.获取请求参数
+    3.校验参数,为空校验
+    4.根据新闻编号取出新闻对象,判断新闻是否存在
+    5.创建评论对象,设置属性
+    6.保存评论对象到数据库中
+    7.返回响应,携带评论的数据
+    :return:
+    '''
+
+    # 1.判断用户是否登陆
+    if not g.user:
+        return jsonify(errno=RET.NODATA,errmsg='用户未登录')
+
+    # 2.获取请求参数
+    news_id = request.json.get('news_id')
+    content = request.json.get('comment')
+    parent_id = request.json.get('parent_id')
+
+    # 3.校验参数,为空校验
+    if not all([news_id,content]):
+        return jsonify(errno=RET.PARAMERR, errmsg='参数不全')
+
+    # 4.根据新闻编号取出新闻对象,判断新闻是否存在
+    try:
+       news = News.query.get(news_id)
+    except Exception as e:
+        current_app.logger.error(e)
+        return jsonify(errno=RET.DBERR, errmsg='新闻获取失败')
+
+    if not news:
+        return jsonify(errno=RET.NODATA, errmsg='新闻不存在')
+
+    # 5.创建评论对象,设置属性
+    comment = Comment()
+    comment.user_id = g.user.id
+    comment.news_id = news_id
+    comment.content = content
+    # 父评论可能没有
+    if parent_id:
+        comment.parent_id = parent_id
+
+    # 6.保存评论对象到数据库中
+    try:
+       db.session.add(comment)
+       db.session.commit()
+       #因为前面已经设置过了数据库自动提交,所以这句话可以不写
+    except Exception as e:
+        current_app.logger.error(e)
+        return jsonify(errno=RET.DBERR, errmsg='评论失败')
+
+    # 7.返回响应,携带评论的数据
+    return jsonify(errno=RET.OK, errmsg='评论成功',data=comment.to_dict())
 
 
 # 收藏功能接口
@@ -28,7 +93,7 @@ def news_collect():
 
     # 1.判断用户是否登录
     if not g.user:
-        return jsonify(errno=RET.NODATA,errmsg='用户为登录')
+        return jsonify(errno=RET.NODATA,errmsg='用户未登录')
 
     # 2.获取参数
     news_id = request.json.get('news_id')
