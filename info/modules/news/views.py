@@ -166,6 +166,7 @@ def news_detail(news_id):
         click_news = News.query.order_by(News.clicks.desc()).limit(6).all()
     except Exception as e:
         current_app.logger.error(e)
+        return jsonify(errno=RET.DBERR, errmsg='获取热门新闻失败')
 
     # 4.将热门新闻的对象列表,转换为字典列表(列表生成式),这里的news和上面的新闻对象重复,
     # 但是,因为是通过列表生成式,所以news的作用域仅限[]
@@ -182,7 +183,18 @@ def news_detail(news_id):
         if news in g.user.collection_news:
             is_collected = True
 
-    # 6.携带数据,渲染页面
+
+    # 6.查询数据库中,该新闻的所有评论内容
+    try:
+       comments = Comment.query.filter(Comment.news_id == news_id).order_by(Comment.create_time.desc())
+    except Exception as e:
+        current_app.logger.error(e)
+        return jsonify(errno=RET.DBERR, errmsg='获取评论失败')
+
+    # 7.将评论对象列表转换成字典列表
+    comments_list = [comment.to_dict() for comment in comments]
+
+    # 8.携带数据,渲染页面
     data = {
         # 从数据库中通过 get 获取,如果不存在,就会报错,需要进行判断
         # 第一种方式:
@@ -191,7 +203,8 @@ def news_detail(news_id):
         'user_info': g.user.to_dict() if g.user else '',
         'news': click_news_list,
         #     user_info  和 news  必须和 base.html一一对应
-        'is_collected':is_collected
+        'is_collected':is_collected,
+        'comments_list':comments_list
     }
 
     return render_template('news/detail.html', data=data)
