@@ -204,7 +204,7 @@ def news_detail(news_id):
 
         # 6.1.2 获取用户所有点赞过的评论编号
         mylike_comment_ids = [commentLike.comment_id for commentLike in commentlikes]
-        
+
     except Exception as e:
         current_app.logger.error(e)
         return jsonify(errno=RET.DBERR,errmsg='获取点赞失败')
@@ -213,7 +213,7 @@ def news_detail(news_id):
     # 7.将评论对象列表转换成字典列表
     # comments_list = [comment.to_dict() for comment in comments]
     comments_list = []
-    for comment in comments_list:
+    for comment in comments:
         #将评论对象,转字典
         comm_dict = comment.to_dict()
 
