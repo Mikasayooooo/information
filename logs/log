@@ -8077,3 +8077,653 @@ INFO _internal.py:88 127.0.0.1 - - [08/Nov/2020 16:27:23] "GET /user/base_info H
 INFO _internal.py:88 127.0.0.1 - - [08/Nov/2020 16:27:23] "GET /static/news/css/reset.css HTTP/1.1" 304 -
 INFO _internal.py:88 127.0.0.1 - - [08/Nov/2020 16:27:23] "GET /static/news/css/main.css HTTP/1.1" 304 -
 INFO _internal.py:88 127.0.0.1 - - [08/Nov/2020 16:27:23] "GET /static/news/js/user_base_info.js HTTP/1.1" 304 -
+INFO _internal.py:88 127.0.0.1 - - [08/Nov/2020 16:32:03] "GET /user/info HTTP/1.1" 200 -
+INFO _internal.py:88 127.0.0.1 - - [08/Nov/2020 16:32:03] "GET /static/news/css/reset.css HTTP/1.1" 304 -
+INFO _internal.py:88 127.0.0.1 - - [08/Nov/2020 16:32:03] "GET /static/news/css/main.css HTTP/1.1" 304 -
+INFO _internal.py:88 127.0.0.1 - - [08/Nov/2020 16:32:03] "GET /static/news/js/jquery-1.12.4.min.js HTTP/1.1" 304 -
+INFO _internal.py:88 127.0.0.1 - - [08/Nov/2020 16:32:03] "GET /static/news/js/main.js HTTP/1.1" 304 -
+INFO _internal.py:88 127.0.0.1 - - [08/Nov/2020 16:32:03] "GET /static/news/js/jquery.form.min.js HTTP/1.1" 304 -
+INFO _internal.py:88 127.0.0.1 - - [08/Nov/2020 16:32:03] "GET /static/news/images/logo.png HTTP/1.1" 304 -
+INFO _internal.py:88 127.0.0.1 - - [08/Nov/2020 16:32:03] "GET /static/news/images/person01.png HTTP/1.1" 304 -
+INFO _internal.py:88 127.0.0.1 - - [08/Nov/2020 16:32:03] "GET /static/news/images/user_pic.png HTTP/1.1" 304 -
+INFO _internal.py:88 127.0.0.1 - - [08/Nov/2020 16:32:03] "GET /passport/image_code HTTP/1.1" 200 -
+INFO _internal.py:88 127.0.0.1 - - [08/Nov/2020 16:32:03] "GET /user/base_info HTTP/1.1" 200 -
+INFO _internal.py:88 127.0.0.1 - - [08/Nov/2020 16:32:03] "GET /static/news/css/reset.css HTTP/1.1" 304 -
+INFO _internal.py:88 127.0.0.1 - - [08/Nov/2020 16:32:03] "GET /static/news/css/main.css HTTP/1.1" 304 -
+INFO _internal.py:88 127.0.0.1 - - [08/Nov/2020 16:32:03] "GET /static/news/js/user_base_info.js HTTP/1.1" 304 -
+INFO _internal.py:88 127.0.0.1 - - [08/Nov/2020 16:32:07] "GET /user/base_info HTTP/1.1" 200 -
+INFO _internal.py:88 127.0.0.1 - - [08/Nov/2020 16:41:25] "GET /user/base_info HTTP/1.1" 200 -
+INFO _internal.py:88  * Detected change in '/home/python/tools/pyProjects/flaskStudy/information/info/modules/profile/views.py', reloading
+INFO _internal.py:88  * Restarting with stat
+WARNING _internal.py:88  * Debugger is active!
+INFO _internal.py:88  * Debugger PIN: 177-012-029
+INFO _internal.py:88 127.0.0.1 - - [08/Nov/2020 16:48:59] "GET /user/info HTTP/1.1" 200 -
+INFO _internal.py:88 127.0.0.1 - - [08/Nov/2020 16:48:59] "GET /static/news/css/reset.css HTTP/1.1" 304 -
+INFO _internal.py:88 127.0.0.1 - - [08/Nov/2020 16:48:59] "GET /static/news/css/main.css HTTP/1.1" 304 -
+INFO _internal.py:88 127.0.0.1 - - [08/Nov/2020 16:48:59] "GET /static/news/js/jquery-1.12.4.min.js HTTP/1.1" 304 -
+INFO _internal.py:88 127.0.0.1 - - [08/Nov/2020 16:48:59] "GET /static/news/js/main.js HTTP/1.1" 304 -
+INFO _internal.py:88 127.0.0.1 - - [08/Nov/2020 16:48:59] "GET /static/news/js/jquery.form.min.js HTTP/1.1" 304 -
+INFO _internal.py:88 127.0.0.1 - - [08/Nov/2020 16:48:59] "GET /static/news/images/logo.png HTTP/1.1" 304 -
+INFO _internal.py:88 127.0.0.1 - - [08/Nov/2020 16:48:59] "GET /static/news/images/person01.png HTTP/1.1" 304 -
+INFO _internal.py:88 127.0.0.1 - - [08/Nov/2020 16:48:59] "GET /static/news/images/user_pic.png HTTP/1.1" 304 -
+INFO _internal.py:88 127.0.0.1 - - [08/Nov/2020 16:48:59] "GET /passport/image_code HTTP/1.1" 200 -
+INFO _internal.py:88 127.0.0.1 - - [08/Nov/2020 16:48:59] "GET /user/base_info HTTP/1.1" 200 -
+INFO _internal.py:88 127.0.0.1 - - [08/Nov/2020 16:48:59] "GET /static/news/css/reset.css HTTP/1.1" 304 -
+INFO _internal.py:88 127.0.0.1 - - [08/Nov/2020 16:48:59] "GET /static/news/css/main.css HTTP/1.1" 304 -
+INFO _internal.py:88 127.0.0.1 - - [08/Nov/2020 16:48:59] "GET /static/news/js/user_base_info.js HTTP/1.1" 304 -
+INFO _internal.py:88 127.0.0.1 - - [08/Nov/2020 16:49:03] "GET /user/base_info?signature=ssss&gender=on HTTP/1.1" 200 -
+INFO _internal.py:88 127.0.0.1 - - [08/Nov/2020 16:49:05] "GET /user/base_info?signature=%E8%AF%A5%E7%94%A8%E6%88%B7%E5%BE%88%E6%87%92%2C%E4%BB%80%E4%B9%88%E9%83%BD%E6%B2%A1%E5%86%99&gender=on HTTP/1.1" 200 -
+INFO _internal.py:88 127.0.0.1 - - [08/Nov/2020 16:50:11] "GET /user/info HTTP/1.1" 200 -
+INFO _internal.py:88 127.0.0.1 - - [08/Nov/2020 16:50:12] "GET /static/news/css/reset.css HTTP/1.1" 304 -
+INFO _internal.py:88 127.0.0.1 - - [08/Nov/2020 16:50:12] "GET /static/news/css/main.css HTTP/1.1" 304 -
+INFO _internal.py:88 127.0.0.1 - - [08/Nov/2020 16:50:12] "GET /static/news/js/jquery-1.12.4.min.js HTTP/1.1" 304 -
+INFO _internal.py:88 127.0.0.1 - - [08/Nov/2020 16:50:12] "GET /static/news/js/main.js HTTP/1.1" 304 -
+INFO _internal.py:88 127.0.0.1 - - [08/Nov/2020 16:50:12] "GET /static/news/js/jquery.form.min.js HTTP/1.1" 304 -
+INFO _internal.py:88 127.0.0.1 - - [08/Nov/2020 16:50:12] "GET /static/news/images/logo.png HTTP/1.1" 304 -
+INFO _internal.py:88 127.0.0.1 - - [08/Nov/2020 16:50:12] "GET /static/news/images/person01.png HTTP/1.1" 304 -
+INFO _internal.py:88 127.0.0.1 - - [08/Nov/2020 16:50:12] "GET /static/news/images/user_pic.png HTTP/1.1" 304 -
+INFO _internal.py:88 127.0.0.1 - - [08/Nov/2020 16:50:12] "GET /passport/image_code HTTP/1.1" 200 -
+INFO _internal.py:88 127.0.0.1 - - [08/Nov/2020 16:50:12] "GET /user/base_info HTTP/1.1" 200 -
+INFO _internal.py:88 127.0.0.1 - - [08/Nov/2020 16:50:12] "GET /static/news/css/reset.css HTTP/1.1" 304 -
+INFO _internal.py:88 127.0.0.1 - - [08/Nov/2020 16:50:12] "GET /static/news/css/main.css HTTP/1.1" 304 -
+INFO _internal.py:88 127.0.0.1 - - [08/Nov/2020 16:50:12] "GET /static/news/js/user_base_info.js HTTP/1.1" 200 -
+INFO _internal.py:88 127.0.0.1 - - [08/Nov/2020 16:50:14] "GET /user/base_info?signature=dddd&gender=on HTTP/1.1" 200 -
+INFO _internal.py:88 127.0.0.1 - - [08/Nov/2020 16:50:29] "GET /user/info HTTP/1.1" 200 -
+INFO _internal.py:88 127.0.0.1 - - [08/Nov/2020 16:50:29] "GET /static/news/css/reset.css HTTP/1.1" 304 -
+INFO _internal.py:88 127.0.0.1 - - [08/Nov/2020 16:50:29] "GET /static/news/css/main.css HTTP/1.1" 304 -
+INFO _internal.py:88 127.0.0.1 - - [08/Nov/2020 16:50:29] "GET /static/news/js/jquery-1.12.4.min.js HTTP/1.1" 304 -
+INFO _internal.py:88 127.0.0.1 - - [08/Nov/2020 16:50:29] "GET /static/news/js/main.js HTTP/1.1" 304 -
+INFO _internal.py:88 127.0.0.1 - - [08/Nov/2020 16:50:29] "GET /static/news/js/jquery.form.min.js HTTP/1.1" 304 -
+INFO _internal.py:88 127.0.0.1 - - [08/Nov/2020 16:50:29] "GET /static/news/images/logo.png HTTP/1.1" 304 -
+INFO _internal.py:88 127.0.0.1 - - [08/Nov/2020 16:50:29] "GET /static/news/images/person01.png HTTP/1.1" 304 -
+INFO _internal.py:88 127.0.0.1 - - [08/Nov/2020 16:50:29] "GET /static/news/images/user_pic.png HTTP/1.1" 304 -
+INFO _internal.py:88 127.0.0.1 - - [08/Nov/2020 16:50:29] "GET /passport/image_code HTTP/1.1" 200 -
+INFO _internal.py:88 127.0.0.1 - - [08/Nov/2020 16:50:29] "GET /user/base_info HTTP/1.1" 200 -
+INFO _internal.py:88 127.0.0.1 - - [08/Nov/2020 16:50:29] "GET /static/news/css/reset.css HTTP/1.1" 304 -
+INFO _internal.py:88 127.0.0.1 - - [08/Nov/2020 16:50:29] "GET /static/news/css/main.css HTTP/1.1" 304 -
+INFO _internal.py:88 127.0.0.1 - - [08/Nov/2020 16:50:29] "GET /static/news/js/user_base_info.js HTTP/1.1" 304 -
+INFO _internal.py:88 127.0.0.1 - - [08/Nov/2020 16:54:21] "GET /user/info HTTP/1.1" 200 -
+INFO _internal.py:88 127.0.0.1 - - [08/Nov/2020 16:54:22] "GET /static/news/js/jquery-1.12.4.min.js HTTP/1.1" 304 -
+INFO _internal.py:88 127.0.0.1 - - [08/Nov/2020 16:54:22] "GET /static/news/js/main.js HTTP/1.1" 304 -
+INFO _internal.py:88 127.0.0.1 - - [08/Nov/2020 16:54:22] "GET /static/news/js/jquery.form.min.js HTTP/1.1" 304 -
+INFO _internal.py:88 127.0.0.1 - - [08/Nov/2020 16:54:22] "GET /static/news/images/logo.png HTTP/1.1" 304 -
+INFO _internal.py:88 127.0.0.1 - - [08/Nov/2020 16:54:22] "GET /static/news/images/person01.png HTTP/1.1" 304 -
+INFO _internal.py:88 127.0.0.1 - - [08/Nov/2020 16:54:22] "GET /static/news/images/user_pic.png HTTP/1.1" 304 -
+INFO _internal.py:88 127.0.0.1 - - [08/Nov/2020 16:54:22] "GET /passport/image_code HTTP/1.1" 200 -
+INFO _internal.py:88 127.0.0.1 - - [08/Nov/2020 16:54:22] "GET /user/base_info HTTP/1.1" 200 -
+INFO _internal.py:88 127.0.0.1 - - [08/Nov/2020 16:54:22] "GET /static/news/js/jquery.form.min.js HTTP/1.1" 304 -
+INFO _internal.py:88 127.0.0.1 - - [08/Nov/2020 16:55:07] "GET /user/info HTTP/1.1" 200 -
+INFO _internal.py:88 127.0.0.1 - - [08/Nov/2020 16:55:07] "GET /static/news/js/jquery-1.12.4.min.js HTTP/1.1" 304 -
+INFO _internal.py:88 127.0.0.1 - - [08/Nov/2020 16:55:07] "GET /static/news/js/main.js HTTP/1.1" 304 -
+INFO _internal.py:88 127.0.0.1 - - [08/Nov/2020 16:55:07] "GET /static/news/js/jquery.form.min.js HTTP/1.1" 304 -
+INFO _internal.py:88 127.0.0.1 - - [08/Nov/2020 16:55:07] "GET /static/news/images/logo.png HTTP/1.1" 304 -
+INFO _internal.py:88 127.0.0.1 - - [08/Nov/2020 16:55:07] "GET /static/news/images/person01.png HTTP/1.1" 304 -
+INFO _internal.py:88 127.0.0.1 - - [08/Nov/2020 16:55:07] "GET /static/news/images/user_pic.png HTTP/1.1" 304 -
+INFO _internal.py:88 127.0.0.1 - - [08/Nov/2020 16:55:07] "GET /passport/image_code HTTP/1.1" 200 -
+INFO _internal.py:88 127.0.0.1 - - [08/Nov/2020 16:55:07] "GET /user/base_info HTTP/1.1" 200 -
+INFO _internal.py:88 127.0.0.1 - - [08/Nov/2020 16:55:08] "GET /static/news/css/reset.css HTTP/1.1" 304 -
+INFO _internal.py:88 127.0.0.1 - - [08/Nov/2020 16:55:08] "GET /static/news/css/main.css HTTP/1.1" 304 -
+INFO _internal.py:88 127.0.0.1 - - [08/Nov/2020 16:55:08] "GET /static/news/js/user_base_info.js HTTP/1.1" 304 -
+INFO _internal.py:88 127.0.0.1 - - [08/Nov/2020 16:55:08] "GET /static/news/js/jquery-1.12.4.min.js HTTP/1.1" 304 -
+INFO _internal.py:88 127.0.0.1 - - [08/Nov/2020 16:55:13] "GET /user/base_info?signature=%E8%AF%A5%E7%94%A8%E6%88%B7%E5%BE%88%E6%87%92%2C%E4%BB%80%E4%B9%88%E9%83%BD%E6%B2%A1%E5%86%99&gender=on HTTP/1.1" 200 -
+INFO _internal.py:88 127.0.0.1 - - [08/Nov/2020 16:55:15] "GET /user/base_info?signature=dsds&gender=on HTTP/1.1" 200 -
+INFO _internal.py:88 127.0.0.1 - - [08/Nov/2020 16:55:18] "GET /user/info HTTP/1.1" 200 -
+INFO _internal.py:88 127.0.0.1 - - [08/Nov/2020 16:55:19] "GET /user/base_info HTTP/1.1" 200 -
+INFO _internal.py:88 127.0.0.1 - - [08/Nov/2020 16:55:19] "GET /passport/image_code HTTP/1.1" 200 -
+INFO _internal.py:88 127.0.0.1 - - [08/Nov/2020 16:55:22] "GET / HTTP/1.1" 200 -
+INFO _internal.py:88 127.0.0.1 - - [08/Nov/2020 16:55:22] "GET /passport/image_code HTTP/1.1" 200 -
+INFO _internal.py:88 127.0.0.1 - - [08/Nov/2020 16:55:22] "GET /newslist?page=1&cid=1&per_page=5 HTTP/1.1" 200 -
+INFO _internal.py:88 127.0.0.1 - - [08/Nov/2020 16:55:23] "GET /user/info HTTP/1.1" 200 -
+INFO _internal.py:88 127.0.0.1 - - [08/Nov/2020 16:55:23] "GET /passport/image_code HTTP/1.1" 200 -
+INFO _internal.py:88 127.0.0.1 - - [08/Nov/2020 16:55:23] "GET /user/base_info HTTP/1.1" 200 -
+INFO _internal.py:88 127.0.0.1 - - [08/Nov/2020 16:56:38] "GET /user/info HTTP/1.1" 200 -
+INFO _internal.py:88 127.0.0.1 - - [08/Nov/2020 16:56:38] "GET /static/news/css/reset.css HTTP/1.1" 304 -
+INFO _internal.py:88 127.0.0.1 - - [08/Nov/2020 16:56:38] "GET /static/news/css/main.css HTTP/1.1" 304 -
+INFO _internal.py:88 127.0.0.1 - - [08/Nov/2020 16:56:38] "GET /static/news/js/jquery-1.12.4.min.js HTTP/1.1" 304 -
+INFO _internal.py:88 127.0.0.1 - - [08/Nov/2020 16:56:38] "GET /static/news/js/main.js HTTP/1.1" 304 -
+INFO _internal.py:88 127.0.0.1 - - [08/Nov/2020 16:56:38] "GET /static/news/js/jquery.form.min.js HTTP/1.1" 304 -
+INFO _internal.py:88 127.0.0.1 - - [08/Nov/2020 16:56:38] "GET /static/news/images/logo.png HTTP/1.1" 304 -
+INFO _internal.py:88 127.0.0.1 - - [08/Nov/2020 16:56:38] "GET /static/news/images/person01.png HTTP/1.1" 304 -
+INFO _internal.py:88 127.0.0.1 - - [08/Nov/2020 16:56:38] "GET /static/news/images/user_pic.png HTTP/1.1" 304 -
+INFO _internal.py:88 127.0.0.1 - - [08/Nov/2020 16:56:38] "GET /passport/image_code HTTP/1.1" 200 -
+INFO _internal.py:88 127.0.0.1 - - [08/Nov/2020 16:56:38] "GET /user/base_info HTTP/1.1" 200 -
+INFO _internal.py:88 127.0.0.1 - - [08/Nov/2020 16:56:38] "GET /static/news/css/reset.css HTTP/1.1" 304 -
+INFO _internal.py:88 127.0.0.1 - - [08/Nov/2020 16:56:38] "GET /static/news/css/main.css HTTP/1.1" 304 -
+INFO _internal.py:88 127.0.0.1 - - [08/Nov/2020 16:56:38] "GET /static/news/js/jquery-1.12.4.min.js HTTP/1.1" 304 -
+INFO _internal.py:88 127.0.0.1 - - [08/Nov/2020 16:56:38] "GET /static/news/js/user_base_info.js HTTP/1.1" 304 -
+INFO _internal.py:88 127.0.0.1 - - [08/Nov/2020 16:56:45] "GET /user/info HTTP/1.1" 200 -
+INFO _internal.py:88 127.0.0.1 - - [08/Nov/2020 16:56:45] "GET /static/news/css/reset.css HTTP/1.1" 304 -
+INFO _internal.py:88 127.0.0.1 - - [08/Nov/2020 16:56:45] "GET /static/news/css/main.css HTTP/1.1" 304 -
+INFO _internal.py:88 127.0.0.1 - - [08/Nov/2020 16:56:45] "GET /static/news/js/jquery-1.12.4.min.js HTTP/1.1" 304 -
+INFO _internal.py:88 127.0.0.1 - - [08/Nov/2020 16:56:45] "GET /static/news/js/main.js HTTP/1.1" 304 -
+INFO _internal.py:88 127.0.0.1 - - [08/Nov/2020 16:56:45] "GET /static/news/js/jquery.form.min.js HTTP/1.1" 304 -
+INFO _internal.py:88 127.0.0.1 - - [08/Nov/2020 16:56:45] "GET /static/news/images/logo.png HTTP/1.1" 304 -
+INFO _internal.py:88 127.0.0.1 - - [08/Nov/2020 16:56:45] "GET /static/news/images/person01.png HTTP/1.1" 304 -
+INFO _internal.py:88 127.0.0.1 - - [08/Nov/2020 16:56:45] "GET /static/news/images/user_pic.png HTTP/1.1" 304 -
+INFO _internal.py:88 127.0.0.1 - - [08/Nov/2020 16:56:45] "GET /passport/image_code HTTP/1.1" 200 -
+INFO _internal.py:88 127.0.0.1 - - [08/Nov/2020 16:56:45] "GET /user/base_info HTTP/1.1" 200 -
+INFO _internal.py:88 127.0.0.1 - - [08/Nov/2020 16:56:46] "GET /static/news/css/reset.css HTTP/1.1" 304 -
+INFO _internal.py:88 127.0.0.1 - - [08/Nov/2020 16:56:46] "GET /static/news/css/main.css HTTP/1.1" 304 -
+INFO _internal.py:88 127.0.0.1 - - [08/Nov/2020 16:56:46] "GET /static/news/js/jquery-1.12.4.min.js HTTP/1.1" 304 -
+INFO _internal.py:88 127.0.0.1 - - [08/Nov/2020 16:56:46] "GET /static/news/js/user_base_info.js HTTP/1.1" 304 -
+INFO _internal.py:88 127.0.0.1 - - [08/Nov/2020 16:57:14] "POST /user/base_info HTTP/1.1" 200 -
+INFO _internal.py:88 127.0.0.1 - - [08/Nov/2020 16:57:17] "POST /user/base_info HTTP/1.1" 200 -
+INFO _internal.py:88 127.0.0.1 - - [08/Nov/2020 16:57:20] "POST /user/base_info HTTP/1.1" 200 -
+INFO _internal.py:88 127.0.0.1 - - [08/Nov/2020 16:58:41] "GET /user/info HTTP/1.1" 200 -
+INFO _internal.py:88 127.0.0.1 - - [08/Nov/2020 16:58:42] "GET /static/news/css/reset.css HTTP/1.1" 304 -
+INFO _internal.py:88 127.0.0.1 - - [08/Nov/2020 16:58:42] "GET /static/news/css/main.css HTTP/1.1" 304 -
+INFO _internal.py:88 127.0.0.1 - - [08/Nov/2020 16:58:42] "GET /static/news/js/jquery-1.12.4.min.js HTTP/1.1" 304 -
+INFO _internal.py:88 127.0.0.1 - - [08/Nov/2020 16:58:42] "GET /static/news/js/main.js HTTP/1.1" 304 -
+INFO _internal.py:88 127.0.0.1 - - [08/Nov/2020 16:58:42] "GET /static/news/js/jquery.form.min.js HTTP/1.1" 304 -
+INFO _internal.py:88 127.0.0.1 - - [08/Nov/2020 16:58:42] "GET /static/news/images/logo.png HTTP/1.1" 304 -
+INFO _internal.py:88 127.0.0.1 - - [08/Nov/2020 16:58:42] "GET /static/news/images/person01.png HTTP/1.1" 304 -
+INFO _internal.py:88 127.0.0.1 - - [08/Nov/2020 16:58:42] "GET /static/news/images/user_pic.png HTTP/1.1" 304 -
+INFO _internal.py:88 127.0.0.1 - - [08/Nov/2020 16:58:42] "GET /passport/image_code HTTP/1.1" 200 -
+INFO _internal.py:88 127.0.0.1 - - [08/Nov/2020 16:58:42] "GET /user/base_info HTTP/1.1" 200 -
+INFO _internal.py:88 127.0.0.1 - - [08/Nov/2020 16:58:42] "GET /static/news/css/reset.css HTTP/1.1" 304 -
+INFO _internal.py:88 127.0.0.1 - - [08/Nov/2020 16:58:42] "GET /static/news/css/main.css HTTP/1.1" 304 -
+INFO _internal.py:88 127.0.0.1 - - [08/Nov/2020 16:58:42] "GET /static/news/js/jquery-1.12.4.min.js HTTP/1.1" 304 -
+INFO _internal.py:88 127.0.0.1 - - [08/Nov/2020 16:58:42] "GET /static/news/js/user_base_info.js HTTP/1.1" 304 -
+INFO _internal.py:88 127.0.0.1 - - [08/Nov/2020 16:58:46] "GET /user/info HTTP/1.1" 200 -
+INFO _internal.py:88 127.0.0.1 - - [08/Nov/2020 16:58:46] "GET /static/news/css/reset.css HTTP/1.1" 304 -
+INFO _internal.py:88 127.0.0.1 - - [08/Nov/2020 16:58:46] "GET /static/news/css/main.css HTTP/1.1" 304 -
+INFO _internal.py:88 127.0.0.1 - - [08/Nov/2020 16:58:46] "GET /static/news/js/jquery-1.12.4.min.js HTTP/1.1" 304 -
+INFO _internal.py:88 127.0.0.1 - - [08/Nov/2020 16:58:46] "GET /static/news/js/main.js HTTP/1.1" 304 -
+INFO _internal.py:88 127.0.0.1 - - [08/Nov/2020 16:58:46] "GET /static/news/js/jquery.form.min.js HTTP/1.1" 304 -
+INFO _internal.py:88 127.0.0.1 - - [08/Nov/2020 16:58:46] "GET /static/news/images/logo.png HTTP/1.1" 304 -
+INFO _internal.py:88 127.0.0.1 - - [08/Nov/2020 16:58:46] "GET /static/news/images/person01.png HTTP/1.1" 304 -
+INFO _internal.py:88 127.0.0.1 - - [08/Nov/2020 16:58:46] "GET /static/news/images/user_pic.png HTTP/1.1" 304 -
+INFO _internal.py:88 127.0.0.1 - - [08/Nov/2020 16:58:46] "GET /passport/image_code HTTP/1.1" 200 -
+INFO _internal.py:88 127.0.0.1 - - [08/Nov/2020 16:58:47] "GET /user/base_info HTTP/1.1" 200 -
+INFO _internal.py:88 127.0.0.1 - - [08/Nov/2020 16:58:47] "GET /static/news/css/reset.css HTTP/1.1" 304 -
+INFO _internal.py:88 127.0.0.1 - - [08/Nov/2020 16:58:47] "GET /static/news/css/main.css HTTP/1.1" 304 -
+INFO _internal.py:88 127.0.0.1 - - [08/Nov/2020 16:58:47] "GET /static/news/js/jquery-1.12.4.min.js HTTP/1.1" 304 -
+INFO _internal.py:88 127.0.0.1 - - [08/Nov/2020 16:58:47] "GET /static/news/js/user_base_info.js HTTP/1.1" 304 -
+INFO _internal.py:88 127.0.0.1 - - [08/Nov/2020 16:59:14] "POST /user/base_info HTTP/1.1" 200 -
+INFO _internal.py:88 127.0.0.1 - - [08/Nov/2020 17:00:43] "GET /user/info HTTP/1.1" 200 -
+INFO _internal.py:88 127.0.0.1 - - [08/Nov/2020 17:00:43] "GET /static/news/css/reset.css HTTP/1.1" 304 -
+INFO _internal.py:88 127.0.0.1 - - [08/Nov/2020 17:00:43] "GET /static/news/css/main.css HTTP/1.1" 304 -
+INFO _internal.py:88 127.0.0.1 - - [08/Nov/2020 17:00:43] "GET /static/news/js/jquery-1.12.4.min.js HTTP/1.1" 304 -
+INFO _internal.py:88 127.0.0.1 - - [08/Nov/2020 17:00:43] "GET /static/news/js/main.js HTTP/1.1" 304 -
+INFO _internal.py:88 127.0.0.1 - - [08/Nov/2020 17:00:43] "GET /static/news/js/jquery.form.min.js HTTP/1.1" 304 -
+INFO _internal.py:88 127.0.0.1 - - [08/Nov/2020 17:00:43] "GET /static/news/images/logo.png HTTP/1.1" 304 -
+INFO _internal.py:88 127.0.0.1 - - [08/Nov/2020 17:00:43] "GET /static/news/images/person01.png HTTP/1.1" 304 -
+INFO _internal.py:88 127.0.0.1 - - [08/Nov/2020 17:00:43] "GET /static/news/images/user_pic.png HTTP/1.1" 304 -
+INFO _internal.py:88 127.0.0.1 - - [08/Nov/2020 17:00:43] "GET /passport/image_code HTTP/1.1" 200 -
+INFO _internal.py:88 127.0.0.1 - - [08/Nov/2020 17:00:43] "GET /user/base_info HTTP/1.1" 200 -
+INFO _internal.py:88 127.0.0.1 - - [08/Nov/2020 17:00:43] "GET /static/news/css/reset.css HTTP/1.1" 304 -
+INFO _internal.py:88 127.0.0.1 - - [08/Nov/2020 17:00:43] "GET /static/news/css/main.css HTTP/1.1" 304 -
+INFO _internal.py:88 127.0.0.1 - - [08/Nov/2020 17:00:43] "GET /static/news/js/jquery-1.12.4.min.js HTTP/1.1" 304 -
+INFO _internal.py:88 127.0.0.1 - - [08/Nov/2020 17:00:43] "GET /static/news/js/user_base_info.js HTTP/1.1" 304 -
+INFO _internal.py:88 127.0.0.1 - - [08/Nov/2020 17:00:44] "POST /user/base_info HTTP/1.1" 200 -
+INFO _internal.py:88 127.0.0.1 - - [08/Nov/2020 17:00:45] "POST /user/base_info HTTP/1.1" 200 -
+INFO _internal.py:88 127.0.0.1 - - [08/Nov/2020 17:00:47] "POST /user/base_info HTTP/1.1" 200 -
+INFO _internal.py:88 127.0.0.1 - - [08/Nov/2020 17:00:53] "GET /user/info HTTP/1.1" 200 -
+INFO _internal.py:88 127.0.0.1 - - [08/Nov/2020 17:00:53] "GET /static/news/css/reset.css HTTP/1.1" 304 -
+INFO _internal.py:88 127.0.0.1 - - [08/Nov/2020 17:00:53] "GET /static/news/css/main.css HTTP/1.1" 304 -
+INFO _internal.py:88 127.0.0.1 - - [08/Nov/2020 17:00:53] "GET /static/news/js/jquery-1.12.4.min.js HTTP/1.1" 304 -
+INFO _internal.py:88 127.0.0.1 - - [08/Nov/2020 17:00:53] "GET /static/news/js/main.js HTTP/1.1" 304 -
+INFO _internal.py:88 127.0.0.1 - - [08/Nov/2020 17:00:53] "GET /static/news/js/jquery.form.min.js HTTP/1.1" 304 -
+INFO _internal.py:88 127.0.0.1 - - [08/Nov/2020 17:00:53] "GET /static/news/images/logo.png HTTP/1.1" 304 -
+INFO _internal.py:88 127.0.0.1 - - [08/Nov/2020 17:00:53] "GET /static/news/images/person01.png HTTP/1.1" 304 -
+INFO _internal.py:88 127.0.0.1 - - [08/Nov/2020 17:00:53] "GET /static/news/images/user_pic.png HTTP/1.1" 304 -
+INFO _internal.py:88 127.0.0.1 - - [08/Nov/2020 17:00:53] "GET /passport/image_code HTTP/1.1" 200 -
+INFO _internal.py:88 127.0.0.1 - - [08/Nov/2020 17:00:53] "GET /user/base_info HTTP/1.1" 200 -
+INFO _internal.py:88 127.0.0.1 - - [08/Nov/2020 17:00:53] "GET /static/news/css/reset.css HTTP/1.1" 304 -
+INFO _internal.py:88 127.0.0.1 - - [08/Nov/2020 17:00:53] "GET /static/news/css/main.css HTTP/1.1" 304 -
+INFO _internal.py:88 127.0.0.1 - - [08/Nov/2020 17:00:53] "GET /static/news/js/jquery-1.12.4.min.js HTTP/1.1" 304 -
+INFO _internal.py:88 127.0.0.1 - - [08/Nov/2020 17:00:53] "GET /static/news/js/user_base_info.js HTTP/1.1" 304 -
+INFO _internal.py:88 127.0.0.1 - - [08/Nov/2020 17:01:12] "GET /user/info HTTP/1.1" 200 -
+INFO _internal.py:88 127.0.0.1 - - [08/Nov/2020 17:01:13] "GET /static/news/css/reset.css HTTP/1.1" 304 -
+INFO _internal.py:88 127.0.0.1 - - [08/Nov/2020 17:01:13] "GET /static/news/css/main.css HTTP/1.1" 304 -
+INFO _internal.py:88 127.0.0.1 - - [08/Nov/2020 17:01:13] "GET /static/news/js/main.js HTTP/1.1" 304 -
+INFO _internal.py:88 127.0.0.1 - - [08/Nov/2020 17:01:13] "GET /static/news/js/jquery-1.12.4.min.js HTTP/1.1" 304 -
+INFO _internal.py:88 127.0.0.1 - - [08/Nov/2020 17:01:13] "GET /static/news/js/jquery.form.min.js HTTP/1.1" 304 -
+INFO _internal.py:88 127.0.0.1 - - [08/Nov/2020 17:01:13] "GET /static/news/images/logo.png HTTP/1.1" 304 -
+INFO _internal.py:88 127.0.0.1 - - [08/Nov/2020 17:01:13] "GET /static/news/images/person01.png HTTP/1.1" 304 -
+INFO _internal.py:88 127.0.0.1 - - [08/Nov/2020 17:01:13] "GET /static/news/images/user_pic.png HTTP/1.1" 304 -
+INFO _internal.py:88 127.0.0.1 - - [08/Nov/2020 17:01:13] "GET /passport/image_code HTTP/1.1" 200 -
+INFO _internal.py:88 127.0.0.1 - - [08/Nov/2020 17:01:13] "GET /user/base_info HTTP/1.1" 200 -
+INFO _internal.py:88 127.0.0.1 - - [08/Nov/2020 17:01:13] "GET /static/news/css/reset.css HTTP/1.1" 304 -
+INFO _internal.py:88 127.0.0.1 - - [08/Nov/2020 17:01:13] "GET /static/news/css/main.css HTTP/1.1" 304 -
+INFO _internal.py:88 127.0.0.1 - - [08/Nov/2020 17:01:13] "GET /static/news/js/jquery-1.12.4.min.js HTTP/1.1" 304 -
+INFO _internal.py:88 127.0.0.1 - - [08/Nov/2020 17:01:13] "GET /static/news/js/user_base_info.js HTTP/1.1" 304 -
+INFO _internal.py:88 127.0.0.1 - - [08/Nov/2020 17:01:14] "POST /user/base_info HTTP/1.1" 200 -
+INFO _internal.py:88 127.0.0.1 - - [08/Nov/2020 17:01:18] "POST /user/base_info HTTP/1.1" 200 -
+INFO _internal.py:88  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+INFO _internal.py:88  * Restarting with stat
+WARNING _internal.py:88  * Debugger is active!
+INFO _internal.py:88  * Debugger PIN: 177-012-029
+INFO _internal.py:88 127.0.0.1 - - [08/Nov/2020 17:01:29] "GET /user/info HTTP/1.1" 200 -
+INFO _internal.py:88 127.0.0.1 - - [08/Nov/2020 17:01:29] "GET /static/news/css/reset.css HTTP/1.1" 304 -
+INFO _internal.py:88 127.0.0.1 - - [08/Nov/2020 17:01:29] "GET /static/news/css/main.css HTTP/1.1" 304 -
+INFO _internal.py:88 127.0.0.1 - - [08/Nov/2020 17:01:29] "GET /static/news/js/jquery-1.12.4.min.js HTTP/1.1" 304 -
+INFO _internal.py:88 127.0.0.1 - - [08/Nov/2020 17:01:29] "GET /static/news/js/main.js HTTP/1.1" 304 -
+INFO _internal.py:88 127.0.0.1 - - [08/Nov/2020 17:01:29] "GET /static/news/js/jquery.form.min.js HTTP/1.1" 304 -
+INFO _internal.py:88 127.0.0.1 - - [08/Nov/2020 17:01:29] "GET /static/news/images/logo.png HTTP/1.1" 304 -
+INFO _internal.py:88 127.0.0.1 - - [08/Nov/2020 17:01:29] "GET /static/news/images/person01.png HTTP/1.1" 304 -
+INFO _internal.py:88 127.0.0.1 - - [08/Nov/2020 17:01:29] "GET /static/news/images/user_pic.png HTTP/1.1" 304 -
+INFO _internal.py:88 127.0.0.1 - - [08/Nov/2020 17:01:29] "GET /passport/image_code HTTP/1.1" 200 -
+INFO _internal.py:88 127.0.0.1 - - [08/Nov/2020 17:01:30] "GET /user/base_info HTTP/1.1" 200 -
+INFO _internal.py:88 127.0.0.1 - - [08/Nov/2020 17:01:30] "GET /static/news/css/reset.css HTTP/1.1" 304 -
+INFO _internal.py:88 127.0.0.1 - - [08/Nov/2020 17:01:30] "GET /static/news/css/main.css HTTP/1.1" 304 -
+INFO _internal.py:88 127.0.0.1 - - [08/Nov/2020 17:01:30] "GET /static/news/js/jquery-1.12.4.min.js HTTP/1.1" 304 -
+INFO _internal.py:88 127.0.0.1 - - [08/Nov/2020 17:01:30] "GET /static/news/js/user_base_info.js HTTP/1.1" 304 -
+INFO _internal.py:88 127.0.0.1 - - [08/Nov/2020 17:01:30] "POST /user/base_info HTTP/1.1" 200 -
+INFO _internal.py:88 127.0.0.1 - - [08/Nov/2020 17:01:53] "GET /user/info HTTP/1.1" 200 -
+INFO _internal.py:88 127.0.0.1 - - [08/Nov/2020 17:01:53] "GET /static/news/css/reset.css HTTP/1.1" 304 -
+INFO _internal.py:88 127.0.0.1 - - [08/Nov/2020 17:01:53] "GET /static/news/css/main.css HTTP/1.1" 304 -
+INFO _internal.py:88 127.0.0.1 - - [08/Nov/2020 17:01:53] "GET /static/news/js/jquery-1.12.4.min.js HTTP/1.1" 304 -
+INFO _internal.py:88 127.0.0.1 - - [08/Nov/2020 17:01:53] "GET /static/news/js/main.js HTTP/1.1" 304 -
+INFO _internal.py:88 127.0.0.1 - - [08/Nov/2020 17:01:53] "GET /static/news/js/jquery.form.min.js HTTP/1.1" 304 -
+INFO _internal.py:88 127.0.0.1 - - [08/Nov/2020 17:01:53] "GET /static/news/images/logo.png HTTP/1.1" 304 -
+INFO _internal.py:88 127.0.0.1 - - [08/Nov/2020 17:01:53] "GET /static/news/images/person01.png HTTP/1.1" 304 -
+INFO _internal.py:88 127.0.0.1 - - [08/Nov/2020 17:01:53] "GET /static/news/images/user_pic.png HTTP/1.1" 304 -
+INFO _internal.py:88 127.0.0.1 - - [08/Nov/2020 17:01:53] "GET /passport/image_code HTTP/1.1" 200 -
+INFO _internal.py:88 127.0.0.1 - - [08/Nov/2020 17:01:53] "GET /user/base_info HTTP/1.1" 200 -
+INFO _internal.py:88 127.0.0.1 - - [08/Nov/2020 17:01:53] "GET /static/news/css/reset.css HTTP/1.1" 304 -
+INFO _internal.py:88 127.0.0.1 - - [08/Nov/2020 17:01:53] "GET /static/news/css/main.css HTTP/1.1" 304 -
+INFO _internal.py:88 127.0.0.1 - - [08/Nov/2020 17:01:53] "GET /static/news/js/jquery-1.12.4.min.js HTTP/1.1" 304 -
+INFO _internal.py:88 127.0.0.1 - - [08/Nov/2020 17:01:53] "GET /static/news/js/user_base_info.js HTTP/1.1" 200 -
+INFO _internal.py:88 127.0.0.1 - - [08/Nov/2020 17:01:54] "POST /user/base_info HTTP/1.1" 200 -
+INFO _internal.py:88 127.0.0.1 - - [08/Nov/2020 17:01:58] "POST /user/base_info HTTP/1.1" 200 -
+INFO _internal.py:88  * Detected change in '/home/python/tools/pyProjects/flaskStudy/information/info/modules/profile/views.py', reloading
+INFO _internal.py:88  * Restarting with stat
+WARNING _internal.py:88  * Debugger is active!
+INFO _internal.py:88  * Debugger PIN: 177-012-029
+INFO _internal.py:88 127.0.0.1 - - [08/Nov/2020 17:02:15] "GET /user/info HTTP/1.1" 200 -
+INFO _internal.py:88 127.0.0.1 - - [08/Nov/2020 17:02:15] "GET /static/news/css/reset.css HTTP/1.1" 304 -
+INFO _internal.py:88 127.0.0.1 - - [08/Nov/2020 17:02:15] "GET /static/news/css/main.css HTTP/1.1" 304 -
+INFO _internal.py:88 127.0.0.1 - - [08/Nov/2020 17:02:15] "GET /static/news/js/jquery-1.12.4.min.js HTTP/1.1" 304 -
+INFO _internal.py:88 127.0.0.1 - - [08/Nov/2020 17:02:15] "GET /static/news/js/main.js HTTP/1.1" 304 -
+INFO _internal.py:88 127.0.0.1 - - [08/Nov/2020 17:02:15] "GET /static/news/js/jquery.form.min.js HTTP/1.1" 304 -
+INFO _internal.py:88 127.0.0.1 - - [08/Nov/2020 17:02:15] "GET /static/news/images/logo.png HTTP/1.1" 304 -
+INFO _internal.py:88 127.0.0.1 - - [08/Nov/2020 17:02:15] "GET /static/news/images/person01.png HTTP/1.1" 304 -
+INFO _internal.py:88 127.0.0.1 - - [08/Nov/2020 17:02:15] "GET /static/news/images/user_pic.png HTTP/1.1" 304 -
+INFO _internal.py:88 127.0.0.1 - - [08/Nov/2020 17:02:16] "GET /passport/image_code HTTP/1.1" 200 -
+INFO _internal.py:88 127.0.0.1 - - [08/Nov/2020 17:02:16] "GET /user/base_info HTTP/1.1" 200 -
+INFO _internal.py:88 127.0.0.1 - - [08/Nov/2020 17:02:16] "GET /static/news/css/reset.css HTTP/1.1" 304 -
+INFO _internal.py:88 127.0.0.1 - - [08/Nov/2020 17:02:16] "GET /static/news/css/main.css HTTP/1.1" 304 -
+INFO _internal.py:88 127.0.0.1 - - [08/Nov/2020 17:02:16] "GET /static/news/js/jquery-1.12.4.min.js HTTP/1.1" 304 -
+INFO _internal.py:88 127.0.0.1 - - [08/Nov/2020 17:02:16] "GET /static/news/js/user_base_info.js HTTP/1.1" 200 -
+INFO _internal.py:88 127.0.0.1 - - [08/Nov/2020 17:02:16] "POST /user/base_info HTTP/1.1" 200 -
+ERROR commons.py:32 This Session's transaction has been rolled back due to a previous exception during flush. To begin a new transaction with this Session, first issue Session.rollback(). Original exception was: (MySQLdb._exceptions.DataError) (1265, "Data truncated for column 'gender' at row 1")
+[SQL: UPDATE info_user SET update_time=%s, gender=%s WHERE info_user.id = %s]
+[parameters: (datetime.datetime(2020, 11, 8, 17, 2, 16, 895522), 'on', 3)]
+(Background on this error at: http://sqlalche.me/e/13/9h9h) (Background on this error at: http://sqlalche.me/e/13/7s2a)
+INFO _internal.py:88 127.0.0.1 - - [08/Nov/2020 17:02:17] "POST /user/base_info HTTP/1.1" 500 -
+ERROR commons.py:32 This Session's transaction has been rolled back due to a previous exception during flush. To begin a new transaction with this Session, first issue Session.rollback(). Original exception was: (MySQLdb._exceptions.DataError) (1265, "Data truncated for column 'gender' at row 1")
+[SQL: UPDATE info_user SET update_time=%s, gender=%s WHERE info_user.id = %s]
+[parameters: (datetime.datetime(2020, 11, 8, 17, 2, 16, 895522), 'on', 3)]
+(Background on this error at: http://sqlalche.me/e/13/9h9h) (Background on this error at: http://sqlalche.me/e/13/7s2a)
+INFO _internal.py:88 127.0.0.1 - - [08/Nov/2020 17:02:17] "POST /user/base_info HTTP/1.1" 500 -
+ERROR commons.py:32 This Session's transaction has been rolled back due to a previous exception during flush. To begin a new transaction with this Session, first issue Session.rollback(). Original exception was: (MySQLdb._exceptions.DataError) (1265, "Data truncated for column 'gender' at row 1")
+[SQL: UPDATE info_user SET update_time=%s, gender=%s WHERE info_user.id = %s]
+[parameters: (datetime.datetime(2020, 11, 8, 17, 2, 16, 895522), 'on', 3)]
+(Background on this error at: http://sqlalche.me/e/13/9h9h) (Background on this error at: http://sqlalche.me/e/13/7s2a)
+INFO _internal.py:88 127.0.0.1 - - [08/Nov/2020 17:02:22] "POST /user/base_info HTTP/1.1" 500 -
+ERROR commons.py:32 This Session's transaction has been rolled back due to a previous exception during flush. To begin a new transaction with this Session, first issue Session.rollback(). Original exception was: (MySQLdb._exceptions.DataError) (1265, "Data truncated for column 'gender' at row 1")
+[SQL: UPDATE info_user SET update_time=%s, gender=%s WHERE info_user.id = %s]
+[parameters: (datetime.datetime(2020, 11, 8, 17, 2, 16, 895522), 'on', 3)]
+(Background on this error at: http://sqlalche.me/e/13/9h9h) (Background on this error at: http://sqlalche.me/e/13/7s2a)
+INFO _internal.py:88 127.0.0.1 - - [08/Nov/2020 17:02:22] "POST /user/base_info HTTP/1.1" 500 -
+ERROR commons.py:32 This Session's transaction has been rolled back due to a previous exception during flush. To begin a new transaction with this Session, first issue Session.rollback(). Original exception was: (MySQLdb._exceptions.DataError) (1265, "Data truncated for column 'gender' at row 1")
+[SQL: UPDATE info_user SET update_time=%s, gender=%s WHERE info_user.id = %s]
+[parameters: (datetime.datetime(2020, 11, 8, 17, 2, 16, 895522), 'on', 3)]
+(Background on this error at: http://sqlalche.me/e/13/9h9h) (Background on this error at: http://sqlalche.me/e/13/7s2a)
+INFO _internal.py:88 127.0.0.1 - - [08/Nov/2020 17:02:23] "POST /user/base_info HTTP/1.1" 500 -
+ERROR commons.py:32 This Session's transaction has been rolled back due to a previous exception during flush. To begin a new transaction with this Session, first issue Session.rollback(). Original exception was: (MySQLdb._exceptions.DataError) (1265, "Data truncated for column 'gender' at row 1")
+[SQL: UPDATE info_user SET update_time=%s, gender=%s WHERE info_user.id = %s]
+[parameters: (datetime.datetime(2020, 11, 8, 17, 2, 16, 895522), 'on', 3)]
+(Background on this error at: http://sqlalche.me/e/13/9h9h) (Background on this error at: http://sqlalche.me/e/13/7s2a)
+INFO _internal.py:88 127.0.0.1 - - [08/Nov/2020 17:02:23] "GET /user/info HTTP/1.1" 302 -
+ERROR commons.py:32 This Session's transaction has been rolled back due to a previous exception during flush. To begin a new transaction with this Session, first issue Session.rollback(). Original exception was: (MySQLdb._exceptions.DataError) (1265, "Data truncated for column 'gender' at row 1")
+[SQL: UPDATE info_user SET update_time=%s, gender=%s WHERE info_user.id = %s]
+[parameters: (datetime.datetime(2020, 11, 8, 17, 2, 16, 895522), 'on', 3)]
+(Background on this error at: http://sqlalche.me/e/13/9h9h) (Background on this error at: http://sqlalche.me/e/13/7s2a)
+ERROR views.py:131 This Session's transaction has been rolled back due to a previous exception during flush. To begin a new transaction with this Session, first issue Session.rollback(). Original exception was: (MySQLdb._exceptions.DataError) (1265, "Data truncated for column 'gender' at row 1")
+[SQL: UPDATE info_user SET update_time=%s, gender=%s WHERE info_user.id = %s]
+[parameters: (datetime.datetime(2020, 11, 8, 17, 2, 16, 895522), 'on', 3)]
+(Background on this error at: http://sqlalche.me/e/13/9h9h) (Background on this error at: http://sqlalche.me/e/13/7s2a)
+INFO _internal.py:88 127.0.0.1 - - [08/Nov/2020 17:02:23] "GET / HTTP/1.1" 200 -
+ERROR commons.py:32 This Session's transaction has been rolled back due to a previous exception during flush. To begin a new transaction with this Session, first issue Session.rollback(). Original exception was: (MySQLdb._exceptions.DataError) (1265, "Data truncated for column 'gender' at row 1")
+[SQL: UPDATE info_user SET update_time=%s, gender=%s WHERE info_user.id = %s]
+[parameters: (datetime.datetime(2020, 11, 8, 17, 2, 16, 895522), 'on', 3)]
+(Background on this error at: http://sqlalche.me/e/13/9h9h) (Background on this error at: http://sqlalche.me/e/13/7s2a)
+ERROR views.py:131 This Session's transaction has been rolled back due to a previous exception during flush. To begin a new transaction with this Session, first issue Session.rollback(). Original exception was: (MySQLdb._exceptions.DataError) (1265, "Data truncated for column 'gender' at row 1")
+[SQL: UPDATE info_user SET update_time=%s, gender=%s WHERE info_user.id = %s]
+[parameters: (datetime.datetime(2020, 11, 8, 17, 2, 16, 895522), 'on', 3)]
+(Background on this error at: http://sqlalche.me/e/13/9h9h) (Background on this error at: http://sqlalche.me/e/13/7s2a)
+INFO _internal.py:88 127.0.0.1 - - [08/Nov/2020 17:02:31] "GET / HTTP/1.1" 200 -
+ERROR commons.py:32 This Session's transaction has been rolled back due to a previous exception during flush. To begin a new transaction with this Session, first issue Session.rollback(). Original exception was: (MySQLdb._exceptions.DataError) (1265, "Data truncated for column 'gender' at row 1")
+[SQL: UPDATE info_user SET update_time=%s, gender=%s WHERE info_user.id = %s]
+[parameters: (datetime.datetime(2020, 11, 8, 17, 2, 16, 895522), 'on', 3)]
+(Background on this error at: http://sqlalche.me/e/13/9h9h) (Background on this error at: http://sqlalche.me/e/13/7s2a)
+ERROR views.py:131 This Session's transaction has been rolled back due to a previous exception during flush. To begin a new transaction with this Session, first issue Session.rollback(). Original exception was: (MySQLdb._exceptions.DataError) (1265, "Data truncated for column 'gender' at row 1")
+[SQL: UPDATE info_user SET update_time=%s, gender=%s WHERE info_user.id = %s]
+[parameters: (datetime.datetime(2020, 11, 8, 17, 2, 16, 895522), 'on', 3)]
+(Background on this error at: http://sqlalche.me/e/13/9h9h) (Background on this error at: http://sqlalche.me/e/13/7s2a)
+INFO _internal.py:88 127.0.0.1 - - [08/Nov/2020 17:02:43] "GET / HTTP/1.1" 200 -
+INFO _internal.py:88  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+INFO _internal.py:88  * Restarting with stat
+WARNING _internal.py:88  * Debugger is active!
+INFO _internal.py:88  * Debugger PIN: 177-012-029
+INFO _internal.py:88 127.0.0.1 - - [08/Nov/2020 17:02:52] "GET / HTTP/1.1" 200 -
+INFO _internal.py:88 127.0.0.1 - - [08/Nov/2020 17:02:52] "GET /static/news/css/reset.css HTTP/1.1" 304 -
+INFO _internal.py:88 127.0.0.1 - - [08/Nov/2020 17:02:52] "GET /static/news/css/main.css HTTP/1.1" 304 -
+INFO _internal.py:88 127.0.0.1 - - [08/Nov/2020 17:02:52] "GET /static/news/js/jquery-1.12.4.min.js HTTP/1.1" 304 -
+INFO _internal.py:88 127.0.0.1 - - [08/Nov/2020 17:02:52] "GET /static/news/js/main.js HTTP/1.1" 304 -
+INFO _internal.py:88 127.0.0.1 - - [08/Nov/2020 17:02:52] "GET /static/news/js/index.js HTTP/1.1" 304 -
+INFO _internal.py:88 127.0.0.1 - - [08/Nov/2020 17:02:52] "GET /static/news/images/logo.png HTTP/1.1" 304 -
+INFO _internal.py:88 127.0.0.1 - - [08/Nov/2020 17:02:52] "GET /static/news/images/person01.png HTTP/1.1" 304 -
+INFO _internal.py:88 127.0.0.1 - - [08/Nov/2020 17:02:52] "GET /static/news/images/news_pic.jpg HTTP/1.1" 304 -
+INFO _internal.py:88 127.0.0.1 - - [08/Nov/2020 17:02:52] "GET /static/news/images/person.png HTTP/1.1" 304 -
+INFO _internal.py:88 127.0.0.1 - - [08/Nov/2020 17:02:52] "GET /passport/image_code HTTP/1.1" 200 -
+INFO _internal.py:88 127.0.0.1 - - [08/Nov/2020 17:02:52] "GET /newslist?page=1&cid=1&per_page=5 HTTP/1.1" 200 -
+INFO _internal.py:88 127.0.0.1 - - [08/Nov/2020 17:02:58] "GET /news/149 HTTP/1.1" 200 -
+INFO _internal.py:88 127.0.0.1 - - [08/Nov/2020 17:02:58] "GET /passport/image_code HTTP/1.1" 200 -
+INFO _internal.py:88 127.0.0.1 - - [08/Nov/2020 17:03:01] "GET /user/info HTTP/1.1" 200 -
+INFO _internal.py:88 127.0.0.1 - - [08/Nov/2020 17:03:01] "GET /user/base_info HTTP/1.1" 200 -
+INFO _internal.py:88 127.0.0.1 - - [08/Nov/2020 17:03:01] "GET /passport/image_code HTTP/1.1" 200 -
+INFO _internal.py:88 127.0.0.1 - - [08/Nov/2020 17:03:03] "POST /user/base_info HTTP/1.1" 200 -
+ERROR commons.py:32 This Session's transaction has been rolled back due to a previous exception during flush. To begin a new transaction with this Session, first issue Session.rollback(). Original exception was: (MySQLdb._exceptions.DataError) (1265, "Data truncated for column 'gender' at row 1")
+[SQL: UPDATE info_user SET update_time=%s, gender=%s WHERE info_user.id = %s]
+[parameters: (datetime.datetime(2020, 11, 8, 17, 3, 3, 674010), 'on', 3)]
+(Background on this error at: http://sqlalche.me/e/13/9h9h) (Background on this error at: http://sqlalche.me/e/13/7s2a)
+INFO _internal.py:88 127.0.0.1 - - [08/Nov/2020 17:03:12] "GET /user/info HTTP/1.1" 302 -
+ERROR commons.py:32 This Session's transaction has been rolled back due to a previous exception during flush. To begin a new transaction with this Session, first issue Session.rollback(). Original exception was: (MySQLdb._exceptions.DataError) (1265, "Data truncated for column 'gender' at row 1")
+[SQL: UPDATE info_user SET update_time=%s, gender=%s WHERE info_user.id = %s]
+[parameters: (datetime.datetime(2020, 11, 8, 17, 3, 3, 674010), 'on', 3)]
+(Background on this error at: http://sqlalche.me/e/13/9h9h) (Background on this error at: http://sqlalche.me/e/13/7s2a)
+ERROR views.py:131 This Session's transaction has been rolled back due to a previous exception during flush. To begin a new transaction with this Session, first issue Session.rollback(). Original exception was: (MySQLdb._exceptions.DataError) (1265, "Data truncated for column 'gender' at row 1")
+[SQL: UPDATE info_user SET update_time=%s, gender=%s WHERE info_user.id = %s]
+[parameters: (datetime.datetime(2020, 11, 8, 17, 3, 3, 674010), 'on', 3)]
+(Background on this error at: http://sqlalche.me/e/13/9h9h) (Background on this error at: http://sqlalche.me/e/13/7s2a)
+INFO _internal.py:88 127.0.0.1 - - [08/Nov/2020 17:03:12] "GET / HTTP/1.1" 200 -
+INFO _internal.py:88  * Detected change in '/home/python/tools/pyProjects/flaskStudy/information/info/modules/profile/views.py', reloading
+INFO _internal.py:88  * Restarting with stat
+WARNING _internal.py:88  * Debugger is active!
+INFO _internal.py:88  * Debugger PIN: 177-012-029
+INFO _internal.py:88 127.0.0.1 - - [08/Nov/2020 17:04:23] "GET / HTTP/1.1" 200 -
+INFO _internal.py:88 127.0.0.1 - - [08/Nov/2020 17:04:24] "GET /static/news/css/reset.css HTTP/1.1" 304 -
+INFO _internal.py:88 127.0.0.1 - - [08/Nov/2020 17:04:24] "GET /static/news/css/main.css HTTP/1.1" 304 -
+INFO _internal.py:88 127.0.0.1 - - [08/Nov/2020 17:04:24] "GET /static/news/js/jquery-1.12.4.min.js HTTP/1.1" 304 -
+INFO _internal.py:88 127.0.0.1 - - [08/Nov/2020 17:04:24] "GET /static/news/js/main.js HTTP/1.1" 304 -
+INFO _internal.py:88 127.0.0.1 - - [08/Nov/2020 17:04:24] "GET /static/news/js/index.js HTTP/1.1" 304 -
+INFO _internal.py:88 127.0.0.1 - - [08/Nov/2020 17:04:24] "GET /static/news/images/logo.png HTTP/1.1" 304 -
+INFO _internal.py:88 127.0.0.1 - - [08/Nov/2020 17:04:24] "GET /static/news/images/person01.png HTTP/1.1" 304 -
+INFO _internal.py:88 127.0.0.1 - - [08/Nov/2020 17:04:24] "GET /static/news/images/news_pic.jpg HTTP/1.1" 304 -
+INFO _internal.py:88 127.0.0.1 - - [08/Nov/2020 17:04:24] "GET /static/news/images/person.png HTTP/1.1" 304 -
+INFO _internal.py:88 127.0.0.1 - - [08/Nov/2020 17:04:24] "GET /passport/image_code HTTP/1.1" 200 -
+INFO _internal.py:88 127.0.0.1 - - [08/Nov/2020 17:04:28] "GET /newslist?page=1&cid=1&per_page=5 HTTP/1.1" 200 -
+INFO _internal.py:88 127.0.0.1 - - [08/Nov/2020 17:04:32] "GET /user/info HTTP/1.1" 200 -
+INFO _internal.py:88 127.0.0.1 - - [08/Nov/2020 17:04:33] "GET /passport/image_code HTTP/1.1" 200 -
+INFO _internal.py:88 127.0.0.1 - - [08/Nov/2020 17:04:33] "GET /user/base_info HTTP/1.1" 200 -
+INFO _internal.py:88 127.0.0.1 - - [08/Nov/2020 17:04:38] "GET /user/info HTTP/1.1" 200 -
+INFO _internal.py:88 127.0.0.1 - - [08/Nov/2020 17:04:39] "GET /passport/image_code HTTP/1.1" 200 -
+INFO _internal.py:88 127.0.0.1 - - [08/Nov/2020 17:04:39] "GET /user/base_info HTTP/1.1" 200 -
+INFO _internal.py:88 127.0.0.1 - - [08/Nov/2020 17:05:02] "GET /user/base_info HTTP/1.1" 200 -
+INFO _internal.py:88  * Detected change in '/home/python/tools/pyProjects/flaskStudy/information/info/modules/profile/views.py', reloading
+INFO _internal.py:88  * Restarting with stat
+WARNING _internal.py:88  * Debugger is active!
+INFO _internal.py:88  * Debugger PIN: 177-012-029
+INFO _internal.py:88 127.0.0.1 - - [08/Nov/2020 17:07:25] "GET /user/info HTTP/1.1" 200 -
+INFO _internal.py:88 127.0.0.1 - - [08/Nov/2020 17:07:25] "GET /static/news/css/reset.css HTTP/1.1" 304 -
+INFO _internal.py:88 127.0.0.1 - - [08/Nov/2020 17:07:25] "GET /static/news/css/main.css HTTP/1.1" 304 -
+INFO _internal.py:88 127.0.0.1 - - [08/Nov/2020 17:07:25] "GET /static/news/js/jquery-1.12.4.min.js HTTP/1.1" 304 -
+INFO _internal.py:88 127.0.0.1 - - [08/Nov/2020 17:07:25] "GET /static/news/js/main.js HTTP/1.1" 304 -
+INFO _internal.py:88 127.0.0.1 - - [08/Nov/2020 17:07:25] "GET /static/news/js/jquery.form.min.js HTTP/1.1" 304 -
+INFO _internal.py:88 127.0.0.1 - - [08/Nov/2020 17:07:25] "GET /static/news/images/logo.png HTTP/1.1" 304 -
+INFO _internal.py:88 127.0.0.1 - - [08/Nov/2020 17:07:25] "GET /static/news/images/person01.png HTTP/1.1" 304 -
+INFO _internal.py:88 127.0.0.1 - - [08/Nov/2020 17:07:25] "GET /static/news/images/user_pic.png HTTP/1.1" 304 -
+INFO _internal.py:88 127.0.0.1 - - [08/Nov/2020 17:07:25] "GET /passport/image_code HTTP/1.1" 200 -
+INFO _internal.py:88 127.0.0.1 - - [08/Nov/2020 17:07:25] "GET /user/base_info HTTP/1.1" 200 -
+INFO _internal.py:88 127.0.0.1 - - [08/Nov/2020 17:07:25] "GET /static/news/css/reset.css HTTP/1.1" 304 -
+INFO _internal.py:88 127.0.0.1 - - [08/Nov/2020 17:07:25] "GET /static/news/css/main.css HTTP/1.1" 304 -
+INFO _internal.py:88 127.0.0.1 - - [08/Nov/2020 17:07:25] "GET /static/news/js/user_base_info.js HTTP/1.1" 304 -
+INFO _internal.py:88 127.0.0.1 - - [08/Nov/2020 17:07:50] "GET /user/info HTTP/1.1" 200 -
+INFO _internal.py:88 127.0.0.1 - - [08/Nov/2020 17:07:51] "GET /static/news/js/jquery-1.12.4.min.js HTTP/1.1" 304 -
+INFO _internal.py:88 127.0.0.1 - - [08/Nov/2020 17:07:51] "GET /static/news/js/main.js HTTP/1.1" 304 -
+INFO _internal.py:88 127.0.0.1 - - [08/Nov/2020 17:07:51] "GET /static/news/js/jquery.form.min.js HTTP/1.1" 304 -
+INFO _internal.py:88 127.0.0.1 - - [08/Nov/2020 17:07:51] "GET /static/news/images/logo.png HTTP/1.1" 304 -
+INFO _internal.py:88 127.0.0.1 - - [08/Nov/2020 17:07:51] "GET /static/news/images/person01.png HTTP/1.1" 304 -
+INFO _internal.py:88 127.0.0.1 - - [08/Nov/2020 17:07:51] "GET /static/news/images/user_pic.png HTTP/1.1" 304 -
+INFO _internal.py:88 127.0.0.1 - - [08/Nov/2020 17:07:51] "GET /passport/image_code HTTP/1.1" 200 -
+INFO _internal.py:88 127.0.0.1 - - [08/Nov/2020 17:07:51] "GET /user/base_info HTTP/1.1" 200 -
+INFO _internal.py:88 127.0.0.1 - - [08/Nov/2020 17:07:57] "GET /user/info HTTP/1.1" 200 -
+INFO _internal.py:88 127.0.0.1 - - [08/Nov/2020 17:07:58] "GET /static/news/js/jquery-1.12.4.min.js HTTP/1.1" 304 -
+INFO _internal.py:88 127.0.0.1 - - [08/Nov/2020 17:07:58] "GET /static/news/js/main.js HTTP/1.1" 304 -
+INFO _internal.py:88 127.0.0.1 - - [08/Nov/2020 17:07:58] "GET /static/news/js/jquery.form.min.js HTTP/1.1" 304 -
+INFO _internal.py:88 127.0.0.1 - - [08/Nov/2020 17:07:58] "GET /static/news/images/logo.png HTTP/1.1" 304 -
+INFO _internal.py:88 127.0.0.1 - - [08/Nov/2020 17:07:58] "GET /static/news/images/person01.png HTTP/1.1" 304 -
+INFO _internal.py:88 127.0.0.1 - - [08/Nov/2020 17:07:58] "GET /static/news/images/user_pic.png HTTP/1.1" 304 -
+INFO _internal.py:88 127.0.0.1 - - [08/Nov/2020 17:07:58] "GET /passport/image_code HTTP/1.1" 200 -
+INFO _internal.py:88 127.0.0.1 - - [08/Nov/2020 17:07:58] "GET /user/base_info HTTP/1.1" 200 -
+INFO _internal.py:88 127.0.0.1 - - [08/Nov/2020 17:07:58] "GET /static/news/js/jquery-1.12.4.min.js HTTP/1.1" 304 -
+INFO _internal.py:88 127.0.0.1 - - [08/Nov/2020 17:08:30] "POST /user/base_info HTTP/1.1" 200 -
+INFO _internal.py:88 127.0.0.1 - - [08/Nov/2020 17:09:03] "GET /user/info HTTP/1.1" 200 -
+INFO _internal.py:88 127.0.0.1 - - [08/Nov/2020 17:09:05] "GET /static/news/css/reset.css HTTP/1.1" 304 -
+INFO _internal.py:88 127.0.0.1 - - [08/Nov/2020 17:09:05] "GET /static/news/css/main.css HTTP/1.1" 304 -
+INFO _internal.py:88 127.0.0.1 - - [08/Nov/2020 17:09:05] "GET /static/news/js/jquery-1.12.4.min.js HTTP/1.1" 304 -
+INFO _internal.py:88 127.0.0.1 - - [08/Nov/2020 17:09:05] "GET /static/news/js/main.js HTTP/1.1" 304 -
+INFO _internal.py:88 127.0.0.1 - - [08/Nov/2020 17:09:05] "GET /static/news/js/jquery.form.min.js HTTP/1.1" 304 -
+INFO _internal.py:88 127.0.0.1 - - [08/Nov/2020 17:09:05] "GET /static/news/images/logo.png HTTP/1.1" 304 -
+INFO _internal.py:88 127.0.0.1 - - [08/Nov/2020 17:09:05] "GET /static/news/images/person01.png HTTP/1.1" 304 -
+INFO _internal.py:88 127.0.0.1 - - [08/Nov/2020 17:09:05] "GET /static/news/images/user_pic.png HTTP/1.1" 304 -
+INFO _internal.py:88 127.0.0.1 - - [08/Nov/2020 17:09:05] "GET /passport/image_code HTTP/1.1" 200 -
+INFO _internal.py:88 127.0.0.1 - - [08/Nov/2020 17:09:05] "GET /user/base_info HTTP/1.1" 200 -
+INFO _internal.py:88 127.0.0.1 - - [08/Nov/2020 17:09:05] "GET /static/news/css/reset.css HTTP/1.1" 304 -
+INFO _internal.py:88 127.0.0.1 - - [08/Nov/2020 17:09:05] "GET /static/news/css/main.css HTTP/1.1" 304 -
+INFO _internal.py:88 127.0.0.1 - - [08/Nov/2020 17:09:05] "GET /static/news/js/jquery-1.12.4.min.js HTTP/1.1" 304 -
+INFO _internal.py:88 127.0.0.1 - - [08/Nov/2020 17:09:05] "GET /static/news/js/user_base_info.js HTTP/1.1" 304 -
+INFO _internal.py:88 127.0.0.1 - - [08/Nov/2020 17:09:16] "POST /user/base_info HTTP/1.1" 200 -
+INFO _internal.py:88  * Detected change in '/home/python/tools/pyProjects/flaskStudy/information/info/modules/profile/views.py', reloading
+INFO _internal.py:88  * Restarting with stat
+WARNING _internal.py:88  * Debugger is active!
+INFO _internal.py:88  * Debugger PIN: 177-012-029
+INFO _internal.py:88 127.0.0.1 - - [08/Nov/2020 17:10:58] "GET /user/info HTTP/1.1" 200 -
+INFO _internal.py:88 127.0.0.1 - - [08/Nov/2020 17:10:59] "POST /user/base_info HTTP/1.1" 200 -
+INFO _internal.py:88 127.0.0.1 - - [08/Nov/2020 17:10:59] "GET /static/news/css/reset.css HTTP/1.1" 304 -
+INFO _internal.py:88 127.0.0.1 - - [08/Nov/2020 17:10:59] "GET /static/news/css/main.css HTTP/1.1" 304 -
+INFO _internal.py:88 127.0.0.1 - - [08/Nov/2020 17:10:59] "GET /static/news/js/jquery-1.12.4.min.js HTTP/1.1" 304 -
+INFO _internal.py:88 127.0.0.1 - - [08/Nov/2020 17:10:59] "GET /static/news/js/main.js HTTP/1.1" 304 -
+INFO _internal.py:88 127.0.0.1 - - [08/Nov/2020 17:10:59] "GET /static/news/js/jquery.form.min.js HTTP/1.1" 304 -
+INFO _internal.py:88 127.0.0.1 - - [08/Nov/2020 17:10:59] "GET /static/news/images/logo.png HTTP/1.1" 304 -
+INFO _internal.py:88 127.0.0.1 - - [08/Nov/2020 17:10:59] "GET /static/news/images/person01.png HTTP/1.1" 304 -
+INFO _internal.py:88 127.0.0.1 - - [08/Nov/2020 17:10:59] "GET /static/news/images/user_pic.png HTTP/1.1" 304 -
+INFO _internal.py:88 127.0.0.1 - - [08/Nov/2020 17:10:59] "GET /passport/image_code HTTP/1.1" 200 -
+ERROR commons.py:32 This Session's transaction has been rolled back due to a previous exception during flush. To begin a new transaction with this Session, first issue Session.rollback(). Original exception was: (MySQLdb._exceptions.DataError) (1265, "Data truncated for column 'gender' at row 1")
+[SQL: UPDATE info_user SET update_time=%s, nick_name=%s, signature=%s, gender=%s WHERE info_user.id = %s]
+[parameters: (datetime.datetime(2020, 11, 8, 17, 10, 59, 84393), '18058085399sssd', '该用户很懒,什么都没写sdsd', 'on', 3)]
+(Background on this error at: http://sqlalche.me/e/13/9h9h) (Background on this error at: http://sqlalche.me/e/13/7s2a)
+INFO _internal.py:88 127.0.0.1 - - [08/Nov/2020 17:10:59] "GET /user/base_info HTTP/1.1" 500 -
+INFO _internal.py:88 127.0.0.1 - - [08/Nov/2020 17:10:59] "GET /user/base_info?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1" 200 -
+INFO _internal.py:88 127.0.0.1 - - [08/Nov/2020 17:10:59] "GET /user/base_info?__debugger__=yes&cmd=resource&f=jquery.js HTTP/1.1" 200 -
+INFO _internal.py:88 127.0.0.1 - - [08/Nov/2020 17:10:59] "GET /user/base_info?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1" 200 -
+INFO _internal.py:88 127.0.0.1 - - [08/Nov/2020 17:10:59] "GET /user/base_info?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+INFO _internal.py:88  * Detected change in '/home/python/tools/pyProjects/flaskStudy/information/info/modules/profile/views.py', reloading
+INFO _internal.py:88  * Restarting with stat
+WARNING _internal.py:88  * Debugger is active!
+INFO _internal.py:88  * Debugger PIN: 177-012-029
+INFO _internal.py:88 127.0.0.1 - - [08/Nov/2020 17:11:16] "GET /user/info HTTP/1.1" 200 -
+INFO _internal.py:88 127.0.0.1 - - [08/Nov/2020 17:11:16] "GET /static/news/css/reset.css HTTP/1.1" 304 -
+INFO _internal.py:88 127.0.0.1 - - [08/Nov/2020 17:11:16] "GET /static/news/css/main.css HTTP/1.1" 304 -
+INFO _internal.py:88 127.0.0.1 - - [08/Nov/2020 17:11:16] "GET /static/news/js/jquery-1.12.4.min.js HTTP/1.1" 304 -
+INFO _internal.py:88 127.0.0.1 - - [08/Nov/2020 17:11:16] "GET /static/news/js/main.js HTTP/1.1" 304 -
+INFO _internal.py:88 127.0.0.1 - - [08/Nov/2020 17:11:16] "GET /static/news/js/jquery.form.min.js HTTP/1.1" 304 -
+INFO _internal.py:88 127.0.0.1 - - [08/Nov/2020 17:11:16] "GET /static/news/images/logo.png HTTP/1.1" 304 -
+INFO _internal.py:88 127.0.0.1 - - [08/Nov/2020 17:11:16] "GET /static/news/images/person01.png HTTP/1.1" 304 -
+INFO _internal.py:88 127.0.0.1 - - [08/Nov/2020 17:11:16] "GET /static/news/images/user_pic.png HTTP/1.1" 304 -
+INFO _internal.py:88 127.0.0.1 - - [08/Nov/2020 17:11:16] "GET /passport/image_code HTTP/1.1" 200 -
+INFO _internal.py:88 127.0.0.1 - - [08/Nov/2020 17:11:16] "GET /user/base_info HTTP/1.1" 200 -
+INFO _internal.py:88 127.0.0.1 - - [08/Nov/2020 17:11:16] "GET /static/news/css/reset.css HTTP/1.1" 304 -
+INFO _internal.py:88 127.0.0.1 - - [08/Nov/2020 17:11:16] "GET /static/news/css/main.css HTTP/1.1" 304 -
+INFO _internal.py:88 127.0.0.1 - - [08/Nov/2020 17:11:16] "GET /static/news/js/jquery-1.12.4.min.js HTTP/1.1" 304 -
+INFO _internal.py:88 127.0.0.1 - - [08/Nov/2020 17:11:16] "GET /static/news/js/user_base_info.js HTTP/1.1" 304 -
+INFO _internal.py:88 127.0.0.1 - - [08/Nov/2020 17:11:24] "POST /user/base_info HTTP/1.1" 200 -
+INFO _internal.py:88 127.0.0.1 - - [08/Nov/2020 17:11:26] "GET /user/info HTTP/1.1" 200 -
+INFO _internal.py:88 127.0.0.1 - - [08/Nov/2020 17:11:26] "GET /static/news/css/reset.css HTTP/1.1" 304 -
+INFO _internal.py:88 127.0.0.1 - - [08/Nov/2020 17:11:26] "GET /static/news/css/main.css HTTP/1.1" 304 -
+INFO _internal.py:88 127.0.0.1 - - [08/Nov/2020 17:11:26] "GET /static/news/js/jquery-1.12.4.min.js HTTP/1.1" 304 -
+INFO _internal.py:88 127.0.0.1 - - [08/Nov/2020 17:11:26] "GET /static/news/js/main.js HTTP/1.1" 304 -
+INFO _internal.py:88 127.0.0.1 - - [08/Nov/2020 17:11:26] "GET /static/news/js/jquery.form.min.js HTTP/1.1" 304 -
+INFO _internal.py:88 127.0.0.1 - - [08/Nov/2020 17:11:26] "GET /static/news/images/logo.png HTTP/1.1" 304 -
+INFO _internal.py:88 127.0.0.1 - - [08/Nov/2020 17:11:26] "GET /static/news/images/person01.png HTTP/1.1" 304 -
+INFO _internal.py:88 127.0.0.1 - - [08/Nov/2020 17:11:26] "GET /static/news/images/user_pic.png HTTP/1.1" 304 -
+INFO _internal.py:88 127.0.0.1 - - [08/Nov/2020 17:11:26] "GET /passport/image_code HTTP/1.1" 200 -
+INFO _internal.py:88 127.0.0.1 - - [08/Nov/2020 17:11:26] "GET /user/base_info HTTP/1.1" 200 -
+INFO _internal.py:88 127.0.0.1 - - [08/Nov/2020 17:11:26] "GET /static/news/css/reset.css HTTP/1.1" 304 -
+INFO _internal.py:88 127.0.0.1 - - [08/Nov/2020 17:11:26] "GET /static/news/css/main.css HTTP/1.1" 304 -
+INFO _internal.py:88 127.0.0.1 - - [08/Nov/2020 17:11:26] "GET /static/news/js/jquery-1.12.4.min.js HTTP/1.1" 304 -
+INFO _internal.py:88 127.0.0.1 - - [08/Nov/2020 17:11:26] "GET /static/news/js/user_base_info.js HTTP/1.1" 304 -
+INFO _internal.py:88 127.0.0.1 - - [08/Nov/2020 17:11:28] "GET /user/info HTTP/1.1" 200 -
+INFO _internal.py:88 127.0.0.1 - - [08/Nov/2020 17:11:28] "GET /static/news/css/reset.css HTTP/1.1" 304 -
+INFO _internal.py:88 127.0.0.1 - - [08/Nov/2020 17:11:28] "GET /static/news/css/main.css HTTP/1.1" 304 -
+INFO _internal.py:88 127.0.0.1 - - [08/Nov/2020 17:11:28] "GET /static/news/js/jquery-1.12.4.min.js HTTP/1.1" 304 -
+INFO _internal.py:88 127.0.0.1 - - [08/Nov/2020 17:11:28] "GET /static/news/js/main.js HTTP/1.1" 304 -
+INFO _internal.py:88 127.0.0.1 - - [08/Nov/2020 17:11:28] "GET /static/news/js/jquery.form.min.js HTTP/1.1" 304 -
+INFO _internal.py:88 127.0.0.1 - - [08/Nov/2020 17:11:28] "GET /static/news/images/logo.png HTTP/1.1" 304 -
+INFO _internal.py:88 127.0.0.1 - - [08/Nov/2020 17:11:28] "GET /static/news/images/person01.png HTTP/1.1" 304 -
+INFO _internal.py:88 127.0.0.1 - - [08/Nov/2020 17:11:28] "GET /static/news/images/user_pic.png HTTP/1.1" 304 -
+INFO _internal.py:88 127.0.0.1 - - [08/Nov/2020 17:11:28] "GET /passport/image_code HTTP/1.1" 200 -
+INFO _internal.py:88 127.0.0.1 - - [08/Nov/2020 17:11:28] "GET /user/base_info HTTP/1.1" 200 -
+INFO _internal.py:88 127.0.0.1 - - [08/Nov/2020 17:11:28] "GET /static/news/css/reset.css HTTP/1.1" 304 -
+INFO _internal.py:88 127.0.0.1 - - [08/Nov/2020 17:11:28] "GET /static/news/css/main.css HTTP/1.1" 304 -
+INFO _internal.py:88 127.0.0.1 - - [08/Nov/2020 17:11:28] "GET /static/news/js/jquery-1.12.4.min.js HTTP/1.1" 304 -
+INFO _internal.py:88 127.0.0.1 - - [08/Nov/2020 17:11:28] "GET /static/news/js/user_base_info.js HTTP/1.1" 304 -
+INFO _internal.py:88 127.0.0.1 - - [08/Nov/2020 17:11:33] "GET /user/info HTTP/1.1" 200 -
+INFO _internal.py:88 127.0.0.1 - - [08/Nov/2020 17:11:33] "GET /static/news/css/reset.css HTTP/1.1" 304 -
+INFO _internal.py:88 127.0.0.1 - - [08/Nov/2020 17:11:33] "GET /static/news/css/main.css HTTP/1.1" 304 -
+INFO _internal.py:88 127.0.0.1 - - [08/Nov/2020 17:11:33] "GET /static/news/js/jquery-1.12.4.min.js HTTP/1.1" 304 -
+INFO _internal.py:88 127.0.0.1 - - [08/Nov/2020 17:11:33] "GET /static/news/js/main.js HTTP/1.1" 304 -
+INFO _internal.py:88 127.0.0.1 - - [08/Nov/2020 17:11:33] "GET /static/news/js/jquery.form.min.js HTTP/1.1" 304 -
+INFO _internal.py:88 127.0.0.1 - - [08/Nov/2020 17:11:33] "GET /static/news/images/logo.png HTTP/1.1" 304 -
+INFO _internal.py:88 127.0.0.1 - - [08/Nov/2020 17:11:33] "GET /static/news/images/person01.png HTTP/1.1" 304 -
+INFO _internal.py:88 127.0.0.1 - - [08/Nov/2020 17:11:33] "GET /static/news/images/user_pic.png HTTP/1.1" 304 -
+INFO _internal.py:88 127.0.0.1 - - [08/Nov/2020 17:11:33] "GET /passport/image_code HTTP/1.1" 200 -
+INFO _internal.py:88 127.0.0.1 - - [08/Nov/2020 17:11:34] "GET /user/base_info HTTP/1.1" 200 -
+INFO _internal.py:88 127.0.0.1 - - [08/Nov/2020 17:11:34] "GET /static/news/css/reset.css HTTP/1.1" 304 -
+INFO _internal.py:88 127.0.0.1 - - [08/Nov/2020 17:11:34] "GET /static/news/css/main.css HTTP/1.1" 304 -
+INFO _internal.py:88 127.0.0.1 - - [08/Nov/2020 17:11:34] "GET /static/news/js/jquery-1.12.4.min.js HTTP/1.1" 304 -
+INFO _internal.py:88 127.0.0.1 - - [08/Nov/2020 17:11:34] "GET /static/news/js/user_base_info.js HTTP/1.1" 304 -
+INFO _internal.py:88  * Detected change in '/home/python/tools/pyProjects/flaskStudy/information/info/modules/profile/views.py', reloading
+INFO _internal.py:88  * Restarting with stat
+WARNING _internal.py:88  * Debugger is active!
+INFO _internal.py:88  * Debugger PIN: 177-012-029
+INFO _internal.py:88 127.0.0.1 - - [08/Nov/2020 17:14:00] "POST /user/base_info HTTP/1.1" 200 -
+INFO _internal.py:88 127.0.0.1 - - [08/Nov/2020 17:14:02] "GET /user/info HTTP/1.1" 200 -
+INFO _internal.py:88 127.0.0.1 - - [08/Nov/2020 17:14:03] "GET /static/news/css/reset.css HTTP/1.1" 304 -
+INFO _internal.py:88 127.0.0.1 - - [08/Nov/2020 17:14:03] "GET /static/news/css/main.css HTTP/1.1" 304 -
+INFO _internal.py:88 127.0.0.1 - - [08/Nov/2020 17:14:03] "GET /static/news/js/jquery-1.12.4.min.js HTTP/1.1" 304 -
+INFO _internal.py:88 127.0.0.1 - - [08/Nov/2020 17:14:03] "GET /static/news/js/main.js HTTP/1.1" 304 -
+INFO _internal.py:88 127.0.0.1 - - [08/Nov/2020 17:14:03] "GET /static/news/js/jquery.form.min.js HTTP/1.1" 304 -
+INFO _internal.py:88 127.0.0.1 - - [08/Nov/2020 17:14:03] "GET /static/news/images/logo.png HTTP/1.1" 304 -
+INFO _internal.py:88 127.0.0.1 - - [08/Nov/2020 17:14:03] "GET /static/news/images/person01.png HTTP/1.1" 304 -
+INFO _internal.py:88 127.0.0.1 - - [08/Nov/2020 17:14:03] "GET /static/news/images/user_pic.png HTTP/1.1" 304 -
+INFO _internal.py:88 127.0.0.1 - - [08/Nov/2020 17:14:03] "GET /passport/image_code HTTP/1.1" 200 -
+INFO _internal.py:88 127.0.0.1 - - [08/Nov/2020 17:14:03] "GET /user/base_info HTTP/1.1" 200 -
+INFO _internal.py:88 127.0.0.1 - - [08/Nov/2020 17:14:03] "GET /static/news/css/reset.css HTTP/1.1" 304 -
+INFO _internal.py:88 127.0.0.1 - - [08/Nov/2020 17:14:03] "GET /static/news/css/main.css HTTP/1.1" 304 -
+INFO _internal.py:88 127.0.0.1 - - [08/Nov/2020 17:14:03] "GET /static/news/js/jquery-1.12.4.min.js HTTP/1.1" 304 -
+INFO _internal.py:88 127.0.0.1 - - [08/Nov/2020 17:14:03] "GET /static/news/js/user_base_info.js HTTP/1.1" 304 -
+INFO _internal.py:88 127.0.0.1 - - [08/Nov/2020 17:14:04] "POST /user/base_info HTTP/1.1" 200 -
+INFO _internal.py:88 127.0.0.1 - - [08/Nov/2020 17:14:06] "GET /user/info HTTP/1.1" 200 -
+INFO _internal.py:88 127.0.0.1 - - [08/Nov/2020 17:14:06] "GET /static/news/css/reset.css HTTP/1.1" 304 -
+INFO _internal.py:88 127.0.0.1 - - [08/Nov/2020 17:14:06] "GET /static/news/css/main.css HTTP/1.1" 304 -
+INFO _internal.py:88 127.0.0.1 - - [08/Nov/2020 17:14:06] "GET /static/news/js/jquery-1.12.4.min.js HTTP/1.1" 304 -
+INFO _internal.py:88 127.0.0.1 - - [08/Nov/2020 17:14:06] "GET /static/news/js/main.js HTTP/1.1" 304 -
+INFO _internal.py:88 127.0.0.1 - - [08/Nov/2020 17:14:06] "GET /static/news/js/jquery.form.min.js HTTP/1.1" 304 -
+INFO _internal.py:88 127.0.0.1 - - [08/Nov/2020 17:14:06] "GET /static/news/images/logo.png HTTP/1.1" 304 -
+INFO _internal.py:88 127.0.0.1 - - [08/Nov/2020 17:14:06] "GET /static/news/images/person01.png HTTP/1.1" 304 -
+INFO _internal.py:88 127.0.0.1 - - [08/Nov/2020 17:14:06] "GET /static/news/images/user_pic.png HTTP/1.1" 304 -
+INFO _internal.py:88 127.0.0.1 - - [08/Nov/2020 17:14:06] "GET /passport/image_code HTTP/1.1" 200 -
+INFO _internal.py:88 127.0.0.1 - - [08/Nov/2020 17:14:07] "GET /user/base_info HTTP/1.1" 200 -
+INFO _internal.py:88 127.0.0.1 - - [08/Nov/2020 17:14:07] "GET /static/news/css/reset.css HTTP/1.1" 304 -
+INFO _internal.py:88 127.0.0.1 - - [08/Nov/2020 17:14:07] "GET /static/news/css/main.css HTTP/1.1" 304 -
+INFO _internal.py:88 127.0.0.1 - - [08/Nov/2020 17:14:07] "GET /static/news/js/jquery-1.12.4.min.js HTTP/1.1" 304 -
+INFO _internal.py:88 127.0.0.1 - - [08/Nov/2020 17:14:07] "GET /static/news/js/user_base_info.js HTTP/1.1" 304 -
+INFO _internal.py:88 127.0.0.1 - - [08/Nov/2020 17:14:08] "GET /user/info HTTP/1.1" 200 -
+INFO _internal.py:88 127.0.0.1 - - [08/Nov/2020 17:14:08] "GET /static/news/css/reset.css HTTP/1.1" 304 -
+INFO _internal.py:88 127.0.0.1 - - [08/Nov/2020 17:14:08] "GET /static/news/css/main.css HTTP/1.1" 304 -
+INFO _internal.py:88 127.0.0.1 - - [08/Nov/2020 17:14:08] "GET /static/news/js/main.js HTTP/1.1" 304 -
+INFO _internal.py:88 127.0.0.1 - - [08/Nov/2020 17:14:08] "GET /static/news/js/jquery.form.min.js HTTP/1.1" 304 -
+INFO _internal.py:88 127.0.0.1 - - [08/Nov/2020 17:14:08] "GET /static/news/images/logo.png HTTP/1.1" 304 -
+INFO _internal.py:88 127.0.0.1 - - [08/Nov/2020 17:14:08] "GET /static/news/images/person01.png HTTP/1.1" 304 -
+INFO _internal.py:88 127.0.0.1 - - [08/Nov/2020 17:14:08] "GET /static/news/images/user_pic.png HTTP/1.1" 304 -
+INFO _internal.py:88 127.0.0.1 - - [08/Nov/2020 17:14:08] "GET /static/news/js/jquery-1.12.4.min.js HTTP/1.1" 304 -
+INFO _internal.py:88 127.0.0.1 - - [08/Nov/2020 17:14:08] "GET /passport/image_code HTTP/1.1" 200 -
+INFO _internal.py:88 127.0.0.1 - - [08/Nov/2020 17:14:08] "GET /user/base_info HTTP/1.1" 200 -
+INFO _internal.py:88 127.0.0.1 - - [08/Nov/2020 17:14:08] "GET /static/news/css/reset.css HTTP/1.1" 304 -
+INFO _internal.py:88 127.0.0.1 - - [08/Nov/2020 17:14:08] "GET /static/news/css/main.css HTTP/1.1" 304 -
+INFO _internal.py:88 127.0.0.1 - - [08/Nov/2020 17:14:08] "GET /static/news/js/jquery-1.12.4.min.js HTTP/1.1" 304 -
+INFO _internal.py:88 127.0.0.1 - - [08/Nov/2020 17:14:08] "GET /static/news/js/user_base_info.js HTTP/1.1" 304 -
+INFO _internal.py:88 127.0.0.1 - - [08/Nov/2020 17:14:09] "POST /user/base_info HTTP/1.1" 200 -
+INFO _internal.py:88 127.0.0.1 - - [08/Nov/2020 17:14:11] "POST /user/base_info HTTP/1.1" 200 -
+INFO _internal.py:88 127.0.0.1 - - [08/Nov/2020 17:14:12] "POST /user/base_info HTTP/1.1" 200 -
+INFO _internal.py:88 127.0.0.1 - - [08/Nov/2020 17:14:13] "GET /user/info HTTP/1.1" 200 -
+INFO _internal.py:88 127.0.0.1 - - [08/Nov/2020 17:14:13] "GET /static/news/css/reset.css HTTP/1.1" 304 -
+INFO _internal.py:88 127.0.0.1 - - [08/Nov/2020 17:14:13] "GET /static/news/css/main.css HTTP/1.1" 304 -
+INFO _internal.py:88 127.0.0.1 - - [08/Nov/2020 17:14:13] "GET /static/news/js/jquery-1.12.4.min.js HTTP/1.1" 304 -
+INFO _internal.py:88 127.0.0.1 - - [08/Nov/2020 17:14:13] "GET /static/news/js/main.js HTTP/1.1" 304 -
+INFO _internal.py:88 127.0.0.1 - - [08/Nov/2020 17:14:13] "GET /static/news/js/jquery.form.min.js HTTP/1.1" 304 -
+INFO _internal.py:88 127.0.0.1 - - [08/Nov/2020 17:14:13] "GET /static/news/images/logo.png HTTP/1.1" 304 -
+INFO _internal.py:88 127.0.0.1 - - [08/Nov/2020 17:14:13] "GET /static/news/images/person01.png HTTP/1.1" 304 -
+INFO _internal.py:88 127.0.0.1 - - [08/Nov/2020 17:14:13] "GET /static/news/images/user_pic.png HTTP/1.1" 304 -
+INFO _internal.py:88 127.0.0.1 - - [08/Nov/2020 17:14:13] "GET /passport/image_code HTTP/1.1" 200 -
+INFO _internal.py:88 127.0.0.1 - - [08/Nov/2020 17:14:13] "GET /user/base_info HTTP/1.1" 200 -
+INFO _internal.py:88 127.0.0.1 - - [08/Nov/2020 17:14:13] "GET /static/news/css/reset.css HTTP/1.1" 304 -
+INFO _internal.py:88 127.0.0.1 - - [08/Nov/2020 17:14:13] "GET /static/news/css/main.css HTTP/1.1" 304 -
+INFO _internal.py:88 127.0.0.1 - - [08/Nov/2020 17:14:13] "GET /static/news/js/jquery-1.12.4.min.js HTTP/1.1" 304 -
+INFO _internal.py:88 127.0.0.1 - - [08/Nov/2020 17:14:13] "GET /static/news/js/user_base_info.js HTTP/1.1" 304 -
+INFO _internal.py:88 127.0.0.1 - - [08/Nov/2020 17:14:15] "POST /user/base_info HTTP/1.1" 200 -
+INFO _internal.py:88 127.0.0.1 - - [08/Nov/2020 17:14:50] "POST /user/base_info HTTP/1.1" 200 -
+INFO _internal.py:88 127.0.0.1 - - [08/Nov/2020 17:14:53] "GET /user/info HTTP/1.1" 200 -
+INFO _internal.py:88 127.0.0.1 - - [08/Nov/2020 17:14:53] "GET /static/news/css/reset.css HTTP/1.1" 304 -
+INFO _internal.py:88 127.0.0.1 - - [08/Nov/2020 17:14:53] "GET /static/news/css/main.css HTTP/1.1" 304 -
+INFO _internal.py:88 127.0.0.1 - - [08/Nov/2020 17:14:53] "GET /static/news/js/jquery-1.12.4.min.js HTTP/1.1" 304 -
+INFO _internal.py:88 127.0.0.1 - - [08/Nov/2020 17:14:53] "GET /static/news/js/main.js HTTP/1.1" 304 -
+INFO _internal.py:88 127.0.0.1 - - [08/Nov/2020 17:14:53] "GET /static/news/js/jquery.form.min.js HTTP/1.1" 304 -
+INFO _internal.py:88 127.0.0.1 - - [08/Nov/2020 17:14:53] "GET /static/news/images/logo.png HTTP/1.1" 304 -
+INFO _internal.py:88 127.0.0.1 - - [08/Nov/2020 17:14:53] "GET /static/news/images/person01.png HTTP/1.1" 304 -
+INFO _internal.py:88 127.0.0.1 - - [08/Nov/2020 17:14:53] "GET /static/news/images/user_pic.png HTTP/1.1" 304 -
+INFO _internal.py:88 127.0.0.1 - - [08/Nov/2020 17:14:53] "GET /passport/image_code HTTP/1.1" 200 -
+INFO _internal.py:88 127.0.0.1 - - [08/Nov/2020 17:14:53] "GET /user/base_info HTTP/1.1" 200 -
+INFO _internal.py:88 127.0.0.1 - - [08/Nov/2020 17:14:53] "GET /static/news/css/reset.css HTTP/1.1" 304 -
+INFO _internal.py:88 127.0.0.1 - - [08/Nov/2020 17:14:53] "GET /static/news/css/main.css HTTP/1.1" 304 -
+INFO _internal.py:88 127.0.0.1 - - [08/Nov/2020 17:14:53] "GET /static/news/js/jquery-1.12.4.min.js HTTP/1.1" 304 -
+INFO _internal.py:88 127.0.0.1 - - [08/Nov/2020 17:14:53] "GET /static/news/js/user_base_info.js HTTP/1.1" 304 -
+INFO _internal.py:88 127.0.0.1 - - [08/Nov/2020 17:14:56] "GET /user/info HTTP/1.1" 200 -
+INFO _internal.py:88 127.0.0.1 - - [08/Nov/2020 17:14:56] "GET /passport/image_code HTTP/1.1" 200 -
+INFO _internal.py:88 127.0.0.1 - - [08/Nov/2020 17:14:56] "GET /user/base_info HTTP/1.1" 200 -
+INFO _internal.py:88 127.0.0.1 - - [08/Nov/2020 17:14:57] "GET / HTTP/1.1" 200 -
+INFO _internal.py:88 127.0.0.1 - - [08/Nov/2020 17:14:57] "GET /passport/image_code HTTP/1.1" 200 -
+INFO _internal.py:88 127.0.0.1 - - [08/Nov/2020 17:14:58] "GET /newslist?page=1&cid=1&per_page=5 HTTP/1.1" 200 -
+INFO _internal.py:88 127.0.0.1 - - [08/Nov/2020 17:15:00] "GET /user/info HTTP/1.1" 200 -
+INFO _internal.py:88 127.0.0.1 - - [08/Nov/2020 17:15:01] "GET /passport/image_code HTTP/1.1" 200 -
+INFO _internal.py:88 127.0.0.1 - - [08/Nov/2020 17:15:01] "GET /user/base_info HTTP/1.1" 200 -
+INFO _internal.py:88 127.0.0.1 - - [08/Nov/2020 17:15:04] "GET /user/info HTTP/1.1" 200 -
+INFO _internal.py:88 127.0.0.1 - - [08/Nov/2020 17:15:04] "GET /passport/image_code HTTP/1.1" 200 -
+INFO _internal.py:88 127.0.0.1 - - [08/Nov/2020 17:15:04] "GET /user/base_info HTTP/1.1" 200 -
+INFO _internal.py:88 127.0.0.1 - - [08/Nov/2020 17:15:05] "GET / HTTP/1.1" 200 -
+INFO _internal.py:88 127.0.0.1 - - [08/Nov/2020 17:15:05] "GET /passport/image_code HTTP/1.1" 200 -
+INFO _internal.py:88 127.0.0.1 - - [08/Nov/2020 17:15:05] "GET /newslist?page=1&cid=1&per_page=5 HTTP/1.1" 200 -
+INFO _internal.py:88 127.0.0.1 - - [08/Nov/2020 17:15:07] "GET /news/149 HTTP/1.1" 200 -
+INFO _internal.py:88 127.0.0.1 - - [08/Nov/2020 17:15:07] "GET /passport/image_code HTTP/1.1" 200 -
+INFO _internal.py:88 127.0.0.1 - - [08/Nov/2020 17:15:13] "GET /user/info HTTP/1.1" 200 -
+INFO _internal.py:88 127.0.0.1 - - [08/Nov/2020 17:15:13] "GET /user/base_info HTTP/1.1" 200 -
+INFO _internal.py:88 127.0.0.1 - - [08/Nov/2020 17:15:13] "GET /passport/image_code HTTP/1.1" 200 -
+INFO _internal.py:88 127.0.0.1 - - [08/Nov/2020 17:16:12] "GET /user/info HTTP/1.1" 200 -
+INFO _internal.py:88 127.0.0.1 - - [08/Nov/2020 17:16:12] "GET /static/news/css/reset.css HTTP/1.1" 304 -
+INFO _internal.py:88 127.0.0.1 - - [08/Nov/2020 17:16:12] "GET /static/news/css/main.css HTTP/1.1" 304 -
+INFO _internal.py:88 127.0.0.1 - - [08/Nov/2020 17:16:12] "GET /static/news/js/jquery-1.12.4.min.js HTTP/1.1" 304 -
+INFO _internal.py:88 127.0.0.1 - - [08/Nov/2020 17:16:12] "GET /static/news/js/main.js HTTP/1.1" 304 -
+INFO _internal.py:88 127.0.0.1 - - [08/Nov/2020 17:16:12] "GET /static/news/js/jquery.form.min.js HTTP/1.1" 304 -
+INFO _internal.py:88 127.0.0.1 - - [08/Nov/2020 17:16:12] "GET /static/news/images/logo.png HTTP/1.1" 304 -
+INFO _internal.py:88 127.0.0.1 - - [08/Nov/2020 17:16:12] "GET /static/news/images/person01.png HTTP/1.1" 304 -
+INFO _internal.py:88 127.0.0.1 - - [08/Nov/2020 17:16:12] "GET /static/news/images/user_pic.png HTTP/1.1" 304 -
+INFO _internal.py:88 127.0.0.1 - - [08/Nov/2020 17:16:12] "GET /passport/image_code HTTP/1.1" 200 -
+INFO _internal.py:88 127.0.0.1 - - [08/Nov/2020 17:16:12] "GET /user/base_info HTTP/1.1" 200 -
+INFO _internal.py:88 127.0.0.1 - - [08/Nov/2020 17:16:12] "GET /static/news/css/reset.css HTTP/1.1" 304 -
+INFO _internal.py:88 127.0.0.1 - - [08/Nov/2020 17:16:12] "GET /static/news/css/main.css HTTP/1.1" 304 -
+INFO _internal.py:88 127.0.0.1 - - [08/Nov/2020 17:16:12] "GET /static/news/js/jquery-1.12.4.min.js HTTP/1.1" 304 -
+INFO _internal.py:88 127.0.0.1 - - [08/Nov/2020 17:16:12] "GET /static/news/js/user_base_info.js HTTP/1.1" 304 -

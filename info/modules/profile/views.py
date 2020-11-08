@@ -1,4 +1,6 @@
-from flask import render_template, g,redirect,request
+from flask import render_template, g,redirect,request,jsonify
+
+from info.utils.response_code import RET
 from  . import profile_blue
 from info.utils.commons import user_login_data
 
@@ -30,9 +32,24 @@ def base_info():
 
     # 3.如果是post请求
     # 4.获取参数
+    nick_name = request.json.get('nick_name')
+    signature = request.json.get('signature')
+    gender = request.json.get('gender')
+
     # 5.校验参数，为空校验
+    if not all([nick_name,signature,gender]):
+        return jsonify(errno=RET.PARAMERR,errmsg='参数不全')
+
+    if not gender in ['MAN','WOMAN']:
+        return jsonify(errno=RET.DATAERR, errmsg='性别异常')
+
     # 6.修改用户的数据
+    g.user.nick_name = nick_name
+    g.user.signature = signature
+    g.user.gender = gender
+
     # 7.返回响应
+    return jsonify(errno=RET.OK, errmsg='修改成功')
 
 
 

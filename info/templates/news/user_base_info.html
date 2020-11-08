@@ -5,6 +5,8 @@
     <title>用户中心</title>
     <link rel="stylesheet" type="text/css" href="../../static/news/css/reset.css">
     <link rel="stylesheet" type="text/css" href="../../static/news/css/main.css">
+    {# jquery 要先导入 #}
+    <script type="text/javascript" src="../../static/news/js/jquery-1.12.4.min.js"></script>
     <script type="text/javascript" src="../../static/news/js/user_base_info.js"></script>
 </head>
 <body class="inframe_body">
@@ -21,11 +23,12 @@
     <div class="form-group">
         <label>性别：</label>
         {% if user_info.gender == 'MAN' %}
-            <input class="gender" type="radio" name="gender" checked="checked"> <b>男</b>&nbsp;&nbsp;&nbsp;&nbsp;
+            {# 注意这里value的设置， js 里需要通过 value 来获取 gender #}
+            <input class="gender" type="radio" name="gender" checked="checked" value="MAN"> <b>男</b>&nbsp;&nbsp;&nbsp;&nbsp;
             <input class="gender" type="radio" name="gender"> <b>女</b>
         {% else %}
             <input class="gender" type="radio" name="gender"> <b>男</b>&nbsp;&nbsp;&nbsp;&nbsp;
-            <input class="gender" type="radio" name="gender" checked="checked"> <b>女</b>
+            <input class="gender" type="radio" name="gender" checked="checked" value="WOMAN"> <b>女</b>
         {% endif %}
     </div>
     <div class="form-group">
