@@ -6,6 +6,40 @@ from info.utils.commons import user_login_data
 
 
 
+# 获取/设置用户头像上传
+# 请求路径: /user/pic_info
+# 请求方式: GET,POST
+# 请求参数: POST请求有参数，avatar
+# 返回值: GET请求：user_info_pic.html页面，data字典数据 ， POST请求： errno,errmsg，avatar_url
+@profile_blue.route('/pic_info', methods=['GET', 'POST'])
+@user_login_data
+def pic_info():
+    '''
+    1.判断请求方式，如果是get请求
+    2.携带用户数据，渲染页面
+    3.如果是post请求
+    4.获取参数
+    5.校验参数，为空校验
+    6.上传图像，判断图片是否上传成功
+    7.将图片设置到用户对象
+    8.返回响应
+    :return:
+    '''
+
+    # 1.判断请求方式，如果是get请求
+    if request.method == 'GET':
+        return render_template('news/user_pic_info.html',user_info=g.user.to_dict())
+
+    # 2.携带用户数据，渲染页面
+    # 3.如果是post请求
+    # 4.获取参数
+    # 5.校验参数，为空校验
+    # 6.上传图像，判断图片是否上传成功
+    # 7.将图片设置到用户对象
+    # 8.返回响应
+
+
+
 # 获取/设置用户基本信息
 # 请求路径: /user/base_info
 # 请求方式: GET,POST
