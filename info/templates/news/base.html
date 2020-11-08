@@ -40,8 +40,10 @@
         {% else %}
             <div class="user_login fr">
                 <img src="../../static/news/images/person01.png" class="lgin_pic">
+
                 {# 跳转个人中心，点击昵称 #}
                 <a href="/user/info">{{ data.user_info.nick_name }}</a>
+
                 <a href="#" onclick="logout()">退出</a>
             </div>
         {% endif %}
