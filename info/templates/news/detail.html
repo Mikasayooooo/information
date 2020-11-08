@@ -79,9 +79,9 @@
                         {# 判断是否有父评论 #}
                     {% if comment.parent %}
                         <div class="reply_text_con fl">
-                            <div class="user_name2">{{ comment.user_name }}</div>
+                            <div class="user_name2">{{ comment.parent.user.nick_name }}</div>
                             <div class="reply_text">
-                                {{ comment.content }}
+                                {{ comment.parent.content }}
                             </div>
                         </div>
                     {% endif %}
