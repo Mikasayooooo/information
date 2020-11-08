@@ -95,7 +95,14 @@
                         {#处理点赞#}
                     <a href="javascript:;" class="comment_up {% if comment.is_like %}
                     has_comment_up
-                    {% endif %} fr" data-commentid="{{ comment.id }}" >1</a>
+                    {% endif %} fr" data-commentid="{{ comment.id }}" data-likecount="{{ comment.like_count }}">
+                    {# 判断评论的数量 #}
+                    {% if comment.like_count >0 %}
+                        {{ comment.like_count  }}
+                    {% else %}
+                        赞
+                    {% endif %}
+                    </a>
                     <a href="javascript:;" class="comment_reply fr">回复</a>
 
                         {#回复评论的表单#}
