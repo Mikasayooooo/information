@@ -1,7 +1,7 @@
 from flask import current_app, jsonify, render_template, abort, session, g,request
 
 from info import db
-from info.models import News, User,Comment
+from info.models import News, User,Comment,CommentLike
 from info.utils.commons import user_login_data
 from info.utils.response_code import RET
 from . import news_blue
@@ -191,8 +191,42 @@ def news_detail(news_id):
         current_app.logger.error(e)
         return jsonify(errno=RET.DBERR, errmsg='获取评论失败')
 
+    # 6.1 用户点赞过的评论编号
+    try:
+        # 因为 获取  该用户点过的所有赞  查询语句时,使用到了g.user 这个属性, 所以需要提前判断是否存在;
+        # 但由于  commentlikes 放在了if语句里面,变成了局部变量,如果 g.user不存在
+        #  查询  获取用户所有点赞过的评论编号  里面用到的  commentlikes 就会变成 None ,会报错,
+        # 所有需要将  commentlikes  定义成全局变量
+        commentlikes = []
+        if g.user:
+            # 6.1.1 该用户点过的所有赞
+            commentlikes = CommentLike.query.filter(CommentLike.user_id == g.user.id).all()
+
+        # 6.1.2 获取用户所有点赞过的评论编号
+        mylike_comment_ids = [commentLike.comment_id for commentLike in commentlikes]
+        
+    except Exception as e:
+        current_app.logger.error(e)
+        return jsonify(errno=RET.DBERR,errmsg='获取点赞失败')
+
+
     # 7.将评论对象列表转换成字典列表
-    comments_list = [comment.to_dict() for comment in comments]
+    # comments_list = [comment.to_dict() for comment in comments]
+    comments_list = []
+    for comment in comments_list:
+        #将评论对象,转字典
+        comm_dict = comment.to_dict()
+
+        # 添加is_like记录点赞
+        comm_dict['is_like'] = False
+
+        # 判断用户是否有对评论点过赞
+        # 首先判断用户是否存在，然后在判断 评论编号 是否 在 用户点赞过的评论列表里
+        if g.user and comment.id in  mylike_comment_ids:
+            comm_dict['is_like'] = True
+
+        comments_list.append(comm_dict)
+
 
     # 8.携带数据,渲染页面
     data = {
