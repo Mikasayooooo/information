@@ -22,7 +22,9 @@
 <body>
 <div class="header_con">
     <div class="header">
-        <a href="#" class="logo fl"><img src="../../static/news/images/logo.png" alt="logo"></a>
+
+        {#   点击新经咨询logo，跳转到首页   #}
+        <a href="/" class="logo fl"><img src="../../static/news/images/logo.png" alt="logo"></a>
 
         {# 3.header部分   #}
         {% block headerBlock %}
@@ -39,7 +41,7 @@
             <div class="user_login fr">
                 <img src="../../static/news/images/person01.png" class="lgin_pic">
                 {# 跳转个人中心，点击昵称 #}
-                <a href="/user/user_index">{{ data.user_info.nick_name }}</a>
+                <a href="/user/info">{{ data.user_info.nick_name }}</a>
                 <a href="#" onclick="logout()">退出</a>
             </div>
         {% endif %}
