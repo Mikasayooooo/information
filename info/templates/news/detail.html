@@ -70,12 +70,15 @@
                         {% endif %}
 
                     </div>
+
                     {#     用户昵称   #}
                     <div class="user_name fl">{{ comment.user.nick_name }}</div>
+
                     {#     评论内容   #}
                     <div class="comment_text fl">
                         {{ comment.content }}
                     </div>
+
                         {# 判断是否有父评论 #}
                     {% if comment.parent %}
                         <div class="reply_text_con fl">
@@ -85,13 +88,16 @@
                             </div>
                         </div>
                     {% endif %}
+
                             {# 评论创建时间 #}
                     <div class="comment_time fl">{{ comment.create_time }}</div>
+
                         {#处理点赞#}
                     <a href="javascript:;" class="comment_up {% if comment.is_like %}
                     has_comment_up
-                    {% endif %} fr">1</a>
+                    {% endif %} fr" data-commentid="{{ comment.id }}" >1</a>
                     <a href="javascript:;" class="comment_reply fr">回复</a>
+
                         {#回复评论的表单#}
                     <from class="reply_form fl" data-newsid="{{ comment.news_id }}" data-commentid="{{ comment.id }}">
                         <textarea class="reply_input"></textarea>

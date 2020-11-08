@@ -7111,3 +7111,304 @@ INFO _internal.py:88 127.0.0.1 - - [08/Nov/2020 12:54:54] "GET /static/news/imag
 INFO _internal.py:88 127.0.0.1 - - [08/Nov/2020 12:54:54] "GET /static/news/images/user_pic.png HTTP/1.1" 304 -
 INFO _internal.py:88 127.0.0.1 - - [08/Nov/2020 12:54:54] "GET /static/news/images/worm.jpg HTTP/1.1" 304 -
 INFO _internal.py:88 127.0.0.1 - - [08/Nov/2020 12:54:54] "GET /passport/image_code HTTP/1.1" 200 -
+INFO _internal.py:88  * Detected change in '/home/python/tools/pyProjects/flaskStudy/information/info/modules/news/views.py', reloading
+INFO _internal.py:88  * Restarting with stat
+INFO _internal.py:88  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+INFO _internal.py:88  * Restarting with stat
+WARNING _internal.py:88  * Debugger is active!
+INFO _internal.py:88  * Debugger PIN: 177-012-029
+INFO _internal.py:88 127.0.0.1 - - [08/Nov/2020 13:46:39] "GET /news/149 HTTP/1.1" 200 -
+INFO _internal.py:88 127.0.0.1 - - [08/Nov/2020 13:46:39] "GET /static/news/css/reset.css HTTP/1.1" 304 -
+INFO _internal.py:88 127.0.0.1 - - [08/Nov/2020 13:46:39] "GET /static/news/css/main.css HTTP/1.1" 304 -
+INFO _internal.py:88 127.0.0.1 - - [08/Nov/2020 13:46:39] "GET /static/news/js/jquery-1.12.4.min.js HTTP/1.1" 304 -
+INFO _internal.py:88 127.0.0.1 - - [08/Nov/2020 13:46:39] "GET /static/news/js/main.js HTTP/1.1" 304 -
+INFO _internal.py:88 127.0.0.1 - - [08/Nov/2020 13:46:39] "GET /static/news/js/detail.js HTTP/1.1" 304 -
+INFO _internal.py:88 127.0.0.1 - - [08/Nov/2020 13:46:39] "GET /static/news/images/logo.png HTTP/1.1" 304 -
+INFO _internal.py:88 127.0.0.1 - - [08/Nov/2020 13:46:39] "GET /static/news/images/person01.png HTTP/1.1" 304 -
+INFO _internal.py:88 127.0.0.1 - - [08/Nov/2020 13:46:39] "GET /static/news/images/cat.jpg HTTP/1.1" 304 -
+INFO _internal.py:88 127.0.0.1 - - [08/Nov/2020 13:46:39] "GET /static/news/images/user_pic.png HTTP/1.1" 304 -
+INFO _internal.py:88 127.0.0.1 - - [08/Nov/2020 13:46:39] "GET /static/news/images/worm.jpg HTTP/1.1" 304 -
+INFO _internal.py:88 127.0.0.1 - - [08/Nov/2020 13:46:39] "GET /passport/image_code HTTP/1.1" 200 -
+INFO _internal.py:88 127.0.0.1 - - [08/Nov/2020 13:47:17] "POST /news/news_comment HTTP/1.1" 200 -
+INFO _internal.py:88 127.0.0.1 - - [08/Nov/2020 13:47:20] "GET /news/149 HTTP/1.1" 200 -
+INFO _internal.py:88 127.0.0.1 - - [08/Nov/2020 13:47:20] "GET /static/news/css/main.css HTTP/1.1" 304 -
+INFO _internal.py:88 127.0.0.1 - - [08/Nov/2020 13:47:20] "GET /static/news/js/jquery-1.12.4.min.js HTTP/1.1" 304 -
+INFO _internal.py:88 127.0.0.1 - - [08/Nov/2020 13:47:20] "GET /static/news/css/reset.css HTTP/1.1" 304 -
+INFO _internal.py:88 127.0.0.1 - - [08/Nov/2020 13:47:20] "GET /static/news/js/main.js HTTP/1.1" 304 -
+INFO _internal.py:88 127.0.0.1 - - [08/Nov/2020 13:47:20] "GET /static/news/js/detail.js HTTP/1.1" 304 -
+INFO _internal.py:88 127.0.0.1 - - [08/Nov/2020 13:47:20] "GET /static/news/images/person01.png HTTP/1.1" 304 -
+INFO _internal.py:88 127.0.0.1 - - [08/Nov/2020 13:47:20] "GET /static/news/images/logo.png HTTP/1.1" 304 -
+INFO _internal.py:88 127.0.0.1 - - [08/Nov/2020 13:47:20] "GET /static/news/images/cat.jpg HTTP/1.1" 304 -
+INFO _internal.py:88 127.0.0.1 - - [08/Nov/2020 13:47:20] "GET /static/news/images/user_pic.png HTTP/1.1" 304 -
+INFO _internal.py:88 127.0.0.1 - - [08/Nov/2020 13:47:20] "GET /static/news/images/worm.jpg HTTP/1.1" 304 -
+INFO _internal.py:88 127.0.0.1 - - [08/Nov/2020 13:47:20] "GET /passport/image_code HTTP/1.1" 200 -
+INFO _internal.py:88 127.0.0.1 - - [08/Nov/2020 13:47:22] "POST /news/comment_like HTTP/1.1" 200 -
+INFO _internal.py:88 127.0.0.1 - - [08/Nov/2020 13:47:26] "POST /news/comment_like HTTP/1.1" 200 -
+INFO _internal.py:88  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+INFO _internal.py:88  * Restarting with stat
+WARNING _internal.py:88  * Debugger is active!
+INFO _internal.py:88  * Debugger PIN: 177-012-029
+INFO _internal.py:88 127.0.0.1 - - [08/Nov/2020 13:52:19] "GET /news/149 HTTP/1.1" 200 -
+INFO _internal.py:88  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+INFO _internal.py:88  * Restarting with stat
+WARNING _internal.py:88  * Debugger is active!
+INFO _internal.py:88  * Debugger PIN: 177-012-029
+INFO _internal.py:88 127.0.0.1 - - [08/Nov/2020 13:52:31] "GET /news/149 HTTP/1.1" 200 -
+INFO _internal.py:88 127.0.0.1 - - [08/Nov/2020 13:52:32] "GET /static/news/css/reset.css HTTP/1.1" 200 -
+INFO _internal.py:88 127.0.0.1 - - [08/Nov/2020 13:52:32] "GET /static/news/css/main.css HTTP/1.1" 200 -
+INFO _internal.py:88 127.0.0.1 - - [08/Nov/2020 13:52:32] "GET /static/news/js/jquery-1.12.4.min.js HTTP/1.1" 200 -
+INFO _internal.py:88 127.0.0.1 - - [08/Nov/2020 13:52:32] "GET /static/news/js/main.js HTTP/1.1" 200 -
+INFO _internal.py:88 127.0.0.1 - - [08/Nov/2020 13:52:32] "GET /static/news/js/detail.js HTTP/1.1" 200 -
+INFO _internal.py:88 127.0.0.1 - - [08/Nov/2020 13:52:32] "GET /static/news/images/logo.png HTTP/1.1" 200 -
+INFO _internal.py:88 127.0.0.1 - - [08/Nov/2020 13:52:32] "GET /static/news/images/person01.png HTTP/1.1" 200 -
+INFO _internal.py:88 127.0.0.1 - - [08/Nov/2020 13:52:32] "GET /static/news/images/cat.jpg HTTP/1.1" 200 -
+INFO _internal.py:88 127.0.0.1 - - [08/Nov/2020 13:52:32] "GET /static/news/images/worm.jpg HTTP/1.1" 304 -
+INFO _internal.py:88 127.0.0.1 - - [08/Nov/2020 13:52:32] "GET /static/news/images/user_pic.png HTTP/1.1" 200 -
+INFO _internal.py:88 127.0.0.1 - - [08/Nov/2020 13:52:32] "GET /passport/image_code HTTP/1.1" 200 -
+INFO _internal.py:88 127.0.0.1 - - [08/Nov/2020 13:52:32] "GET /static/news/images/clock.png HTTP/1.1" 304 -
+INFO _internal.py:88 127.0.0.1 - - [08/Nov/2020 13:52:32] "GET /static/news/images/comment_icon.png HTTP/1.1" 304 -
+INFO _internal.py:88 127.0.0.1 - - [08/Nov/2020 13:52:32] "GET /static/news/images/collect_icons.png HTTP/1.1" 304 -
+INFO _internal.py:88 127.0.0.1 - - [08/Nov/2020 13:52:32] "GET /static/news/images/zan_icon.png HTTP/1.1" 304 -
+INFO _internal.py:88 127.0.0.1 - - [08/Nov/2020 13:52:32] "GET /static/news/images/reply_icon.png HTTP/1.1" 304 -
+INFO _internal.py:88 127.0.0.1 - - [08/Nov/2020 13:52:32] "GET /static/news/images/focus_icons.png HTTP/1.1" 304 -
+INFO _internal.py:88 127.0.0.1 - - [08/Nov/2020 13:52:32] "GET /static/news/images/hit_icon.png HTTP/1.1" 304 -
+ERROR views.py:92 'BaseQuery' object has no attribute 'like_count'
+INFO _internal.py:88 127.0.0.1 - - [08/Nov/2020 13:54:53] "POST /news/comment_like HTTP/1.1" 200 -
+INFO _internal.py:88 127.0.0.1 - - [08/Nov/2020 13:54:53] "GET /news/149 HTTP/1.1" 200 -
+INFO _internal.py:88 127.0.0.1 - - [08/Nov/2020 13:54:56] "GET /static/news/css/reset.css HTTP/1.1" 304 -
+INFO _internal.py:88 127.0.0.1 - - [08/Nov/2020 13:54:56] "GET /static/news/css/main.css HTTP/1.1" 304 -
+INFO _internal.py:88 127.0.0.1 - - [08/Nov/2020 13:54:56] "GET /static/news/js/jquery-1.12.4.min.js HTTP/1.1" 304 -
+INFO _internal.py:88 127.0.0.1 - - [08/Nov/2020 13:54:56] "GET /static/news/js/main.js HTTP/1.1" 304 -
+INFO _internal.py:88 127.0.0.1 - - [08/Nov/2020 13:54:56] "GET /static/news/js/detail.js HTTP/1.1" 304 -
+INFO _internal.py:88 127.0.0.1 - - [08/Nov/2020 13:54:56] "GET /static/news/images/logo.png HTTP/1.1" 304 -
+INFO _internal.py:88 127.0.0.1 - - [08/Nov/2020 13:54:56] "GET /static/news/images/person01.png HTTP/1.1" 304 -
+INFO _internal.py:88 127.0.0.1 - - [08/Nov/2020 13:54:56] "GET /static/news/images/user_pic.png HTTP/1.1" 304 -
+INFO _internal.py:88 127.0.0.1 - - [08/Nov/2020 13:54:56] "GET /static/news/images/cat.jpg HTTP/1.1" 304 -
+INFO _internal.py:88 127.0.0.1 - - [08/Nov/2020 13:54:56] "GET /static/news/images/worm.jpg HTTP/1.1" 304 -
+INFO _internal.py:88 127.0.0.1 - - [08/Nov/2020 13:54:56] "GET /passport/image_code HTTP/1.1" 200 -
+ERROR views.py:92 local variable 'comment_like' referenced before assignment
+INFO _internal.py:88 127.0.0.1 - - [08/Nov/2020 13:56:23] "POST /news/comment_like HTTP/1.1" 200 -
+ERROR views.py:92 local variable 'comment_like' referenced before assignment
+INFO _internal.py:88 127.0.0.1 - - [08/Nov/2020 13:56:40] "POST /news/comment_like HTTP/1.1" 200 -
+INFO _internal.py:88  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+INFO _internal.py:88  * Restarting with stat
+WARNING _internal.py:88  * Debugger is active!
+INFO _internal.py:88  * Debugger PIN: 177-012-029
+ERROR views.py:92 local variable 'comment_like' referenced before assignment
+INFO _internal.py:88 127.0.0.1 - - [08/Nov/2020 13:56:53] "POST /news/comment_like HTTP/1.1" 200 -
+ERROR views.py:92 'BaseQuery' object has no attribute 'like_count'
+INFO _internal.py:88 127.0.0.1 - - [08/Nov/2020 13:56:55] "POST /news/comment_like HTTP/1.1" 200 -
+ERROR views.py:92 'BaseQuery' object has no attribute 'like_count'
+INFO _internal.py:88 127.0.0.1 - - [08/Nov/2020 13:56:58] "POST /news/comment_like HTTP/1.1" 200 -
+ERROR views.py:92 local variable 'comment_like' referenced before assignment
+INFO _internal.py:88 127.0.0.1 - - [08/Nov/2020 13:57:00] "POST /news/comment_like HTTP/1.1" 200 -
+INFO _internal.py:88 127.0.0.1 - - [08/Nov/2020 13:59:55] "GET /news/149 HTTP/1.1" 200 -
+INFO _internal.py:88 127.0.0.1 - - [08/Nov/2020 13:59:55] "GET /static/news/css/reset.css HTTP/1.1" 304 -
+INFO _internal.py:88 127.0.0.1 - - [08/Nov/2020 13:59:55] "GET /static/news/css/main.css HTTP/1.1" 304 -
+INFO _internal.py:88 127.0.0.1 - - [08/Nov/2020 13:59:55] "GET /static/news/js/jquery-1.12.4.min.js HTTP/1.1" 304 -
+INFO _internal.py:88 127.0.0.1 - - [08/Nov/2020 13:59:55] "GET /static/news/js/main.js HTTP/1.1" 304 -
+INFO _internal.py:88 127.0.0.1 - - [08/Nov/2020 13:59:55] "GET /static/news/js/detail.js HTTP/1.1" 304 -
+INFO _internal.py:88 127.0.0.1 - - [08/Nov/2020 13:59:55] "GET /static/news/images/logo.png HTTP/1.1" 304 -
+INFO _internal.py:88 127.0.0.1 - - [08/Nov/2020 13:59:55] "GET /static/news/images/person01.png HTTP/1.1" 304 -
+INFO _internal.py:88 127.0.0.1 - - [08/Nov/2020 13:59:55] "GET /static/news/images/user_pic.png HTTP/1.1" 304 -
+INFO _internal.py:88 127.0.0.1 - - [08/Nov/2020 13:59:55] "GET /static/news/images/cat.jpg HTTP/1.1" 304 -
+INFO _internal.py:88 127.0.0.1 - - [08/Nov/2020 13:59:55] "GET /static/news/images/worm.jpg HTTP/1.1" 304 -
+INFO _internal.py:88 127.0.0.1 - - [08/Nov/2020 13:59:55] "GET /passport/image_code HTTP/1.1" 200 -
+INFO _internal.py:88 127.0.0.1 - - [08/Nov/2020 14:00:01] "GET /news/149 HTTP/1.1" 200 -
+INFO _internal.py:88 127.0.0.1 - - [08/Nov/2020 14:00:01] "GET /static/news/css/reset.css HTTP/1.1" 304 -
+INFO _internal.py:88 127.0.0.1 - - [08/Nov/2020 14:00:01] "GET /static/news/css/main.css HTTP/1.1" 304 -
+INFO _internal.py:88 127.0.0.1 - - [08/Nov/2020 14:00:01] "GET /static/news/js/jquery-1.12.4.min.js HTTP/1.1" 304 -
+INFO _internal.py:88 127.0.0.1 - - [08/Nov/2020 14:00:01] "GET /static/news/js/main.js HTTP/1.1" 304 -
+INFO _internal.py:88 127.0.0.1 - - [08/Nov/2020 14:00:01] "GET /static/news/js/detail.js HTTP/1.1" 304 -
+INFO _internal.py:88 127.0.0.1 - - [08/Nov/2020 14:00:01] "GET /static/news/images/logo.png HTTP/1.1" 304 -
+INFO _internal.py:88 127.0.0.1 - - [08/Nov/2020 14:00:01] "GET /static/news/images/person01.png HTTP/1.1" 304 -
+INFO _internal.py:88 127.0.0.1 - - [08/Nov/2020 14:00:01] "GET /static/news/images/user_pic.png HTTP/1.1" 304 -
+INFO _internal.py:88 127.0.0.1 - - [08/Nov/2020 14:00:01] "GET /static/news/images/cat.jpg HTTP/1.1" 304 -
+INFO _internal.py:88 127.0.0.1 - - [08/Nov/2020 14:00:01] "GET /static/news/images/worm.jpg HTTP/1.1" 304 -
+INFO _internal.py:88 127.0.0.1 - - [08/Nov/2020 14:00:01] "GET /passport/image_code HTTP/1.1" 200 -
+ERROR views.py:92 'BaseQuery' object has no attribute 'like_count'
+INFO _internal.py:88 127.0.0.1 - - [08/Nov/2020 14:00:03] "POST /news/comment_like HTTP/1.1" 200 -
+ERROR views.py:92 local variable 'comment_like' referenced before assignment
+INFO _internal.py:88 127.0.0.1 - - [08/Nov/2020 14:00:05] "POST /news/comment_like HTTP/1.1" 200 -
+ERROR views.py:92 local variable 'comment_like' referenced before assignment
+INFO _internal.py:88 127.0.0.1 - - [08/Nov/2020 14:00:06] "POST /news/comment_like HTTP/1.1" 200 -
+ERROR views.py:92 'BaseQuery' object has no attribute 'like_count'
+INFO _internal.py:88 127.0.0.1 - - [08/Nov/2020 14:00:42] "POST /news/comment_like HTTP/1.1" 200 -
+INFO _internal.py:88  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+INFO _internal.py:88  * Restarting with stat
+WARNING _internal.py:88  * Debugger is active!
+INFO _internal.py:88  * Debugger PIN: 177-012-029
+ERROR views.py:92 local variable 'comment_like' referenced before assignment
+INFO _internal.py:88 127.0.0.1 - - [08/Nov/2020 14:16:32] "POST /news/comment_like HTTP/1.1" 200 -
+INFO _internal.py:88  * Detected change in '/home/python/tools/pyProjects/flaskStudy/information/info/modules/news/views.py', reloading
+INFO _internal.py:88  * Restarting with stat
+WARNING _internal.py:88  * Debugger is active!
+INFO _internal.py:88  * Debugger PIN: 177-012-029
+ERROR views.py:92 'BaseQuery' object has no attribute 'like_count'
+INFO _internal.py:88 127.0.0.1 - - [08/Nov/2020 14:18:13] "POST /news/comment_like HTTP/1.1" 200 -
+INFO _internal.py:88 127.0.0.1 - - [08/Nov/2020 14:18:15] "POST /news/comment_like HTTP/1.1" 200 -
+INFO _internal.py:88 127.0.0.1 - - [08/Nov/2020 14:18:18] "GET /news/149 HTTP/1.1" 200 -
+INFO _internal.py:88 127.0.0.1 - - [08/Nov/2020 14:18:18] "GET /static/news/css/reset.css HTTP/1.1" 304 -
+INFO _internal.py:88 127.0.0.1 - - [08/Nov/2020 14:18:18] "GET /static/news/css/main.css HTTP/1.1" 304 -
+INFO _internal.py:88 127.0.0.1 - - [08/Nov/2020 14:18:18] "GET /static/news/js/jquery-1.12.4.min.js HTTP/1.1" 304 -
+INFO _internal.py:88 127.0.0.1 - - [08/Nov/2020 14:18:18] "GET /static/news/js/main.js HTTP/1.1" 304 -
+INFO _internal.py:88 127.0.0.1 - - [08/Nov/2020 14:18:18] "GET /static/news/js/detail.js HTTP/1.1" 304 -
+INFO _internal.py:88 127.0.0.1 - - [08/Nov/2020 14:18:18] "GET /static/news/images/logo.png HTTP/1.1" 304 -
+INFO _internal.py:88 127.0.0.1 - - [08/Nov/2020 14:18:18] "GET /static/news/images/person01.png HTTP/1.1" 304 -
+INFO _internal.py:88 127.0.0.1 - - [08/Nov/2020 14:18:18] "GET /static/news/images/user_pic.png HTTP/1.1" 304 -
+INFO _internal.py:88 127.0.0.1 - - [08/Nov/2020 14:18:18] "GET /static/news/images/cat.jpg HTTP/1.1" 304 -
+INFO _internal.py:88 127.0.0.1 - - [08/Nov/2020 14:18:18] "GET /static/news/images/worm.jpg HTTP/1.1" 304 -
+INFO _internal.py:88 127.0.0.1 - - [08/Nov/2020 14:18:18] "GET /passport/image_code HTTP/1.1" 200 -
+ERROR views.py:92 'BaseQuery' object has no attribute 'like_count'
+INFO _internal.py:88 127.0.0.1 - - [08/Nov/2020 14:18:24] "POST /news/comment_like HTTP/1.1" 200 -
+INFO _internal.py:88 127.0.0.1 - - [08/Nov/2020 14:18:26] "GET /news/149 HTTP/1.1" 200 -
+INFO _internal.py:88 127.0.0.1 - - [08/Nov/2020 14:18:26] "GET /static/news/css/reset.css HTTP/1.1" 304 -
+INFO _internal.py:88 127.0.0.1 - - [08/Nov/2020 14:18:26] "GET /static/news/css/main.css HTTP/1.1" 304 -
+INFO _internal.py:88 127.0.0.1 - - [08/Nov/2020 14:18:26] "GET /static/news/js/jquery-1.12.4.min.js HTTP/1.1" 304 -
+INFO _internal.py:88 127.0.0.1 - - [08/Nov/2020 14:18:26] "GET /static/news/js/main.js HTTP/1.1" 304 -
+INFO _internal.py:88 127.0.0.1 - - [08/Nov/2020 14:18:26] "GET /static/news/js/detail.js HTTP/1.1" 304 -
+INFO _internal.py:88 127.0.0.1 - - [08/Nov/2020 14:18:26] "GET /static/news/images/logo.png HTTP/1.1" 304 -
+INFO _internal.py:88 127.0.0.1 - - [08/Nov/2020 14:18:26] "GET /static/news/images/person01.png HTTP/1.1" 304 -
+INFO _internal.py:88 127.0.0.1 - - [08/Nov/2020 14:18:26] "GET /static/news/images/user_pic.png HTTP/1.1" 304 -
+INFO _internal.py:88 127.0.0.1 - - [08/Nov/2020 14:18:26] "GET /static/news/images/cat.jpg HTTP/1.1" 304 -
+INFO _internal.py:88 127.0.0.1 - - [08/Nov/2020 14:18:26] "GET /static/news/images/worm.jpg HTTP/1.1" 304 -
+INFO _internal.py:88 127.0.0.1 - - [08/Nov/2020 14:18:26] "GET /passport/image_code HTTP/1.1" 200 -
+INFO _internal.py:88 127.0.0.1 - - [08/Nov/2020 14:18:28] "GET /news/149 HTTP/1.1" 200 -
+INFO _internal.py:88 127.0.0.1 - - [08/Nov/2020 14:18:28] "GET /static/news/css/reset.css HTTP/1.1" 304 -
+INFO _internal.py:88 127.0.0.1 - - [08/Nov/2020 14:18:28] "GET /static/news/css/main.css HTTP/1.1" 304 -
+INFO _internal.py:88 127.0.0.1 - - [08/Nov/2020 14:18:28] "GET /static/news/js/jquery-1.12.4.min.js HTTP/1.1" 304 -
+INFO _internal.py:88 127.0.0.1 - - [08/Nov/2020 14:18:28] "GET /static/news/js/main.js HTTP/1.1" 304 -
+INFO _internal.py:88 127.0.0.1 - - [08/Nov/2020 14:18:28] "GET /static/news/js/detail.js HTTP/1.1" 304 -
+INFO _internal.py:88 127.0.0.1 - - [08/Nov/2020 14:18:28] "GET /static/news/images/logo.png HTTP/1.1" 304 -
+INFO _internal.py:88 127.0.0.1 - - [08/Nov/2020 14:18:28] "GET /static/news/images/person01.png HTTP/1.1" 304 -
+INFO _internal.py:88 127.0.0.1 - - [08/Nov/2020 14:18:28] "GET /static/news/images/user_pic.png HTTP/1.1" 304 -
+INFO _internal.py:88 127.0.0.1 - - [08/Nov/2020 14:18:28] "GET /static/news/images/cat.jpg HTTP/1.1" 304 -
+INFO _internal.py:88 127.0.0.1 - - [08/Nov/2020 14:18:28] "GET /static/news/images/worm.jpg HTTP/1.1" 304 -
+INFO _internal.py:88 127.0.0.1 - - [08/Nov/2020 14:18:28] "GET /passport/image_code HTTP/1.1" 200 -
+INFO _internal.py:88 127.0.0.1 - - [08/Nov/2020 14:18:29] "GET /news/149 HTTP/1.1" 200 -
+INFO _internal.py:88 127.0.0.1 - - [08/Nov/2020 14:18:29] "GET /static/news/css/reset.css HTTP/1.1" 304 -
+INFO _internal.py:88 127.0.0.1 - - [08/Nov/2020 14:18:29] "GET /static/news/css/main.css HTTP/1.1" 304 -
+INFO _internal.py:88 127.0.0.1 - - [08/Nov/2020 14:18:29] "GET /static/news/js/jquery-1.12.4.min.js HTTP/1.1" 304 -
+INFO _internal.py:88 127.0.0.1 - - [08/Nov/2020 14:18:29] "GET /static/news/js/main.js HTTP/1.1" 304 -
+INFO _internal.py:88 127.0.0.1 - - [08/Nov/2020 14:18:29] "GET /static/news/js/detail.js HTTP/1.1" 304 -
+INFO _internal.py:88 127.0.0.1 - - [08/Nov/2020 14:18:29] "GET /static/news/images/logo.png HTTP/1.1" 304 -
+INFO _internal.py:88 127.0.0.1 - - [08/Nov/2020 14:18:29] "GET /static/news/images/person01.png HTTP/1.1" 304 -
+INFO _internal.py:88 127.0.0.1 - - [08/Nov/2020 14:18:29] "GET /static/news/images/user_pic.png HTTP/1.1" 304 -
+INFO _internal.py:88 127.0.0.1 - - [08/Nov/2020 14:18:29] "GET /static/news/images/cat.jpg HTTP/1.1" 304 -
+INFO _internal.py:88 127.0.0.1 - - [08/Nov/2020 14:18:29] "GET /static/news/images/worm.jpg HTTP/1.1" 304 -
+INFO _internal.py:88 127.0.0.1 - - [08/Nov/2020 14:18:29] "GET /passport/image_code HTTP/1.1" 200 -
+ERROR views.py:92 'BaseQuery' object has no attribute 'like_count'
+INFO _internal.py:88 127.0.0.1 - - [08/Nov/2020 14:18:31] "POST /news/comment_like HTTP/1.1" 200 -
+INFO _internal.py:88 127.0.0.1 - - [08/Nov/2020 14:18:34] "GET /news/149 HTTP/1.1" 200 -
+INFO _internal.py:88 127.0.0.1 - - [08/Nov/2020 14:18:34] "GET /static/news/css/reset.css HTTP/1.1" 304 -
+INFO _internal.py:88 127.0.0.1 - - [08/Nov/2020 14:18:34] "GET /static/news/css/main.css HTTP/1.1" 304 -
+INFO _internal.py:88 127.0.0.1 - - [08/Nov/2020 14:18:34] "GET /static/news/js/jquery-1.12.4.min.js HTTP/1.1" 304 -
+INFO _internal.py:88 127.0.0.1 - - [08/Nov/2020 14:18:34] "GET /static/news/js/main.js HTTP/1.1" 304 -
+INFO _internal.py:88 127.0.0.1 - - [08/Nov/2020 14:18:34] "GET /static/news/js/detail.js HTTP/1.1" 304 -
+INFO _internal.py:88 127.0.0.1 - - [08/Nov/2020 14:18:34] "GET /static/news/images/logo.png HTTP/1.1" 304 -
+INFO _internal.py:88 127.0.0.1 - - [08/Nov/2020 14:18:34] "GET /static/news/images/person01.png HTTP/1.1" 304 -
+INFO _internal.py:88 127.0.0.1 - - [08/Nov/2020 14:18:34] "GET /static/news/images/user_pic.png HTTP/1.1" 304 -
+INFO _internal.py:88 127.0.0.1 - - [08/Nov/2020 14:18:34] "GET /static/news/images/cat.jpg HTTP/1.1" 304 -
+INFO _internal.py:88 127.0.0.1 - - [08/Nov/2020 14:18:34] "GET /static/news/images/worm.jpg HTTP/1.1" 304 -
+INFO _internal.py:88 127.0.0.1 - - [08/Nov/2020 14:18:34] "GET /passport/image_code HTTP/1.1" 200 -
+ERROR views.py:92 'BaseQuery' object has no attribute 'like_count'
+INFO _internal.py:88 127.0.0.1 - - [08/Nov/2020 14:18:36] "POST /news/comment_like HTTP/1.1" 200 -
+ERROR views.py:92 'BaseQuery' object has no attribute 'like_count'
+INFO _internal.py:88 127.0.0.1 - - [08/Nov/2020 14:18:40] "POST /news/comment_like HTTP/1.1" 200 -
+INFO _internal.py:88 127.0.0.1 - - [08/Nov/2020 14:18:42] "GET /news/149 HTTP/1.1" 200 -
+INFO _internal.py:88 127.0.0.1 - - [08/Nov/2020 14:18:43] "GET /static/news/css/reset.css HTTP/1.1" 304 -
+INFO _internal.py:88 127.0.0.1 - - [08/Nov/2020 14:18:43] "GET /static/news/css/main.css HTTP/1.1" 304 -
+INFO _internal.py:88 127.0.0.1 - - [08/Nov/2020 14:18:43] "GET /static/news/js/jquery-1.12.4.min.js HTTP/1.1" 304 -
+INFO _internal.py:88 127.0.0.1 - - [08/Nov/2020 14:18:43] "GET /static/news/js/main.js HTTP/1.1" 304 -
+INFO _internal.py:88 127.0.0.1 - - [08/Nov/2020 14:18:43] "GET /static/news/js/detail.js HTTP/1.1" 304 -
+INFO _internal.py:88 127.0.0.1 - - [08/Nov/2020 14:18:43] "GET /static/news/images/logo.png HTTP/1.1" 304 -
+INFO _internal.py:88 127.0.0.1 - - [08/Nov/2020 14:18:43] "GET /static/news/images/person01.png HTTP/1.1" 304 -
+INFO _internal.py:88 127.0.0.1 - - [08/Nov/2020 14:18:43] "GET /static/news/images/user_pic.png HTTP/1.1" 304 -
+INFO _internal.py:88 127.0.0.1 - - [08/Nov/2020 14:18:43] "GET /static/news/images/cat.jpg HTTP/1.1" 304 -
+INFO _internal.py:88 127.0.0.1 - - [08/Nov/2020 14:18:43] "GET /static/news/images/worm.jpg HTTP/1.1" 304 -
+INFO _internal.py:88 127.0.0.1 - - [08/Nov/2020 14:18:43] "GET /passport/image_code HTTP/1.1" 200 -
+ERROR views.py:92 'BaseQuery' object has no attribute 'like_count'
+INFO _internal.py:88 127.0.0.1 - - [08/Nov/2020 14:18:45] "POST /news/comment_like HTTP/1.1" 200 -
+ERROR views.py:92 'BaseQuery' object has no attribute 'like_count'
+INFO _internal.py:88 127.0.0.1 - - [08/Nov/2020 14:18:47] "POST /news/comment_like HTTP/1.1" 200 -
+INFO _internal.py:88 127.0.0.1 - - [08/Nov/2020 14:18:49] "GET /news/149 HTTP/1.1" 200 -
+INFO _internal.py:88 127.0.0.1 - - [08/Nov/2020 14:18:49] "GET /static/news/css/reset.css HTTP/1.1" 304 -
+INFO _internal.py:88 127.0.0.1 - - [08/Nov/2020 14:18:49] "GET /static/news/css/main.css HTTP/1.1" 304 -
+INFO _internal.py:88 127.0.0.1 - - [08/Nov/2020 14:18:49] "GET /static/news/js/jquery-1.12.4.min.js HTTP/1.1" 304 -
+INFO _internal.py:88 127.0.0.1 - - [08/Nov/2020 14:18:49] "GET /static/news/js/main.js HTTP/1.1" 304 -
+INFO _internal.py:88 127.0.0.1 - - [08/Nov/2020 14:18:49] "GET /static/news/js/detail.js HTTP/1.1" 304 -
+INFO _internal.py:88 127.0.0.1 - - [08/Nov/2020 14:18:49] "GET /static/news/images/logo.png HTTP/1.1" 304 -
+INFO _internal.py:88 127.0.0.1 - - [08/Nov/2020 14:18:49] "GET /static/news/images/person01.png HTTP/1.1" 304 -
+INFO _internal.py:88 127.0.0.1 - - [08/Nov/2020 14:18:49] "GET /static/news/images/user_pic.png HTTP/1.1" 304 -
+INFO _internal.py:88 127.0.0.1 - - [08/Nov/2020 14:18:49] "GET /static/news/images/cat.jpg HTTP/1.1" 304 -
+INFO _internal.py:88 127.0.0.1 - - [08/Nov/2020 14:18:49] "GET /static/news/images/worm.jpg HTTP/1.1" 304 -
+INFO _internal.py:88 127.0.0.1 - - [08/Nov/2020 14:18:49] "GET /passport/image_code HTTP/1.1" 200 -
+INFO _internal.py:88  * Detected change in '/home/python/tools/pyProjects/flaskStudy/information/info/modules/news/views.py', reloading
+INFO _internal.py:88  * Restarting with stat
+WARNING _internal.py:88  * Debugger is active!
+INFO _internal.py:88  * Debugger PIN: 177-012-029
+ERROR views.py:93 'BaseQuery' object has no attribute 'like_count'
+INFO _internal.py:88 127.0.0.1 - - [08/Nov/2020 14:20:19] "POST /news/comment_like HTTP/1.1" 200 -
+INFO _internal.py:88 127.0.0.1 - - [08/Nov/2020 14:22:00] "GET /news/149 HTTP/1.1" 200 -
+INFO _internal.py:88 127.0.0.1 - - [08/Nov/2020 14:22:01] "GET /static/news/css/reset.css HTTP/1.1" 304 -
+INFO _internal.py:88 127.0.0.1 - - [08/Nov/2020 14:22:01] "GET /static/news/css/main.css HTTP/1.1" 304 -
+INFO _internal.py:88 127.0.0.1 - - [08/Nov/2020 14:22:01] "GET /static/news/js/jquery-1.12.4.min.js HTTP/1.1" 304 -
+INFO _internal.py:88 127.0.0.1 - - [08/Nov/2020 14:22:01] "GET /static/news/js/main.js HTTP/1.1" 304 -
+INFO _internal.py:88 127.0.0.1 - - [08/Nov/2020 14:22:01] "GET /static/news/js/detail.js HTTP/1.1" 304 -
+INFO _internal.py:88 127.0.0.1 - - [08/Nov/2020 14:22:01] "GET /static/news/images/logo.png HTTP/1.1" 304 -
+INFO _internal.py:88 127.0.0.1 - - [08/Nov/2020 14:22:01] "GET /static/news/images/person01.png HTTP/1.1" 304 -
+INFO _internal.py:88 127.0.0.1 - - [08/Nov/2020 14:22:01] "GET /static/news/images/user_pic.png HTTP/1.1" 304 -
+INFO _internal.py:88 127.0.0.1 - - [08/Nov/2020 14:22:01] "GET /static/news/images/cat.jpg HTTP/1.1" 304 -
+INFO _internal.py:88 127.0.0.1 - - [08/Nov/2020 14:22:01] "GET /static/news/images/worm.jpg HTTP/1.1" 304 -
+INFO _internal.py:88 127.0.0.1 - - [08/Nov/2020 14:22:01] "GET /passport/image_code HTTP/1.1" 200 -
+ERROR views.py:93 'BaseQuery' object has no attribute 'like_count'
+INFO _internal.py:88 127.0.0.1 - - [08/Nov/2020 14:22:02] "POST /news/comment_like HTTP/1.1" 200 -
+INFO _internal.py:88 127.0.0.1 - - [08/Nov/2020 14:22:05] "GET /news/149 HTTP/1.1" 200 -
+INFO _internal.py:88 127.0.0.1 - - [08/Nov/2020 14:22:05] "GET /static/news/css/reset.css HTTP/1.1" 304 -
+INFO _internal.py:88 127.0.0.1 - - [08/Nov/2020 14:22:05] "GET /static/news/css/main.css HTTP/1.1" 304 -
+INFO _internal.py:88 127.0.0.1 - - [08/Nov/2020 14:22:05] "GET /static/news/js/jquery-1.12.4.min.js HTTP/1.1" 304 -
+INFO _internal.py:88 127.0.0.1 - - [08/Nov/2020 14:22:05] "GET /static/news/js/main.js HTTP/1.1" 304 -
+INFO _internal.py:88 127.0.0.1 - - [08/Nov/2020 14:22:05] "GET /static/news/js/detail.js HTTP/1.1" 304 -
+INFO _internal.py:88 127.0.0.1 - - [08/Nov/2020 14:22:05] "GET /static/news/images/logo.png HTTP/1.1" 304 -
+INFO _internal.py:88 127.0.0.1 - - [08/Nov/2020 14:22:05] "GET /static/news/images/person01.png HTTP/1.1" 304 -
+INFO _internal.py:88 127.0.0.1 - - [08/Nov/2020 14:22:05] "GET /static/news/images/user_pic.png HTTP/1.1" 304 -
+INFO _internal.py:88 127.0.0.1 - - [08/Nov/2020 14:22:05] "GET /static/news/images/cat.jpg HTTP/1.1" 304 -
+INFO _internal.py:88 127.0.0.1 - - [08/Nov/2020 14:22:05] "GET /static/news/images/worm.jpg HTTP/1.1" 304 -
+INFO _internal.py:88 127.0.0.1 - - [08/Nov/2020 14:22:05] "GET /passport/image_code HTTP/1.1" 200 -
+INFO _internal.py:88  * Detected change in '/home/python/tools/pyProjects/flaskStudy/information/info/modules/news/views.py', reloading
+INFO _internal.py:88  * Restarting with stat
+WARNING _internal.py:88  * Debugger is active!
+INFO _internal.py:88  * Debugger PIN: 177-012-029
+INFO _internal.py:88 127.0.0.1 - - [08/Nov/2020 14:26:59] "GET /news/149 HTTP/1.1" 200 -
+INFO _internal.py:88 127.0.0.1 - - [08/Nov/2020 14:26:59] "GET /static/news/css/reset.css HTTP/1.1" 304 -
+INFO _internal.py:88 127.0.0.1 - - [08/Nov/2020 14:26:59] "GET /static/news/css/main.css HTTP/1.1" 304 -
+INFO _internal.py:88 127.0.0.1 - - [08/Nov/2020 14:26:59] "GET /static/news/js/jquery-1.12.4.min.js HTTP/1.1" 304 -
+INFO _internal.py:88 127.0.0.1 - - [08/Nov/2020 14:26:59] "GET /static/news/js/main.js HTTP/1.1" 304 -
+INFO _internal.py:88 127.0.0.1 - - [08/Nov/2020 14:26:59] "GET /static/news/js/detail.js HTTP/1.1" 304 -
+INFO _internal.py:88 127.0.0.1 - - [08/Nov/2020 14:26:59] "GET /static/news/images/logo.png HTTP/1.1" 304 -
+INFO _internal.py:88 127.0.0.1 - - [08/Nov/2020 14:26:59] "GET /static/news/images/person01.png HTTP/1.1" 304 -
+INFO _internal.py:88 127.0.0.1 - - [08/Nov/2020 14:26:59] "GET /static/news/images/user_pic.png HTTP/1.1" 304 -
+INFO _internal.py:88 127.0.0.1 - - [08/Nov/2020 14:26:59] "GET /static/news/images/cat.jpg HTTP/1.1" 304 -
+INFO _internal.py:88 127.0.0.1 - - [08/Nov/2020 14:26:59] "GET /static/news/images/worm.jpg HTTP/1.1" 304 -
+INFO _internal.py:88 127.0.0.1 - - [08/Nov/2020 14:26:59] "GET /passport/image_code HTTP/1.1" 200 -
+INFO _internal.py:88 127.0.0.1 - - [08/Nov/2020 14:27:00] "POST /news/comment_like HTTP/1.1" 200 -
+INFO _internal.py:88 127.0.0.1 - - [08/Nov/2020 14:27:04] "POST /news/comment_like HTTP/1.1" 200 -
+INFO _internal.py:88 127.0.0.1 - - [08/Nov/2020 14:27:05] "POST /news/comment_like HTTP/1.1" 200 -
+INFO _internal.py:88 127.0.0.1 - - [08/Nov/2020 14:27:06] "POST /news/comment_like HTTP/1.1" 200 -
+INFO _internal.py:88 127.0.0.1 - - [08/Nov/2020 14:27:06] "POST /news/comment_like HTTP/1.1" 200 -
+INFO _internal.py:88 127.0.0.1 - - [08/Nov/2020 14:27:07] "POST /news/comment_like HTTP/1.1" 200 -
+INFO _internal.py:88 127.0.0.1 - - [08/Nov/2020 14:27:08] "POST /news/comment_like HTTP/1.1" 200 -
+INFO _internal.py:88 127.0.0.1 - - [08/Nov/2020 14:27:08] "POST /news/comment_like HTTP/1.1" 200 -
+INFO _internal.py:88 127.0.0.1 - - [08/Nov/2020 14:27:09] "POST /news/comment_like HTTP/1.1" 200 -
+INFO _internal.py:88 127.0.0.1 - - [08/Nov/2020 14:27:10] "POST /news/comment_like HTTP/1.1" 200 -
+INFO _internal.py:88 127.0.0.1 - - [08/Nov/2020 14:27:10] "POST /news/comment_like HTTP/1.1" 200 -
+INFO _internal.py:88 127.0.0.1 - - [08/Nov/2020 14:27:11] "POST /news/comment_like HTTP/1.1" 200 -
+INFO _internal.py:88 127.0.0.1 - - [08/Nov/2020 14:27:11] "POST /news/comment_like HTTP/1.1" 200 -
+INFO _internal.py:88 127.0.0.1 - - [08/Nov/2020 14:27:11] "POST /news/comment_like HTTP/1.1" 200 -
+INFO _internal.py:88 127.0.0.1 - - [08/Nov/2020 14:27:12] "POST /news/comment_like HTTP/1.1" 200 -
+INFO _internal.py:88 127.0.0.1 - - [08/Nov/2020 14:27:12] "POST /news/comment_like HTTP/1.1" 200 -
+INFO _internal.py:88 127.0.0.1 - - [08/Nov/2020 14:27:14] "POST /news/comment_like HTTP/1.1" 200 -
+INFO _internal.py:88 127.0.0.1 - - [08/Nov/2020 14:27:14] "POST /news/comment_like HTTP/1.1" 200 -
+INFO _internal.py:88 127.0.0.1 - - [08/Nov/2020 14:27:17] "POST /news/comment_like HTTP/1.1" 200 -
+INFO _internal.py:88 127.0.0.1 - - [08/Nov/2020 14:27:18] "POST /news/comment_like HTTP/1.1" 200 -
+INFO _internal.py:88 127.0.0.1 - - [08/Nov/2020 14:27:25] "POST /news/comment_like HTTP/1.1" 200 -
