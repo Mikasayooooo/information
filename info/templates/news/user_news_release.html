@@ -20,8 +20,9 @@
         <select class="sel_opt" name="category_id">
 
             {# 遍历分类数据 #}
-            {% for category in categories if category.name != '最新' %}
-                <option value="">{{ category.name }}</option>
+            {% for category in category_list if category.name != '最新' %}
+                {#  注意 ：value的设置 #}
+                <option value="{{ category.id }}">{{ category.name }}</option>
             {% endfor %}
 
 
