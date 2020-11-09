@@ -9,6 +9,61 @@ from info.utils.image_storage import image_storage
 from info import constants, db
 
 
+
+# 获取用户新闻列表
+# 请求路径: /user/news_list
+# 请求方式: GET
+# 请求参数: p(页数)
+# 返回值: user_news_list.html页面
+@profile_blue.route('/news_list')
+@user_login_data
+def news_list():
+    '''
+    1.获取参数，p(页数)
+    2.参数类型转换
+    3.分页查询用户发布的新闻
+    4.获取分页对象属性，总页数，当前页，当前页对象列表
+    5.将对象列表，转成字典列表
+    6.拼接数据，渲染页面
+    :return:
+    '''
+
+    # 1.获取参数，p
+    page = request.args.get('p','1')  # 传过来的是字符串,如果p没有，默认设置为1
+
+    # 2.参数类型转换
+    try:
+       page = int(page)
+    except Exception as e:
+        page = 1  # 如果p没有，默认设置为1
+
+    # 3.分页查询收藏的新闻
+    try:
+       paginate = News.query.filter(News.user_id == g.user.id).order_by(News.create_time.desc()).paginate(page,10,False)
+    except Exception as e:
+        current_app.logger.error(e)
+        return jsonify(errno=RET.DBERR,errmsg='获取新闻失败')
+
+    # 4.获取分页对象属性，总页数，当前页，当前页对象列表
+    totalPage = paginate.pages
+    currentPage = paginate.page
+    items = paginate.items
+
+    # 5.将对象列表，转成字典列表
+    news_list = [news.to_review_dict() for news in items]
+
+    # 6.拼接数据，渲染页面
+    data = {
+        'totalPage': totalPage,
+        'currentPage': currentPage,
+        'news_list': news_list
+    }
+    return render_template('news/user_news_list.html',data=data)
+
+
+
+
+
 # 获取/设置新闻发布
 # 请求路径: /user/news_release
 # 请求方式: GET,POST
@@ -283,37 +338,29 @@ def base_info():
     '''
     # 1. 判断请求方式,如果是get请求
     if request.method == "GET":
-        # 2. 携带用户的数据,渲染页面
-        return render_template("news/user_pic_info.html", user_info=g.user.to_dict())
+        # 2. 携带用户数据,渲染页面
+        return render_template("news/user_base_info.html", user_info=g.user.to_dict())
 
     # 3. 如果是post请求
     # 4. 获取参数
-    avatar = request.files.get("avatar")
+    nick_name = request.json.get("nick_name")
+    signature = request.json.get("signature")
+    gender = request.json.get("gender")
 
     # 5. 校验参数,为空校验
-    if not avatar:
-        return jsonify(errno=RET.PARAMERR, errmsg="图片不能为空")
+    if not all([nick_name, signature, gender]):
+        return jsonify(errno=RET.PARAMERR, errmsg="参数不全")
 
-    # 6. 上传图像,判断图片是否上传成功
-    try:
-        # 读取图片为二进制,上传图片
-        image_name = image_storage(avatar.read())
+    if not gender in ["MAN", "WOMAN"]:
+        return jsonify(errno=RET.DATAERR, errmsg="性别异常")
 
-    except Exception as e:
-        current_app.logger.error(e)
-        return jsonify(errno=RET.THIRDERR, errmsg="七牛云异常")
+    # 6. 修改用户的数据
+    g.user.signature = signature
+    g.user.nick_name = nick_name
+    g.user.gender = gender
 
-    if not image_name:
-        return jsonify(errno=RET.NODATA, errmsg="图片上传失败")
-
-    # 7. 将图片设置到用户对象
-    g.user.avatar_url = image_name
-
-    # 8. 返回响应
-    data = {
-        "avatar_url": constants.QINIU_DOMIN_PREFIX + image_name
-    }
-    return jsonify(errno=RET.OK, errmsg="上传成功", data=data)
+    # 7. 返回响应
+    return jsonify(errno=RET.OK, errmsg="修改成功")
 
 
 # 获取用户信息首页
