@@ -1,12 +1,53 @@
 
 from flask import render_template, g, redirect, request, jsonify, current_app
 
-from info.models import News
+from info.models import News,Category
 from info.utils.response_code import RET
 from . import profile_blue
 from info.utils.commons import user_login_data
 from info.utils.image_storage import image_storage
 from info import constants
+
+
+
+# 获取/设置新闻发布
+# 请求路径: /user/news_release
+# 请求方式: GET,POST
+# 请求参数: GET无，POST请求有参数，title,category_id,digest,index_image,content
+# 返回值: GET请求，user_news_release.html页面，data分类列表字段数据，POST，errno,errmsg
+@profile_blue.route('/news_release', methods=['GET', 'POST'])
+def news_release():
+    '''
+    1.判断请求方式，如果是GET
+    2.携带分类数据渲染页面
+    3.如果是POST，获取参数
+    4.校验参数，为空校验
+    5.上传图片，判断是否上传成功
+    6.创建新闻对象，设置属性
+    7.保存到数据库
+    8.返回响应
+    :return:
+    '''
+
+    # 1.判断请求方式，如果是GET
+    if request.method == 'GET':
+        # 2.查询所有的分类数据
+        try:
+           categories = Category.query.all()
+        except Exception as e:
+            current_app.logger.error(e)
+            return jsonify(errno=RET.DBERR,errmsg='获取分类失败')
+
+        # 2.1携带分类数据渲染页面
+        return render_template('news/user_news_release.html',categories=categories)
+
+    # 3.如果是POST，获取参数
+    # 4.校验参数，为空校验
+    # 5.上传图片，判断是否上传成功
+    # 6.创建新闻对象，设置属性
+    # 7.保存到数据库
+    # 8.返回响应
+
 
 
 
