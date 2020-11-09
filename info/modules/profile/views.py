@@ -39,7 +39,7 @@ def collection():
 
     # 3.分页查询收藏的新闻
     try:
-       paginate = g.user.collection_news.order_by(News.create_time.desc()).paginate(page,10,False)
+       paginate = g.user.collection_news.order_by(News.create_time.desc()).paginate(page,2,False)
     except Exception as e:
         current_app.logger.error(e)
         return jsonify(errno=RET.DBERR,errmsg='获取新闻失败')

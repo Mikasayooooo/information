@@ -13,12 +13,19 @@
 <div class="my_collect">
     <h3>我的收藏</h3>
     <ul class="article_list">
-        <li><a href="#">智能音箱“不智能”：这次轮到三星语音助手Bixby被吐槽了</a><span>2018-1-17</span></li>
-        <li><a href="#">智能音箱“不智能”：这次轮到三星语音助手Bixby被吐槽了</a><span>2018-1-17</span></li>
-        <li><a href="#">智能音箱“不智能”：这次轮到三星语音助手Bixby被吐槽了</a><span>2018-1-17</span></li>
-        <li><a href="#">智能音箱“不智能”：这次轮到三星语音助手Bixby被吐槽了</a><span>2018-1-17</span></li>
-        <li><a href="#">智能音箱“不智能”：这次轮到三星语音助手Bixby被吐槽了</a><span>2018-1-17</span></li>
-        <li><a href="#">智能音箱“不智能”：这次轮到三星语音助手Bixby被吐槽了</a><span>2018-1-17</span></li>
+
+        {#  遍历用户收藏的新闻 #}
+        {% for news in data.news_list %}
+            <li><a href="#">{{ news.title }}</a><span>{{ news.create_time }}</span></li>
+        {% endfor %}
+
+
+{#        <li><a href="#">智能音箱“不智能”：这次轮到三星语音助手Bixby被吐槽了</a><span>2018-1-17</span></li>#}
+{#        <li><a href="#">智能音箱“不智能”：这次轮到三星语音助手Bixby被吐槽了</a><span>2018-1-17</span></li>#}
+{#        <li><a href="#">智能音箱“不智能”：这次轮到三星语音助手Bixby被吐槽了</a><span>2018-1-17</span></li>#}
+{#        <li><a href="#">智能音箱“不智能”：这次轮到三星语音助手Bixby被吐槽了</a><span>2018-1-17</span></li>#}
+{#        <li><a href="#">智能音箱“不智能”：这次轮到三星语音助手Bixby被吐槽了</a><span>2018-1-17</span></li>#}
+{#        <li><a href="#">智能音箱“不智能”：这次轮到三星语音助手Bixby被吐槽了</a><span>2018-1-17</span></li>#}
     </ul>
 
 
@@ -26,10 +33,12 @@
     <script>
         $(function () {
             $("#pagination").pagination({
-                currentPage: 2,
-                totalPage: 3,
+                currentPage: {{ data.currentPage }},  {# 当前页 #}
+                totalPage: {{ data.totalPage }},     {# 总页数 #}
                 callback: function (current) {
-                    alert('ok!');
+                    {#alert('ok!'+current);#}
+                    {# current 是当前页码，通过window.location.href 来进行跳转 #}
+                    window.location.href = '/user/collection?p=' + current
                 }
             });
         });
