@@ -50,13 +50,14 @@ def collection():
     items = paginate.items
 
     # 5.将对象列表，转成字典列表
-    data = {
-        'totalPage':totalPage,
-        'currentPage':currentPage,
-        'items':items
-    }
+    news_list = [news.to_dict() for news in items]
 
     # 6.拼接数据，渲染页面
+    data = {
+        'totalPage': totalPage,
+        'currentPage': currentPage,
+        'news_list': news_list
+    }
     return render_template('news/user_collection.html',data=data)
 
 
