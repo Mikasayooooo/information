@@ -1,11 +1,66 @@
-from celery import current_app
-from flask import render_template, g, redirect, request, jsonify
 
+from flask import render_template, g, redirect, request, jsonify, current_app
+
+from info.models import News
 from info.utils.response_code import RET
 from . import profile_blue
 from info.utils.commons import user_login_data
 from info.utils.image_storage import image_storage
 from info import constants
+
+
+
+# 获取新闻收藏列表
+# 请求路径: /user/collection
+# 请求方式: GET
+# 请求参数: p(页数)
+# 返回值: user_collection.html页面
+@profile_blue.route('/collection')
+@user_login_data
+def collection():
+    '''
+    1.获取参数，p(页数)
+    2.参数类型转换
+    3.分页查询收藏的新闻
+    4.获取分页对象属性，总页数，当前页，当前页对象列表
+    5.将对象列表，转成字典列表
+    6.拼接数据，渲染页面
+    :return:
+    '''
+
+    # 1.获取参数，p
+    page = request.args.get('p','1')  # 传过来的是字符串,如果p没有，默认设置为1
+
+    # 2.参数类型转换
+    try:
+       page = int(page)
+    except Exception as e:
+        page = 1  # 如果p没有，默认设置为1
+
+    # 3.分页查询收藏的新闻
+    try:
+       paginate = g.user.collection_news.order_by(News.create_time.desc()).paginate(page,10,False)
+    except Exception as e:
+        current_app.logger.error(e)
+        return jsonify(errno=RET.DBERR,errmsg='获取新闻失败')
+
+    # 4.获取分页对象属性，总页数，当前页，当前页对象列表
+    totalPage = paginate.pages
+    currentPage = paginate.page
+    items = paginate.items
+
+    # 5.将对象列表，转成字典列表
+    data = {
+        'totalPage':totalPage,
+        'currentPage':currentPage,
+        'items':items
+    }
+
+    # 6.拼接数据，渲染页面
+    return render_template('news/user_collection.html',data=data)
+
+
+
 
 
 # 获取/设置用户密码

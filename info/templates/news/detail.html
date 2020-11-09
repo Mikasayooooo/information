@@ -43,7 +43,8 @@
         {% else %}
             <form action="" class="comment_form" data-newsid="{{ data.news_info.id }}">
                 <div class="person_pic">
-                    <img src="../../static/news/images/cat.jpg" alt="用户图标">
+                    {# 用户图标 #}
+                    <img src="{{ data.user_info.avatar_url }}" alt="用户图标">
                 </div>
                 <textarea placeholder="请发表您的评论" class="comment_input"></textarea>
                 <input type="submit" name="" value="评 论" class="comment_sub">
