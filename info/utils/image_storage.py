@@ -24,9 +24,11 @@ def image_storage(image_data):
 
     # ret, info = put_file(token, key, image_data)  # 上传文件路径
     ret, info = put_data(token, key, image_data)  # 上传二进制流
-    # print(info)
-    # print(ret)
-    # print(type(info.status_code))  # <class 'int'>
+    print('info---->',info)
+    print(info.status_code)
+    print('ret---->',ret)
+    print(ret.get('key'))
+    print(type(info.status_code))  # <class 'int'>
 
     '''
 status_code:200, text_body:{"hash":"Fvs_xUnfM768ncYMYkQiYlSFG3jU","key":"Fvs_xUnfM768ncYMYkQiYlSFG3jU"}, _ResponseInfo__response:<Response [200]>, exception:None, x_log:X-Log, req_id:578AAACawh1NkEUW
@@ -38,7 +40,8 @@ status_code:200, text_body:{"hash":"Fvs_xUnfM768ncYMYkQiYlSFG3jU","key":"Fvs_xUn
 
     # 处理上传的结果，如果上传成功，返回图片名称，否则返回None
     if info.status_code == 200:
-        return ret.get(key)
+        # return ret.get(key)   注意字典取值
+        return ret.get('key')
     else:
         return None
 
@@ -48,6 +51,6 @@ if __name__ == '__main__':
 
     # 使用with测试，可以自动关闭流
     with open('./aaa.jpg','rb') as f:
-        image_storage(f.read())
-
+        image_name = image_storage(f.read())
+        print(image_name)
 

@@ -15,8 +15,10 @@
     {% block contentBlock %}
         <div class="user_menu_con fl">
         <div class="user_center_pic">
-            <img src="../../static/news/images/user_pic.png" alt="用户图片">
+            {# 用户头像图片 #}
+            <img src="{{ data.user_info.avatar_url }}" alt="用户图片">
         </div>
+            {# 用户昵称 #}
         <div class="user_center_name">{{ data.user_info.nick_name }}</div>
 
         <ul class="option_list">
