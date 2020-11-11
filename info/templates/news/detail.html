@@ -80,7 +80,7 @@
                         {{ comment.content }}
                     </div>
 
-                        {# 判断是否有父评论 #}
+                    {# 判断是否有父评论 #}
                     {% if comment.parent %}
                         <div class="reply_text_con fl">
                             <div class="user_name2">{{ comment.parent.user.nick_name }}</div>
@@ -90,23 +90,23 @@
                         </div>
                     {% endif %}
 
-                            {# 评论创建时间 #}
+                    {# 评论创建时间 #}
                     <div class="comment_time fl">{{ comment.create_time }}</div>
 
-                        {#处理点赞#}
+                    {#处理点赞#}
                     <a href="javascript:;" class="comment_up {% if comment.is_like %}
                     has_comment_up
                     {% endif %} fr" data-commentid="{{ comment.id }}" data-likecount="{{ comment.like_count }}">
-                    {# 判断评论的数量 #}
-                    {% if comment.like_count >0 %}
-                        {{ comment.like_count  }}
-                    {% else %}
-                        赞
-                    {% endif %}
+                        {# 判断评论的数量 #}
+                        {% if comment.like_count >0 %}
+                            {{ comment.like_count }}
+                        {% else %}
+                            赞
+                        {% endif %}
                     </a>
                     <a href="javascript:;" class="comment_reply fr">回复</a>
 
-                        {#回复评论的表单#}
+                    {#回复评论的表单#}
                     <from class="reply_form fl" data-newsid="{{ comment.news_id }}" data-commentid="{{ comment.id }}">
                         <textarea class="reply_input"></textarea>
                         <input type="submit" name="" value="回复" class="reply_sub fr">
@@ -183,20 +183,30 @@
 
 {# 5.作者部分   #}
 {% block authorBlock %}
-    <div class="author_card">
-                {#    用户头像  #}
-        <a href="#" class="author_pic"><img src="{{ data.user_info.avatar_url }}" alt="author_pic"></a>
+    {#    判断用户头像是否存在  #}
+    {% if data.news_info.author %}
+        <div class="author_card">
 
-                {#   用户昵称   #}
-        <a href="#" class="author_name">{{ data.user_info.nick_name }}</a>
-        <div class="author_resume">{{ data.user_info.nick_name }}的简介,{{ data.user_info.nick_name }}</div>
-                {#   用户总篇数   #}
-        <div class="writings"><span>总篇数</span><b>{{ data.user_info.news_count }}</b></div>
-                {#   用户粉丝   #}
-        <div class="follows"><span>粉丝</span><b>{{ data.user_info.followers_count }}</b></div>
-        <a href="javascript:;" class="focus fr">关注</a>
-        <a href="javascript:;" class="focused fr"><span class="out">已关注</span><span class="over">取消关注</span></a>
-    </div>
+            {% if data.news_info.author.avatar_url %}
+                <a href="#" class="author_pic"><img src="{{ data.news_info.author.avatar_url }}" alt="author_pic"></a>
+            {% else %}
+                <a href="#" class="author_pic"><img src="../../static/news/images/user_pic.png" alt="author_pic"></a>
+            {% endif %}
+
+            {#   用户昵称   #}
+            <a href="#" class="author_name">{{ data.news_info.author.nick_name }}</a>
+            <div class="author_resume">{{ data.news_info.author.signature }}</div>
+            {#   用户总篇数   #}
+            <div class="writings"><span>总篇数</span><b>{{ data.news_info.author.news_count }}</b></div>
+            {#   用户粉丝   #}
+            <div class="follows"><span>粉丝</span><b>{{ data.news_info.author.followers_count }}</b></div>
+            <a href="javascript:;" class="focus fr" style="display: {% if data.is_followed %}none {% else %}block
+            {% endif %}">关注</a>
+            <a href="javascript:;" class="focused fr" style="display: {% if data.is_followed %}block {% else %}none
+            {% endif %}"><span class="out">已关注</span><span class="over">取消关注</span></a>
+
+        </div>
+    {% endif %}
 {% endblock %}
 
 

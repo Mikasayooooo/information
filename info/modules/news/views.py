@@ -314,6 +314,17 @@ def news_detail(news_id):
 
         comments_list.append(comm_dict)
 
+    # 判断登录的用户是否关注了新闻的作者
+    # is_followed = False
+    # if 用户需要登录 and 新闻有作者：
+    #     if 登录的用户 in 作者的粉丝列表中：
+    #         is_followed = True
+    is_followed = False
+    if g.user and news.user:
+        if g.user in news.user.followers:
+            is_followed = True
+
+
     # 8.携带数据,渲染页面
     data = {
         # 从数据库中通过 get 获取,如果不存在,就会报错,需要进行判断
@@ -324,7 +335,8 @@ def news_detail(news_id):
         'news': click_news_list,
         #     user_info  和 news  必须和 base.html一一对应
         'is_collected': is_collected,
-        'comments_list': comments_list
+        'comments_list': comments_list,
+        'is_followed':is_followed
     }
 
     return render_template('news/detail.html', data=data)
