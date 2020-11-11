@@ -7,6 +7,66 @@ from info.utils.response_code import RET
 from . import news_blue
 
 
+
+# 关注与取消关注
+# 请求路径: /news/followed_user
+# 请求方式: POST
+# 请求参数: user_id,action
+# 返回值: errno,errmsg
+@news_blue.route('/followed_user', methods=['POST'])
+@user_login_data
+def followed_user():
+    '''
+    1.判断用户是否登陆
+    2.获取请求参数
+    3.校验参数,为空校验
+    4.操作类型进行校验
+    5.通过作者编号取出作者对象，并判断作者对象是否存在
+    6.根据操作类型，进行关注&取消关注
+    7.返回响应
+    :return:
+    '''
+
+    # 1.判断用户是否登陆
+    if not g.user:
+        return jsonify(errno=RET.NODATA, errmsg='用户未登录')
+
+    # 2.获取请求参数
+    author_id = request.json.get('user_id')
+    action = request.json.get('action')
+
+    # 3.校验参数,为空校验
+    if not all([author_id,action]):
+        return jsonify(errno=RET.PARAMERR, errmsg='参数不全')
+
+    # 4.操作类型进行校验
+    if not action in ['follow','unfollow']:
+        return jsonify(errno=RET.DATAERR, errmsg='操作类型 有误')
+
+    # 5.通过作者编号取出作者对象，并判断作者对象是否存在
+    try:
+       author = User.query.get(author_id)
+    except Exception as e:
+        current_app.logger.error(e)
+        return jsonify(errno=RET.DBERR, errmsg='作者获取失败')
+
+    if not author:
+        return jsonify(errno=RET.NODATA, errmsg='该作者不存在')
+
+    # 6.根据操作类型，进行关注&取消关注
+    if action == 'follow':
+        # 5.1 判断当前的用户是否关注了该作者
+        if not g.user in author.followers:
+            author.followers.append(g.user)
+        else:
+            if g.user in author.followers:
+                author.followers.remove(g.user)
+
+    # 7.返回响应
+    return jsonify(errno=RET.OK, errmsg='操作成功')
+
+
+
 # 评论点赞
 # 请求路径: /news/comment_like
 # 请求方式: POST
