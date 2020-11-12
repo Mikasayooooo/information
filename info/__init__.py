@@ -1,4 +1,4 @@
-from flask import Flask
+from flask import Flask,render_template
 from flask_sqlalchemy import SQLAlchemy
 from redis import StrictRedis
 from flask_session import Session
@@ -80,6 +80,14 @@ def create_app(config_name):
 
         # 返回响应
         return resp
+
+
+    # 使用 errhandler 统一处理404异常信息
+    @app.errorhandler(404)
+    def page_not_found(e):
+        # print(e)
+        return render_template('news/404.html')
+
 
     return app
 
