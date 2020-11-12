@@ -12856,3 +12856,40 @@ INFO _internal.py:88 127.0.0.1 - - [12/Nov/2020 12:52:00] "GET /static/news/js/j
 INFO _internal.py:88 127.0.0.1 - - [12/Nov/2020 12:52:00] "GET /static/news/css/main.css HTTP/1.1" 304 -
 INFO _internal.py:88 127.0.0.1 - - [12/Nov/2020 12:52:00] "GET /static/news/images/not_found.png HTTP/1.1" 304 -
 INFO _internal.py:88 127.0.0.1 - - [12/Nov/2020 12:52:00] "GET /passport/image_code HTTP/1.1" 200 -
+INFO _internal.py:88  * Detected change in '/home/python/tools/pyProjects/flaskStudy/information/info/modules/admin/views.py', reloading
+INFO _internal.py:88  * Restarting with stat
+WARNING _internal.py:88  * Debugger is active!
+INFO _internal.py:88  * Debugger PIN: 177-012-029
+INFO _internal.py:88  * Detected change in '/home/python/tools/pyProjects/flaskStudy/information/info/modules/admin/views.py', reloading
+INFO _internal.py:88  * Restarting with stat
+WARNING _internal.py:88  * Debugger is active!
+INFO _internal.py:88  * Debugger PIN: 177-012-029
+INFO _internal.py:88 127.0.0.1 - - [12/Nov/2020 14:38:54] "GET /admin HTTP/1.1" 302 -
+INFO _internal.py:88 127.0.0.1 - - [12/Nov/2020 14:38:54] "GET /404 HTTP/1.1" 200 -
+INFO _internal.py:88 127.0.0.1 - - [12/Nov/2020 14:38:54] "GET /passport/image_code HTTP/1.1" 200 -
+INFO _internal.py:88 127.0.0.1 - - [12/Nov/2020 14:39:02] "GET /admin/login HTTP/1.1" 200 -
+INFO _internal.py:88 127.0.0.1 - - [12/Nov/2020 14:39:04] "POST /admin/login HTTP/1.1" 405 -
+INFO _internal.py:88 127.0.0.1 - - [12/Nov/2020 14:39:15] "POST /admin/login HTTP/1.1" 405 -
+INFO _internal.py:88  * Detected change in '/home/python/tools/pyProjects/flaskStudy/information/info/modules/admin/views.py', reloading
+INFO _internal.py:88  * Restarting with stat
+WARNING _internal.py:88  * Debugger is active!
+INFO _internal.py:88  * Debugger PIN: 177-012-029
+INFO _internal.py:88 127.0.0.1 - - [12/Nov/2020 14:48:11] "GET /admin/login HTTP/1.1" 200 -
+INFO _internal.py:88 127.0.0.1 - - [12/Nov/2020 14:48:12] "GET /static/admin/css/reset.css HTTP/1.1" 304 -
+INFO _internal.py:88 127.0.0.1 - - [12/Nov/2020 14:48:12] "GET /static/admin/css/main.css HTTP/1.1" 304 -
+INFO _internal.py:88 127.0.0.1 - - [12/Nov/2020 14:48:12] "GET /static/admin/images/logo.png HTTP/1.1" 304 -
+INFO _internal.py:88 127.0.0.1 - - [12/Nov/2020 14:48:12] "GET /static/admin/images/login-bg.jpg HTTP/1.1" 304 -
+INFO _internal.py:88 127.0.0.1 - - [12/Nov/2020 14:48:24] "POST /admin/login HTTP/1.1" 405 -
+INFO _internal.py:88 127.0.0.1 - - [12/Nov/2020 14:48:58] "POST /admin/login HTTP/1.1" 405 -
+INFO _internal.py:88 127.0.0.1 - - [12/Nov/2020 14:50:19] "POST /admin/login HTTP/1.1" 405 -
+INFO _internal.py:88  * Detected change in '/home/python/tools/pyProjects/flaskStudy/information/info/modules/admin/views.py', reloading
+INFO _internal.py:88  * Restarting with stat
+WARNING _internal.py:88  * Debugger is active!
+INFO _internal.py:88  * Debugger PIN: 177-012-029
+INFO _internal.py:88  * Detected change in '/home/python/tools/pyProjects/flaskStudy/information/info/modules/admin/views.py', reloading
+INFO _internal.py:88  * Restarting with stat
+WARNING _internal.py:88  * Debugger is active!
+INFO _internal.py:88  * Debugger PIN: 177-012-029
+INFO _internal.py:88 127.0.0.1 - - [12/Nov/2020 14:52:36] "POST /admin/login HTTP/1.1" 405 -
+INFO _internal.py:88 127.0.0.1 - - [12/Nov/2020 14:52:39] "POST /admin/login HTTP/1.1" 405 -
+INFO _internal.py:88 127.0.0.1 - - [12/Nov/2020 14:52:43] "POST /admin/login HTTP/1.1" 405 -
