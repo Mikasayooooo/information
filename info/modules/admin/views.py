@@ -5,7 +5,7 @@ from flask import render_template, request, current_app, session, redirect, g
 from info.utils.commons import user_login_data
 
 import time
-from datetime import datetime
+from datetime import datetime,timedelta
 
 
 
@@ -77,11 +77,36 @@ def user_count():
         return render_template('admin/user_count.html', errmsg='获取日活人数失败')
 
     # 4.获取活跃时间段内，对应的活跃人数
+    active_date = [] # 获取活跃的日期
+    active_count = [] # 获取活跃的人数
+    for i in range(0,31):
+
+        # 当天开始时间A
+        begin_date = day_start_time_date - timedelta(days=i)
+
+        # 当天开始时间，的后一天B
+        end_date = day_start_time_date - timedelta(days=i - 1)
+
+        # 添加当天开始时间字符串到活跃日期中    (日期对象转换成字符串)
+        active_date.append(begin_date.strftime('%Y-%m-%d'))
+
+        # 查询时间A到B这一天的注册人数
+        everyday_active_count = User.query.filter(User.is_admin == False,User.last_login >= begin_date,User.last_login <= end_date).count()
+
+        # 添加当天注册人数到 获取数量中
+        active_count.append(everyday_active_count)
+
+    # 为了图表显示方便，将容器反转
+    active_date.reverse()
+    active_count.reverse()
+
     # 5.携带数据渲染页面
     data = {
         'total_count':total_count,
         'month_count':month_count,
-        'day_count':day_count
+        'day_count':day_count,
+        'active_date':active_date,
+        'active_count':active_count
     }
     return render_template('admin/user_count.html',data=data)
 
