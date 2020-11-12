@@ -12929,3 +12929,36 @@ INFO _internal.py:88 127.0.0.1 - - [12/Nov/2020 15:06:30] "POST /admin/login HTT
 INFO _internal.py:88 127.0.0.1 - - [12/Nov/2020 15:06:39] "POST /admin/login HTTP/1.1" 200 -
 INFO _internal.py:88 127.0.0.1 - - [12/Nov/2020 15:06:44] "POST /admin/login HTTP/1.1" 200 -
 INFO _internal.py:88 127.0.0.1 - - [12/Nov/2020 15:06:54] "POST /admin/login HTTP/1.1" 200 -
+INFO _internal.py:88  * Detected change in '/home/python/tools/pyProjects/flaskStudy/information/info/modules/admin/views.py', reloading
+INFO _internal.py:88  * Restarting with stat
+WARNING _internal.py:88  * Debugger is active!
+INFO _internal.py:88  * Debugger PIN: 177-012-029
+INFO _internal.py:88 127.0.0.1 - - [12/Nov/2020 15:47:25] "POST /admin/login HTTP/1.1" 200 -
+INFO _internal.py:88 127.0.0.1 - - [12/Nov/2020 15:47:26] "GET /static/admin/css/reset.css HTTP/1.1" 304 -
+INFO _internal.py:88 127.0.0.1 - - [12/Nov/2020 15:47:26] "GET /static/admin/css/main.css HTTP/1.1" 304 -
+INFO _internal.py:88 127.0.0.1 - - [12/Nov/2020 15:47:26] "GET /static/admin/images/logo.png HTTP/1.1" 304 -
+INFO _internal.py:88 127.0.0.1 - - [12/Nov/2020 15:47:29] "POST /admin/login HTTP/1.1" 302 -
+INFO _internal.py:88 127.0.0.1 - - [12/Nov/2020 15:47:29] "GET /admin/index HTTP/1.1" 200 -
+INFO _internal.py:88 127.0.0.1 - - [12/Nov/2020 15:47:30] "GET /static/admin/js/jquery-1.12.4.min.js HTTP/1.1" 200 -
+INFO _internal.py:88 127.0.0.1 - - [12/Nov/2020 15:47:30] "GET /static/admin/images/person.png HTTP/1.1" 200 -
+INFO _internal.py:88 127.0.0.1 - - [12/Nov/2020 15:47:30] "GET /static/admin/html/user_count.html HTTP/1.1" 200 -
+INFO _internal.py:88 127.0.0.1 - - [12/Nov/2020 15:47:30] "GET /static/admin/images/icons.png HTTP/1.1" 200 -
+INFO _internal.py:88 127.0.0.1 - - [12/Nov/2020 15:47:30] "GET /static/admin/js/echarts.min.js HTTP/1.1" 200 -
+INFO _internal.py:88  * Detected change in '/home/python/tools/pyProjects/flaskStudy/information/info/modules/index/views.py', reloading
+INFO _internal.py:88  * Restarting with stat
+WARNING _internal.py:88  * Debugger is active!
+INFO _internal.py:88  * Debugger PIN: 177-012-029
+INFO _internal.py:88  * Detected change in '/home/python/tools/pyProjects/flaskStudy/information/info/modules/admin/views.py', reloading
+INFO _internal.py:88  * Restarting with stat
+WARNING _internal.py:88  * Debugger is active!
+INFO _internal.py:88  * Debugger PIN: 177-012-029
+INFO _internal.py:88 127.0.0.1 - - [12/Nov/2020 15:52:22] "GET /admin/index HTTP/1.1" 200 -
+INFO _internal.py:88 127.0.0.1 - - [12/Nov/2020 15:52:22] "GET /static/admin/css/reset.css HTTP/1.1" 304 -
+INFO _internal.py:88 127.0.0.1 - - [12/Nov/2020 15:52:22] "GET /static/admin/js/jquery-1.12.4.min.js HTTP/1.1" 304 -
+INFO _internal.py:88 127.0.0.1 - - [12/Nov/2020 15:52:22] "GET /static/admin/css/main.css HTTP/1.1" 304 -
+INFO _internal.py:88 127.0.0.1 - - [12/Nov/2020 15:52:22] "GET /static/admin/images/logo.png HTTP/1.1" 304 -
+INFO _internal.py:88 127.0.0.1 - - [12/Nov/2020 15:52:22] "GET /static/admin/images/person.png HTTP/1.1" 304 -
+INFO _internal.py:88 127.0.0.1 - - [12/Nov/2020 15:52:22] "GET /static/admin/html/user_count.html HTTP/1.1" 304 -
+INFO _internal.py:88 127.0.0.1 - - [12/Nov/2020 15:52:23] "GET /static/admin/css/reset.css HTTP/1.1" 304 -
+INFO _internal.py:88 127.0.0.1 - - [12/Nov/2020 15:52:23] "GET /static/admin/css/main.css HTTP/1.1" 304 -
+INFO _internal.py:88 127.0.0.1 - - [12/Nov/2020 15:52:23] "GET /static/admin/js/echarts.min.js HTTP/1.1" 304 -

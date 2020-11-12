@@ -173,6 +173,6 @@ def get_web_logo():
 @user_login_data
 def page_not_found():
     data = {
-        'user_info': g.user.to_dict()
+        'user_info': g.user.to_dict() if g.user else ''
     }
     return render_template('news/404.html',data=data)
