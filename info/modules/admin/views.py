@@ -9,6 +9,58 @@ from datetime import datetime,timedelta
 
 
 
+# 用户列表
+# 请求路径: /admin/user_list
+# 请求方式: GET
+# 请求参数: p(页数)
+# 返回值: 渲染user_list.html页面，data字典数据
+@admin_blue.route('/user_list')
+def user_list():
+    '''
+    1.获取参数，p(页数)
+    2.参数类型转换
+    3.分页查询用户数据
+    4.获取分页对象属性，总页数，当前页，当前页对象列表
+    5.将对象列表，转成字典列表
+    6.拼接数据，渲染页面
+    :return:
+    '''
+
+    # 1.获取参数，p
+    page = request.args.get('p','1')  # 传过来的是字符串,如果p没有，默认设置为1
+
+    # 2.参数类型转换
+    try:
+       page = int(page)
+    except Exception as e:
+        page = 1  # 如果p没有，默认设置为1
+
+    # 3.分页查询用户数据
+    try:
+       paginate = User.query.filter(User.is_admin == False).order_by(User.create_time.desc()).paginate(page,10,False)
+    except Exception as e:
+        current_app.logger.error(e)
+        return render_template('admin/user_list.html',errmsg='获取用户失败')
+
+    # 4.获取分页对象属性，总页数，当前页，当前页对象列表
+    totalPage = paginate.pages
+    currentPage = paginate.page
+    items = paginate.items
+
+    # 5.将对象列表，转成字典列表
+    user_list = [user.to_admin_dict() for user in items]
+
+    # 6.拼接数据，渲染页面
+    data = {
+        'totalPage': totalPage,
+        'currentPage': currentPage,
+        'user_list': user_list
+    }
+    return render_template('admin/user_list.html',data=data)
+
+
+
+
 # 用户统计
 # 请求路径：/admin/user_count
 # 请求方式:GET
