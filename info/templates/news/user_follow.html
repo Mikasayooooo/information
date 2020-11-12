@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>用户中心</title>
+    <link rel="stylesheet" type="text/css" href="../../static/news/css/reset.css">
+    <link rel="stylesheet" type="text/css" href="../../static/news/css/jquery.pagination.css">
+    <link rel="stylesheet" type="text/css" href="../../static/news/css/main.css">
+    <script type="text/javascript" src="../../static/news/js/jquery-1.12.4.min.js"></script>
+    <script type="text/javascript" src="../../static/news/js/jquery.pagination.min.js"></script>
+    <script type="text/javascript" src="../../static/news/js/user_follow.js"></script>
+</head>
+<body class="inframe_body">
+<h3 class="common_title">我的关注</h3>
+<ul class="card_list_con">
+
+    {# 遍历作者列表 #}
+    {% for author in data.author_list %}
+
+        <li class="author_card card_list">
+        <a href="#" target="_blank" class="author_pic">
+            {# 判断用户头像是否存在 #}
+            {% if author.avatar_url %}
+                <img src="{{ author.avatar_url }}" alt="author_pic">
+            {% else %}
+                <img src="../../static/news/images/cat.jpg" alt="author_pic">
+            {% endif %}
+
+        </a>
+        <a href="#" target="_blank" class="author_name">{{ author.nick_name }}</a>
+        <div class="author_resume">{{ author.signature }}</div>
+        <div class="writings"><span>总篇数</span><b>{{ author.news_count }}</b></div>
+        <div class="follows"><span>粉丝</span><b>{{ author.followers_count }}</b></div>
+{#        <a href="javascript:;" class="focus fr">关注</a> 在我的关注里，这里不需要，全部都是已关注 #}
+        <a href="javascript:;" class="focused fr" data-userid="{{ author.id }}"><span class="out">已关注</span><span class="over">取消关注</span></a>
+    </li>
+
+    {% endfor %}
+
+
+{#    <li class="author_card card_list">#}
+{#        <a href="#" target="_blank" class="author_pic"><img src="../../static/news/images/cat.jpg" alt="author_pic"></a>#}
+{#        <a href="#" target="_blank" class="author_name">张大山</a>#}
+{#        <div class="author_resume">张大山的简介,张大山</div>#}
+{#        <div class="writings"><span>总篇数</span><b>23</b></div>#}
+{#        <div class="follows"><span>粉丝</span><b>36</b></div>#}
+{#        <a href="javascript:;" class="focus fr">关注</a>#}
+{#        <a href="javascript:;" class="focused fr"><span class="out">已关注</span><span class="over">取消关注</span></a>#}
+{#    </li>#}
+{#    <li class="author_card card_list">#}
+{#        <a href="#" target="_blank" class="author_pic"><img src="../../static/news/images/cat.jpg" alt="author_pic"></a>#}
+{#        <a href="#" target="_blank" class="author_name">张大山</a>#}
+{#        <div class="author_resume">张大山的简介,张大山</div>#}
+{#        <div class="writings"><span>总篇数</span><b>23</b></div>#}
+{#        <div class="follows"><span>粉丝</span><b>36</b></div>#}
+{#        <a href="javascript:;" class="focus fr">关注</a>#}
+{#        <a href="javascript:;" class="focused fr"><span class="out">已关注</span><span class="over">取消关注</span></a>#}
+{#    </li>#}
+{#    <li class="author_card card_list">#}
+{#        <a href="#" target="_blank" class="author_pic"><img src="../../static/news/images/cat.jpg" alt="author_pic"></a>#}
+{#        <a href="#" target="_blank" class="author_name">张大山</a>#}
+{#        <div class="author_resume">张大山的简介,张大山</div>#}
+{#        <div class="writings"><span>总篇数</span><b>23</b></div>#}
+{#        <div class="follows"><span>粉丝</span><b>36</b></div>#}
+{#        <a href="javascript:;" class="focus fr">关注</a>#}
+{#        <a href="javascript:;" class="focused fr"><span class="out">已关注</span><span class="over">取消关注</span></a>#}
+{#    </li>#}
+{#    <li class="author_card card_list">#}
+{#        <a href="#" target="_blank" class="author_pic"><img src="../../static/news/images/cat.jpg" alt="author_pic"></a>#}
+{#        <a href="#" target="_blank" class="author_name">张大山</a>#}
+{#        <div class="author_resume">张大山的简介,张大山</div>#}
+{#        <div class="writings"><span>总篇数</span><b>23</b></div>#}
+{#        <div class="follows"><span>粉丝</span><b>36</b></div>#}
+{#        <a href="javascript:;" class="focus fr">关注</a>#}
+{#        <a href="javascript:;" class="focused fr"><span class="out">已关注</span><span class="over">取消关注</span></a>#}
+{#    </li>#}
+</ul>
+
+
+<div id="pagination" class="page"></div>
+<script>
+    $(function () {
+        $("#pagination").pagination({
+            currentPage: {{ data.currentPage }},
+            totalPage: {{ data.totalPage }},
+            callback: function (current) {
+                alert('ok!');
+                window.location.href = '/user/user_follow?p=' + current;
+            }
+        });
+    });
+</script>
+</body>
+</html>
