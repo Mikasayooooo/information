@@ -50,6 +50,7 @@ def create_app(config_name):
     from info.modules.passport import passport_blue
     from info.modules.news import news_blue
     from info.modules.profile import profile_blue
+    from info.modules.admin import admin_blue
 
     # 将首页蓝图index_blue,注册到app中
     app.register_blueprint(index_blue)
@@ -59,6 +60,8 @@ def create_app(config_name):
     app.register_blueprint(news_blue)
     # 将认证蓝图profile_blue,注册到app中
     app.register_blueprint(profile_blue)
+    # 将认证蓝图admin_blue,注册到app中
+    app.register_blueprint(admin_blue)
 
     # 将函数添加到系统默认的过滤器中
     # 参数1: 函数的名字 参数2: 过滤器的名字
