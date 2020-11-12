@@ -4,6 +4,88 @@ from flask import render_template, request, current_app, session, redirect, g
 
 from info.utils.commons import user_login_data
 
+import time
+from datetime import datetime
+
+
+
+# 用户统计
+# 请求路径：/admin/user_count
+# 请求方式:GET
+# 请求参数：无
+# 返回值：渲染页面user_count.html,字典数据
+@admin_blue.route('/user_count')
+def user_count():
+    '''
+    1.获取用户总数
+    2.获取月活人数
+    3.获取日活人数
+    4.获取活跃时间段内，对应的活跃人数
+    5.携带数据渲染页面
+    :return:
+    '''
+
+    # 1.获取用户总数
+    try:
+       #  这里要不需要统计管理员的数量,  filter查询不需要加异常，get需要
+       total_count = User.query.filter(User.is_admin == False).count()
+    except Exception as e:
+        current_app.logger.error(e)
+        return render_template('admin/user_count.html',errmsg='获取总人数失败')
+
+    # 2.获取月活人数
+    localtime = time.localtime()
+    # print('localtime---------->',localtime)
+    '''time.struct_time(tm_year=2020, tm_mon=11, tm_mday=12, 
+    tm_hour=18, tm_min=35, tm_sec=46, tm_wday=3, tm_yday=317, tm_isdst=0)'''
+
+    try:
+        #2.1先获取本月的1号的0点的，字符串数据
+        month_start_time_str = '{}-{}-01'.format(localtime.tm_year,localtime.tm_mon)
+        # print('month_start_time_str-----------_____>',month_start_time_str)
+        '''2020-11-01'''
+
+        #2.2根据字符串，格式化日期对象
+        month_start_time_date = datetime.strptime(month_start_time_str,'%Y-%m-%d')
+        # print('month_start_time_date-------------->',month_start_time_date)
+        '''2020-11-01 00:00:00'''
+
+        #2.3最后一次登陆的时间大于，本月的1号的0点钟的人数
+        month_count = User.query.filter(User.last_login >= month_start_time_date,User.is_admin == False).count()
+        #  这里要不需要统计管理员的数量,  filter查询不需要加异常，get需要
+
+    except Exception as e:
+        current_app.logger.error(e)
+        return render_template('admin/user_count.html',errmsg='获取月活人数失败')
+
+    # 3.获取日活人数
+    localtime = time.localtime()
+
+    try:
+        # 3.1先获取本日的0点的，字符串数据
+        day_start_time_str = '{}-{}-{}'.format(localtime.tm_year, localtime.tm_mon,localtime.tm_mday)
+
+        # 3.2根据字符串，格式化日期对象
+        day_start_time_date = datetime.strptime(day_start_time_str, '%Y-%m-%d')
+
+        # 3.3最后一次登陆的时间大于，本日的0点钟的人数
+        day_count = User.query.filter(User.last_login >= day_start_time_date,User.is_admin == False).count()
+        #  这里要不需要统计管理员的数量,  filter查询不需要加异常，get需要
+
+    except Exception as e:
+        current_app.logger.error(e)
+        return render_template('admin/user_count.html', errmsg='获取日活人数失败')
+
+    # 4.获取活跃时间段内，对应的活跃人数
+    # 5.携带数据渲染页面
+    data = {
+        'total_count':total_count,
+        'month_count':month_count,
+        'day_count':day_count
+    }
+    return render_template('admin/user_count.html',data=data)
+
+
 
 
 # 首页
