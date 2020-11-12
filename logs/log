@@ -12649,3 +12649,15 @@ INFO _internal.py:88 127.0.0.1 - - [12/Nov/2020 10:55:40] "GET /static/admin/ima
 INFO _internal.py:88 127.0.0.1 - - [12/Nov/2020 10:55:51] "POST /admin/admin_login HTTP/1.1" 405 -
 INFO _internal.py:88 127.0.0.1 - - [12/Nov/2020 10:56:05] "POST /admin/admin_login HTTP/1.1" 405 -
 INFO _internal.py:88 127.0.0.1 - - [12/Nov/2020 10:56:10] "POST /admin/admin_login HTTP/1.1" 405 -
+INFO _internal.py:88 127.0.0.1 - - [12/Nov/2020 11:07:29] "GET /user/pic_info HTTP/1.1" 200 -
+INFO _internal.py:88 127.0.0.1 - - [12/Nov/2020 11:07:30] "GET /user/user_follow HTTP/1.1" 200 -
+INFO _internal.py:88 127.0.0.1 - - [12/Nov/2020 11:07:31] "GET /user/pass_info HTTP/1.1" 200 -
+INFO _internal.py:88 127.0.0.1 - - [12/Nov/2020 11:07:32] "GET /user/base_info HTTP/1.1" 200 -
+INFO _internal.py:88  * Detected change in '/home/python/tools/pyProjects/flaskStudy/information/manager.py', reloading
+INFO _internal.py:88  * Restarting with stat
+WARNING _internal.py:88  * Debugger is active!
+INFO _internal.py:88  * Debugger PIN: 177-012-029
+INFO _internal.py:88  * Detected change in '/home/python/tools/pyProjects/flaskStudy/information/manager.py', reloading
+INFO _internal.py:88  * Restarting with stat
+WARNING _internal.py:88  * Debugger is active!
+INFO _internal.py:88  * Debugger PIN: 177-012-029
