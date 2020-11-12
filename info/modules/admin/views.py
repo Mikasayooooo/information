@@ -8,7 +8,7 @@ from flask import render_template, request, current_app, session,redirect
 # 请求方式:GET,POST
 # 请求参数：GET,无，POST，username,password
 # 返回值：GET渲染login.html页面,POST,login.html页面,errmsg
-@admin_blue.route('/login')
+@admin_blue.route('/login',methods=['GET','POST'])
 def admin_login():
     '''
     1.判断请求方式，如果是GET，直接渲染页面
