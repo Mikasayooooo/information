@@ -13131,3 +13131,38 @@ INFO _internal.py:88 127.0.0.1 - - [12/Nov/2020 16:32:39] "GET /static/news/imag
 INFO _internal.py:88 127.0.0.1 - - [12/Nov/2020 16:32:39] "GET /passport/image_code HTTP/1.1" 200 -
 INFO _internal.py:88 127.0.0.1 - - [12/Nov/2020 16:32:39] "GET /newslist?page=1&cid=1&per_page=5 HTTP/1.1" 200 -
 INFO _internal.py:88 127.0.0.1 - - [12/Nov/2020 16:32:44] "GET /admin/login HTTP/1.1" 200 -
+INFO _internal.py:88  * Detected change in '/home/python/tools/pyProjects/flaskStudy/information/info/modules/admin/__init__.py', reloading
+INFO _internal.py:88  * Restarting with stat
+WARNING _internal.py:88  * Debugger is active!
+INFO _internal.py:88  * Debugger PIN: 177-012-029
+INFO _internal.py:88  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+INFO _internal.py:88  * Restarting with stat
+WARNING _internal.py:88  * Debugger is active!
+INFO _internal.py:88  * Debugger PIN: 177-012-029
+INFO _internal.py:88 127.0.0.1 - - [12/Nov/2020 16:58:06] "GET /admin/login HTTP/1.1" 200 -
+INFO _internal.py:88 127.0.0.1 - - [12/Nov/2020 16:58:12] "GET /admin/index HTTP/1.1" 200 -
+INFO _internal.py:88 127.0.0.1 - - [12/Nov/2020 16:58:19] "GET /admin/index HTTP/1.1" 200 -
+INFO _internal.py:88 127.0.0.1 - - [12/Nov/2020 16:58:21] "GET / HTTP/1.1" 200 -
+INFO _internal.py:88 127.0.0.1 - - [12/Nov/2020 16:58:21] "GET /passport/image_code HTTP/1.1" 200 -
+INFO _internal.py:88 127.0.0.1 - - [12/Nov/2020 16:58:21] "GET /newslist?page=1&cid=1&per_page=5 HTTP/1.1" 200 -
+INFO _internal.py:88  * Detected change in '/home/python/tools/pyProjects/flaskStudy/information/info/modules/admin/__init__.py', reloading
+INFO _internal.py:88  * Restarting with stat
+WARNING _internal.py:88  * Debugger is active!
+INFO _internal.py:88  * Debugger PIN: 177-012-029
+INFO _internal.py:88 127.0.0.1 - - [12/Nov/2020 17:00:14] "GET /admin/login HTTP/1.1" 200 -
+INFO _internal.py:88 127.0.0.1 - - [12/Nov/2020 17:00:19] "GET /admin/index HTTP/1.1" 302 -
+INFO _internal.py:88 127.0.0.1 - - [12/Nov/2020 17:00:19] "GET / HTTP/1.1" 200 -
+INFO _internal.py:88 127.0.0.1 - - [12/Nov/2020 17:00:20] "GET /passport/image_code HTTP/1.1" 200 -
+INFO _internal.py:88 127.0.0.1 - - [12/Nov/2020 17:00:20] "GET /newslist?page=1&cid=1&per_page=5 HTTP/1.1" 200 -
+INFO _internal.py:88  * Detected change in '/home/python/tools/pyProjects/flaskStudy/information/info/modules/admin/__init__.py', reloading
+INFO _internal.py:88  * Restarting with stat
+WARNING _internal.py:88  * Debugger is active!
+INFO _internal.py:88  * Debugger PIN: 177-012-029
+INFO _internal.py:88 127.0.0.1 - - [12/Nov/2020 17:01:18] "GET / HTTP/1.1" 200 -
+INFO _internal.py:88 127.0.0.1 - - [12/Nov/2020 17:01:19] "GET /passport/image_code HTTP/1.1" 200 -
+INFO _internal.py:88 127.0.0.1 - - [12/Nov/2020 17:01:19] "GET /newslist?page=1&cid=1&per_page=5 HTTP/1.1" 200 -
+INFO _internal.py:88 127.0.0.1 - - [12/Nov/2020 17:01:22] "GET /admin/login HTTP/1.1" 200 -
+INFO _internal.py:88 127.0.0.1 - - [12/Nov/2020 17:01:27] "GET /admin/index HTTP/1.1" 302 -
+INFO _internal.py:88 127.0.0.1 - - [12/Nov/2020 17:01:27] "GET / HTTP/1.1" 200 -
+INFO _internal.py:88 127.0.0.1 - - [12/Nov/2020 17:01:27] "GET /passport/image_code HTTP/1.1" 200 -
+INFO _internal.py:88 127.0.0.1 - - [12/Nov/2020 17:01:27] "GET /newslist?page=1&cid=1&per_page=5 HTTP/1.1" 200 -
