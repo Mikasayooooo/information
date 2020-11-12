@@ -12717,3 +12717,43 @@ INFO _internal.py:88 127.0.0.1 - - [12/Nov/2020 11:42:34] "GET /admin/admin_logi
 INFO _internal.py:88 127.0.0.1 - - [12/Nov/2020 11:42:34] "GET /static/news/images/not_found.png HTTP/1.1" 200 -
 INFO _internal.py:88 127.0.0.1 - - [12/Nov/2020 11:42:34] "GET /static/news/images/pic_code.png HTTP/1.1" 200 -
 INFO _internal.py:88 127.0.0.1 - - [12/Nov/2020 11:42:42] "GET /admin/admin_login/index.html HTTP/1.1" 200 -
+INFO _internal.py:88 127.0.0.1 - - [12/Nov/2020 11:44:03] "GET /admin/admin_login/index.html/aaa/ssss/ccccc/ HTTP/1.1" 200 -
+INFO _internal.py:88 127.0.0.1 - - [12/Nov/2020 11:44:04] "GET /admin/admin_login/index.html/aaa/static/news/css/reset.css HTTP/1.1" 200 -
+INFO _internal.py:88 127.0.0.1 - - [12/Nov/2020 11:44:04] "GET /admin/admin_login/index.html/aaa/static/news/css/main.css HTTP/1.1" 200 -
+INFO _internal.py:88 127.0.0.1 - - [12/Nov/2020 11:44:04] "GET /admin/admin_login/index.html/aaa/static/news/js/jquery-1.12.4.min.js HTTP/1.1" 200 -
+INFO _internal.py:88 127.0.0.1 - - [12/Nov/2020 11:44:04] "GET /admin/admin_login/index.html/aaa/static/news/js/main.js HTTP/1.1" 200 -
+INFO _internal.py:88 127.0.0.1 - - [12/Nov/2020 11:44:04] "GET /admin/admin_login/index.html/aaa/static/news/images/logo.png HTTP/1.1" 200 -
+INFO _internal.py:88 127.0.0.1 - - [12/Nov/2020 11:44:04] "GET /admin/admin_login/index.html/aaa/static/news/images/not_found.png HTTP/1.1" 200 -
+INFO _internal.py:88 127.0.0.1 - - [12/Nov/2020 11:44:04] "GET /admin/admin_login/index.html/aaa/static/news/images/pic_code.png HTTP/1.1" 200 -
+INFO _internal.py:88 127.0.0.1 - - [12/Nov/2020 11:44:08] "GET /admin/admin_login/index.html/aaa/ssss/ccccc/ HTTP/1.1" 200 -
+INFO _internal.py:88 127.0.0.1 - - [12/Nov/2020 11:44:09] "GET /admin/admin_login/index.html/aaa/static/news/css/main.css HTTP/1.1" 200 -
+INFO _internal.py:88 127.0.0.1 - - [12/Nov/2020 11:44:09] "GET /admin/admin_login/index.html/aaa/static/news/js/jquery-1.12.4.min.js HTTP/1.1" 200 -
+INFO _internal.py:88 127.0.0.1 - - [12/Nov/2020 11:44:09] "GET /admin/admin_login/index.html/aaa/static/news/js/main.js HTTP/1.1" 200 -
+INFO _internal.py:88 127.0.0.1 - - [12/Nov/2020 11:44:09] "GET /admin/admin_login/index.html/aaa/static/news/images/logo.png HTTP/1.1" 200 -
+INFO _internal.py:88 127.0.0.1 - - [12/Nov/2020 11:44:09] "GET /admin/admin_login/index.html/aaa/static/news/css/reset.css HTTP/1.1" 200 -
+INFO _internal.py:88 127.0.0.1 - - [12/Nov/2020 11:44:09] "GET /admin/admin_login/index.html/aaa/static/news/images/not_found.png HTTP/1.1" 200 -
+INFO _internal.py:88 127.0.0.1 - - [12/Nov/2020 11:44:09] "GET /admin/admin_login/index.html/aaa/static/news/images/pic_code.png HTTP/1.1" 200 -
+INFO _internal.py:88 127.0.0.1 - - [12/Nov/2020 11:44:09] "GET /admin/admin_login/index.html/aaa/static/news/images/logo.png HTTP/1.1" 200 -
+INFO _internal.py:88  * Detected change in '/home/python/tools/pyProjects/flaskStudy/information/info/__init__.py', reloading
+INFO _internal.py:88  * Restarting with stat
+WARNING _internal.py:88  * Debugger is active!
+INFO _internal.py:88  * Debugger PIN: 177-012-029
+INFO _internal.py:88  * Detected change in '/home/python/tools/pyProjects/flaskStudy/information/info/__init__.py', reloading
+INFO _internal.py:88  * Restarting with stat
+WARNING _internal.py:88  * Debugger is active!
+INFO _internal.py:88  * Debugger PIN: 177-012-029
+INFO _internal.py:88  * Detected change in '/home/python/tools/pyProjects/flaskStudy/information/info/modules/index/views.py', reloading
+INFO _internal.py:88  * Restarting with stat
+WARNING _internal.py:88  * Debugger is active!
+INFO _internal.py:88  * Debugger PIN: 177-012-029
+INFO _internal.py:88 127.0.0.1 - - [12/Nov/2020 11:58:41] "GET /admin/admin_login/index.html/aaa/ssss/ccccc/ HTTP/1.1" 302 -
+INFO _internal.py:88 127.0.0.1 - - [12/Nov/2020 11:58:41] "GET /404 HTTP/1.1" 200 -
+INFO _internal.py:88 127.0.0.1 - - [12/Nov/2020 11:58:41] "GET /static/news/css/reset.css HTTP/1.1" 304 -
+INFO _internal.py:88 127.0.0.1 - - [12/Nov/2020 11:58:41] "GET /static/news/css/main.css HTTP/1.1" 304 -
+INFO _internal.py:88 127.0.0.1 - - [12/Nov/2020 11:58:41] "GET /static/news/js/jquery-1.12.4.min.js HTTP/1.1" 304 -
+INFO _internal.py:88 127.0.0.1 - - [12/Nov/2020 11:58:41] "GET /static/news/js/main.js HTTP/1.1" 304 -
+INFO _internal.py:88 127.0.0.1 - - [12/Nov/2020 11:58:41] "GET /static/news/images/logo.png HTTP/1.1" 304 -
+INFO _internal.py:88 127.0.0.1 - - [12/Nov/2020 11:58:41] "GET /static/news/images/not_found.png HTTP/1.1" 304 -
+INFO _internal.py:88 127.0.0.1 - - [12/Nov/2020 11:58:41] "GET /static/news/images/pic_code.png HTTP/1.1" 304 -
+INFO _internal.py:88 127.0.0.1 - - [12/Nov/2020 11:58:48] "GET /404/aa/ss/dd/ff HTTP/1.1" 302 -
+INFO _internal.py:88 127.0.0.1 - - [12/Nov/2020 11:58:48] "GET /404 HTTP/1.1" 200 -

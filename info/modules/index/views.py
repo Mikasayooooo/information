@@ -165,3 +165,10 @@ def show_index():
 def get_web_logo():
     return current_app.send_static_file('news/favicon.ico')
 # current_app.send_static_file  默认是在静态文件夹下自动加载的
+
+
+
+# 统一的返回404页面
+@index_blue.route('/404')
+def page_not_found():
+    return render_template('news/404.html')
