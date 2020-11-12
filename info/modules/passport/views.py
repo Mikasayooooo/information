@@ -36,6 +36,9 @@ def logout():
     # 设置 默认值None
     session.pop('user_id', None)
 
+    # 同时清空 is_admin 值 , 防止普通用户登录
+    session.pop('is_admin',None)
+
     # 2.返回响应
     return jsonify(errno=RET.OK, errmsg='退出成功')
 
