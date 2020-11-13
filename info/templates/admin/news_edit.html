@@ -34,8 +34,8 @@
             <td>{{ news.id }}</td>
             <td class="tleft">{{ news.title }}</td>
             <td>{{ news.create_time }}</td>
-            <td>
-                <a href="../../static/admin/html/news_edit_detail.html" class="edit">编辑</a>
+            <td>                                {#  注意这里 需要传递一个 新闻id过去  #}
+                <a href="/admin/news_edit_detail?news_id={{ news.id }}" class="edit">编辑</a>
             </td>
         </tr>
         {% endfor %}

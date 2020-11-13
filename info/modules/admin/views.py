@@ -1,4 +1,4 @@
-from info.models import User, News
+from info.models import User, News,Category
 from . import admin_blue
 from flask import render_template, request, current_app, session, redirect, g,jsonify
 
@@ -8,6 +8,66 @@ import time
 from datetime import datetime,timedelta
 
 from info.utils.response_code import RET
+
+
+
+
+# 获取/设置新闻版式编辑详情
+# 请求路径: /admin/news_edit_detail
+# 请求方式: GET,POST
+# 请求参数: GET,news_id,POST(news_id,title,digest,content,index_image,category_id)
+# 返回值: GET,news_edit_detail.html页面，data字典数据,POST(errno,errmsg)
+@admin_blue.route('/news_edit_detail', methods=['GET', 'POST'])
+def news_edit_detail():
+    '''
+    1.判断请求方式，如果是GET
+    2获取新闻编号
+    3.获取新闻对象，并判断新闻对象是否存在
+    4.携带新闻数据和分类数据,渲染页面
+    5.如果是POST请求，获取参数
+    6.参数校验，为空校验
+    7.根据编号，获取新闻对象，判断新闻对象是否存在
+    8.上传新闻图片
+    9.设置新闻对象的属性
+    10.返回响应
+    :return:
+    '''
+
+    # 1.判断请求方式，如果是GET
+    if request.method == 'GET':
+
+        # 2获取新闻编号
+        news_id = request.args.get('news_id')
+
+        # 3.获取新闻对象，并判断新闻对象是否存在
+        try:
+            news = News.query.get(news_id)
+        except Exception as e:
+            current_app.logger.error(e)
+            return render_template('admin/news_edit_detail.html',errmsg='获取新闻失败')
+
+        if not news:
+            return render_template('admin/news_edit_detail.html', errmsg='该新闻不存在')
+
+        # 3.1 获取分类数据
+        try:
+           categories = Category.query.all()
+        except Exception as e:
+            current_app.logger.error(e)
+            return render_template('admin/news_edit_detail.html', errmsg='获取分类失败')
+
+        # 3.2 将分类对象列表数据，转换成字典数据
+        category_list = [category.to_dict() for category in categories]
+
+        # 4.携带新闻数据和分类数据,渲染页面
+        return render_template('admin/news_edit_detail.html', news=news.to_dict(),category_list=category_list)
+
+    # 5.如果是POST请求，获取参数
+    # 6.参数校验，为空校验
+    # 7.根据编号，获取新闻对象，判断新闻对象是否存在
+    # 8.上传新闻图片
+    # 9.设置新闻对象的属性
+    # 10.返回响应
 
 
 
@@ -48,7 +108,7 @@ def news_edit():
             filters.append(News.title.contains(keywords))  # 模糊查询
 
                                     # 拆包*
-        paginate = News.query.filter(*filters).order_by(News.create_time.desc()).paginate(page,3,False)
+        paginate = News.query.filter(*filters).order_by(News.create_time.desc()).paginate(page,10,False)
     except Exception as e:
         current_app.logger.error(e)
         return render_template('admin/news_edit.html', errmsg='获取新闻失败')
