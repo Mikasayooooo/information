@@ -12,6 +12,66 @@ from info.utils.response_code import RET
 
 
 
+# 获取新闻版式编辑列表
+# 请求路径: /admin/news_edit
+# 请求方式: GET
+# 请求参数: p(页数),keywords
+# 返回值: 渲染news_edit.html页面，data字典数据
+@admin_blue.route('/news_edit')
+def news_edit():
+    '''
+    1.获取参数，p(页数),keywords
+    2.参数类型转换
+    3.分页查询 所有新闻数据
+    4.获取分页对象属性，总页数，当前页，当前页对象列表
+    5.将对象列表，转成字典列表
+    6.拼接数据，渲染页面
+    :return:
+    '''
+
+    # 1.获取参数，p
+    page = request.args.get('p', '1')  # 传过来的是字符串,如果p没有，默认设置为1
+    keywords = request.args.get('keywords','')  # 从前端获取关键字
+
+    # 2.参数类型转换
+    try:
+        page = int(page)
+    except Exception as e:
+        page = 1  # 如果p没有，默认设置为1
+
+    # 3.分页查询 所有新闻数据
+    try:
+
+        # 3.1 判断是否有填写搜索关键字
+        filters = []  # 查询 所有新闻数据，不需要考虑 审核情况
+        if keywords:
+            filters.append(News.title.contains(keywords))  # 模糊查询
+
+                                    # 拆包*
+        paginate = News.query.filter(*filters).order_by(News.create_time.desc()).paginate(page,3,False)
+    except Exception as e:
+        current_app.logger.error(e)
+        return render_template('admin/news_edit.html', errmsg='获取新闻失败')
+
+    # 4.获取分页对象属性，总页数，当前页，当前页对象列表
+    totalPage = paginate.pages
+    currentPage = paginate.page
+    items = paginate.items
+
+    # 5.将对象列表，转成字典列表
+    news_list = [news.to_review_dict() for news in items]
+
+    # 6.拼接数据，渲染页面
+    data = {
+        'totalPage': totalPage,
+        'currentPage': currentPage,
+        'news_list': news_list
+    }
+    return render_template('admin/news_edit.html', data=data)
+
+
+
+
 # 获取/设置新闻审核详情
 # 请求路径: /admin/news_review_detail
 # 请求方式: GET,POST
@@ -63,7 +123,7 @@ def news_review_detail():
 
     # 7.根据编号，获取新闻对象，判断新闻对象是否存在
     try:
-       news = News.query.get(news_id)
+        news = News.query.get(news_id)
     except Exception as e:
         current_app.logger.error(e)
         return jsonify(errno=RET.DBERR, errmsg='获取新闻失败')
