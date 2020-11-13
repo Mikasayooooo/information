@@ -15,6 +15,32 @@ from info import constants
 
 
 
+# 新闻分类管理
+# 请求路径: /admin/news_category
+# 请求方式: GET
+# 请求参数: GET,无
+# 返回值: GET,news_type.html页面，data字典数据
+@admin_blue.route('/news_category')
+def news_category():
+    '''
+    1.获取所有的分类对象
+    2.直接携带数据渲染页面
+    :return:
+    '''
+
+    # 1.获取所有的分类对象
+    try:
+       categories = Category.query.all()
+    except Exception as e:
+        current_app.logger.error(e)
+        return render_template('admin/news_type.html',errmsg='获取分类失败')
+
+    # 2.直接携带数据渲染页面
+    return render_template('admin/news_type.html', categories=categories)
+
+
+
+
 # 获取/设置新闻版式编辑详情
 # 请求路径: /admin/news_edit_detail
 # 请求方式: GET,POST
