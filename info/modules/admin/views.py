@@ -28,6 +28,7 @@ def news_review():
 
     # 1.获取参数，p
     page = request.args.get('p', '1')  # 传过来的是字符串,如果p没有，默认设置为1
+    keywords = request.args.get('keywords','')  # 从前端获取关键字
 
     # 2.参数类型转换
     try:
@@ -37,7 +38,14 @@ def news_review():
 
     # 3.分页查询 待审核，未通过的新闻数据
     try:
-        paginate = News.query.filter(News.status != 0).order_by(News.create_time.desc()).paginate(page,3,False)
+
+        # 3.1 判断是否有填写搜索关键字
+        filters = [News.status != 0]  # 默认条件
+        if keywords:
+            filters.append(News.title.contains(keywords))  # 模糊查询
+
+                                    # 拆包*
+        paginate = News.query.filter(*filters).order_by(News.create_time.desc()).paginate(page,3,False)
     except Exception as e:
         current_app.logger.error(e)
         return render_template('admin/news_review.html', errmsg='获取新闻失败')
