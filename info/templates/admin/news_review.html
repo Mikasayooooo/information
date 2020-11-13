@@ -38,7 +38,8 @@
             {% else %} 未通过
             {% endif %}</td>
             <td>
-                <a href="../../static/admin/html/news_review_detail.html" class="review">审核</a>
+                {#  前端需要传 新闻id 给后端 #}
+                <a href="/admin/news_review_detail?news_id={{ news.id }}" class="review">审核</a>
             </td>
         </tr>
         {% endfor %}

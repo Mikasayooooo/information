@@ -65,7 +65,7 @@ def newslist():
         # paginate = News.query.filter(text(filters)).order_by(News.create_time.desc()).paginate(page, per_page,False)
 
         # 第三种方式: (推荐)
-        filters = []
+        filters = [News.status == 0] # 只有审核通过的新闻才能展示
         if cid != '1':
             # 以后可以加其他条件,灵活
             filters.append(News.category_id == cid)

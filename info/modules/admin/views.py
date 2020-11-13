@@ -9,6 +9,53 @@ from datetime import datetime,timedelta
 
 
 
+
+# 获取/设置新闻审核详情
+# 请求路径: /admin/news_review_detail
+# 请求方式: GET,POST
+# 请求参数: GET,news_id,POST,news_id,action
+# 返回值: 渲染news_review_detail.html页面，data字典数据
+@admin_blue.route('/news_review_detail', methods=['GET', 'POST'])
+def news_review_detail():
+    '''
+    1.判断请求方式，如果是GET
+    2获取新闻编号
+    3.获取新闻对象，并判断新闻对象是否存在
+    4.携带新闻对象的数据渲染页面
+    5.如果是POST请求，获取参数
+    6.校验操作类型
+    7.根据编号，获取新闻对象，判断新闻对象是否存在
+    8.根据操作类型改变新闻的状态
+    9.返回响应
+    :return:
+    '''
+
+    # 1.判断请求方式，如果是GET
+    if request.method == 'GET':
+        # 2获取新闻编号
+        news_id = request.args.get('news_id')
+
+        # 3.获取新闻对象，并判断新闻对象是否存在
+        try:
+           news = News.query.get(news_id)
+        except Exception as e:
+            current_app.logger.error(e)
+            return render_template('admin/news_review_detail.html',errmsg='新闻获取失败')
+
+        if not news:
+            return render_template('admin/news_review_detail.html', errmsg='该新闻不存在')
+
+        # 4.携带新闻对象的数据渲染页面
+        return render_template('admin/news_review_detail.html', news=news.to_dict())
+
+    # 5.如果是POST请求，获取参数
+    # 6.校验操作类型
+    # 7.根据编号，获取新闻对象，判断新闻对象是否存在
+    # 8.根据操作类型改变新闻的状态
+    # 9.返回响应
+
+
+
 # 获取/设置新闻审核列表
 # 请求路径: /admin/news_review
 # 请求方式: GET
