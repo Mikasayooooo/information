@@ -1,4 +1,4 @@
-from info.models import User
+from info.models import User, News
 from . import admin_blue
 from flask import render_template, request, current_app, session, redirect, g
 
@@ -6,6 +6,58 @@ from info.utils.commons import user_login_data
 
 import time
 from datetime import datetime,timedelta
+
+
+
+# 获取/设置新闻审核列表
+# 请求路径: /admin/news_review
+# 请求方式: GET
+# 请求参数: p(页数)
+# 返回值: 渲染news_review.html页面，data字典数据
+@admin_blue.route('/news_review')
+def news_review():
+    '''
+    1.获取参数，p(页数)
+    2.参数类型转换
+    3.分页查询 待审核，未通过的新闻数据
+    4.获取分页对象属性，总页数，当前页，当前页对象列表
+    5.将对象列表，转成字典列表
+    6.拼接数据，渲染页面
+    :return:
+    '''
+
+    # 1.获取参数，p
+    page = request.args.get('p', '1')  # 传过来的是字符串,如果p没有，默认设置为1
+
+    # 2.参数类型转换
+    try:
+        page = int(page)
+    except Exception as e:
+        page = 1  # 如果p没有，默认设置为1
+
+    # 3.分页查询 待审核，未通过的新闻数据
+    try:
+        paginate = News.query.filter(News.status != 0).order_by(News.create_time.desc()).paginate(page,3,False)
+    except Exception as e:
+        current_app.logger.error(e)
+        return render_template('admin/news_review.html', errmsg='获取新闻失败')
+
+    # 4.获取分页对象属性，总页数，当前页，当前页对象列表
+    totalPage = paginate.pages
+    currentPage = paginate.page
+    items = paginate.items
+
+    # 5.将对象列表，转成字典列表
+    news_list = [news.to_review_dict() for news in items]
+
+    # 6.拼接数据，渲染页面
+    data = {
+        'totalPage': totalPage,
+        'currentPage': currentPage,
+        'news_list': news_list
+    }
+    return render_template('admin/news_review.html', data=data)
+
 
 
 
