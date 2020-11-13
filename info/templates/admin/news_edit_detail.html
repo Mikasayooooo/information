@@ -20,11 +20,11 @@
         <h3 class="review_title">新闻版式编辑</h3>
         <div class="form_group">
             <label>新闻标题：</label>
-            <input type="text" class="input_txt2" value="{{ news.title }}">
+            <input type="text" class="input_txt2" value="{{ news.title }}" name="title">
         </div>
         <div class="form_group">
             <label>新闻分类：</label>
-            <select class="sel_opt">
+            <select class="sel_opt" name="category_id">
                 {# 遍历分类数据 #}
                 {% for category in category_list if category.name != '最新' %}
                     <option value="{{ category.id }}">{{ category.name }}</option>
@@ -35,7 +35,7 @@
         </div>
         <div class="form_group">
             <label>新闻摘要：</label>
-            <textarea class="input_multxt">{{ news.digest }}</textarea>
+            <textarea class="input_multxt" name="digest">{{ news.digest }}</textarea>
         </div>
         <div class="form_group">
             <label>索引图片：</label>
@@ -43,14 +43,20 @@
         </div>
         <div class="form_group">
             <label>上传图片：</label>
-            <input type="file" class="input_file">
+            <input type="file" class="input_file" name="index_image">
         </div>
         <div class="form_group">
             <label>新闻内容：</label>
             <div class="rich_wrap fl">
-                <input class="input_area" id="rich_content" name="content" value="{{ news.content }}"></input>
+                <input class="input_area" id="rich_content" name="content" value="{{ news.content }}" ></input>
             </div>
         </div>
+
+                {#  注意这里 要使用 request.form.get, 需要子input标签里面设置 name值  #}
+
+            {# 设置新闻编号 #}
+        <input type="hidden" name="news_id" value="{{ news.id }}">
+
         <div class="form_group indent_group line_top">
             <input type="submit" value="确定" class="confirm">
             <input type="button" value="取消" class="cancel" onclick="cancel()">

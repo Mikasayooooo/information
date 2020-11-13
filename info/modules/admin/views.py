@@ -9,6 +9,9 @@ from datetime import datetime,timedelta
 
 from info.utils.response_code import RET
 
+from info.utils.image_storage import image_storage
+from info import constants
+
 
 
 
@@ -62,12 +65,47 @@ def news_edit_detail():
         # 4.携带新闻数据和分类数据,渲染页面
         return render_template('admin/news_edit_detail.html', news=news.to_dict(),category_list=category_list)
 
-    # 5.如果是POST请求，获取参数
+    # 5.如果是POST请求，获取参数(news_id,title,digest,content,index_image,category_id)
+    news_id = request.form.get('news_id')    # form表单提交使用 request.form.get 来获取
+    title = request.form.get('title')
+    digest = request.form.get('digest')
+    content = request.form.get('content')
+    index_image = request.files.get('index_image')   # 上传二进制数据使用 request.files.get 来获取
+    category_id = request.form.get('category_id')
+
     # 6.参数校验，为空校验
+    if not all([news_id,title,digest,content,index_image,category_id]):
+        return jsonify(errno=RET.PARAMERR,errmsg='参数不全')
+
     # 7.根据编号，获取新闻对象，判断新闻对象是否存在
+    try:
+       news = News.query.get(news_id)
+    except Exception as e:
+        current_app.logger.error(e)
+        return jsonify(errno=RET.DBERR, errmsg='获取新闻失败')
+
+    if not news:
+        return jsonify(errno=RET.NODATA, errmsg='该新闻不存在')
+
     # 8.上传新闻图片
+    try:
+       image_name = image_storage(index_image.read())
+    except Exception as e:
+        current_app.logger.error(e)
+        return jsonify(errno=RET.THIRDERR, errmsg='七牛云异常')
+
+    if not image_name:
+        return jsonify(errno=RET.NODATA, errmsg='图片上传失败')
+
     # 9.设置新闻对象的属性
+    news.title = title
+    news.digest = digest
+    news.content = content
+    news.index_image_url = constants.QINIU_DOMIN_PREFIX + image_name
+    news.category_id = category_id
+
     # 10.返回响应
+    return jsonify(errno=RET.OK, errmsg='编辑成功')
 
 
 
