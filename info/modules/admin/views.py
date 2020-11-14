@@ -10,7 +10,63 @@ from datetime import datetime,timedelta
 from info.utils.response_code import RET
 
 from info.utils.image_storage import image_storage
-from info import constants
+from info import constants, db
+
+
+# 新闻分类添加/修改
+# 请求路径: /admin/add_category
+# 请求方式: POST
+# 请求参数: id,name
+# 返回值: errno,errmsg
+@admin_blue.route('/add_category', methods=['POST'])
+def add_category():
+    '''
+    1.获取参数,id,name
+    2.参数校验，为空校验
+    3.根据是否有id，来判断是新增还是编辑
+    4.返回响应
+    :return:
+    '''
+
+    # 1.获取参数,id,name
+    category_id = request.json.get('id')
+    category_name = request.json.get('name')
+
+    # 2.参数校验，为空校验
+    if not category_name:
+        return jsonify(errno=RET.PARAMERR,errmsg='参数不全')
+
+    # 3.根据是否有id，来判断是新增还是编辑
+    if category_id:  # 编辑
+
+        #3.1 通过分类编号取出分类对象，并判断分类对象是否存在
+        try:
+           category = Category.query.filter(Category.id == category_id).first()
+        except Exception as e:
+            current_app.logger.error(e)
+            return jsonify(errno=RET.DBERR, errmsg='获取分类失败')
+
+        if not category_id:
+            return jsonify(errno=RET.NODATA, errmsg='该分类不存在')
+
+        # 修改分类的名称
+        category.name = category_name
+
+    else:  # 新增
+
+        # 3.3 创建分类对象,设置名称
+        category = Category(name=category_name)
+
+        # 3.4 添加分类到数据库中
+        try:
+           db.session.add(category)
+           db.session.commit()
+        except Exception as e:
+            current_app.logger.error(e)
+            return jsonify(errno=RET.DBERR, errmsg='分类新增失败')
+
+    # 4.返回响应
+    return jsonify(errno=RET.OK, errmsg='操作成功')
 
 
 
@@ -35,7 +91,7 @@ def news_category():
         current_app.logger.error(e)
         return render_template('admin/news_type.html',errmsg='获取分类失败')
 
-    # 2.直接携带数据渲染页面
+    # 2.直接携带数据渲染页面      这里不需要to_dict(),因为没有进行二次转换
     return render_template('admin/news_type.html', categories=categories)
 
 
